@@ -41,61 +41,87 @@
 \contentsline {section}{\numberline {2.4}Revisión sistemática de la literatura}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Protocolo y proceso de revisión}{12}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Preguntas de investigación}{13}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Estrategia de búsqueda y fuentes}{14}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Criterios de inclusión y exclusión}{14}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Resultados del proceso de selección}{14}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Resultados por pregunta de investigación}{15}{subsection.2.4.6}%
-\contentsline {subsubsection}{RQ1 — Problemas de comunicación y desalineación}{15}{subsubsection*.8}%
-\contentsline {subsubsection}{RQ2 — Tareas, artefactos y situaciones}{15}{subsubsection*.9}%
-\contentsline {subsubsection}{RQ3 — Momentos críticos}{16}{subsubsection*.10}%
-\contentsline {subsubsection}{RQ4 — Mecanismos, técnicas y enfoques}{16}{subsubsection*.11}%
-\contentsline {subsubsection}{RQ5 — Métricas, indicadores e instrumentos}{17}{subsubsection*.12}%
-\contentsline {subsection}{\numberline {2.4.7}Síntesis de hallazgos}{17}{subsection.2.4.7}%
-\contentsline {subsection}{\numberline {2.4.8}Brecha de investigación}{17}{subsection.2.4.8}%
-\contentsline {chapter}{\numberline {3}Caracterización de las actividades de ingeniería de requisitos}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Generalidades}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Elicitación de requisitos}{20}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Alcance y entradas}{22}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Tareas, técnicas y productos}{22}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Roles, artefactos y criterios de salida}{23}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Especificación de requisitos}{23}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Reglas de calidad del requisito y del conjunto}{23}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Tareas, artefactos y criterios de salida}{24}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Validación de requisitos}{24}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Tareas, técnicas y criterios de salida}{24}{subsection.3.4.1}%
-\contentsline {section}{\numberline {3.5}Elementos transversales}{25}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Ingeniería de métodos situacional y adaptación de THUNDERS}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Generalidades}{27}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Ingeniería de Métodos Situacionales (SME)}{27}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Comparación de enfoques de adaptación}{27}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Método seleccionado}{28}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Decisiones de adaptación y trazabilidad con THUNDERS}{29}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Criterios de decisión de adaptación}{29}{subsection.4.5.1}%
-\contentsline {chapter}{\numberline {5}THUNDERS-Master como proceso operativo}{32}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Generalidades}{32}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Encaje de THUNDERS-Master en marcos ágiles}{33}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Requisitos del método}{34}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Fase 1: Beginning / Preparar}{34}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Fase 2: Developing / Construir}{35}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Fase 3: Measuring / Validar y cerrar}{35}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Roles y responsabilidades}{36}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Artefactos mínimos y evidencia observable}{36}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Variabilidad contextual y criterios de activación}{36}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Estado de madurez y evolución del proceso}{39}{section.5.10}%
-\contentsline {chapter}{\numberline {6}Evaluación de THUNDERS-Master}{40}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Generalidades}{40}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Plan de evaluación basado en GQM}{40}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Estrategia de evaluación}{40}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Diseño del estudio de caso en contexto agrícola}{41}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Validación por expertos}{42}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Walkthrough metodológico}{42}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Resultados del pilotaje en contexto agrícola}{42}{section.6.7}%
-\contentsline {section}{\numberline {6.8}Análisis de resultados y lecciones aprendidas}{43}{section.6.8}%
-\contentsline {chapter}{\numberline {7}Conclusiones y trabajo futuro}{44}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Generalidades}{44}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Conclusiones}{44}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Contribuciones}{45}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Limitaciones}{45}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Trabajo futuro}{45}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Productos de investigación}{46}{section.7.6}%
-\contentsline {chapter}{Bibliografía}{47}{chapter*.13}%
+\contentsline {subsection}{\numberline {2.4.3}Estrategia de búsqueda}{14}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Fuentes de información}{15}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Filtros de búsqueda}{15}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Criterios de inclusión y exclusión}{16}{subsection.2.4.6}%
+\contentsline {subsubsection}{Criterios de inclusión}{16}{subsubsection*.8}%
+\contentsline {subsubsection}{Criterios de exclusión}{16}{subsubsection*.9}%
+\contentsline {subsection}{\numberline {2.4.7}Resultados del proceso de selección}{17}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Análisis por fuente de información}{17}{subsection.2.4.8}%
+\contentsline {subsection}{\numberline {2.4.9}Distribución temporal de las publicaciones}{20}{subsection.2.4.9}%
+\contentsline {subsection}{\numberline {2.4.10}Resultados por pregunta de investigación}{21}{subsection.2.4.10}%
+\contentsline {subsubsection}{RQ1 — Problemas de comunicación y desalineación}{21}{subsubsection*.10}%
+\contentsline {subsubsection}{RQ2 — Tareas, artefactos y situaciones}{23}{subsubsection*.11}%
+\contentsline {subsubsection}{RQ3 — Momentos críticos}{24}{subsubsection*.12}%
+\contentsline {subsubsection}{RQ4 — Mecanismos, técnicas y enfoques}{26}{subsubsection*.13}%
+\contentsline {subsubsection}{RQ5 — Métricas, indicadores e instrumentos}{28}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {2.4.11}Amenazas a la validez}{30}{subsection.2.4.11}%
+\contentsline {subsection}{\numberline {2.4.12}Síntesis de hallazgos}{31}{subsection.2.4.12}%
+\contentsline {subsection}{\numberline {2.4.13}Brecha de investigación}{32}{subsection.2.4.13}%
+\contentsline {chapter}{\numberline {3}Caracterización de las actividades de ingeniería de requisitos}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Generalidades}{34}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Elicitación de requisitos}{34}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Propósito}{36}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Alcance y entradas}{36}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Tareas, técnicas y productos}{36}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Roles involucrados}{37}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Artefactos y productos de trabajo}{37}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Criterios de calidad y salida}{37}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Especificación de requisitos}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Propósito}{38}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Alcance y entradas}{38}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Tareas que caracterizan la actividad}{39}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Reglas de calidad del requisito y del conjunto}{39}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Criterios de lenguaje y estilo}{40}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Roles involucrados}{40}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Artefactos, productos de trabajo y criterios de salida}{40}{subsection.3.3.7}%
+\contentsline {section}{\numberline {3.4}Validación de requisitos}{40}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Propósito}{41}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Alcance y entradas}{41}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Tareas, técnicas y criterios de salida}{41}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Roles involucrados}{41}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Artefactos y productos de trabajo}{42}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}Elementos transversales}{42}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Ingeniería de métodos situacional y adaptación de THUNDERS}{44}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Generalidades}{44}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Metodología de investigación}{44}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Análisis del proceso THUNDERS}{45}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Revisión de métodos de adaptación de procesos}{46}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Ingeniería de Métodos Situacionales}{46}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Method fragments y method chunks}{47}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Software process tailoring}{47}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Software process lines}{48}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Adaptación ágil basada en contexto}{48}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}Comparación de enfoques de adaptación}{48}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Método seleccionado}{49}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Decisiones de adaptación y trazabilidad con THUNDERS}{50}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Criterios de decisión de adaptación}{50}{subsection.4.7.1}%
+\contentsline {chapter}{\numberline {5}THUNDERS-Master como proceso operativo}{55}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Generalidades}{55}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Encaje de THUNDERS-Master en marcos ágiles}{56}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Requisitos del método}{57}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Fase 1: Beginning / Preparar}{57}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Fase 2: Developing / Construir}{58}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Fase 3: Measuring / Validar y cerrar}{58}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Roles y responsabilidades}{59}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Artefactos mínimos y evidencia observable}{59}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Variabilidad contextual y criterios de activación}{59}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Estado de madurez y evolución del proceso}{62}{section.5.10}%
+\contentsline {chapter}{\numberline {6}Evaluación de THUNDERS-Master}{63}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Generalidades}{63}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Plan de evaluación basado en GQM}{63}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Estrategia de evaluación}{63}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Diseño del estudio de caso en contexto agrícola}{64}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Validación por expertos}{65}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Walkthrough metodológico}{65}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Resultados del pilotaje en contexto agrícola}{65}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Análisis de resultados y lecciones aprendidas}{66}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Conclusiones y trabajo futuro}{67}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Generalidades}{67}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Conclusiones}{67}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Contribuciones}{68}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Limitaciones}{68}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Trabajo futuro}{68}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Productos de investigación}{69}{section.7.6}%
+\contentsline {chapter}{Bibliografía}{70}{chapter*.15}%
