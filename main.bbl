@@ -1,0 +1,480 @@
+\begin{thebibliography}{10}
+
+\bibitem{iso29148}
+{ISO/IEC/IEEE}.
+\newblock {ISO/IEC/IEEE 29148:2018 -- Systems and software engineering -- Life
+  cycle processes -- Requirements engineering}.
+\newblock Technical report, International Organization for Standardization,
+  International Electrotechnical Commission, and Institute of Electrical and
+  Electronics Engineers, Geneva, Switzerland, 2018.
+
+\bibitem{nuseibeh2000roadmap}
+Bashar Nuseibeh and Steve Easterbrook.
+\newblock Requirements engineering: A roadmap.
+\newblock In {\em Proceedings of the Conference on the Future of Software
+  Engineering}, pages 35--46, 2000.
+
+\bibitem{fuller2021blurring}
+Robert~C. Fuller and Philippe Kruchten.
+\newblock Blurring boundaries: Toward the collective empathic understanding of
+  product requirements.
+\newblock {\em Information and Software Technology}, 140:106670, 2021.
+
+\bibitem{bittner2014shared}
+E.~A.~Christiane Bittner and Jan~Marco Leimeister.
+\newblock Creating shared understanding in heterogeneous work groups: Why it
+  matters and how to achieve it.
+\newblock {\em Journal of Management Information Systems}, 31(1):111--144,
+  2014.
+
+\bibitem{asadabadi2020ambiguity}
+Mehdi~Rajabi Asadabadi, Morteza Saberi, Ofer Zwikael, and Elizabeth Chang.
+\newblock Ambiguous requirements: A semi-automated approach to identify and
+  clarify ambiguity in large-scale projects.
+\newblock {\em Computers and Industrial Engineering}, 149:106828, 2020.
+
+\bibitem{fucci2022traceability}
+Davide Fucci, Emil Alégroth, and Tobias Axelsson.
+\newblock When traceability goes awry: An industrial experience report.
+\newblock {\em Journal of Systems and Software}, 192:111389, 2022.
+
+\bibitem{agredo2022thesis}
+Vanessa Agredo-Delgado.
+\newblock {\em A process to improve computer-supported collaborative work
+  through the construction, monitoring and assistance of shared understanding
+  in problem-solving activities}.
+\newblock PhD thesis, Universidad del Cauca, Popayán, Colombia, 2022.
+
+\bibitem{agredo2022exploratory}
+Vanessa Agredo-Delgado, Pablo~H. Ruiz, Cesar~A. Collazos, and Fernando Moreira.
+\newblock An exploratory study on the validation of thunders: A process to
+  achieve shared understanding in problem-solving activities.
+\newblock {\em Informatics}, 9(2):39, 2022.
+
+\bibitem{mattmann2015quality}
+Ivo Mattmann et~al.
+\newblock The inscrutable jungle of quality criteria -- how to formulate
+  requirements for a successful product development.
+\newblock {\em Procedia CIRP}, 36:153--158, 2015.
+
+\bibitem{alsanoosy2019power}
+Tawfeeq Alsanoosy, Maria Spichkova, and James Harland.
+\newblock The influence of power distance on requirements engineering
+  activities.
+\newblock {\em Procedia Computer Science}, 159:2394--2403, 2019.
+
+\bibitem{grande2024devops}
+Roberto Grande et~al.
+\newblock Is it worth adopting devops practices in global software engineering?
+  possible challenges and benefits.
+\newblock {\em Computer Standards \& Interfaces}, 87:103767, 2024.
+
+\bibitem{getson2022communication}
+Jonathan~M. Getson et~al.
+\newblock Understanding scientists' communication challenges at the
+  intersection of climate and agriculture.
+\newblock {\em PLOS ONE}, 17(8):e0269927, 2022.
+
+\bibitem{lopez2021crowdre}
+Fabián López, Tiago Da~Silva, José~A. Pino, and Alicia Martínez.
+\newblock Crowdre4df: A crowd-based requirements engineering method for
+  developing digital farming solutions.
+\newblock In {\em IFIP Advances in Information and Communication Technology},
+  volume 632, pages 310--326, 2021.
+
+\bibitem{sulaiman2021ict}
+Rohana Sulaiman, Andy Hall, T.~S.~V. Reddy, and K.~Dorai.
+\newblock Icts and innovation systems in agricultural development: From
+  knowledge sharing to knowledge co-creation.
+\newblock {\em Agricultural Systems}, 188:103026, 2021.
+
+\bibitem{petersen2008systematic}
+Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
+\newblock Systematic mapping studies in software engineering.
+\newblock In {\em Proceedings of the 12th International Conference on
+  Evaluation and Assessment in Software Engineering (EASE)}, pages 68--77,
+  2008.
+
+\bibitem{basili1994gqm}
+Victor~R. Basili, Gianluigi Caldiera, and H.~Dieter Rombach.
+\newblock The goal question metric approach.
+\newblock In {\em Encyclopedia of Software Engineering}. Wiley, 1994.
+
+\bibitem{lim2021data}
+Samuel Lim, Aron Henriksson, and Jelena Zdravkovic.
+\newblock Data-driven requirements elicitation: A systematic literature review.
+\newblock {\em SN Computer Science}, 2:16, 2021.
+
+\bibitem{behutiye2022quality}
+Woubshet Behutiye, Pilar Rodríguez, Markku Oivo, Sanja Aaramaa, Jari Partanen,
+  and Antonin Abhervé.
+\newblock Towards optimal quality requirement documentation in agile software
+  development: A multiple case study.
+\newblock {\em Journal of Systems and Software}, 183:111112, 2022.
+
+\bibitem{spijkman2021alignment}
+Tim Spijkman et~al.
+\newblock Alignment and granularity of requirements and architecture in agile
+  development: A functional perspective.
+\newblock {\em Information and Software Technology}, 133:106535, 2021.
+
+\bibitem{li2024adaptability}
+Qiang Li and Fanjiang Zeng.
+\newblock Enhancing software architecture adaptability: A comprehensive
+  evaluation method.
+\newblock {\em Symmetry}, 16(7):894, 2024.
+
+\bibitem{wang2025personas}
+Yi~Wang, Chetan Arora, Xiao Liu, Thuong Hoang, Vasudha Malhotra, Ben Cheng, and
+  John Grundy.
+\newblock Who uses personas in requirements engineering: The practitioners'
+  perspective.
+\newblock {\em Information and Software Technology}, 178:107609, 2025.
+
+\bibitem{ralph2018paradigms}
+Paul Ralph.
+\newblock The two paradigms of software development research.
+\newblock {\em Science of Computer Programming}, 156:68--89, 2018.
+
+\bibitem{dikert2016largescale}
+Kim Dikert, Maria Paasivaara, and Casper Lassenius.
+\newblock Challenges and success factors for large-scale agile transformations:
+  A systematic literature review.
+\newblock {\em Journal of Systems and Software}, 119:87--108, 2016.
+
+\bibitem{irshad2021bdd}
+Mohsin Irshad, Ricardo Britto, and Kai Petersen.
+\newblock Adapting behavior driven development (bdd) for large-scale software
+  systems.
+\newblock {\em Journal of Systems and Software}, 177:110944, 2021.
+
+\bibitem{calefato2015}
+Fabio Calefato, Filippo Lanubile, Tayana Conte, and Rafael Prikladnicki.
+\newblock Assessing the impact of real-time machine translation on multilingual
+  meetings in global software projects.
+\newblock {\em Empirical Software Engineering}, 21(3):1002--1034, 2015.
+
+\bibitem{kasauli2021}
+Rashidah Kasauli, Eric Knauss, Jennifer Horkoff, Grischa Liebel, and
+  Francisco~Gomes de~Oliveira~Neto.
+\newblock Requirements engineering challenges and practices in large-scale
+  agile system development.
+\newblock {\em Journal of Systems and Software}, 172:110851, 2021.
+
+\bibitem{balasubramaniam2023}
+Nagadivya Balasubramaniam, Marjo Kauppinen, Antti Rannisto, Kari Hiekkanen, and
+  Sari Kujala.
+\newblock Transparency and explainability of ai systems: From ethical
+  guidelines to requirements.
+\newblock {\em Information and Software Technology}, 159:107197, 2023.
+
+\bibitem{burkhardt2015}
+Dirk Burkhardt, Kawa Nazemi, Silvana Tomic, and Egils Ginters.
+\newblock Best-practice piloting of integrated social media analysis solution
+  for e-participation in cities.
+\newblock {\em Procedia Computer Science}, 77:11--21, 2015.
+
+\bibitem{khan2022stakeholders}
+Fahim~Muhammad Khan, Javed~Ali Khan, Muhammad Assam, Ahmed~S. Almasoud,
+  Abdelzahir Abdelmaboud, and Manar Ahmed~Mohammed Hamza.
+\newblock A comparative systematic analysis of stakeholder's identification
+  methods in requirements elicitation.
+\newblock {\em IEEE Access}, 10:30982--31011, 2022.
+
+\bibitem{laporte2023}
+Claude~Y. Laporte, Guillaume Verret, and Mirna Muñoz.
+\newblock A software project that partially failed: A small organization that
+  ignored the management and technical practices of software standards.
+\newblock {\em Computer}, 56(5):138--144, 2023.
+
+\bibitem{khan2021}
+Habib~Ullah Khan, Mahmood Niazi, Mohamed El-Attar, Naveed Ikram, Siffat~Ullah
+  Khan, and Asif~Qumer Gill.
+\newblock Empirical investigation of critical requirements engineering
+  practices for global software development.
+\newblock {\em IEEE Access}, 9:93593--93613, 2021.
+
+\bibitem{akbar2021}
+Muhammad~Azeem Akbar, Wishal Naveed, Sajjad Mahmood, Saima Rafi, Ahmed Alsanad,
+  Abeer Abdul-Aziz~Alsanad, Abdu Gumaei, and Abdulrahman Alothaim.
+\newblock Prioritization of global software requirements' engineering barriers:
+  An analytical hierarchy process.
+\newblock {\em IET Software}, 15(4):277--291, 2021.
+
+\bibitem{ribeiro2020}
+Cristina Ribeiro and Daniel Berry.
+\newblock The prevalence and severity of persistent ambiguity in software
+  requirements specifications: Is a special effort needed to find them?
+\newblock {\em Science of Computer Programming}, 195:102472, 2020.
+
+\bibitem{sherif2023}
+Ezeldin Sherif, Waleed Helmy, and Galal~Hassan Galal-Edeen.
+\newblock Proposed framework to manage non-functional requirements in agile.
+\newblock {\em IEEE Access}, 11:53995--54005, 2023.
+
+\bibitem{antonelli2016}
+Leandro Antonelli, Gustavo Rossi, and Alejandro Oliveros.
+\newblock A collaborative approach to describe the domain language through the
+  language extended lexicon.
+\newblock {\em The Journal of Object Technology}, 15(3):3:1, 2016.
+
+\bibitem{hayashi2024}
+Masami Hayashi, Kaori Hayashi, Yohei Sonobe, Hiroyuki Sato, and Hironori
+  Takeuchi.
+\newblock Specification description analysis method for requirement modeling.
+\newblock {\em Procedia Computer Science}, 246:189--198, 2024.
+
+\bibitem{kunz2016}
+Aline Kunz, Sabrina Pohlmann, Oliver Heinze, Antje Brandner, Christina Reiß,
+  Martina Kamradt, Joachim Szecsenyi, and Dominik Ose.
+\newblock Strengthening interprofessional requirements engineering through
+  action sheets: A pilot study.
+\newblock {\em JMIR Human Factors}, 3(2):e25, 2016.
+
+\bibitem{gentili2025}
+Emanuele Gentili and Davide Falessi.
+\newblock Practitioners' perceptions on requirements smells.
+\newblock {\em Information and Software Technology}, 187:107823, 2025.
+
+\bibitem{xiao2018}
+Xuan Xiao, Aron Lindberg, Sean Hansen, and Kalle Lyytinen.
+\newblock ``computing'' requirements for open source software: A distributed
+  cognitive approach.
+\newblock {\em Journal of the Association for Information Systems}, pages
+  1217--1252, 2018.
+
+\bibitem{martins2019}
+Hugo Ferreira~Martins, Antônio Carvalho~de Oliveira~Junior, Edna Dias~Canedo,
+  Ricardo~Ajax Dias~Kosloski, Roberto Ávila Paldês, and Edgard
+  Costa~Oliveira.
+\newblock Design thinking: Challenges for software requirements elicitation.
+\newblock {\em Information}, 10(12):371, 2019.
+
+\bibitem{gupta2022}
+Abhimanyu Gupta, Geert Poels, and Palash Bera.
+\newblock Using conceptual models in agile software development: A possible
+  solution to requirements engineering challenges in agile projects.
+\newblock {\em IEEE Access}, 10:119745--119766, 2022.
+
+\bibitem{pacheco2022}
+Carla Pacheco, Ivan Garcia, Jose~A. Calvo-Manzano, and Magdalena Reyes.
+\newblock Measuring and improving software requirements elicitation in a
+  small-sized software organization: a lightweight implementation of
+  iso/iec/ieee 15939:2017 -- systems and software engineering -- measurement
+  process.
+\newblock {\em Requirements Engineering}, 28(2):257--281, 2022.
+
+\bibitem{fricker2015}
+Samuel~A. Fricker, Kurt Schneider, Farnaz Fotrousi, and Christoph Thuemmler.
+\newblock Workshop videos for requirements communication.
+\newblock {\em Requirements Engineering}, 21(4):521--552, 2015.
+
+\bibitem{okpara2023}
+Laura Okpara, Colin Werner, Adam Murray, and Daniela Damian.
+\newblock The role of informal communication in building shared understanding
+  of non-functional requirements in remote continuous software engineering.
+\newblock {\em Requirements Engineering}, 28(4):595--617, 2023.
+
+\bibitem{devries2023}
+Marné De~Vries and Petra Opperman.
+\newblock Improving active participation during enterprise operations modeling
+  with an extended story-card-method and participative modeling software.
+\newblock {\em Software and Systems Modeling}, 22(4):1341--1368, 2023.
+
+\bibitem{parrales2024}
+Franklin Parrales-Bravo, Rosangela Caicedo-Quiroz, Julio Barzola-Monteses,
+  Leonel Vasquez-Cevallos, María~Isabel Galarza-Soledispa, and Manuel
+  Reyes-Wagnio.
+\newblock Sure: Structure for unambiguous requirement expression in natural
+  language.
+\newblock {\em Electronics}, 13(11):2206, 2024.
+
+\bibitem{ali2019}
+Nazakat Ali and Jang-Eui Hong.
+\newblock Value-oriented requirements: Eliciting domain requirements from
+  social network services to evolve software product lines.
+\newblock {\em Applied Sciences}, 9(19):3944, 2019.
+
+\bibitem{kosenkov2026}
+Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, and Michael
+  Unterkalmsteiner.
+\newblock Privacy by design: Aligning gdpr and software engineering
+  specifications with a requirements engineering approach.
+\newblock {\em Information and Software Technology}, 190:107946, 2026.
+
+\bibitem{iso15288}
+{ISO/IEC/IEEE}.
+\newblock {ISO/IEC/IEEE 15288:2015 -- Systems and software engineering --
+  System life cycle processes}.
+\newblock Technical report, International Organization for Standardization,
+  International Electrotechnical Commission, and Institute of Electrical and
+  Electronics Engineers, 2015.
+
+\bibitem{iso12207}
+{ISO/IEC/IEEE}.
+\newblock {ISO/IEC/IEEE 12207:2017 -- Systems and software engineering --
+  Software life cycle processes}.
+\newblock Technical report, International Organization for Standardization,
+  International Electrotechnical Commission, and Institute of Electrical and
+  Electronics Engineers, 2017.
+
+\bibitem{iso25010}
+{ISO/IEC}.
+\newblock {ISO/IEC 25010:2023 -- Systems and software engineering -- SQuaRE --
+  Product quality model}.
+\newblock Technical report, International Organization for Standardization and
+  International Electrotechnical Commission, 2023.
+
+\bibitem{iso9241}
+{ISO}.
+\newblock {ISO 9241-11:2018 -- Ergonomics of human-system interaction -- Part
+  11: Usability: Definitions and concepts}.
+\newblock Technical report, International Organization for Standardization,
+  2018.
+
+\bibitem{iso25063}
+{ISO/IEC}.
+\newblock {ISO/IEC 25063:2014 -- Systems and software engineering -- Systems
+  and software product Quality Requirements and Evaluation (SQuaRE) -- Common
+  Industry Format (CIF) for usability: Context of use description}.
+\newblock Technical report, International Organization for Standardization and
+  International Electrotechnical Commission, 2014.
+
+\bibitem{iso25064}
+{ISO/IEC}.
+\newblock {ISO/IEC 25064:2013 -- Systems and software engineering -- Software
+  product Quality Requirements and Evaluation (SQuaRE) -- Common Industry
+  Format (CIF) for usability: User needs report}.
+\newblock Technical report, International Organization for Standardization and
+  International Electrotechnical Commission, 2013.
+
+\bibitem{akram2024}
+Faiza Akram, Tanzila Ahmad, and Mehwish Sadiq.
+\newblock Recommendation systems-based software requirements elicitation
+  process -- a systematic literature review.
+\newblock {\em Journal of Engineering and Applied Science}, 71:29, 2024.
+
+\bibitem{ireb2026}
+{International Requirements Engineering Board (IREB)}.
+\newblock {CPRE Foundation -- Start Working Effectively in RE}.
+\newblock \url{https://cpre.ireb.org/en/concept/foundationlevel}, 2026.
+\newblock Accessed: Apr. 23, 2026.
+
+\bibitem{damian2006empirical}
+Daniela~E. Damian and James Chisan.
+\newblock An empirical study of the complex relationships between requirements
+  engineering processes and other processes that lead to payoffs in
+  productivity, quality, and risk management.
+\newblock {\em IEEE Transactions on Software Engineering}, 32(7):433--453,
+  2006.
+
+\bibitem{brataas2021}
+Gunnar Brataas, Antonio Martini, Geir~K. Hanssen, and Georg Ræder.
+\newblock Agile elicitation of scalability requirements for open systems: A
+  case study.
+\newblock {\em Journal of Systems and Software}, 182:111064, 2021.
+
+\bibitem{kitchenham2007}
+Barbara Kitchenham and Stuart Charters.
+\newblock Guidelines for performing systematic literature reviews in software
+  engineering.
+\newblock Technical Report EBSE-2007-01, Keele University and Durham
+  University, 2007.
+
+\bibitem{sweller1988}
+John Sweller.
+\newblock Cognitive load during problem solving: Effects on learning.
+\newblock {\em Cognitive Science}, 12(2):257--285, 1988.
+
+\bibitem{dejong2010}
+Ton de~Jong.
+\newblock Cognitive load theory, educational research, and instructional
+  design: Some food for thought.
+\newblock {\em Instructional Science}, 38:105--134, 2010.
+
+\bibitem{henderson2010sme}
+Brian Henderson-Sellers and Jolita Ralyté.
+\newblock Situational method engineering: State-of-the-art review.
+\newblock {\em Journal of Universal Computer Science}, 16(3):424--478, 2010.
+
+\bibitem{brinkkemper1996method}
+Sjaak Brinkkemper.
+\newblock Method engineering: Engineering of information systems development
+  methods and tools.
+\newblock {\em Information and Software Technology}, 38(4):275--280, 1996.
+
+\bibitem{ralyte2001assembly}
+Jolita Ralyté and Colette Rolland.
+\newblock An assembly process model for method engineering.
+\newblock In {\em Advanced Information Systems Engineering (CAiSE)}, pages
+  267--283, 2001.
+
+\bibitem{henderson2014}
+Brian Henderson-Sellers, Jolita Ralyté, Pär~J. Ågerfalk, and Matti Rossi.
+\newblock {\em Situational Method Engineering}.
+\newblock Springer, Berlin, 2014.
+
+\bibitem{harmsen1995}
+A.~Frank Harmsen and Sjaak Brinkkemper.
+\newblock Description and manipulation of method fragments for situational
+  method assembly.
+\newblock In {\em Proceedings of the 5th International Workshop on Experience
+  with the Management of Software Projects}, 1995.
+
+\bibitem{mirbel2006sme}
+Isabelle Mirbel and Jolita Ralyté.
+\newblock Situational method engineering: Combining assembly-based and
+  roadmap-driven approaches.
+\newblock {\em Requirements Engineering}, 11(1):58--78, 2006.
+
+\bibitem{xu2007}
+Peng Xu and Balasubramaniam Ramesh.
+\newblock Software process tailoring: An empirical investigation.
+\newblock {\em Journal of Management Information Systems}, 24(2):293--328,
+  2007.
+
+\bibitem{ginsberg1995}
+Mark~P. Ginsberg and Linda Quinn.
+\newblock Process tailoring and the software capability maturity model.
+\newblock Technical Report CMU/SEI-94-TR-024, Software Engineering Institute,
+  Carnegie Mellon University, 1995.
+
+\bibitem{kalus2013tailoring}
+Georg Kalus and Marco Kuhrmann.
+\newblock Criteria for software process tailoring: A systematic review.
+\newblock In {\em Proceedings of the International Conference on Software and
+  System Process (ICSSP)}, pages 171--180, 2013.
+
+\bibitem{kuhrmann2016}
+Marco Kuhrmann, Thomas Ternité, Jürgen Friedrich, Andreas Rausch, and Manfred
+  Broy.
+\newblock Flexible software process lines in practice: A metamodel-based
+  approach to effectively construct and manage families of software process
+  models.
+\newblock {\em Journal of Systems and Software}, 121:49--71, 2016.
+
+\bibitem{campanelli2015agile}
+Amadeu~Silveira Campanelli and Fernando~Silva Parreiras.
+\newblock Agile methods tailoring: A systematic literature review.
+\newblock {\em Journal of Systems and Software}, 110:85--100, 2015.
+
+\bibitem{kruchten2013}
+Philippe Kruchten.
+\newblock Contextualizing agile software development.
+\newblock {\em Journal of Software: Evolution and Process}, 25(4):351--361,
+  2013.
+
+\bibitem{hart1988nasa}
+Sandra~G. Hart and Lowell~E. Staveland.
+\newblock Development of nasa-tlx (task load index): Results of empirical and
+  theoretical research.
+\newblock In {\em Human Mental Workload}, volume~52 of {\em Advances in
+  Psychology}, pages 139--183. North-Holland, 1988.
+
+\bibitem{brooke1996sus}
+John Brooke.
+\newblock Sus: A quick and dirty usability scale.
+\newblock In {\em Usability Evaluation in Industry}, pages 189--194. Taylor and
+  Francis, 1996.
+
+\end{thebibliography}
