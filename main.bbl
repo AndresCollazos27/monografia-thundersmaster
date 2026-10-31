@@ -88,6 +88,13 @@ Rohana Sulaiman, Andy Hall, T.~S.~V. Reddy, and K.~Dorai.
   knowledge sharing to knowledge co-creation.
 \newblock {\em Agricultural Systems}, 188:103026, 2021.
 
+\bibitem{agredo2023strategy}
+Vanessa Agredo-Delgado, Pablo~H. Ruiz, Luis~E. Garz{\'o}n, and Cesar~A.
+  Collazos.
+\newblock A strategy for building shared understanding in requirements
+  engineering activities.
+\newblock {\em Electronic Journal of SADIO}, 22(3):41--54, 2023.
+
 \bibitem{petersen2008systematic}
 Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
 \newblock Systematic mapping studies in software engineering.
@@ -118,11 +125,64 @@ Tim Spijkman et~al.
   development: A functional perspective.
 \newblock {\em Information and Software Technology}, 133:106535, 2021.
 
+\bibitem{glinz2015shared}
+Martin Glinz and Samuel~A. Fricker.
+\newblock On shared understanding in software engineering: an essay.
+\newblock {\em Computer Science -- Research and Development},
+  30(3--4):363--376, 2015.
+
+\bibitem{sweller1988}
+John Sweller.
+\newblock Cognitive load during problem solving: Effects on learning.
+\newblock {\em Cognitive Science}, 12(2):257--285, 1988.
+
+\bibitem{dejong2010}
+Ton de~Jong.
+\newblock Cognitive load theory, educational research, and instructional
+  design: Some food for thought.
+\newblock {\em Instructional Science}, 38:105--134, 2010.
+
+\bibitem{agredo2023validating}
+Vanessa Agredo-Delgado, Pablo~H. Ruiz, and Cesar~A. Collazos.
+\newblock Validating the formal specification of the {THUNDERS} process.
+\newblock {\em TecnoL{\'o}gicas}, 26(57):e2658, 2023.
+
 \bibitem{li2024adaptability}
 Qiang Li and Fanjiang Zeng.
 \newblock Enhancing software architecture adaptability: A comprehensive
   evaluation method.
 \newblock {\em Symmetry}, 16(7):894, 2024.
+
+\bibitem{escobar2008validez}
+Jazmine Escobar-P{\'e}rez and {\'A}ngela Cuervo-Mart{\'i}nez.
+\newblock Validez de contenido y juicio de expertos: una aproximaci{\'o}n a su
+  utilizaci{\'o}n.
+\newblock {\em Avances en Medici{\'o}n}, 6:27--36, 2008.
+
+\bibitem{runeson2009case}
+Per Runeson and Martin H{\"o}st.
+\newblock Guidelines for conducting and reporting case study research in
+  software engineering.
+\newblock {\em Empirical Software Engineering}, 14(2):131--164, 2009.
+
+\bibitem{davis1989perceived}
+Fred~D. Davis.
+\newblock Perceived usefulness, perceived ease of use, and user acceptance of
+  information technology.
+\newblock {\em MIS Quarterly}, 13(3):319--340, 1989.
+
+\bibitem{zowghi2003teaching}
+Didar Zowghi and Suresh Paryani.
+\newblock Teaching requirements engineering through role playing: lessons
+  learnt.
+\newblock In {\em Proceedings of the 11th IEEE International Requirements
+  Engineering Conference}, pages 233--241. IEEE, 2003.
+
+\bibitem{svensson2017role}
+Richard~Berntsson Svensson and Bj{\"o}rn Regnell.
+\newblock Is role playing in requirements engineering education increasing
+  learning outcome?
+\newblock {\em Requirements Engineering}, 22(4):475--489, 2017.
 
 \bibitem{wang2025personas}
 Yi~Wang, Chetan Arora, Xiao Liu, Thuong Hoang, Vasudha Malhotra, Ben Cheng, and
@@ -381,17 +441,6 @@ Barbara Kitchenham and Stuart Charters.
 \newblock Technical Report EBSE-2007-01, Keele University and Durham
   University, 2007.
 
-\bibitem{sweller1988}
-John Sweller.
-\newblock Cognitive load during problem solving: Effects on learning.
-\newblock {\em Cognitive Science}, 12(2):257--285, 1988.
-
-\bibitem{dejong2010}
-Ton de~Jong.
-\newblock Cognitive load theory, educational research, and instructional
-  design: Some food for thought.
-\newblock {\em Instructional Science}, 38:105--134, 2010.
-
 \bibitem{henderson2010sme}
 Brian Henderson-Sellers and Jolita Ralyté.
 \newblock Situational method engineering: State-of-the-art review.
@@ -464,6 +513,12 @@ Philippe Kruchten.
 \newblock {\em Journal of Software: Evolution and Process}, 25(4):351--361,
   2013.
 
+\bibitem{brooke1996sus}
+John Brooke.
+\newblock Sus: A quick and dirty usability scale.
+\newblock In {\em Usability Evaluation in Industry}, pages 189--194. Taylor and
+  Francis, 1996.
+
 \bibitem{hart1988nasa}
 Sandra~G. Hart and Lowell~E. Staveland.
 \newblock Development of nasa-tlx (task load index): Results of empirical and
@@ -471,10 +526,15 @@ Sandra~G. Hart and Lowell~E. Staveland.
 \newblock In {\em Human Mental Workload}, volume~52 of {\em Advances in
   Psychology}, pages 139--183. North-Holland, 1988.
 
-\bibitem{brooke1996sus}
-John Brooke.
-\newblock Sus: A quick and dirty usability scale.
-\newblock In {\em Usability Evaluation in Industry}, pages 189--194. Taylor and
-  Francis, 1996.
+\bibitem{braun2006thematic}
+Virginia Braun and Victoria Clarke.
+\newblock Using thematic analysis in psychology.
+\newblock {\em Qualitative Research in Psychology}, 3(2):77--101, 2006.
+
+\bibitem{deterding2011gamification}
+Sebastian Deterding, Dan Dixon, Rilla Khaled, and Lennart Nacke.
+\newblock From game design elements to gamefulness: defining ``gamification''.
+\newblock In {\em Proceedings of the 15th International Academic MindTrek
+  Conference}, pages 9--15. ACM, 2011.
 
 \end{thebibliography}
