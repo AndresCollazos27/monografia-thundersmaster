@@ -3,34 +3,34 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Comparación de los trabajos relacionados con THUNDERS-Master (EC: entendimiento compartido; Elic., Espec. y Valid.: cubre la elicitación, la especificación o la validación; ``--'': no se pudo establecer con la información publicada).}}{22}{table.2.1}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Esquema de extracción de datos y su relación con las preguntas de investigación.}}{24}{table.2.2}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Estudios por fuente de información en cada etapa de la selección.}}{26}{table.2.3}%
-\contentsline {table}{\numberline {2.4}{\ignorespaces Hallazgos de la RSL y su implicación para THUNDERS-Master.}}{31}{table.2.4}%
-\contentsline {table}{\numberline {2.5}{\ignorespaces De la brecha identificada a la justificación de adaptar THUNDERS.}}{33}{table.2.5}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparación de los trabajos relacionados con THUNDERS-Master (EC: entendimiento compartido; Elic., Espec. y Valid.: cubre la elicitación, la especificación o la validación; ``--'': no se pudo establecer con la información publicada).}}{21}{table.2.1}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Esquema de extracción de datos y su relación con las preguntas de investigación.}}{23}{table.2.2}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Estudios por fuente de información en cada etapa de la selección.}}{25}{table.2.3}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Hallazgos de la RSL y su implicación para THUNDERS-Master.}}{30}{table.2.4}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces De la brecha identificada a la justificación de adaptar THUNDERS.}}{32}{table.2.5}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Caracterización operativa de las actividades de ingeniería de requisitos.}}{35}{table.3.1}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Elementos transversales a las tres actividades.}}{39}{table.3.2}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Condiciones del contexto de uso y su implicación para el proceso.}}{44}{table.3.3}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Comparación de métodos de adaptación frente al caso THUNDERS-Master.}}{47}{table.3.4}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Caracterización operativa de las actividades de ingeniería de requisitos.}}{34}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Elementos transversales a las tres actividades.}}{38}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Condiciones del contexto de uso y su implicación para el proceso.}}{43}{table.3.3}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Comparación de métodos de adaptación frente al caso THUNDERS-Master.}}{46}{table.3.4}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Aplicación de las cuatro operaciones de la SME en la definición de THUNDERS-Master.}}{50}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Correspondencia entre las actividades de la versión 1.3 y las de la versión final.}}{60}{table.4.2}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Aplicación de las cuatro actividades de la SME en la definición de THUNDERS-Master.}}{49}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Correspondencia entre las actividades de la versión 1.3 y las de la versión final.}}{59}{table.4.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Elementos de THUNDERS-Master que atienden cada requisito del método.}}{65}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{Especificación resumida de las actividades de THUNDERS-Master.}}{66}{table.5.2}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Roles de THUNDERS-Master.}}{68}{table.5.3}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Artefactos de THUNDERS-Master y sus campos.}}{71}{table.5.4}%
-\contentsline {table}{\numberline {5.5}{Evidencias del entendimiento compartido en THUNDERS-Master.}}{73}{table.5.5}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Forma de ejecución de THUNDERS-Master según el entendimiento implícito y el costo de un malentendido.}}{75}{table.5.6}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces Encaje de las actividades de THUNDERS-Master en las reuniones de un marco ágil.}}{76}{table.5.7}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Elementos de THUNDERS-Master que atienden cada requisito del método.}}{64}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{Especificación resumida de las actividades de THUNDERS-Master (FR: Facilitador; AN: Analista; RT: Relator; SD: \textit {Stakeholder} de dominio; PO: Responsable de decisión; QA: Responsable de calidad).}}{65}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Roles de THUNDERS-Master.}}{67}{table.5.3}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Artefactos de THUNDERS-Master y sus campos.}}{70}{table.5.4}%
+\contentsline {table}{\numberline {5.5}{Evidencias del entendimiento compartido en THUNDERS-Master.}}{72}{table.5.5}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Forma de ejecución de THUNDERS-Master según el entendimiento implícito y el costo de un malentendido.}}{74}{table.5.6}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Encaje de las actividades de THUNDERS-Master en las reuniones de un marco ágil.}}{75}{table.5.7}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{Plan de evaluación GQM de THUNDERS-Master.}}{79}{table.6.1}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Valoración de los expertos por dimensión (escala de 1 a 5, n = 5).}}{83}{table.6.2}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Hallazgos cualitativos de la validación con expertos y su implicación de diseño.}}{84}{table.6.3}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces Contradicciones sembradas en el caso UniReserva y criterio de detección.}}{86}{table.6.4}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces Estado observado de las contradicciones sembradas y de las mecánicas de la sesión.}}{88}{table.6.5}%
-\contentsline {table}{\numberline {6.6}{\ignorespaces Resultados de la encuesta de cierre del caso UniReserva (escala de 1 a 5, n = 11).}}{88}{table.6.6}%
+\contentsline {table}{\numberline {6.1}{Plan de evaluación GQM de THUNDERS-Master.}}{78}{table.6.1}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Valoración de los expertos por dimensión (escala de 1 a 5, n = 5).}}{82}{table.6.2}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Hallazgos cualitativos de la validación con expertos y su implicación de diseño.}}{83}{table.6.3}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Contradicciones sembradas en el caso UniReserva y criterio de detección.}}{85}{table.6.4}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Estado observado de las contradicciones sembradas y de las mecánicas de la sesión.}}{87}{table.6.5}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Resultados de la encuesta de cierre del caso UniReserva (escala de 1 a 5, n = 11; DE: desviación estándar).}}{88}{table.6.6}%
 \contentsline {table}{\numberline {6.7}{\ignorespaces Validación de contenido de los instrumentos de la versión final por juicio de experto (escala de 1 a 4).}}{92}{table.6.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
