@@ -69,6 +69,11 @@ Vanessa Agredo-Delgado, Pablo~H. Ruiz, Luis~E. Garz{\'o}n, and Cesar~A.
   engineering activities.
 \newblock {\em Electronic Journal of SADIO}, 22(3):41--54, 2023.
 
+\bibitem{sweller1988}
+John Sweller.
+\newblock Cognitive load during problem solving: Effects on learning.
+\newblock {\em Cognitive Science}, 12(2):257--285, 1988.
+
 \bibitem{mattmann2015quality}
 Ivo Mattmann et~al.
 \newblock The inscrutable jungle of quality criteria -- how to formulate
@@ -86,6 +91,12 @@ Roberto Grande et~al.
 \newblock Is it worth adopting devops practices in global software engineering?
   possible challenges and benefits.
 \newblock {\em Computer Standards \& Interfaces}, 87:103767, 2024.
+
+\bibitem{omg2008spem}
+{Object Management Group}.
+\newblock Software \& systems process engineering meta-model specification
+  ({SPEM}), version 2.0.
+\newblock Technical Report formal/2008-04-01, Object Management Group, 2008.
 
 \bibitem{agredo2023validating}
 Vanessa Agredo-Delgado, Pablo~H. Ruiz, and Cesar~A. Collazos.
@@ -111,11 +122,10 @@ Rohana Sulaiman, Andy Hall, T.~S.~V. Reddy, and K.~Dorai.
   knowledge sharing to knowledge co-creation.
 \newblock {\em Agricultural Systems}, 188:103026, 2021.
 
-\bibitem{ralyte2001assembly}
-Jolita Ralyté and Colette Rolland.
-\newblock An assembly process model for method engineering.
-\newblock In {\em Advanced Information Systems Engineering (CAiSE)}, pages
-  267--283, 2001.
+\bibitem{humphrey1989}
+Watts~S. Humphrey.
+\newblock {\em Managing the Software Process}.
+\newblock Addison-Wesley, Reading, MA, 1989.
 
 \bibitem{petersen2008systematic}
 Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
@@ -124,12 +134,11 @@ Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
   Evaluation and Assessment in Software Engineering (EASE)}, pages 68--77,
   2008.
 
-\bibitem{kitchenham2007}
-Barbara Kitchenham and Stuart Charters.
-\newblock Guidelines for performing systematic literature reviews in software
-  engineering.
-\newblock Technical Report EBSE-2007-01, Keele University and Durham
-  University, 2007.
+\bibitem{ralyte2001assembly}
+Jolita Ralyté and Colette Rolland.
+\newblock An assembly process model for method engineering.
+\newblock In {\em Advanced Information Systems Engineering (CAiSE)}, pages
+  267--283, 2001.
 
 \bibitem{henderson2010sme}
 Brian Henderson-Sellers and Jolita Ralyté.
@@ -165,6 +174,11 @@ Per Runeson and Martin H{\"o}st.
   software engineering.
 \newblock {\em Empirical Software Engineering}, 14(2):131--164, 2009.
 
+\bibitem{omg2011bpmn}
+{Object Management Group}.
+\newblock Business process model and notation ({BPMN}), version 2.0.
+\newblock Technical Report formal/2011-01-03, Object Management Group, 2011.
+
 \bibitem{iso25010}
 {ISO/IEC}.
 \newblock {ISO/IEC 25010:2023 -- Systems and software engineering -- SQuaRE --
@@ -185,43 +199,17 @@ Laura Okpara, Colin Werner, Adam Murray, and Daniela Damian.
   of non-functional requirements in remote continuous software engineering.
 \newblock {\em Requirements Engineering}, 28(4):595--617, 2023.
 
-\bibitem{lim2021data}
-Samuel Lim, Aron Henriksson, and Jelena Zdravkovic.
-\newblock Data-driven requirements elicitation: A systematic literature review.
-\newblock {\em SN Computer Science}, 2:16, 2021.
-
 \bibitem{spijkman2021alignment}
 Tim Spijkman et~al.
 \newblock Alignment and granularity of requirements and architecture in agile
   development: A functional perspective.
 \newblock {\em Information and Software Technology}, 133:106535, 2021.
 
-\bibitem{sweller1988}
-John Sweller.
-\newblock Cognitive load during problem solving: Effects on learning.
-\newblock {\em Cognitive Science}, 12(2):257--285, 1988.
-
 \bibitem{dejong2010}
 Ton de~Jong.
 \newblock Cognitive load theory, educational research, and instructional
   design: Some food for thought.
 \newblock {\em Instructional Science}, 38:105--134, 2010.
-
-\bibitem{humphrey1989}
-Watts~S. Humphrey.
-\newblock {\em Managing the Software Process}.
-\newblock Addison-Wesley, Reading, MA, 1989.
-
-\bibitem{omg2008spem}
-{Object Management Group}.
-\newblock Software \& systems process engineering meta-model specification
-  ({SPEM}), version 2.0.
-\newblock Technical Report formal/2008-04-01, Object Management Group, 2008.
-
-\bibitem{omg2011bpmn}
-{Object Management Group}.
-\newblock Business process model and notation ({BPMN}), version 2.0.
-\newblock Technical Report formal/2011-01-03, Object Management Group, 2011.
 
 \bibitem{ginsberg1995}
 Mark~P. Ginsberg and Linda Quinn.
@@ -378,11 +366,6 @@ Cristina Ribeiro and Daniel Berry.
   requirements specifications: Is a special effort needed to find them?
 \newblock {\em Science of Computer Programming}, 195:102472, 2020.
 
-\bibitem{sherif2023}
-Ezeldin Sherif, Waleed Helmy, and Galal~Hassan Galal-Edeen.
-\newblock Proposed framework to manage non-functional requirements in agile.
-\newblock {\em IEEE Access}, 11:53995--54005, 2023.
-
 \bibitem{kunz2016}
 Aline Kunz, Sabrina Pohlmann, Oliver Heinze, Antje Brandner, Christina Reiß,
   Martina Kamradt, Joachim Szecsenyi, and Dominik Ose.
@@ -479,6 +462,14 @@ Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, and Michael
 \newblock Technical report, International Organization for Standardization,
   2018.
 
+\bibitem{iso25064}
+{ISO/IEC}.
+\newblock {ISO/IEC 25064:2013 -- Systems and software engineering -- Software
+  product Quality Requirements and Evaluation (SQuaRE) -- Common Industry
+  Format (CIF) for usability: User needs report}.
+\newblock Technical report, International Organization for Standardization and
+  International Electrotechnical Commission, 2013.
+
 \bibitem{iso25063}
 {ISO/IEC}.
 \newblock {ISO/IEC 25063:2014 -- Systems and software engineering -- Systems
@@ -487,13 +478,10 @@ Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, and Michael
 \newblock Technical report, International Organization for Standardization and
   International Electrotechnical Commission, 2014.
 
-\bibitem{iso25064}
-{ISO/IEC}.
-\newblock {ISO/IEC 25064:2013 -- Systems and software engineering -- Software
-  product Quality Requirements and Evaluation (SQuaRE) -- Common Industry
-  Format (CIF) for usability: User needs report}.
-\newblock Technical report, International Organization for Standardization and
-  International Electrotechnical Commission, 2013.
+\bibitem{lim2021data}
+Samuel Lim, Aron Henriksson, and Jelena Zdravkovic.
+\newblock Data-driven requirements elicitation: A systematic literature review.
+\newblock {\em SN Computer Science}, 2:16, 2021.
 
 \bibitem{akram2024}
 Faiza Akram, Tanzila Ahmad, and Mehwish Sadiq.
@@ -507,6 +495,12 @@ Faiza Akram, Tanzila Ahmad, and Mehwish Sadiq.
 \newblock \url{https://cpre.ireb.org/en/concept/foundationlevel}, 2026.
 \newblock Accessed: Apr. 23, 2026.
 
+\bibitem{brataas2021}
+Gunnar Brataas, Antonio Martini, Geir~K. Hanssen, and Georg Ræder.
+\newblock Agile elicitation of scalability requirements for open systems: A
+  case study.
+\newblock {\em Journal of Systems and Software}, 182:111064, 2021.
+
 \bibitem{damian2006empirical}
 Daniela~E. Damian and James Chisan.
 \newblock An empirical study of the complex relationships between requirements
@@ -515,11 +509,12 @@ Daniela~E. Damian and James Chisan.
 \newblock {\em IEEE Transactions on Software Engineering}, 32(7):433--453,
   2006.
 
-\bibitem{brataas2021}
-Gunnar Brataas, Antonio Martini, Geir~K. Hanssen, and Georg Ræder.
-\newblock Agile elicitation of scalability requirements for open systems: A
-  case study.
-\newblock {\em Journal of Systems and Software}, 182:111064, 2021.
+\bibitem{kitchenham2007}
+Barbara Kitchenham and Stuart Charters.
+\newblock Guidelines for performing systematic literature reviews in software
+  engineering.
+\newblock Technical Report EBSE-2007-01, Keele University and Durham
+  University, 2007.
 
 \bibitem{brooke1996sus}
 John Brooke.

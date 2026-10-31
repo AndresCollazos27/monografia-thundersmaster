@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1793420750.79172 "main.aux" "main.bbl" "main" 1793420755.42309 0
+["bibtex main"] 1793482422.28186 "main.aux" "main.bbl" "main" 1793482427.52191 0
   "./refs.bib" 1793420324.86894 30359 f688fdf2dc3c83c9ed6056a45b0f5b80 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1793420755.20657 90601 629a319fa8b6242b6530afc84c8f77ec "pdflatex"
+  "main.aux" 1793482427.23646 90179 4e00f7db910870c65e35ace87f74f244 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1793420750.81271 "main.tex" "main.pdf" "main" 1793420755.42344 0
+["pdflatex"] 1793482422.31048 "main.tex" "main.pdf" "main" 1793482427.52243 0
   "/etc/texmf/web2c/texmf.cnf" 1793414571.48428 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -256,6 +256,7 @@
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr12.tfm" 1254269338 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr17.tfm" 1254269338 12156 ca1ae6a3c8564e89597f1f993fba1608 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm" 1254269338 12048 c1068d0f4772be9b0ec447692e1d6d82 ""
+  "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr7.tfm" 1254269338 12064 09aa3eeac96bf141d673bb1b0385ce55 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm" 1254269338 12064 a35db870f0b76c338d749c56dc030ef5 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm" 1254269338 17148 9556e1b5f936b77a796f68d2d559ba99 ""
   "/usr/share/texmf/fonts/tfm/public/lm/ec-lmri12.tfm" 1254269338 17144 271aaf9ebb339934b04110dc5211fba4 ""
@@ -294,6 +295,7 @@
   "/usr/share/texmf/fonts/type1/public/lm/lmr10.pfb" 1255129361 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb" 1255129361 113634 f99c44d58bae0863375faf0e1d74d612 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr6.pfb" 1255129361 123394 d390152bb30feeb496aaaa93299ee9ba ""
+  "/usr/share/texmf/fonts/type1/public/lm/lmr7.pfb" 1255129361 121145 68312a933e2c689ed40ec0aba373e279 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr8.pfb" 1255129361 122174 a7a08406857c9530a0320a2517f60370 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmri10.pfb" 1255129361 112593 fda2373ba4420af33949610de4c28fe8 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmri12.pfb" 1255129361 109265 32320cb6133d4d76bf83e27b5eb4009b ""
@@ -321,13 +323,13 @@
   "figures/Figura_ScienceDirect.png" 1793413596.95117 1038391 5ecc84d1a0cabeb4b37e222ec1e532e1 ""
   "figures/Figura_Scopus.png" 1793413596.95117 1380342 7389277de8202a68c7dcbbabf6cb5a6c ""
   "figures/Figura_WoS.png" 1793413596.95428 1390346 4639178acb7d932a24826d771b514215 ""
-  "main.aux" 1793420755.20657 90601 629a319fa8b6242b6530afc84c8f77ec "pdflatex"
-  "main.bbl" 1793420750.80257 23402 7f55600bf2e0ae37b923e2ad3c9c219a "bibtex main"
-  "main.lof" 1793420755.21457 4642 8d4460fc0af13074340aad3dea60bafd "pdflatex"
-  "main.lot" 1793420755.21457 7072 729265c2aa579094509d0cc12d7aa11b "pdflatex"
-  "main.out" 1793420755.21457 57557 b2b9a90e11e11d55a104062d74b607d9 "pdflatex"
-  "main.tex" 1793420721.63791 521902 b4ce359e427bad65b8a533e192b801ec ""
-  "main.toc" 1793420755.21457 27442 cc69d50ae0f1dc5fc2b19e25261488c8 "pdflatex"
+  "main.aux" 1793482427.23646 90179 4e00f7db910870c65e35ace87f74f244 "pdflatex"
+  "main.bbl" 1793482422.30046 23191 2f1e5092f689efbd546f473635a3a268 "bibtex main"
+  "main.lof" 1793482427.24846 4642 17d7da902d57fa933a432965ba44f94f "pdflatex"
+  "main.lot" 1793482427.24846 7210 dc3c59a417885421f2dfd426acbd0c02 "pdflatex"
+  "main.out" 1793482427.24846 60064 cdc50323f2e61bcc4e1de641f8c8f341 "pdflatex"
+  "main.tex" 1793482411.74047 524778 76b795065ac8131749d6562880a2a2a3 ""
+  "main.toc" 1793482427.24846 27023 c7736848458eb9cfaff2aa3e3f567586 "pdflatex"
   (generated)
   "main.aux"
   "main.lof"

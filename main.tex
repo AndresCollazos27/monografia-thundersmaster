@@ -134,10 +134,9 @@
 \vspace{1.5cm}
 
 \rule{\linewidth}{0.4pt}\\[0.4cm]
-{\LARGE\bfseries THUNDERS-Master:\\[0.3cm]
-un proceso ligero para construir, monitorear y validar el entendimiento
-compartido en las actividades de elicitación, especificación y validación
-de requisitos de software\par}
+{\LARGE\bfseries THUNDERS Master:\\[0.3cm]
+Proceso para la construcción del entendimiento compartido en las
+actividades de Ingeniería de Requisitos de Software\par}
 \rule{\linewidth}{0.4pt}\\[1.2cm]
 
 {\large Trabajo de grado presentado como requisito parcial\\
@@ -281,10 +280,10 @@ situational method engineering, process tailoring, THUNDERS, case study.
 Este capítulo presenta el contexto del trabajo de grado y la forma en que se
 desarrolló. Primero se da una visión general de todo el trabajo, con lo que se
 hizo, las validaciones que se realizaron y los resultados que se obtuvieron en
-cada una. Luego se presentan la motivación, el planteamiento del problema, que
-termina en la pregunta de investigación, la justificación, los objetivos, la
-metodología de la investigación con las seis iteraciones por las que pasó el
-proceso propuesto, los aportes del proyecto y la organización del documento. La
+cada una. Luego se presentan la motivación, el planteamiento del problema, que termina en
+la pregunta de investigación, la justificación y los objetivos. Por último se
+describen la metodología, con las seis iteraciones por las que pasó el proceso,
+los aportes y la organización del documento. La
 Figura~\ref{fig:secciones_c1} resume las secciones del capítulo.
 
 \seccionescapitulo{8}{1.1/Generalidades,1.2/Motivación,1.3/{Planteamiento del problema},1.4/Justificación,1.5/Objetivos,1.6/{Metodología de la investigación},1.7/{Aportes del proyecto},1.8/{Organización del documento}}{fig:secciones_c1}
@@ -308,8 +307,7 @@ En el presente trabajo, el entendimiento compartido se entiende como el grado en
 que los participantes coinciden en la interpretación de un objeto de
 entendimiento, comparten una perspectiva sobre él y coordinan sus acciones hacia
 un objetivo común~\cite{bittner2014shared}. En la IR ese objeto puede ser el
-problema mismo, un término del dominio, una necesidad o un criterio de
-aceptación, entre otros. Cuando esa coincidencia no se logra, el equipo cree que
+problema mismo, un término del dominio, una necesidad o un criterio de aceptación. Cuando esa coincidencia no se logra, el equipo cree que
 está de acuerdo, pero cada persona entiende el alcance o la prioridad a su
 manera, y eso suele descubrirse en el diseño, en las pruebas o después de la
 entrega, cuando corregirlo cuesta mucho más que si se hubiera detectado en los
@@ -339,68 +337,66 @@ una versión del proceso y una validación cuyos resultados alimentaron la
 iteración siguiente.
 
 Las tres primeras iteraciones construyeron la especificación hasta la versión
-1.3; la versión 1.2 se presentó en un artículo aceptado en el congreso
-JIIHC~2026, y la 1.3 pasó por tres rondas de revisión con la directora del
-trabajo. La versión 1.3 se evaluó
-en septiembre de 2026 de dos formas. Cinco expertos en ingeniería de software y
+1.3. La versión 1.2 se presentó en un artículo aceptado en el \textit{4th
+International Workshop on Collaboration in Knowledge Discovery and
+Decision-Making} (JIIHC~2026), y la 1.3 pasó por tres rondas de revisión con la
+directora del trabajo. En septiembre de 2026 la versión 1.3 se evaluó de dos
+formas. Cinco expertos en ingeniería de software y
 en IR la valoraron con un cuestionario de 37 ítems, en una escala de 1 a 5, y le
 dieron 4,34 en completitud y 4,27 en utilidad, pero 3,30 en ligereza. En un
-estudio de caso exploratorio con once estudiantes, llamado UniReserva, los dos
-equipos detectaron la contradicción central que se había sembrado en el caso, y
-los participantes valoraron con 4,55 que el proceso les ayudó a notar que no
-entendían lo mismo, pero con 2,09 la claridad de los pasos. Las tres
-iteraciones siguientes respondieron a esos resultados con un proceso más simple,
-validado en una revisión con el codirector Leandro Antonelli, hasta la versión
-final, que, a partir de una revisión conceptual basada en la distinción de Glinz y Fricker entre
-entendimiento compartido explícito e implícito~\cite{glinz2015shared}, organizó
-el proceso en ciclos de dos encuentros con los \textit{stakeholders}, uno para
-construir y otro para validar, y revisó las cinco evidencias del entendimiento
-compartido para que comprueben que los participantes interpretan igual lo
-crítico, y no solo que algo quedó escrito. Los instrumentos de esa versión se
-validaron por juicio de experto, con medias entre 3,56 y 4,00 sobre 4 en
-claridad, coherencia y relevancia, y sus recomendaciones se incorporaron antes de
-cerrarla.
+estudio de caso exploratorio con once estudiantes, llamado UniReserva, los dos equipos detectaron la contradicción que se había planteado a propósito
+en el caso, y los participantes valoraron con 4,55 que el proceso les ayudó a
+notar que no entendían lo mismo, pero con 2,09 la claridad de los pasos.
+
+Las tres iteraciones siguientes respondieron a esos resultados con un proceso
+más simple. La versión 1.4 se revisó con el codirector Leandro Antonelli y la
+1.5 con una revisión conceptual basada en la distinción de Glinz y Fricker entre
+entendimiento compartido explícito e implícito~\cite{glinz2015shared}. A partir
+de esa revisión, la versión final organizó el proceso en ciclos de dos
+encuentros con los \textit{stakeholders}, uno para construir y otro para
+validar, y cambió las cinco evidencias del entendimiento compartido para que
+comprueben que los participantes interpretan igual los requisitos críticos, y no
+solo que algo quedó escrito. Un experto validó el contenido de los instrumentos
+de esa versión, con medias entre 3,56 y 4,00 sobre 4 en claridad, coherencia y
+relevancia, y sus recomendaciones se incorporaron antes de cerrarla.
 
 \pendiente{Agregar en una o dos frases el resultado general del estudio de caso
 en contexto agrícola con la versión final (objetivo~4), cuando se tengan los
 datos: contexto, número de ciclos y de participantes, y hallazgo principal.}
 
 \section{Motivación}
-Las fallas de entendimiento compartido no siempre se ven de inmediato. Pueden
-quedar escondidas en ambigüedades que persisten en las
-especificaciones~\cite{asadabadi2020ambiguity}, en supuestos que nadie declaró,
-en conflictos que no se resolvieron, en la pérdida de contexto o en una
-trazabilidad débil, y luego aparecen como problemas en la operación del
-sistema, por ejemplo funciones que no hacen lo que el usuario esperaba, defectos
-que solo se descubren en las pruebas o en producción, y cambios cuyo origen ya
-nadie puede rastrear hasta la necesidad que los motivó~\cite{fucci2022traceability}.
-En la elicitación, por ejemplo, se presentan cuando se consulta a los
-\textit{stakeholders} equivocados o cuando las necesidades se registran como
-frases sueltas, sin fuente, sin motivación y sin contexto. Luego, en la
+Las fallas de entendimiento compartido no siempre se ven de inmediato. Pueden quedar escondidas en ambigüedades que persisten en las
+especificaciones~\cite{asadabadi2020ambiguity}, en supuestos que nadie declaró o
+en desacuerdos entre \textit{stakeholders} que nunca se resolvieron, y aparecen
+después, en la operación del sistema, como funciones que no hacen lo que el
+usuario esperaba, defectos que solo se descubren en las pruebas o cambios cuyo
+origen ya nadie puede rastrear hasta la necesidad que los
+motivó~\cite{fucci2022traceability}. En la elicitación, por ejemplo, aparecen
+cuando se consulta a los \textit{stakeholders} equivocados o cuando una
+necesidad se anota sin decir quién la pidió ni para qué. Luego, en la
 especificación, esas necesidades pueden convertirse en requisitos ambiguos, que
 no se pueden verificar o que ya no se conectan con su origen. En la validación
 ocurre que los participantes aprueban un requisito porque está bien redactado,
 pero no porque el usuario que lo pidió, el analista que lo escribió y el
 desarrollador que lo construirá lo interpreten de la misma manera.
 
-Para atender este problema se tomó como base THUNDERS, ya que fue diseñado para
+Para atender este problema se tomó como base THUNDERS, un proceso diseñado para
 mejorar actividades colaborativas a partir de la construcción, el monitoreo y la
-asistencia del entendimiento compartido~\cite{agredo2022thesis}. Su estructura
-cuenta con fases, tareas, roles, productos de trabajo, mecanismos de monitoreo y
-guías de asistencia. Pero su aplicación directa a la IR no es sencilla. Las
+asistencia del entendimiento compartido~\cite{agredo2022thesis}. THUNDERS
+organiza el trabajo en fases, tareas y roles, y lo acompaña con mecanismos para
+monitorear el entendimiento y con guías para quien dirige la actividad. Pero
+llevarlo tal cual a la IR no es sencillo. Las
 validaciones que se le han hecho indican que el proceso es completo y útil,
 aunque también extenso, difícil de aplicar y exigente en términos
-cognitivos~\cite{agredo2022exploratory}. En la IR muchas actividades se realizan
-en talleres breves, reuniones de refinamiento, entrevistas o revisiones con los
-\textit{stakeholders}, y en ese tipo de espacios un proceso pesado termina por
-no usarse.
+cognitivos~\cite{agredo2022exploratory}. En la IR muchas actividades se realizan en talleres breves, entrevistas,
+reuniones de refinamiento o revisiones con los \textit{stakeholders}, que son
+sesiones cortas en las que no caben las trece actividades de THUNDERS.
 
-Aun así, THUNDERS es una base adecuada para este contexto por tres razones. La
-primera es que la IR es, en sí misma, una actividad colaborativa de resolución
-de problemas, que es el tipo de actividad para la que THUNDERS se diseñó, ya que
-un grupo heterogéneo, formado por usuarios, responsables del negocio, analistas
-y desarrolladores, debe llegar a una solución común, que en este caso es un
-conjunto de requisitos acordado. La segunda es que THUNDERS ya se aplicó en un
+Aun así, se eligió THUNDERS como base por tres razones. La primera es que la IR
+es, en sí misma, una actividad colaborativa de resolución de problemas, que es
+el tipo de actividad para la que THUNDERS se diseñó: un grupo formado por
+usuarios, responsables del negocio, analistas y desarrolladores debe llegar a
+una solución común, que en este caso es un conjunto de requisitos acordado. La segunda es que THUNDERS ya se aplicó en un
 contexto de IR, en un experimento en el que un equipo definió los requisitos de
 un sistema para una asociación de productores lácteos y agroganaderos de
 Popayán, y allí resultó completo y útil para construir el entendimiento
@@ -413,26 +409,25 @@ es justamente lo que hace este trabajo.
 \label{sec:problema}
 La IR es una función interdisciplinaria que media entre el adquirente y el
 proveedor para establecer y mantener los requisitos que debe cumplir un sistema,
-un software o un servicio~\cite{iso29148}. Abarca actividades de descubrimiento,
-elicitación, análisis, especificación, verificación, validación, comunicación,
-documentación y gestión de requisitos, que se ejecutan de forma iterativa
-durante todo el ciclo de vida y que necesitan la participación coordinada de
-clientes, usuarios, desarrolladores, operadores y responsables del negocio. Esa
+un software o un servicio~\cite{iso29148}. Abarca actividades que van desde el descubrimiento y la elicitación de las
+necesidades hasta la validación y la gestión de los requisitos, que se ejecutan
+de forma iterativa durante todo el ciclo de vida y que necesitan la
+participación coordinada de clientes, usuarios, desarrolladores y responsables
+del negocio. Esa
 participación tiene como fin construir y mantener un entendimiento compartido de
 las necesidades y restricciones del sistema. Cuando ese entendimiento no existe,
 cada grupo termina con una idea distinta de lo que debe hacer y del problema que
 se quiere resolver, lo que lleva a una baja colaboración y a resultados que
 nadie esperaba~\cite{agredo2022thesis}.
 
-Construir ese entendimiento es difícil por varias razones, entre ellas la
-diversidad de perspectivas, conocimientos y experiencias de quienes definen los
-requisitos, la complejidad de los contextos y conceptos que maneja cada actor,
-la carga cognitiva que implica interpretar, coordinar y mantener una comprensión
-común, y la falta de procesos que ayuden a mantener ese entendimiento en el
+Construir ese entendimiento es difícil porque quienes definen los requisitos
+llegan con perspectivas, conocimientos y experiencias distintas, porque
+interpretar y coordinar una comprensión común exige un esfuerzo mental, que es
+lo que se conoce como carga cognitiva~\cite{sweller1988}, y porque faltan
+procesos que ayuden a mantener ese entendimiento en el
 tiempo~\cite{agredo2022thesis}. A esto se suman condiciones técnicas, culturales
-y de la organización. En lo técnico, la forma en que se expresan los requisitos
-influye, ya que durante la elicitación y el análisis pueden aparecer criterios
-de calidad con definiciones ambiguas o contradictorias, que impiden llegar a
+y de la organización. En lo técnico, durante la elicitación y el análisis pueden aparecer criterios de
+calidad con definiciones ambiguas o contradictorias, que impiden llegar a
 acuerdos estables~\cite{mattmann2015quality}. En lo cultural, factores como la
 distancia de poder limitan la participación de los \textit{stakeholders} con
 menor jerarquía y sesgan la negociación~\cite{alsanoosy2019power}. En lo
@@ -441,26 +436,27 @@ geográfica, temporal y sociocultural obligan a tener mecanismos explícitos par
 mantener una comprensión común del producto, de sus requisitos y de su
 entorno~\cite{grande2024devops}.
 
-Frente a esta situación se retoma THUNDERS, un proceso construido con ingeniería
-de métodos situacionales y especificado en SPEM~2.0 a nivel conceptual y
-tecnológico, para diseñar, ejecutar y validar actividades de resolución de
-problemas con grupos heterogéneos~\cite{agredo2022thesis}. Las experiencias de
-validación reportadas indican que THUNDERS es completo, que es útil y que apoya
-la construcción del entendimiento compartido, pero también que es largo,
-difícil de usar y que genera una carga cognitiva alta. La propia autora señala
-como trabajo pendiente identificar qué tareas son obligatorias según el contexto
-y derivar versiones más simples, que conserven sus aportes con una complejidad
-adecuada para entornos reales~\cite{agredo2022thesis,agredo2022exploratory}.
+Frente a esta situación se retoma THUNDERS, un proceso para diseñar, ejecutar y
+validar actividades de resolución de problemas con grupos heterogéneos,
+construido con ingeniería de métodos situacionales y especificado en SPEM~2.0,
+el metamodelo del \textit{Object Management Group} para describir procesos de
+software~\cite{agredo2022thesis,omg2008spem}. Las experiencias de validación
+reportadas indican que THUNDERS es completo, que es útil y que apoya la
+construcción del entendimiento compartido, pero también que es largo, difícil de
+usar y que genera una carga cognitiva
+alta~\cite{agredo2022thesis,agredo2022exploratory}. Por eso la autora propuso
+derivar versiones más simples, que conserven sus aportes con una complejidad que
+un equipo pueda asumir en un proyecto real.
 
-Teniendo en cuenta lo anterior, el problema no es la falta de mecanismos, ya que
-la literatura reporta muchos para apoyar el entendimiento compartido, como
-glosarios, talleres, prototipos o criterios de aceptación
-(Sección~\ref{sec:rsl}). El problema es que no se encontró una ruta operativa,
-ligera y trazable que le indique a un equipo cómo construir ese entendimiento,
-cómo mantenerlo y cómo comprobar que se logró mientras elicita, especifica y
-valida requisitos. THUNDERS ofrece esa ruta para actividades colaborativas en
-general, pero su costo de aplicación no se ajusta a las sesiones de la IR. De
-esta situación surgió la pregunta que orientó el trabajo:
+Teniendo en cuenta lo anterior, la literatura reporta muchos mecanismos para
+apoyar el entendimiento compartido, como glosarios, talleres, prototipos o
+criterios de aceptación (Sección~\ref{sec:rsl}), pero en la RSL no se encontró
+una guía que le indique a un equipo, paso a paso, cómo construir ese
+entendimiento, cómo mantenerlo y cómo comprobar que se logró mientras elicita,
+especifica y valida requisitos. THUNDERS ofrece esa guía para actividades
+colaborativas en general, pero exige más tiempo y esfuerzo de los que caben en
+una sesión de requisitos. De esta situación surgió la pregunta de investigación
+que se planteó en el anteproyecto:
 
 \begin{quote}
 \emph{¿Cómo puede apoyarse la construcción y el mantenimiento del entendimiento
@@ -472,16 +468,16 @@ de requisitos de un producto software, a partir del proceso THUNDERS?}
 
 \subsection{¿Por qué se necesita un proceso para el entendimiento compartido en IR?}
 En la práctica es frecuente que el entendimiento compartido se pierda o quede
-incompleto, porque los actores tienen diferencias de conocimiento, de
-experiencia, de lenguaje técnico y de contexto~\cite{grande2024devops}. Esas
-diferencias llevan a interpretaciones distintas de lo que se quiere lograr, y si
-nadie hace un seguimiento de lo que se entendió y se acordó, el grupo avanza con
-ideas parciales o contradictorias. Esas ideas se pagan después en retrabajo, es
-decir, en requisitos que se deben reescribir, en funciones que se deben rehacer
-y en pruebas que se deben repetir cuando, en el diseño, en la implementación o
-en la aceptación, alguien descubre que lo que se construyó no era lo que se
-quería, y corregir un defecto en esas etapas cuesta mucho más que corregirlo en
-los requisitos~\cite{boehm2001defect}. Documentar los requisitos es necesario,
+incompleto, porque clientes, usuarios, analistas y desarrolladores llegan con
+conocimientos, lenguajes y contextos de trabajo
+distintos~\cite{grande2024devops}. Esas diferencias llevan a interpretaciones
+distintas de lo que se quiere lograr, y si nadie hace un seguimiento de lo que
+se entendió y se acordó, el grupo avanza con ideas parciales o contradictorias.
+Esas ideas se pagan después en retrabajo. Cuando alguien descubre en el diseño,
+en la implementación o en la aceptación que lo que se construyó no era lo que se
+quería, hay que reescribir requisitos, rehacer funciones y repetir pruebas, y
+corregir un defecto en esas etapas cuesta mucho más que corregirlo en los
+requisitos~\cite{boehm2001defect}. Documentar los requisitos es necesario,
 pero no es suficiente, ya que también se necesita que todas las partes entiendan
 lo mismo. Sin un proceso explícito que promueva y verifique esa alineación, el
 riesgo de malentendidos se mantiene a lo largo de toda la IR~\cite{iso29148}.
@@ -505,28 +501,29 @@ que trabaja sobre requisitos cuyo significado se acordó en las tres actividades
 anteriores.
 
 \subsection{¿Por qué usar THUNDERS?}
-THUNDERS cuenta con roles, tareas, productos de trabajo, momentos de medición y
-mecanismos de validación. Además, las validaciones que se le hicieron durante
-su construcción, que fueron un experimento y un estudio exploratorio con
-estudiantes, una revisión de expertos en ingeniería de procesos sobre su
-especificación, un experimento en un contexto de IR y un estudio de caso con un
-grupo de control, mostraron que mejora la colaboración y que apoya el logro del
-entendimiento compartido~\cite{agredo2022thesis,agredo2022exploratory,agredo2023validating}.
-Por lo tanto, se toma como punto de partida y no se diseña un proceso desde cero.
-La propuesta busca adaptar y simplificar los aportes de THUNDERS para la IR en
-contextos reales, de modo que el entendimiento compartido se pueda construir,
+THUNDERS ya define roles, tareas y productos de trabajo, y momentos para medir y
+validar el entendimiento compartido. Además, se validó cinco veces durante su
+construcción: con un experimento y un estudio exploratorio con estudiantes, con
+una revisión de expertos en ingeniería de procesos sobre su especificación, con
+un experimento en un contexto de IR y con un estudio de caso con un grupo de
+control. Esas validaciones mostraron que mejora la colaboración y que apoya el
+logro del entendimiento
+compartido~\cite{agredo2022thesis,agredo2022exploratory,agredo2023validating}.
+Por lo tanto, se tomó como punto de partida en lugar de diseñar un proceso desde
+cero, y la propuesta buscó adaptar y simplificar sus aportes para la IR, de modo
+que el entendimiento compartido se pueda construir,
 mantener y comprobar, y que al final de cada ciclo se pueda evaluar si se logró.
 
-\subsection{¿Por qué validar en un contexto agrícola?}
+\subsection{¿Por qué evaluar el proceso en un contexto agrícola?}
 \label{sec:contexto_agricola}
-Se propone validar el proceso en un contexto agrícola por las características
-comunicativas, colaborativas y sociotécnicas del sector agropecuario, donde la
-adopción de nuevas herramientas depende de que los actores construyan
-significados compartidos y lleguen a acuerdos sobre los requisitos. Con los
-desafíos del cambio climático y la llegada de tecnologías digitales, estos
-entornos exigen una buena interacción entre productores, asesores, técnicos,
-investigadores y diseñadores, que tienen diferencias de lenguaje, de marcos
-conceptuales y de percepción del riesgo~\cite{getson2022communication}. A esto
+Se eligió un contexto agrícola para el estudio de caso del objetivo~4 porque en
+el sector agropecuario la adopción de una herramienta nueva depende de su
+viabilidad técnica, pero también de que productores, técnicos y desarrolladores
+lleguen a acuerdos sobre lo que la herramienta debe hacer. Con los desafíos del
+cambio climático y la llegada de tecnologías digitales, estos proyectos reúnen a
+productores, asesores, investigadores y diseñadores de soluciones, que tienen
+diferencias de lenguaje, de marcos conceptuales y de percepción del
+riesgo~\cite{getson2022communication}. A esto
 se suma que el equipo de desarrollo suele desconocer el contexto de trabajo del
 campo, y que un mismo término, como el nombre de una labor, de una unidad de
 medida o de un estado del cultivo, puede significar cosas distintas para un
@@ -543,26 +540,30 @@ dificultades de comunicación que el proceso busca atender.
 
 \section{Objetivos}
 
-\pendiente{Verificar palabra por palabra el objetivo general y los objetivos
-específicos contra el anteproyecto aprobado. La directora indicó que no
-coinciden y que no puede cambiar ni una palabra. Reemplazar el texto de esta
-sección por el del anteproyecto.}
+Los objetivos se transcriben tal como quedaron en el anteproyecto aprobado.
 
 \subsection{Objetivo general}
-Adaptar el proceso THUNDERS para apoyar la construcción del entendimiento
-compartido en las actividades de elicitación, especificación y validación de
-requisitos de la ingeniería de requisitos, integrándolo como apoyo al proceso de
-desarrollo de un producto de software.
+Adaptar el proceso\footnote{El proceso es una secuencia lógica de pasos
+organizados que se centra en lograr un resultado específico~\cite{humphrey1989}.}
+THUNDERS\footnote{Un proceso para mejorar el trabajo colaborativo asistido por
+ordenador a través de la construcción, el monitoreo y la asistencia de un
+entendimiento común en actividades de resolución de
+problemas~\cite{agredo2022thesis}.} para apoyar la construcción del
+entendimiento compartido en las actividades de elicitación, especificación y
+validación de requisitos de la Ingeniería de Requisitos, integrándolo como apoyo
+al proceso de desarrollo de un producto de software.
 
 \subsection{Objetivos específicos}
 \begin{enumerate}
   \item Caracterizar, de acuerdo con la literatura, los elementos de las
         actividades de elicitación, especificación y validación de requisitos
-        que requieren construir entendimiento compartido.
+        de la Ingeniería de Requisitos que requieren construir entendimiento
+        compartido.
   \item Identificar del proceso THUNDERS los componentes, principios y
         mecanismos susceptibles de adaptación para apoyar las actividades de
-        elicitación, especificación y validación de la IR.
-  \item Definir THUNDERS-Master como un proceso adaptado que permita construir
+        elicitación, especificación y validación de la Ingeniería de
+        Requisitos.
+  \item Definir THUNDERS Master como un proceso adaptado que permita construir
         el entendimiento compartido durante las actividades de elicitación,
         especificación y validación de requisitos de software.
   \item Evaluar, a través de un estudio de caso en un contexto agrícola, la
@@ -573,12 +574,23 @@ desarrollo de un producto de software.
 
 \section{Metodología de la investigación}
 \label{sec:metodologia}
-Para el desarrollo de esta investigación se siguió un enfoque de investigación
-aplicada, ya que su resultado es un proceso que se usa para resolver un problema
-práctico de la IR, y el trabajo se organizó en las cuatro fases que se definieron
-en el anteproyecto: exploración, formulación del proceso, evaluación y
-documentación. Las fases de formulación y de evaluación no se ejecutaron una
-sola vez, sino de forma iterativa e incremental, siguiendo el ciclo de la
+Para el desarrollo de esta investigación se adoptó la metodología declarada en
+el anteproyecto, que toma como referencia a Petersen et
+al.~\cite{petersen2008systematic} y que es de carácter aplicado, iterativo y
+orientado a la evidencia. Es aplicada porque su resultado es un proceso para
+resolver un problema práctico de la IR, es iterativa porque cada versión del
+proceso se refinó con lo que dejó su validación, y es orientada a la evidencia
+porque las decisiones de diseño se tomaron a partir de la RSL, de la
+caracterización y de los resultados de cada validación. El trabajo se organizó
+en las cuatro fases del anteproyecto, que son exploración, formulación del
+proceso, evaluación, y documentación y transferencia. Las fases se definieron así
+porque cada una responde a uno o dos objetivos específicos: la exploración a los
+objetivos~1 y~2, la formulación al objetivo~3, la evaluación al objetivo~4, y la
+documentación y transferencia a las condiciones de entrega del anteproyecto, que
+son el proceso, un artículo y la monografía.
+
+Las fases de formulación y de evaluación se ejecutaron de forma iterativa e
+incremental, siguiendo el ciclo de la
 ingeniería de métodos situacionales con el que se construyó
 THUNDERS~\cite{agredo2022thesis,ralyte2001assembly}. En ese ciclo cada
 iteración especifica los requisitos del método, selecciona los componentes que
@@ -586,21 +598,20 @@ los cumplen, los ensambla en una versión del proceso y la valida, y lo que deja
 la validación alimenta la iteración siguiente. En total se ejecutaron seis
 iteraciones, cada una con su versión del proceso y su validación.
 
-\pendiente{Confirmar con el anteproyecto el nombre del marco metodológico que se
-declaró (y su referencia) para las cuatro fases, y ajustar la primera frase de
-esta sección para que diga lo mismo.}
+
 
 Adicionalmente, en cada fase se usaron métodos específicos de la ingeniería de
-software. La RSL siguió el proceso de Petersen et al.~\cite{petersen2008systematic}
-y las guías de Kitchenham y Charters~\cite{kitchenham2007}; la caracterización
-se basó en la norma ISO/IEC/IEEE~29148:2018~\cite{iso29148}; el proceso se
+software. La RSL siguió el proceso de mapeo sistemático de Petersen et
+al.~\cite{petersen2008systematic}, y la caracterización de las tres actividades
+se basó en la norma ISO/IEC/IEEE~29148:2018~\cite{iso29148}. El proceso se
 construyó con la ingeniería de métodos situacionales~\cite{henderson2010sme},
 con \textit{method chunks}, que son porciones de un método descritas por su
 intención y su situación de uso~\cite{ralyte2001assembly,mirbel2006sme}, y con
 criterios de \textit{process tailoring}, que es el ajuste de un proceso a las
-condiciones de un proyecto~\cite{kalus2013tailoring}; y la evaluación usó el
-enfoque GQM~\cite{basili1994gqm} para definir el plan de evaluación del proceso
-(qué se quería saber de él, con qué métricas y con qué instrumentos), la
+condiciones de un proyecto~\cite{kalus2013tailoring}. Para la evaluación se usó
+el enfoque GQM (\textit{Goal-Question-Metric})~\cite{basili1994gqm}, que, como
+se planteó en el anteproyecto, definió el plan de evaluación del proceso y llevó
+el entendimiento compartido a indicadores observables, y se usaron además la
 validación por juicio de expertos~\cite{escobar2008validez} y el estudio de
 caso~\cite{runeson2009case}. La Figura~\ref{fig:metodologia} muestra las cuatro
 fases con sus métodos, sus hitos y las seis iteraciones.
@@ -610,7 +621,7 @@ fases con sus métodos, sus hitos y las seis iteraciones.
 \begin{tikzpicture}[font=\scriptsize,
   every node/.append style={execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000\relax}},
   fase/.style={draw=azulT, fill=azulT!14, rounded corners=2pt, text width=33mm,
-    align=center, minimum height=13mm, font=\footnotesize\bfseries},
+    align=center, minimum height=15mm, font=\footnotesize\bfseries},
   met/.style={draw=black!35, fill=white, text width=33mm, align=left,
     inner sep=3pt, minimum height=21mm},
   hito/.style={draw=begLine, fill=begFill, rounded corners=2pt, text width=33mm,
@@ -620,10 +631,10 @@ fases con sus métodos, sus hitos y las seis iteraciones.
   val/.style={draw=meaLine, fill=meaFill!70, text width=20.5mm, align=center,
     inner sep=2pt, minimum height=12mm, font=\tiny},
   fl/.style={-{Stealth[length=1.8mm]}, semithick, draw=black!60}]
-\foreach \x/\n/\t in {0/p1/{Fase 1\\Exploración},39/p2/{Fase 2\\Formulación del proceso},78/p3/{Fase 3\\Evaluación},117/p4/{Fase 4\\Documentación}}
+\foreach \x/\n/\t in {0/p1/{Fase 1\\Exploración},39/p2/{Fase 2\\Formulación del proceso},78/p3/{Fase 3\\Evaluación},117/p4/{Fase 4\\Documentación y transferencia}}
   \node[fase] (\n) at (\x mm,0) {\t};
 \draw[fl] (p1)--(p2); \draw[fl] (p2)--(p3); \draw[fl] (p3)--(p4);
-\node[met, below=2mm of p1] (m1) {\textbf{Métodos}\\ RSL (Petersen et al.; Kitchenham y Charters)\\ Norma ISO/IEC/IEEE 29148\\ Análisis de THUNDERS\\ Comparación de métodos de adaptación};
+\node[met, below=2mm of p1] (m1) {\textbf{Métodos}\\ RSL (Petersen et al.)\\ Norma ISO/IEC/IEEE 29148\\ Análisis de THUNDERS\\ Comparación de métodos de adaptación};
 \node[met, below=2mm of p2] (m2) {\textbf{Métodos}\\ Ingeniería de métodos situacionales\\ \textit{Method chunks}\\ Criterios de \textit{tailoring}\\ BPMN 2.0};
 \node[met, below=2mm of p3] (m3) {\textbf{Métodos}\\ Plan GQM\\ Juicio de expertos\\ Estudio de caso (Runeson y Höst)\\ Revisión conceptual};
 \node[met, below=2mm of p4] (m4) {\textbf{Productos}\\ Artículo JIIHC 2026\\ Artículo de revista\\ Monografía\\ Sustentación};
@@ -662,16 +673,23 @@ elementos de la elicitación, la especificación y la validación que necesitan
 entendimiento compartido (objetivo~1). Luego se caracterizaron esas tres
 actividades a partir de la norma ISO/IEC/IEEE~29148:2018, se analizó THUNDERS
 componente por componente para identificar qué partes del proceso eran
-susceptibles de adaptación (objetivo~2), se caracterizó el contexto de uso del
-proceso y se revisaron los métodos existentes para adaptar procesos. Su producto
-fue el conocimiento de partida que se presenta en los
-Capítulos~\ref{ch:marco} y~\ref{ch:caracterizacion}.
+susceptibles de adaptación (objetivo~2), se caracterizó el contexto de uso del proceso y se revisaron los métodos
+existentes para adaptar procesos. Su producto fue la caracterización que se
+presenta en los Capítulos~\ref{ch:marco} y~\ref{ch:caracterizacion}, con la que
+se dieron por cumplidos los objetivos~1 y~2.
 
 La segunda fase, de formulación, derivó THUNDERS-Master (objetivo~3). Entre los
 métodos de adaptación revisados se eligió la ingeniería de métodos situacionales
 porque es la base con la que se construyó THUNDERS y porque, complementada con
-\textit{method chunks} y con criterios de \textit{tailoring}, permite conservar
-solo los componentes que aportan a la IR (Sección~\ref{sec:metodo_seleccionado}). A su vez, la tercera fase, de
+\textit{method chunks} y con criterios de \textit{tailoring}, permite conservar solo los componentes que aportan a la IR
+(Sección~\ref{sec:metodo_seleccionado}). Los cuatro pasos que el anteproyecto
+previó para aplicar el modelo de adaptación quedaron dentro de ese ciclo: los
+criterios de adaptación son los criterios con los que se evaluó cada componente
+de THUNDERS, el mapeo de elementos equivalentes o incompatibles es el mapeo
+hacia las actividades de la IR, las reglas de adaptación son las decisiones de
+conservar, adaptar, simplificar, fusionar, hacer opcional o retirar cada
+componente, y la especificación es el ensamble de cada versión
+(Capítulo~\ref{ch:construccion}). A su vez, la tercera fase, de
 evaluación, se planteó en el anteproyecto como un taller de validación con
 expertos seguido de un estudio de caso en contexto agrícola. Como las dos fases
 se ejecutaron por iteraciones, a continuación se resume cada iteración, con lo
@@ -684,18 +702,20 @@ Capítulo~\ref{ch:evaluacion}, sus validaciones.
   momentos (preparación, elicitación, especificación y validación) y fijó un
   primer mapeo entre THUNDERS y la IR. Como los momentos no tenían entradas,
   salidas ni roles, la siguiente versión recuperó la estructura de THUNDERS.
-\item \textbf{Iteración 2, versiones 1.1 y 1.2.} Tres fases, once actividades
-  más una opcional, seis roles, siete artefactos y cinco evidencias. La versión
+\item \textbf{Iteración 2, versiones 1.1 y 1.2.} Recuperó la estructura de
+  THUNDERS con tres fases, once actividades más una opcional, seis roles, siete
+  artefactos y cinco evidencias. La versión
   1.2 se validó con la revisión por pares del artículo aceptado en JIIHC~2026, y
   quedó pendiente declarar el origen de cada actividad tarea por tarea.
 \item \textbf{Iteración 3, versión 1.3.} Agregó el análisis de THUNDERS al nivel
-  de tarea, tres instrumentos de verificación, el plan GQM y las plantillas. Se
+  de tarea, tres instrumentos para verificar el entendimiento, el plan GQM y las
+  plantillas. Se
   validó con tres revisiones de la directora, con cinco expertos y con el
   estudio de caso UniReserva, que coincidieron en que es útil y completa, pero
   no ligera ni fácil de seguir en una primera aplicación.
-\item \textbf{Iteración 4, versión 1.4.} Pasó a ocho actividades y dos
-  opcionales, bajó de 116 a 66 los campos, caracterizó el contexto de uso y se
-  dibujó en BPMN. El codirector, en su revisión, recomendó agrupar las tres
+\item \textbf{Iteración 4, versión 1.4.} Pasó a ocho actividades y dos opcionales, bajó de 116 a 66 los campos de
+  las plantillas, caracterizó el contexto de uso y se modeló en BPMN
+  (\textit{Business Process Model and Notation})~\cite{omg2011bpmn}. El codirector, en su revisión, recomendó agrupar las tres
   actividades de la IR y resolver las discrepancias dentro de la validación.
 \item \textbf{Iteración 5, versión 1.5.} Agrupó la elicitación, la
   especificación y la validación en un subproceso y quedó con seis actividades.
@@ -730,28 +750,22 @@ espacios que ya tienen, como el refinamiento o la revisión de un
 \textit{sprint}, con plantillas de una página y con una regla clara sobre dónde
 invertir el tiempo, que es en los requisitos cuyo malentendido sale caro. Para
 la educación, el estudio de caso UniReserva mostró que el proceso puede usarse
-en cursos de IR para que los estudiantes vivan, y no solo escuchen descrito, el
-problema de entender cosas distintas con las mismas palabras. 
+en cursos de IR para que los estudiantes experimenten el problema de entender
+cosas distintas con las mismas palabras. 
 
 \section{Organización del documento}
-El documento está organizado en siete capítulos y un conjunto de anexos. El
-Capítulo~\ref{ch:marco} presenta los conceptos de la IR, de la ingeniería de la
-colaboración, de la ingeniería de procesos y de la evaluación de procesos, los
-trabajos relacionados con una tabla comparativa y la RSL con la brecha que
-justifica el trabajo. El Capítulo~\ref{ch:caracterizacion} caracteriza todo lo
-que se necesitó para construir el proceso: la elicitación, la especificación y
-la validación con su propósito, sus entradas, sus tareas, sus roles y sus
-artefactos; THUNDERS con sus fases, actividades y mecanismos; el contexto de uso
-y quienes usarían el proceso; y los métodos de adaptación de procesos. El
+El documento está organizado en siete capítulos y un conjunto de anexos. El Capítulo~\ref{ch:marco} presenta los conceptos que usa el trabajo, los
+trabajos relacionados y la RSL, con la brecha que justifica adaptar THUNDERS. El
+Capítulo~\ref{ch:caracterizacion} caracteriza lo que se necesitó para construir
+el proceso, que son las tres actividades de la IR, el proceso THUNDERS, el
+contexto en el que se usaría y los métodos de adaptación de procesos. El
 Capítulo~\ref{ch:construccion} presenta la construcción de THUNDERS-Master con
 las cuatro actividades de la ingeniería de métodos situacionales y la guía de
-las seis iteraciones, de la versión 1.0 a la versión final. El
-Capítulo~\ref{ch:proceso} presenta la versión final, con sus fundamentos, su
-ciclo de requisitos, sus actividades, roles, productos de trabajo, evidencias y
-forma de ejecución. El Capítulo~\ref{ch:evaluacion} presenta los elementos de
-cada versión, el plan de evaluación y el diseño, la ejecución y los resultados
-de la validación de cada versión, incluido el estudio de caso en contexto
-agrícola. El Capítulo~\ref{ch:conclusiones} presenta las conclusiones, las
+las seis iteraciones, de la versión 1.0 a la versión final. El Capítulo~\ref{ch:proceso} presenta la versión final del proceso, con sus
+fundamentos, su ciclo de requisitos y su forma de ejecución. El
+Capítulo~\ref{ch:evaluacion} presenta el plan de evaluación y, para cada
+versión, el diseño, la ejecución y los resultados de su validación, incluido el
+estudio de caso en contexto agrícola. El Capítulo~\ref{ch:conclusiones} presenta las conclusiones, las
 contribuciones, las limitaciones y el trabajo futuro. Los anexos contienen el
 material de soporte que se cita en el documento.
 
@@ -785,10 +799,10 @@ conjunto de actividades que transforman las necesidades de los interesados en
 requisitos verificables y gestionables a lo largo del ciclo de vida, que son
 elicitar, analizar y negociar, especificar, validar y gestionar~\cite{iso29148}.
 El presente trabajo se limita a la elicitación, la especificación y la
-validación, ya que es allí donde el significado de los requisitos se construye,
+validación, porque es allí donde el significado de los requisitos se construye,
 se formaliza y se confirma. En esas tres actividades el entendimiento compartido
-entra en juego porque el significado de un requisito pasa por varias personas,
-ya que un \textit{stakeholder} lo expresa, un analista lo escribe y otro
+entra en juego porque el significado de un requisito pasa por varias personas:
+un \textit{stakeholder} lo expresa, un analista lo escribe y otro
 \textit{stakeholder} lo acepta, y en cada paso puede cambiar sin que nadie lo
 note~\cite{glinz2015shared}.
 
@@ -797,19 +811,20 @@ La norma distingue los requisitos funcionales, que describen lo que el sistema
 debe hacer, de los requisitos no funcionales, que incluyen los atributos de
 calidad, como el desempeño, la usabilidad o la seguridad, y las restricciones,
 que son condiciones que limitan la solución, como una norma legal, una
-tecnología obligatoria o un plazo~\cite{iso29148,iso25010}. THUNDERS-Master
-trabaja con los dos tipos, ya que los malentendidos aparecen en ambos y la RSL
-mostró que en los no funcionales la desalineación puede ser mayor, porque se
-discuten menos y se documentan peor~\cite{behutiye2022quality,okpara2023}.
+tecnología obligatoria o un plazo~\cite{iso29148,iso25010}. THUNDERS-Master trabaja con los dos tipos. Los malentendidos aparecen en ambos,
+y la RSL mostró que en los no funcionales la desalineación puede ser mayor,
+porque se discuten menos y se documentan
+peor~\cite{behutiye2022quality,okpara2023}.
 
 \paragraph{Elicitación.}
 Es la actividad en la que se identifican y se obtienen las necesidades,
 expectativas y restricciones de los \textit{stakeholders} sobre el sistema.
 Según la norma ISO/IEC/IEEE~29148, busca capturar requisitos desde distintas
 fuentes y perspectivas, por lo que necesita preparación y una identificación
-previa de las fuentes~\cite{iso29148}. Por lo tanto, la elicitación no se limita
-a recolectar datos, ya que en ella empieza la construcción de significado entre
-personas que no parten del mismo punto~\cite{lim2021data}.
+previa de las fuentes~\cite{iso29148}. Nuseibeh y Easterbrook prefieren el término elicitación al de captura, para no
+sugerir que los requisitos ya existen y que basta con hacer las preguntas
+correctas para recogerlos~\cite{nuseibeh2000roadmap}. En la elicitación empieza
+la construcción de significado entre personas que no parten del mismo punto.
 
 \paragraph{Especificación.}
 Es la actividad en la que los requisitos elicitados se documentan y se
@@ -832,11 +847,11 @@ validación comprueba si corresponde a lo que realmente se necesita.
 
 \paragraph{Trabajo colaborativo.}
 Es la contribución conjunta de ideas, experiencias y conocimientos de un grupo
-que persigue una meta común. Su propósito no es solo mejorar un resultado, ya
-que también busca generar conocimiento colectivo y fortalecer el entendimiento
-compartido del problema~\cite{agredo2022thesis}. Se caracteriza por la
-interdependencia positiva, en la que el éxito depende de integrar los aportes de
-todos en una construcción conjunta y no solo de repartir tareas, y requiere
+que persigue una meta común. Además de mejorar un resultado, busca generar conocimiento colectivo y
+fortalecer el entendimiento compartido del problema~\cite{agredo2022thesis}. Se
+caracteriza por la interdependencia positiva, en la que el éxito depende de
+integrar los aportes de cada miembro en una construcción conjunta, más allá de
+repartir tareas, y requiere
 comunicación efectiva, escucha activa y decisiones tomadas en
 conjunto~\cite{spijkman2021alignment}.
 
@@ -852,9 +867,7 @@ para coordinar sus acciones hacia un objetivo común con base en conocimientos,
 creencias y supuestos mutuos sobre la tarea, el grupo, el proceso y las
 herramientas. Además, plantea que el entendimiento se construye primero en cada
 persona y luego en el grupo, por lo que THUNDERS valida por separado la
-comprensión individual y la grupal~\cite{agredo2022thesis}. En la IR se logra cuando clientes,
-usuarios, analistas, diseñadores y demás interesados interpretan de forma
-equivalente las necesidades, las restricciones y los criterios de calidad, lo
+comprensión individual y la grupal~\cite{agredo2022thesis}. En la IR se logra cuando clientes, usuarios y equipo técnico interpretan de forma equivalente las necesidades, las restricciones y los criterios de calidad, lo
 que reduce la ambigüedad y el retrabajo~\cite{mattmann2015quality}.
 
 Glinz y Fricker distinguen dos formas de entendimiento compartido en la
@@ -878,9 +891,9 @@ saturarla antes de completarse~\cite{sweller1988}. El diseño de una actividad
 puede agregar esfuerzo mental que no aporta a la tarea principal, por ejemplo con
 información, pasos o artefactos innecesarios, y reducir esa carga extrínseca
 implica conservar lo esencial y simplificar lo que estorba sin aportar un valor
-proporcional~\cite{dejong2010}. El concepto es central para el presente
-trabajo, ya que la carga cognitiva alta es la principal razón por la que
-THUNDERS resultó difícil de usar.
+proporcional~\cite{dejong2010}. El concepto es central para el presente trabajo porque la carga cognitiva alta
+fue una de las limitaciones que reportaron las validaciones de
+THUNDERS~\cite{agredo2022exploratory}.
 
 \subsection{Conceptos de ingeniería de procesos de software}
 
@@ -912,11 +925,9 @@ definición de un proceso general, o de particularizar sus términos, para deriv
 un proceso aplicable a un entorno más específico~\cite{ginsberg1995}. Se usa
 porque construir un proceso desde cero es costoso y depende de la experiencia de
 quien lo hace, por lo que es habitual partir de un proceso existente y
-ajustarlo al proyecto, a la organización o al dominio~\cite{xu2007}. Adaptar no
-es solo cambiar tareas o roles, ya que el resultado debe seguir siendo
-consistente con los objetivos del proceso original, y la decisión de qué
-conservar y qué cambiar debe apoyarse en criterios explícitos del
-contexto~\cite{kalus2013tailoring}.
+ajustarlo al proyecto, a la organización o al dominio~\cite{xu2007}. Al adaptar, el resultado debe seguir siendo consistente con los objetivos del
+proceso original, y la decisión de qué conservar y qué cambiar debe apoyarse en
+criterios explícitos del contexto~\cite{kalus2013tailoring}.
 
 \paragraph{Ingeniería de métodos situacionales.}
 La ingeniería de métodos situacionales (SME, \textit{Situational Method
@@ -926,16 +937,14 @@ métodos que ya existen~\cite{brinkkemper1996method,henderson2010sme}. Parte de
 que un método universal rara vez encaja en todos los contextos. Un método
 situacional se construye con cuatro actividades, que son especificar los
 requisitos del método, seleccionar los componentes que los satisfacen,
-ensamblarlos y validar el método resultante, y esas actividades se repiten en
-iteraciones hasta obtener una versión
-adecuada~\cite{ralyte2001assembly,henderson2014}.
+ensamblarlos y validar el método resultante, y esas actividades se repiten en iteraciones hasta que el método cumple sus
+requisitos~\cite{ralyte2001assembly,henderson2014}.
 
 \paragraph{Fragmentos y \textit{chunks} de método.}
 Un fragmento de método (\textit{method fragment}) es una parte reutilizable de un
 método, como una actividad, un rol o un producto de trabajo, que se puede
 seleccionar y combinar con otras para construir un método
-situacional~\cite{harmsen1995}. Un \textit{method chunk} amplía esa idea, ya que
-asocia el fragmento con una intención (qué busca lograr), una situación de
+situacional~\cite{harmsen1995}. Un \textit{method chunk} amplía esa idea: asocia el fragmento con una intención (qué busca lograr), una situación de
 aplicación (cuándo usarlo), una guía de uso y los productos de trabajo que
 consume y produce~\cite{ralyte2001assembly,mirbel2006sme}. Por ejemplo, un
 \textit{chunk} puede tener como intención ``verificar el entendimiento inicial
@@ -943,7 +952,7 @@ del problema'', como situación ``inicio de una sesión de elicitación'' y como
 salida ``un registro de acuerdos y dudas''.
 
 \paragraph{Líneas de procesos y adaptación ágil.}
-Una línea de procesos de software (SPrL) es un conjunto de procesos con un
+Una línea de procesos de software (SPrL, por \textit{Software Process Line}) es un conjunto de procesos con un
 núcleo común y una variabilidad controlada~\cite{kuhrmann2016}, y la adaptación
 ágil selecciona prácticas ágiles según el
 contexto~\cite{campanelli2015agile,kruchten2013}. El
@@ -956,16 +965,18 @@ Capítulo~\ref{ch:caracterizacion} compara estos enfoques.
 GQM es un método dirigido por objetivos para definir e interpretar mediciones en
 ingeniería de software. Primero se fija un objetivo de medición, luego se
 descompone en preguntas que permiten valorar si se cumple y, por último, se
-definen las métricas que responden esas preguntas~\cite{basili1994gqm}. En este
-trabajo GQM se usó para construir el plan de evaluación del proceso, cuyo
-objetivo es saber si THUNDERS-Master es útil, fácil de usar, poco exigente en
-carga cognitiva y capaz de dejar evidencia del entendimiento compartido; no se
-usó como un instrumento para medir el entendimiento compartido en sí mismo.
+definen las métricas que responden esas preguntas~\cite{basili1994gqm}. En este trabajo GQM se usó, como se planteó en el anteproyecto, para construir
+el plan de evaluación del proceso. Una de sus metas lleva el entendimiento
+compartido a indicadores observables durante la elicitación, la especificación y
+la validación, como las cinco evidencias del proceso o las discrepancias que se
+detectan y se cierran, y las demás preguntan si THUNDERS-Master es útil, si es
+fácil de usar y si reduce la carga cognitiva (Sección~\ref{sec:plan_gqm}).
 
 \paragraph{Juicio de expertos.}
 Es una forma de validar el contenido de un artefacto, en la que personas con
-trayectoria en el dominio valoran su claridad, completitud, coherencia y
-pertinencia con un instrumento estructurado, y sus respuestas se analizan de
+trayectoria en el dominio lo valoran con un instrumento estructurado, por
+ejemplo en suficiencia, claridad, coherencia y relevancia, que son los criterios
+de Escobar-Pérez y Cuervo-Martínez, y sus respuestas se analizan de
 forma agregada y se complementan con las observaciones
 abiertas~\cite{escobar2008validez}. Sirve para revisar una especificación antes
 de usarla, pero no muestra lo que pasa cuando el proceso se ejecuta.
@@ -1014,9 +1025,10 @@ cuyos resultados se presentan al final de esta sección.
 \subsection{Mecanismos para construir el entendimiento compartido en la IR}
 Bittner y Leimeister~\cite{bittner2014shared} estudiaron, desde la ingeniería
 de la colaboración, por qué el entendimiento compartido importa en grupos de
-trabajo heterogéneos y cómo lograrlo. Definieron el concepto y diseñaron un
-módulo de colaboración reutilizable, un \textit{thinkLet} compuesto llamado
-\textit{MindMerger}, que evaluaron en un estudio de investigación-acción en un
+trabajo heterogéneos y cómo lograrlo. Definieron el concepto y diseñaron un módulo de colaboración reutilizable
+llamado \textit{MindMerger}, que es un \textit{thinkLet} compuesto, es decir,
+una combinación de técnicas de facilitación documentadas para que otro
+facilitador las pueda repetir, que evaluaron en un estudio de investigación-acción en un
 fabricante alemán de automóviles, donde observaron conductas de aprendizaje en
 equipo y una mayor comprensión de las tareas entre trabajadores con perfiles
 distintos. Su aporte es la definición que este trabajo adopta, pero su
@@ -1051,9 +1063,7 @@ Irshad et al.~\cite{irshad2021bdd} adaptaron el desarrollo guiado por el
 comportamiento (BDD, \textit{Behavior-Driven Development}) para sistemas de gran
 escala en un contexto industrial. En BDD los requisitos se escriben como
 escenarios \textit{Given/When/Then} que se pueden ejecutar como pruebas, lo que
-conecta la intención del requisito con un comportamiento verificable. El trabajo
-es relevante porque adapta una práctica existente a un contexto, igual que este,
-pero cubre la especificación y la validación y no la elicitación, y supone un
+conecta la intención del requisito con un comportamiento verificable. Se incluyó porque adapta una práctica existente a un contexto, igual que este trabajo, pero cubre la especificación y la validación y no la elicitación, y supone un
 equipo técnico capaz de escribir escenarios.
 
 Pacheco et al.~\cite{pacheco2022} implementaron de forma ligera el proceso de
@@ -1121,9 +1131,9 @@ identificación y el análisis de requisitos al prototipado no funcional, la
 gestión de requisitos, el prototipado funcional y la socialización, y usa los
 prototipos como una representación tangible de los requisitos. Es el trabajo más
 parecido en el método de construcción, pero el entendimiento se apoya en el
-prototipo, mientras que THUNDERS-Master comprueba entre perfiles la
-interpretación de lo crítico, con prototipo o sin él, y deja evidencias de que se
-logró.
+prototipo, mientras que THUNDERS-Master comprueba, con prototipo o sin él, que los
+distintos perfiles interpretan igual los requisitos críticos, y deja evidencias
+de que se logró.
 
 Chamizo Quiñones, Rodríguez Bautista y Agredo-Delgado~\cite{chamizo2025guide}
 propusieron una guía para fortalecer la construcción del entendimiento
@@ -1145,9 +1155,8 @@ en la Tabla~\ref{tab:comparacion_trabajos}, y completar volumen y páginas.}
 \subsection{Comparación de los trabajos relacionados}
 La Tabla~\ref{tab:comparacion_trabajos} compara los trabajos con siete criterios
 que salen del problema de este trabajo: si definen un proceso con fases o
-actividades, si cubren la elicitación, la especificación y la validación, si
-proponen cómo construir el entendimiento compartido, si lo verifican o lo miden,
-si adaptan un proceso existente y si consideran el costo de aplicarlo. La
+actividades, si cubren la elicitación, la especificación y la validación, si proponen cómo construir el entendimiento compartido, si lo verifican o lo
+miden y si adaptan un proceso existente. La
 comparación muestra que los trabajos que construyen el entendimiento compartido
 cubren una o dos actividades de la IR, que los que adaptan procesos no se ocupan
 del entendimiento compartido, y que la estrategia derivada de THUNDERS es la
@@ -1194,10 +1203,12 @@ Kalus y Kuhrmann~\cite{kalus2013tailoring}; Campanelli y Parreiras~\cite{campane
 \section{Revisión sistemática de la literatura}
 \label{sec:rsl}
 La RSL se realizó siguiendo el proceso de mapeo sistemático propuesto por
-Petersen et al.~\cite{petersen2008systematic}. Su objetivo fue identificar,
-organizar y sintetizar estudios primarios que reportan rupturas, situaciones
-críticas, mecanismos de apoyo y formas de evaluar el entendimiento compartido
-en la elicitación, la especificación y la validación de requisitos.
+Petersen et al.~\cite{petersen2008systematic}. Su objetivo fue identificar, analizar y sintetizar estudios primarios que
+reportan problemas asociados a la construcción y el mantenimiento del
+entendimiento compartido, situaciones en las que ese entendimiento es necesario
+para definir bien los requisitos, mecanismos de apoyo y formas de evaluarlo en
+las actividades de elicitación, especificación y validación de requisitos de
+software.
 
 \subsection{Protocolo y proceso de revisión}
 La revisión siguió un protocolo definido antes de empezar y organizado en las
@@ -1206,13 +1217,14 @@ fases del mapeo sistemático~\cite{petersen2008systematic}: planificación
 cribado en dos etapas, extracción de datos y síntesis temática. En la primera
 etapa del cribado se revisaron el título, el resumen y las palabras clave frente
 a los criterios, y en la segunda se leyó el texto completo y solo se conservaron
-los estudios que aportaban evidencia para al menos una pregunta. Los dos autores
-realizaron ambas etapas de forma independiente; los desacuerdos se resolvieron
-por discusión y, cuando fue necesario, consultando a la directora del trabajo,
-quien además revisó el cribado como control de calidad de la selección.
+los estudios que aportaban evidencia para al menos una pregunta. Los dos autores realizaron ambas etapas de forma independiente y registraron
+cada decisión de inclusión o exclusión en una matriz de revisión. Los
+desacuerdos se resolvieron por discusión y, cuando fue necesario, consultando a
+la directora del trabajo, quien además revisó el cribado como control de calidad
+de la selección.
 
-La extracción consistió en leer cada estudio incluido y registrar, en una hoja
-de cálculo común, la misma información para todos, con un campo para cada dato.
+La extracción consistió en leer cada estudio incluido y registrar en esa matriz
+la misma información para todos, con un campo para cada dato.
 La Tabla~\ref{tab:rsl_extraction} muestra esos campos. La primera columna nombra
 el campo, la segunda describe qué se registró en él y la tercera indica a qué
 pregunta de investigación responde. Por ejemplo, si un estudio reportaba que el
@@ -1250,23 +1262,15 @@ momento de aplicación. & RQ5 \\
 \end{table}
 
 \subsection{Preguntas de investigación}
-La revisión se guió por cinco preguntas:
+La revisión se guió por cinco preguntas. El protocolo se escribió en inglés,
+por lo que aquí se presenta su traducción, sin cambiar su alcance, y el
+Anexo~\ref{anx:rsl} las presenta en su idioma original.
 \begin{itemize}
-  \item RQ1. ¿Qué problemas de comunicación o desalineaciones del
-        entendimiento compartido se reportan durante la elicitación,
-        especificación y validación?
-  \item RQ2. ¿En qué tareas, artefactos y situaciones de la elicitación,
-        especificación y validación de requisitos se identifica la necesidad de
-        construir entendimiento compartido entre \textit{stakeholders}?
-  \item RQ3. ¿Cuáles son los momentos más críticos para lograr
-        entendimiento compartido en cada actividad de la IR (elicitación,
-        especificación y validación) y por qué?
-  \item RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o
-        usado para apoyar la construcción y el mantenimiento del entendimiento
-        compartido?
-  \item RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto
-        para medir o evaluar el entendimiento compartido, y en qué momentos
-        (antes, durante o después)?
+    \item RQ1. ¿Qué problemas de comunicación o desalineaciones del entendimiento compartido se reportan en la literatura durante las actividades de elicitación, especificación y validación de requisitos?
+  \item RQ2. ¿En qué tareas, artefactos y situaciones dentro de las actividades de elicitación, especificación y validación se identifica la necesidad de construir entendimiento compartido entre \textit{stakeholders}?
+  \item RQ3. ¿Cuáles son los momentos más críticos para lograr el entendimiento compartido en cada una de las actividades de elicitación, especificación y validación, y por qué?
+  \item RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o usado para apoyar la construcción y el mantenimiento del entendimiento compartido durante las actividades de elicitación, especificación y validación?
+  \item RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para medir o evaluar el entendimiento compartido en las actividades de elicitación, especificación y validación, y en qué momentos de aplicación (antes, durante o después) se recomienda su uso?
 \end{itemize}
 
 En la RQ5, \emph{medir} es recolectar indicadores observables del entendimiento
@@ -1274,10 +1278,7 @@ compartido y \emph{evaluar} es interpretarlos o valorar la evidencia con
 instrumentos o juicio de expertos, y los momentos se refieren a antes, durante o
 después de cada actividad de la IR.
 
-\pendiente{Confirmar que la redacción de RQ1 a RQ5 es la misma del protocolo
-de la RSL y del artículo de JIIHC~2026. La directora preguntó si la RQ2 se había
-cambiado; aquí solo se precisó que las tareas, artefactos y situaciones son los
-de la elicitación, la especificación y la validación.}
+
 
 \subsection{Estrategia de búsqueda}
 La búsqueda se construyó a partir de tres conceptos, que son
@@ -1295,15 +1296,15 @@ AND ("Software Development")
 \end{quote}
 
 La cadena no incluyó un término para cada actividad (por ejemplo,
-\textit{specification} o \textit{validation}) con el fin de no perder estudios
-en la búsqueda. El entendimiento compartido suele aparecer fragmentado en la
-literatura bajo términos como comunicación, alineación o coordinación, y una
-cadena más restrictiva habría dejado por fuera estudios primarios que podían ser
-relevantes. Es decir, la amplitud se dejó en la cadena de búsqueda, y la
-restricción a la elicitación, la especificación y la validación se aplicó
-después, en el cribado, con los criterios IC1 y EC1. Por eso los criterios sí
-nombran esas actividades, mientras que la cadena no lo hace, y al final solo
-quedaron estudios con evidencia concreta sobre ellas.
+\textit{specification} o \textit{validation}) para no perder estudios. El
+entendimiento compartido suele aparecer en la literatura bajo términos como
+comunicación, alineación o coordinación, y una cadena más restrictiva hacía
+perder una cantidad importante de estudios primarios que podían ser relevantes.
+Por eso la cadena se dejó amplia y la restricción a la elicitación, la
+especificación y la validación se aplicó después, en el cribado, con los
+criterios de inclusión, en especial IC1 e IC2. Los criterios sí nombran esas
+actividades, aunque la cadena no lo haga, y al final solo quedaron estudios con
+evidencia concreta sobre ellas.
 
 \subsection{Fuentes de información}
 La búsqueda se hizo en ScienceDirect, Scopus y Web of Science, por su uso
@@ -1319,19 +1320,19 @@ Engineering} y términos relacionados con \textit{Shared Understanding}.
 El Anexo~\ref{anx:rsl} justifica el periodo elegido.
 
 \subsection{Criterios de inclusión y exclusión}
-Un estudio se incluyó si trataba explícitamente la elicitación, la
-especificación, el análisis o la validación de requisitos (IC1), si reportaba
+Un estudio se incluyó si cumplía todos los criterios de inclusión, o al menos la
+mayoría, que eran tratar explícitamente la elicitación, la especificación, el
+análisis o la validación de requisitos (IC1), reportar
 problemas, mecanismos, métricas o instrumentos relacionados con el entendimiento
-compartido entre \textit{stakeholders} (IC2), si se situaba en el desarrollo de
-software (IC3), si aportaba evidencia para al menos una pregunta (IC4), si era
-una publicación primaria revisada por pares, en inglés y en texto completo (IC5)
-y si se publicó entre 2015 y 2026 (IC6). Se excluyó si no se centraba en las
+compartido entre \textit{stakeholders} (IC2), situarse en el desarrollo de
+software (IC3), aportar evidencia para al menos una pregunta (IC4), ser una
+publicación primaria revisada por pares, en inglés y en texto completo (IC5) y
+haberse publicado entre 2015 y 2026 (IC6). Se excluyó si no se centraba en las
 actividades del alcance (EC1), si trataba la colaboración de forma general
 (EC2), si pertenecía a otro dominio sin evidencia transferible (EC3), si no era
 primaria (EC4), si no estaba disponible (EC5), si no respondía a ninguna
-pregunta (EC6) o si era un duplicado (EC7). El criterio IC1 es el que restringe
-el corpus a las actividades del alcance, que la cadena de búsqueda dejó abiertas
-a propósito. El Anexo~\ref{anx:rsl} presenta los criterios completos.
+pregunta (EC6) o si era un duplicado (EC7). Los criterios IC1 e IC2 son los que restringen el corpus a las actividades del
+alcance, que la cadena de búsqueda dejó abiertas a propósito. El Anexo~\ref{anx:rsl} presenta los criterios completos.
 
 \subsection{Resultados del proceso de selección}
 La estrategia recuperó en total 1.362 registros. Luego de aplicar los filtros
@@ -1402,18 +1403,17 @@ La Figura~\ref{fig:frecuencia-publicaciones}, en el Anexo~\ref{anx:rsl}, muestra
 publicación de los estudios primarios entre 2015 y 2026. Entre 2015 y 2020 la
 producción fue baja e intermitente, con entre cero y tres publicaciones por
 año. A partir de 2021 hay más estudios, con picos en 2021 y 2023, cada uno con
-cinco publicaciones. Esta distribución no permite hablar de una tendencia
-lineal, pero sí sugiere que el interés por el tema ha aumentado en los últimos
-años.
-
-Por lo tanto, el tema parece estar en consolidación y todavía en desarrollo
-conceptual.
+cinco publicaciones. Esta distribución no permite hablar de una tendencia lineal, pero sí sugiere que
+el interés por el tema ha aumentado en los últimos años y que todavía está en
+desarrollo conceptual.
 
 \subsection{Resultados por pregunta de investigación}
 Esta subsección resume lo que la evidencia responde a cada pregunta. El
 Anexo~\ref{anx:rsl} presenta el análisis completo por actividad de la IR.
 
-\subsubsection{RQ1. ¿Qué problemas de comunicación o desalineaciones del entendimiento compartido se reportan durante la elicitación, especificación y validación?}
+\subsubsection{RQ1. ¿Qué problemas de comunicación o desalineaciones del
+entendimiento compartido se reportan en la literatura durante las actividades de
+elicitación, especificación y validación de requisitos?}
 Los problemas aparecen desde las primeras interacciones y se mantienen en las
 tres actividades. Una causa que se repite es que los participantes interpretan
 de forma distinta qué problema debe resolver el sistema y cuáles son sus
@@ -1428,8 +1428,7 @@ barreras de idioma, cultura y distancia~\cite{calefato2015,khan2021,akbar2021}
 y en culturas con alta distancia de poder~\cite{alsanoosy2019power}. En la
 especificación, el problema principal es la ambigüedad del lenguaje natural,
 que hace que el autor y los lectores de un requisito crean compartir un
-significado que no comparten~\cite{ribeiro2020}, y es mayor en los requisitos
-no funcionales~\cite{behutiye2022quality,sherif2023} y cuando no hay un lenguaje
+significado que no comparten~\cite{ribeiro2020}, y es mayor en los requisitos no funcionales~\cite{behutiye2022quality} y cuando no hay un lenguaje
 común del dominio~\cite{antonelli2016}. En la validación, la desalineación
 aparece por falta de criterios de aceptación compartidos~\cite{kunz2016}, por
 cualidades vagas que no se pueden verificar~\cite{laporte2023}, por la pérdida
@@ -1439,7 +1438,9 @@ tardía~\cite{kasauli2021}. Por lo tanto, estos problemas son rupturas en la
 construcción, la negociación y el mantenimiento del significado entre
 \textit{stakeholders}, y no solo fallas de redacción.
 
-\subsubsection{RQ2. ¿En qué tareas, artefactos y situaciones de la elicitación, especificación y validación se identifica la necesidad de construir entendimiento compartido?}
+\subsubsection{RQ2. ¿En qué tareas, artefactos y situaciones dentro de las
+actividades de elicitación, especificación y validación se identifica la
+necesidad de construir entendimiento compartido entre \textit{stakeholders}?}
 La necesidad es transversal. En la elicitación aparece al identificar a los
 \textit{stakeholders}, al recolectar y priorizar necesidades y al aclarar
 expectativas, en entrevistas, talleres y grupos focales, con artefactos como
@@ -1456,7 +1457,9 @@ existir sin que todos interpreten igual el requisito, y la literatura no ofrece
 una guía integrada sobre en qué orden aplicarlos, qué roles deben participar y
 cómo verificar que el entendimiento se logró.
 
-\subsubsection{RQ3. ¿Cuáles son los momentos más críticos para lograr entendimiento compartido en cada actividad de la IR y por qué?}
+\subsubsection{RQ3. ¿Cuáles son los momentos más críticos para lograr el
+entendimiento compartido en cada una de las actividades de elicitación,
+especificación y validación, y por qué?}
 Los momentos más críticos son tres. El primero es cuando el significado todavía
 se está negociando, como al elegir a los \textit{stakeholders}, al conversar en
 un taller y al fijar el vocabulario del
@@ -1471,7 +1474,9 @@ corren tres riesgos, que son no lograr una interpretación común, que el
 significado acordado se transforme al documentarse y que las desalineaciones
 solo se vean en la validación o en la implementación~\cite{okpara2023,xiao2018}.
 
-\subsubsection{RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o usado para apoyar la construcción y el mantenimiento del entendimiento compartido?}
+\subsubsection{RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o
+usado para apoyar la construcción y el mantenimiento del entendimiento
+compartido durante las actividades de elicitación, especificación y validación?}
 La literatura reporta mecanismos sociales, basados en la interacción directa
 entre personas, técnicos, apoyados en artefactos y herramientas, y
 sociotécnicos, que combinan la conversación con artefactos que hacen visible lo
@@ -1492,7 +1497,10 @@ Estos mecanismos son apoyos parciales, pensados para contextos específicos, y
 no un procedimiento integrado que indique cómo elegirlos, combinarlos y
 aplicarlos en orden.
 
-\subsubsection{RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para medir o evaluar el entendimiento compartido, y en qué momentos?}
+\subsubsection{RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto
+para medir o evaluar el entendimiento compartido en las actividades de
+elicitación, especificación y validación, y en qué momentos de aplicación
+(antes, durante o después) se recomienda su uso?}
 No existe una métrica única, directa y aceptada, sino indicadores indirectos
 de claridad, acuerdo, consistencia, trazabilidad y participación, que se
 aplican antes, durante o después de cada
@@ -1516,34 +1524,36 @@ formas de nombrar el fenómeno, lo que se mitigó con sinónimos como
 \textit{common understanding} y \textit{cognitive alignment}. La segunda es que
 limitar la búsqueda a tres bases, al inglés, al acceso abierto y al periodo
 2015--2026 pudo dejar estudios por fuera, lo que se controló reportando todos
-los filtros. La tercera es el juicio de interpretación en la selección, que se
-mitigó con criterios definidos de antemano, con dos etapas de cribado y con la
-revisión independiente de los dos autores. La cuarta es la heterogeneidad
-conceptual al extraer y sintetizar, que se controló con el esquema de la
-Tabla~\ref{tab:rsl_extraction}. La quinta es el sesgo de publicación, ya que no
-se incluyó literatura gris.
+los filtros. La tercera es el juicio de interpretación en la selección, que se mitigó con criterios definidos de antemano, con dos etapas de cribado,
+con la revisión independiente de los dos autores y con las decisiones
+registradas en la matriz de revisión. La cuarta es la heterogeneidad conceptual
+al extraer y sintetizar, que se controló con el esquema de la
+Tabla~\ref{tab:rsl_extraction} y con la revisión cruzada de los datos entre los
+autores. La quinta es el sesgo de publicación y de constructo, porque no se
+incluyó literatura gris y porque algunos estudios pudieron no usar el término
+entendimiento compartido, lo que se compensó en parte aceptando conceptos
+relacionados, siempre que estuvieran ligados a las tres actividades.
 
 \subsection{Síntesis de hallazgos}
 La síntesis por preguntas de investigación dejó cinco hallazgos principales,
 que luego sirvieron para tomar las decisiones de diseño de THUNDERS-Master. El
 primero es que el entendimiento compartido necesita que participen los
 \textit{stakeholders} que de verdad tienen el conocimiento y la autoridad sobre
-los requisitos, ya que si se consulta a quien no representa la necesidad real o
-si las diferencias de jerarquía inhiben a alguien, la visión del sistema queda
-sesgada desde el inicio~\cite{khan2022stakeholders,alsanoosy2019power}. El
+los requisitos. Si se consulta a quien no representa la necesidad real, o si las
+diferencias de jerarquía inhiben a alguien, la visión del sistema queda sesgada
+desde el inicio~\cite{khan2022stakeholders,alsanoosy2019power}. El
 segundo es que el lenguaje del dominio debe gestionarse de forma explícita, para
 que términos comunes no escondan significados
-distintos~\cite{antonelli2016,ribeiro2020,calefato2015}. El tercero es que las
-necesidades deben registrarse con su fuente, su contexto, su valor esperado y
-sus supuestos, ya que al convertirlas en requisitos se pierde la razón que las
-originó~\cite{laporte2023,kunz2016}. El cuarto es que la trazabilidad funciona
-como un mecanismo semántico, y no solo administrativo, ya que conecta la
-necesidad, el requisito, el criterio, la decisión y la evidencia de validación,
-y permite recuperar el significado cuando alguien que no participó lee el
-requisito~\cite{behutiye2022quality,pacheco2022,fricker2015}. El quinto es que
-la validación debe revisar el significado y los criterios de aceptación, y no
-solo la completitud formal, ya que un \textit{sign-off} puede indicar una
-aceptación formal sin que todos interpreten igual el
+distintos~\cite{antonelli2016,ribeiro2020,calefato2015}. El tercero es que cada necesidad debe registrarse con quién la pidió, en qué
+situación y para qué, porque al convertirla en requisito se pierde con facilidad
+la razón que la originó~\cite{laporte2023,kunz2016}. El cuarto es que la
+trazabilidad sirve para conservar el significado: une cada requisito con la
+necesidad de la que salió, con su criterio de aceptación y con la decisión que
+lo aprobó, y permite recuperar ese significado cuando lo lee alguien que no
+participó en su discusión~\cite{behutiye2022quality,pacheco2022,fricker2015}. El
+quinto es que la validación debe revisar el significado y los criterios de
+aceptación, además de la forma del texto, porque un \textit{sign-off} puede
+indicar una aceptación formal sin que todos interpreten igual el
 requisito~\cite{gentili2025,laporte2023,irshad2021bdd}. La RSL también indica que no existe una definición
 operacional consolidada del entendimiento compartido para la IR, que pocos
 estudios ofrecen una guía sistemática para construirlo y mantenerlo, y que su
@@ -1563,8 +1573,9 @@ hallazgo con su implicación para el proceso.
 \midrule
 El entendimiento compartido se describe con conceptos dispersos
 (alineación, comunicación, colaboración, modelos mentales). &
-Adoptar una definición operacional y traducirla en chequeos ligeros de
-alineación de la interpretación. \\
+Adoptar una definición del entendimiento compartido que se pueda comprobar y
+convertirla en preguntas cortas que el facilitador hace durante la sesión para
+ver si todos interpretan igual (micro-chequeos). \\
 \midrule
 Las rupturas aparecen cuando los \textit{stakeholders} relevantes no participan o
 su autoridad o conocimiento no son claros. &
@@ -1606,7 +1617,8 @@ que cubra la elicitación, la especificación y la validación. En segundo lugar
 no existe una definición operacional consolidada del entendimiento compartido
 para la IR, lo que impide usarlo como criterio verificable durante el trabajo.
 En tercer lugar, aunque se reportan muchos mecanismos, no hay un procedimiento
-integrado, ligero y trazable que indique cómo elegirlos y combinarlos. En
+que indique en qué orden aplicarlos, quién debe participar en cada momento y
+cómo comprobar que el entendimiento se logró. En
 cuarto lugar, la evaluación se apoya en indicadores indirectos que no
 distinguen entre la existencia de documentación, la aceptación formal y el
 entendimiento real. Los marcos de desarrollo más usados, como Scrum, atienden la coordinación con
@@ -1636,11 +1648,11 @@ Capítulo~\ref{ch:construccion} convierte en decisiones de adaptación concretas
 \renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\textwidth}{@{}L{4.2cm}Y Y@{}}
 \toprule
-\textbf{Brecha identificada en la RSL} & \textbf{Por qué THUNDERS es una base
-adecuada} & \textbf{Por qué requiere adaptación a la IR} \\
+\textbf{Brecha identificada en la RSL} & \textbf{Qué aporta THUNDERS} &
+\textbf{Por qué requiere adaptación a la IR} \\
 \midrule
-No hay una ruta integrada, ligera y trazable para construir, monitorear y validar
-el entendimiento compartido. &
+No hay una guía que diga en qué orden aplicar los mecanismos, quién participa y
+cómo comprobar el entendimiento compartido. &
 THUNDERS integra fases, tareas, roles, productos de trabajo y mecanismos de
 monitoreo y asistencia para construir y mantener el entendimiento compartido,
 además de evaluarlo. &
@@ -1684,10 +1696,9 @@ de los requisitos es el mismo para todos. \\
 
 Antes de construir THUNDERS-Master fue necesario conocer todo lo que la
 adaptación iba a usar. Este capítulo reúne esa caracterización, que responde a
-los objetivos~1 y~2. Primero caracteriza las tres actividades de la IR sobre las
-que trabaja el proceso, que son la elicitación, la especificación y la
-validación, con su propósito, sus entradas, sus tareas, sus roles, sus
-artefactos y sus criterios de salida, y los elementos que las tres comparten.
+los objetivos~1 y~2. Primero caracteriza las tres actividades de la IR sobre las que trabaja el
+proceso, que son la elicitación, la especificación y la validación, con lo que
+cada una debe producir y conservar, y los elementos que las tres comparten.
 Luego caracteriza THUNDERS, que es el proceso que se adapta, con sus fases, sus
 actividades, sus roles, sus mecanismos y los resultados de sus validaciones.
 Después caracteriza el contexto en el que se usaría el proceso adaptado y a las
@@ -1732,29 +1743,28 @@ Elicitación &
 Descubrir, aclarar, contrastar y priorizar las necesidades de los
 \textit{stakeholders}, las restricciones, los escenarios de uso, los supuestos y
 los criterios de calidad que debe cumplir el sistema. &
-Mapa de \textit{stakeholders}; descripción del contexto de uso; escenarios;
-registro de necesidades; glosario inicial del dominio; registro de conflictos
-entre \textit{stakeholders} y de supuestos. &
+Mapa de \textit{stakeholders}, descripción del contexto de uso y escenarios,
+registro de necesidades con su fuente, glosario inicial del dominio y registro
+de los conflictos y supuestos que siguen abiertos. &
 Construye la primera interpretación compartida del problema y hace visibles los
 desacuerdos. \\
 \midrule
 Especificación &
 Transformar necesidades y acuerdos en requisitos bien formados, estructurados,
 trazables y verificables. &
-Requisitos redactados uno a uno; atributos de cada requisito (fuente,
-prioridad, responsable); clasificación de los requisitos por tipo; matriz que
-asocia cada requisito con la forma de verificarlo; documentos de especificación
-(StRS, SyRS o SRS, Sección~\ref{sec:car_especificacion}). &
+Requisitos redactados uno a uno, con sus atributos (fuente, prioridad,
+responsable) y su tipo, una matriz que asocia cada requisito con la forma de
+verificarlo y el documento de especificación (StRS, SyRS o SRS,
+Sección~\ref{sec:car_especificacion}). &
 Deja escrito el significado acordado, reduce la ambigüedad del texto y conserva
 la trazabilidad entre cada requisito y la necesidad de la que viene. \\
 \midrule
 Validación &
 Confirmar con los \textit{stakeholders} que los requisitos representan el
 sistema correcto y el contexto real de uso. &
-Actas de las reuniones de revisión; comentarios de los \textit{stakeholders}
-sobre cada requisito; decisiones sobre los requisitos en conflicto; estado de
-aceptación de cada requisito; versión aprobada del conjunto de requisitos (línea
-base); registro de los desacuerdos y de cómo se resolvieron. &
+Actas de las reuniones de revisión, estado de aceptación de cada requisito,
+decisiones sobre los requisitos en conflicto, registro de los desacuerdos y de
+cómo se resolvieron, y la versión aprobada del conjunto (línea base). &
 Convierte la interpretación escrita de cada requisito en un acuerdo explícito
 sobre su significado, o en un desacuerdo con responsable y fecha. \\
 \bottomrule
@@ -1763,264 +1773,137 @@ sobre su significado, o en un desacuerdo con responsable y fecha. \\
 
 \section{Elicitación de requisitos}
 \label{sec:car_elicitacion}
-La elicitación es la actividad colaborativa, iterativa y ligada al contexto en
-la que se identifican, contrastan, priorizan y refinan las necesidades, las
-expectativas, las restricciones, los escenarios, los criterios de calidad y los
-supuestos de los \textit{stakeholders}~\cite{iso29148}. Su función no se limita
-a recolectar frases sueltas, ya que busca construir una comprensión inicial del
-problema, reconocer las tensiones entre los actores y convertir información
-dispersa en entradas útiles~\cite{nuseibeh2000roadmap}. En línea con la RSL, aquí se
-concentran las rupturas tempranas del entendimiento compartido, como la
-selección de \textit{stakeholders} poco representativos y el vocabulario ambiguo
-del dominio (RQ1, RQ3), por lo que la caracterización pone el énfasis en
-identificar las fuentes y en gestionar la terminología de forma explícita.
+La elicitación es la actividad en la que se identifican, se contrastan, se
+priorizan y se refinan las necesidades, las restricciones y los supuestos de los
+\textit{stakeholders}, de forma colaborativa, iterativa y ligada al contexto en
+que se usará el sistema, y su resultado esperado es una base suficientemente
+clara para formular los requisitos de \textit{stakeholder}~\cite{iso29148}. Su
+propósito es hacer visible lo que debe entenderse antes de escribir requisitos,
+como quiénes son los \textit{stakeholders}, qué metas persiguen, cómo usan o
+usarán el sistema y en qué no están de acuerdo desde el
+inicio~\cite{fuller2021blurring}. Si la elicitación deja supuestos ocultos o
+actores sin consultar, la especificación y la validación heredan vacíos que
+luego son difíciles de corregir~\cite{agredo2022exploratory}.
 
-\paragraph{Propósito.}
-El propósito de la elicitación es hacer visible lo que debe entenderse antes de
-escribir requisitos, como quiénes son los \textit{stakeholders}, qué metas persiguen,
-qué restricciones tienen, cómo se usa o se usará el sistema, qué atributos de
-calidad debe tener el sistema, como su rapidez o su facilidad de uso, y qué
-desacuerdos existen entre los \textit{stakeholders} desde el
-inicio~\cite{fuller2021blurring}. Para THUNDERS-Master esta actividad es
-importante, ya que el entendimiento compartido empieza antes de la documentación
-formal. Si la elicitación deja supuestos ocultos o actores sin consultar, la
-especificación y la validación heredan vacíos que luego son difíciles de
-corregir~\cite{agredo2022exploratory}.
+La RSL ubica aquí las primeras rupturas del entendimiento compartido, que son
+consultar a \textit{stakeholders} que no representan la necesidad real y usar un
+vocabulario del dominio que cada uno entiende a su manera (RQ1 y RQ3). Por eso,
+de todo lo que cubre la elicitación, tres elementos pesaron más en la
+adaptación. El primero es identificar bien las fuentes, es decir, quién sabe qué
+y quién puede decidir sobre cada necesidad, sin depender de una sola voz ni de
+una sola técnica~\cite{iso25064}. El segundo es describir el contexto de uso,
+que abarca los usuarios, sus tareas, los lugares y condiciones en que trabajan y
+las herramientas que usan~\cite{iso25063}, porque una necesidad sin contexto se
+interpreta de formas distintas. El tercero es registrar cada necesidad con su
+fuente y su justificación, junto con los conflictos entre \textit{stakeholders}
+que piden cosas incompatibles y los supuestos que todavía nadie ha confirmado.
 
-\paragraph{Alcance y entradas.}
-La elicitación cubre las necesidades que los \textit{stakeholders} expresan y
-las que dan por sabidas, las restricciones que limitan la solución, los
-criterios de aceptación con los que cada \textit{stakeholder} dará por cumplida
-una necesidad, los escenarios que describen cómo los usuarios operarán el
-sistema en su trabajo y los atributos de calidad que el sistema debe tener.
-También incluye reconocer los conflictos entre \textit{stakeholders} que piden
-cosas incompatibles, las variantes de una misma necesidad y una primera
-prioridad entre las necesidades. Debe tener en cuenta el contexto de uso, que
-abarca los usuarios, sus tareas, los lugares y condiciones en que trabajan, las
-herramientas que usan y sus objetivos~\cite{iso25063}, y consolidar las necesidades de los
-usuarios a partir de varias fuentes, sin depender de una sola voz o de una sola
-técnica~\cite{iso25064}. Sus entradas principales son el problema u oportunidad
-formulada, los objetivos del negocio, los conceptos operacionales preliminares,
-la información del dominio, el inventario inicial de \textit{stakeholders}, la
-documentación existente y las restricciones regulatorias, técnicas y de la
-organización.
+Las técnicas, que son las formas de obtener la información, como la entrevista
+semiestructurada, el taller facilitado, la observación del trabajo o el
+prototipo de baja fidelidad, se eligen según el tipo de fuente y de necesidad, y
+no a partir de una plantilla única. Las revisiones recientes muestran además que
+la elicitación puede combinar la interacción entre personas con el análisis de
+documentos y de datos generados por los usuarios o por los
+sistemas~\cite{lim2021data,akram2024}. En ella participan el analista o
+facilitador, los representantes de los usuarios, el cliente o patrocinador y los
+expertos del dominio, y según el caso perfiles técnicos o de cumplimiento
+normativo. El facilitador, además de coordinar las reuniones, ayuda a que salgan
+a la luz los desacuerdos, los términos ambiguos y las necesidades que nadie
+expresa en voz alta~\cite{agredo2022thesis}.
 
-\paragraph{Tareas, técnicas y productos.}
-Las técnicas de elicitación, que son las formas de obtener la información de
-los \textit{stakeholders}, como la entrevista o el taller, deben elegirse según
-el tipo de fuente de información y de necesidad, y no a partir de una plantilla
-única. La elicitación actual puede combinar la
-interacción entre personas, el análisis de documentos y los datos generados por
-usuarios o sistemas, e incluso apoyarse en sistemas de
-recomendación~\cite{lim2021data,akram2024}. La
-Tabla~\ref{tab:tareas_elicitacion} (Anexo~\ref{anx:tareas_ir}) resume las tareas características y la
-evidencia que se espera de cada una.
-
-
-Según la fuente y la necesidad, la selección de técnicas puede combinar
-entrevistas semiestructuradas, talleres facilitados, lluvia de ideas y sesiones
-de cocreación, observación del trabajo y acompañamiento (\textit{shadowing}),
-revisión de documentación técnica, normativa y operativa, escenarios, casos de
-uso, \textit{user journeys} y \textit{day-in-the-life}, prototipos de baja
-fidelidad y \textit{mockups}, y análisis de la retroalimentación digital y de
-otras fuentes de datos.
-
-\paragraph{Roles involucrados.}
-En la elicitación participan el analista de requisitos o facilitador, los
-representantes de los usuarios finales, los operadores del sistema, el cliente
-o patrocinador, los expertos del dominio, los perfiles de arquitectura,
-desarrollo, aseguramiento de la calidad (QA), experiencia de usuario (UX) o
-seguridad y, cuando aplica, los perfiles regulatorios o de cumplimiento. El facilitador no se limita a coordinar reuniones, ya que también
-ayuda a hacer visibles los desacuerdos, los términos ambiguos, los supuestos no
-alineados y las necesidades tácitas~\cite{agredo2022thesis}.
-
-\paragraph{Artefactos y productos de trabajo.}
-La elicitación produce el mapa de \textit{stakeholders}, el inventario de
-fuentes de requisitos, la descripción del contexto de uso, los escenarios
-operacionales, el registro de necesidades, restricciones y criterios de
-calidad, un glosario inicial, el registro de preguntas, conflictos y supuestos
-que siguen sin resolver, la especificación de requisitos de los
-\textit{stakeholders} o un insumo equivalente, y un repositorio de evidencias de origen que permita rastrear cada
-necesidad hasta su fuente.
-
-\paragraph{Criterios de calidad y salida.}
-La elicitación se considera suficientemente completa cuando hay una cobertura
-razonable de \textit{stakeholders}, el contexto de uso está descrito, las
-necesidades críticas están identificadas, los conflictos principales están
-registrados, los que se pudieron resolver en la elicitación están resueltos y
-los demás tienen un responsable, y las necesidades priorizadas tienen fuente y
-justificación~\cite{iso29148}. Una mala elicitación se reconoce porque deja
-vacíos de contexto, sesgos de representación, criterios de aceptación
-implícitos y atributos de calidad que nadie mencionó, y esos problemas
-suelen convertirse después en ambigüedad, retrabajo o deuda de
-requisitos~\cite{asadabadi2020ambiguity}.
+La elicitación se considera suficientemente completa cuando se consultó a los
+\textit{stakeholders} relevantes, el contexto de uso está descrito, las
+necesidades críticas tienen fuente y justificación, y los conflictos principales
+están registrados y resueltos o tienen un responsable~\cite{iso29148}. Una mala
+elicitación deja vacíos de contexto, criterios de aceptación implícitos y
+atributos de calidad que nadie mencionó, que después se convierten en
+ambigüedad y retrabajo~\cite{asadabadi2020ambiguity}. El
+Anexo~\ref{anx:tareas_ir} presenta sus tareas, entradas, técnicas, roles y
+productos de trabajo.
 
 \section{Especificación de requisitos}
 \label{sec:car_especificacion}
-La especificación parte de lo que dejó la elicitación, que son las necesidades
-registradas, los acuerdos y los conflictos, y lo transforma en un conjunto
-estructurado de requisitos bien formados, con sus atributos, su trazabilidad y
-sus criterios de verificación o validación~\cite{iso29148}. No se limita a la
-redacción, ya que implica analizar el significado de los requisitos,
-clasificarlos, organizarlos, revisar su calidad y prepararlos para que los usen
-el desarrollo, la arquitectura, las pruebas y los
+La especificación transforma lo que dejó la elicitación, que son las necesidades
+registradas, los acuerdos y los conflictos, en un conjunto estructurado de
+requisitos bien formados, con sus atributos, su trazabilidad y sus criterios de
+verificación o validación~\cite{iso29148}. Además de redactar, implica analizar
+el significado de cada requisito, clasificarlo y revisar su calidad para que lo
+puedan usar el desarrollo, las pruebas y los
 \textit{stakeholders}~\cite{ireb2026}. La RSL señala que en este punto el
 significado deja de apoyarse en la conversación y queda escrito para que otros
 lo interpreten (RQ3), y que la ambigüedad del lenguaje natural es la principal
-fuente de desalineación (RQ1). Por lo tanto, la caracterización da prioridad a
-la calidad del enunciado y a la trazabilidad hacia la necesidad de origen.
+fuente de desalineación en esta actividad (RQ1).
 
-\paragraph{Propósito.}
-El propósito de la especificación es pasar de lo que los \textit{stakeholders}
-dijeron sobre su problema y sobre cómo usan o usarán el sistema a un documento
-preciso de requisitos, que sirva como base para el acuerdo, el diseño, la
-estimación, la trazabilidad, la verificación y la
-validación~\cite{damian2006empirical}. La especificación reduce la
-ambigüedad porque obliga a definir el alcance, las condiciones, las
-restricciones, las prioridades, los criterios de calidad y las relaciones entre
-requisitos~\cite{asadabadi2020ambiguity}.
+Según el nivel de detalle, la norma define tres documentos. La especificación de
+requisitos de los \textit{stakeholders} (StRS, \textit{Stakeholder Requirements
+Specification}) describe lo que estos necesitan, en su propio lenguaje; la del
+sistema (SyRS, \textit{System Requirements Specification}) describe lo que debe
+hacer el sistema completo; y la del software (SRS, \textit{Software Requirements
+Specification}) describe lo que debe hacer el software. La norma también define
+nueve características que debe tener cada requisito, entre ellas que no sea
+ambiguo, que sea singular y que sea verificable, y cinco que debe tener el
+conjunto, entre ellas que sea completo y consistente~\cite{iso29148}. En la
+práctica, esto significa no mezclar varias obligaciones en una misma oración,
+evitar palabras abiertas como ``rápido'' o ``adecuado'' sin una métrica, y
+acompañar cada enunciado con su fuente, su justificación y la forma de
+comprobarlo. Los requisitos de calidad, como el desempeño o la usabilidad, que el
+modelo ISO/IEC~25010 ayuda a clasificar~\cite{iso25010}, deben tratarse de
+forma explícita, porque en contextos ágiles suelen quedar incompletos o
+asumidos como conocimiento tácito~\cite{behutiye2022quality}.
 
-\paragraph{Alcance y entradas.}
-La especificación abarca cuatro dimensiones, que son la formulación de cada
-requisito, la calidad del conjunto de requisitos, la estructura del documento y
-la preparación de cada requisito para su verificación y su
-validación~\cite{iso29148}. Los requisitos de calidad deben
-tratarse de forma explícita, ya que en contextos ágiles suelen quedar incompletos, mal
-documentados o asumidos como conocimiento tácito~\cite{behutiye2022quality}.
-Sus entradas principales son las necesidades y requisitos de
-\textit{stakeholder} elicitados, el contexto de uso y los escenarios
-operacionales, las restricciones técnicas, regulatorias, de la organización y
-del negocio, los criterios de calidad del producto o servicio, las decisiones
-previas de priorización y negociación, los supuestos y riesgos, y los sistemas
-heredados, que son los sistemas que ya existen en la organización y con los que
-el nuevo debe convivir, junto con sus interfaces y la documentación normativa
-que aplique. El modelo
-de calidad de ISO/IEC~25010 ayuda a clasificar atributos como desempeño,
-compatibilidad, usabilidad, confiabilidad, seguridad, mantenibilidad y
-portabilidad~\cite{iso25010}.
-
-\paragraph{Tareas que caracterizan la actividad.}
-La Tabla~\ref{tab:tareas_especificacion} (Anexo~\ref{anx:tareas_ir}) resume las tareas características de
-la especificación y su evidencia esperada.
-
-
-\paragraph{Reglas de calidad del requisito y del conjunto.}
-Un requisito individual debe ser necesario, apropiado al nivel de abstracción,
-no ambiguo, completo, singular, factible, verificable, correcto y conforme al
-estilo adoptado. En la práctica, esto implica no mezclar varias obligaciones en
-una misma oración, evitar palabras abiertas como ``rápido'' o ``adecuado'' sin
-una métrica, no incluir decisiones de diseño innecesarias y acompañar el
-enunciado con su fuente, su justificación y su método de comprobación. El
-conjunto, por su parte, debe ser completo, consistente, factible, comprensible y
-validable, y mantener la trazabilidad hacia las necesidades, las fuentes, las
-decisiones y los criterios de aceptación~\cite{iso29148}.
-
-\paragraph{Criterios de lenguaje y estilo.}
-La especificación debe evitar superlativos, comparativos vagos, pronombres
-ambiguos, excepciones abiertas, condiciones incompletas y expresiones que no se
-puedan verificar~\cite{iso29148}. Para el proceso que se va a adaptar, esto
-significa que la calidad de la especificación no puede depender solo de la
-habilidad de quien redacta y debe apoyarse en plantillas, glosarios,
-listas de chequeo y revisiones guiadas.
-
-\paragraph{Roles involucrados.}
-Participan el analista o ingeniero de requisitos, los \textit{stakeholders}
-designados para revisar el significado, los perfiles de arquitectura y
-desarrollo, QA, UX, seguridad o cumplimiento, el responsable de la
-configuración o del repositorio y, cuando existe, el \textit{product owner} o
-responsable de priorizar.
-
-\paragraph{Artefactos, productos de trabajo y criterios de salida.}
-La especificación produce, según el nivel de detalle, tres documentos que
-define la norma~\cite{iso29148}: la especificación de requisitos de los
-\textit{stakeholders} (StRS, \textit{Stakeholder Requirements Specification}),
-que describe lo que necesitan los \textit{stakeholders} en su propio lenguaje;
-la especificación de requisitos del sistema (SyRS, \textit{System Requirements
-Specification}), que describe lo que debe hacer el sistema completo; y la
-especificación de requisitos del software (SRS, \textit{Software Requirements
-Specification}), que describe lo que debe hacer el software. Además produce el glosario y las convenciones de redacción, el repositorio de
-requisitos con sus atributos, la matriz o los enlaces de trazabilidad, las
-listas de chequeo de calidad y el registro de riesgos, prioridades,
-justificaciones y decisiones. El conjunto queda listo para validarse cuando cada
-requisito tiene identificador, fuente, justificación y una trazabilidad mínima,
-cuando los requisitos críticos tienen criterio de evaluación y cuando el
-conjunto no presenta contradicciones graves, duplicados evidentes ni vacíos de
-estructura.
+Para el proceso que se iba a adaptar, esto significa que la calidad de la
+especificación no puede depender solo de la habilidad de quien redacta, y que
+debe apoyarse en plantillas, glosarios, listas de chequeo y revisiones guiadas.
+En la especificación participan el analista, los \textit{stakeholders}
+designados para revisar el significado, los perfiles técnicos que usarán los
+requisitos y, cuando existe, el \textit{product owner}, que en Scrum es quien
+prioriza el trabajo del equipo. El conjunto queda listo para validarse cuando
+cada requisito tiene identificador, fuente, justificación y un enlace con la
+necesidad de la que viene, cuando los requisitos críticos tienen criterio de
+aceptación y cuando no presenta contradicciones graves ni duplicados
+evidentes~\cite{iso29148}.
 
 \section{Validación de requisitos}
+\label{sec:car_validacion}
 La validación comprueba, con evidencia, si los requisitos representan las
-necesidades, las restricciones, el contexto de uso y los criterios de éxito del
-sistema, y su pregunta central es si se está definiendo el sistema
-correcto~\cite{iso29148}. Se diferencia de la verificación, ya que esta
-comprueba si el requisito está bien formulado, mientras que la validación
-comprueba si corresponde a lo que realmente se necesita. En un proceso centrado
-en el entendimiento compartido la validación es determinante, ya que convierte
+necesidades, las restricciones y el contexto de uso del sistema, y su pregunta
+central es si se está definiendo el sistema correcto~\cite{iso29148}. Se
+diferencia de la verificación, que comprueba si el requisito está bien
+formulado, mientras que la validación comprueba si corresponde a lo que
+realmente se necesita. Su propósito es reducir el riesgo de avanzar con
+requisitos bien escritos pero equivocados en su significado. Por eso debe
+considerar también la calidad en uso, ya que el valor de un requisito depende de
+los usuarios, de sus objetivos y de las tareas que harán con el
+sistema~\cite{iso9241}.
+
+En un proceso centrado en el entendimiento compartido, la validación convierte
 la interpretación escrita de cada requisito en un acuerdo explícito sobre su
-significado, o en un desacuerdo con responsable y fecha~\cite{iso29148,glinz2015shared}. La RSL advierte que la validación se vuelve superficial cuando se
-concentra en la forma del texto y no en la cadena
-necesidad--requisito--criterio (RQ4, RQ5), y la caracterización adopta esa
-distinción como criterio de salida.
+significado, o en un desacuerdo con responsable y fecha~\cite{glinz2015shared}.
+La RSL advierte que se vuelve superficial cuando revisa la forma del texto y no
+la cadena que va de la necesidad al requisito y de este a su criterio de
+aceptación (RQ4 y RQ5). Las técnicas más usadas son las revisiones con los
+\textit{stakeholders} clave, las listas de chequeo y los prototipos o
+\textit{mockups}, que ayudan a discutir atributos difíciles de explicar solo con
+texto~\cite{brataas2021}. Participan los \textit{stakeholders} que pueden
+aceptar, rechazar o condicionar un requisito, el analista o facilitador de la
+revisión y el equipo técnico.
 
-\paragraph{Propósito.}
-El propósito de la validación es reducir el riesgo de avanzar con requisitos
-formalmente correctos pero equivocados en su significado, ya que un requisito
-puede estar bien escrito y no representar la intención del
-\textit{stakeholder} o el contexto real de uso~\cite{iso29148}.
-
-\paragraph{Alcance y entradas.}
-La validación abarca la revisión del significado de cada requisito, la
-suficiencia del conjunto de requisitos, la coherencia con los escenarios
-reales de uso, la resolución de conflictos, el
-acuerdo explícito y la consolidación de una línea base
-controlada~\cite{iso29148}. Debe considerar la usabilidad y la calidad en uso,
-ya que un requisito puede estar bien escrito y aun así no servirle al usuario en
-su tarea real, porque su valor depende de los usuarios, sus objetivos, sus
-tareas y el lugar donde usan el sistema~\cite{iso9241}. Esto aplica tanto a los
-requisitos funcionales como a los no funcionales, que THUNDERS-Master trata por
-igual. Sus entradas principales
-son la StRS, la SyRS, la SRS o un conjunto equivalente de requisitos; los
-escenarios, los conceptos operacionales y el contexto de uso; las listas de
-chequeo de calidad; los criterios de aceptación; los prototipos, modelos,
-simulaciones u otras representaciones auxiliares; el registro de decisiones,
-riesgos, restricciones y justificaciones; y las versiones previas y
-solicitudes de cambio.
-
-\paragraph{Tareas, técnicas y criterios de salida.}
-La Tabla~\ref{tab:tareas_validacion} (Anexo~\ref{anx:tareas_ir}) resume las tareas características. Como
-técnicas se usan revisiones con \textit{stakeholders} clave, listas de chequeo
-de completitud, consistencia, viabilidad y posibilidad de prueba, prototipos de
-baja fidelidad, \textit{mockups} navegables, diagramas de proceso, casos de uso
-y, en requisitos críticos, simulación o modelado formal. Los artefactos ligeros
-mejoran la conversación entre \textit{stakeholders}, sobre todo cuando ayudan a
-representar atributos difíciles de discutir solo con texto~\cite{brataas2021}.
 La validación se da por cerrada cuando los \textit{stakeholders} relevantes
-revisaron el conjunto en un formato comprensible, los defectos críticos están
-resueltos o registrados, hay evidencia de acuerdo o de aceptación condicionada,
-y la nueva versión queda trazable y controlada.
-
-
-\paragraph{Roles involucrados.}
-Participan los \textit{stakeholders} con capacidad de aceptar, rechazar o
-condicionar requisitos, el analista o facilitador de la revisión, el equipo
-técnico, los perfiles de calidad, experiencia de usuario, seguridad o
-cumplimiento, el arquitecto de software y, cuando
-aplica, el \textit{product owner} o responsable de la aceptación.
-
-\paragraph{Artefactos y productos de trabajo.}
-La validación produce actas o reportes de revisión, la lista de observaciones y
-defectos de los requisitos, los prototipos, modelos o escenarios revisados, el
-conjunto de requisitos aprobado, rechazado o condicionado, el registro de
-cambios, el registro de decisiones de negociación y la línea base del artefacto
-de requisitos. La comprensión colectiva del dominio y del producto es una
-condición para decidir bien sobre los requisitos, en especial en equipos
-interdisciplinarios~\cite{fuller2021blurring}.
+revisaron el conjunto en un formato que entienden, los defectos críticos están
+resueltos o registrados, hay evidencia de acuerdo o de aceptación condicionada y
+la nueva versión queda controlada en una línea base, que es la versión aprobada
+del conjunto de requisitos a partir de la cual todo cambio se
+registra~\cite{iso29148}.
 
 \section{Elementos transversales}
-Las tres actividades comparten elementos que ayudan a mantener el entendimiento
-compartido al pasar de una a otra (Tabla~\ref{tab:transversales}). La evidencia
-de la industria indica que una buena práctica de requisitos influye en la
-productividad, la calidad, la planificación, la gestión de riesgos y la
-coordinación con los procesos posteriores~\cite{damian2006empirical}. Estos
+Las tres actividades comparten elementos que ayudan a que el entendimiento
+compartido no se pierda al pasar de una a otra (Tabla~\ref{tab:transversales}).
+Su importancia tiene respaldo empírico: Damian y Chisan encontraron, en un
+estudio en una organización de software, que mejorar las prácticas de requisitos
+trajo beneficios en la productividad, la calidad y la gestión de
+riesgos~\cite{damian2006empirical}, y Fucci et al. mostraron que la trazabilidad
+sirve para conservar la memoria de las decisiones y explicar por qué existe cada
+requisito~\cite{fucci2022traceability}. Estos
 elementos, junto con las tareas de las tres actividades, son los que luego se
 convierten en requisitos del método para THUNDERS-Master
 (Sección~\ref{sec:requisitos_metodo}).
@@ -2035,23 +1918,24 @@ convierten en requisitos del método para THUNDERS-Master
 \toprule
 \textbf{Elemento transversal} & \textbf{Función dentro del proceso} \\
 \midrule
-Gestión de \textit{stakeholders} & Mantener visibles los actores, sus
-responsabilidades, sus intereses y su capacidad de decisión. \\
-Contexto de uso & Relacionar los requisitos con usuarios, tareas, ambientes y
-objetivos reales. \\
-Trazabilidad & Relacionar necesidades, requisitos, decisiones, cambios y
-criterios de evaluación. \\
+Gestión de \textit{stakeholders} & Mantener a la vista quién participa, qué
+le interesa y sobre qué puede decidir. \\
+Contexto de uso & Relacionar cada requisito con los usuarios, con sus tareas y
+con el lugar y las condiciones en que trabajan. \\
+Trazabilidad & Enlazar cada requisito con la necesidad de la que salió, con
+su criterio de aceptación y con las decisiones y cambios que tuvo. \\
 Justificación (\textit{rationale}) & Explicar por qué se acepta, rechaza o
 modifica un requisito. \\
-Calidad del lenguaje & Reducir la ambigüedad y la variación de la
-interpretación. \\
-Negociación & Gestionar los conflictos entre \textit{stakeholders},
-restricciones y prioridades. \\
-Iteración & Permitir ajustes sin perder el control del avance. \\
-Versionado y línea base & Proteger los acuerdos logrados y controlar los
-cambios. \\
-Evidencia de entendimiento & Registrar acuerdos, aclaraciones, conflictos,
-cobertura y retrabajo. \\
+Calidad del lenguaje & Redactar los requisitos de forma que dos lectores no
+los interpreten distinto. \\
+Negociación & Resolver los conflictos entre \textit{stakeholders} que piden
+cosas incompatibles o que tienen prioridades distintas. \\
+Iteración & Permitir ajustes a los requisitos sin perder el control de lo que
+ya se acordó. \\
+Versionado y línea base & Proteger los acuerdos logrados y registrar todo
+cambio posterior. \\
+Evidencia de entendimiento & Registrar qué se acordó, qué se aclaró y qué
+conflictos siguen abiertos, para saber si el entendimiento se logró. \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -2207,8 +2091,7 @@ diseñados~\cite{agredo2022thesis}.
 
 La fase \textit{Developing} ejecuta lo diseñado y abarca cuatro actividades.
 C-07 forma los grupos, C-08 presenta el problema y la dinámica, y C-09 distribuye
-el material. C-10 es el núcleo del proceso, ya que en ella el grupo resuelve el
-problema en seis tareas. Primero cada persona comprende la actividad por su
+el material. C-10 es el núcleo del proceso: en ella el grupo resuelve el problema en seis tareas. Primero cada persona comprende la actividad por su
 cuenta y luego el grupo contrasta esas comprensiones, con un ciclo de
 convergencia individual--grupal y una escalera para resolver conflictos que
 pasa por la negociación, la votación y la mediación. Luego se valida el
@@ -2259,30 +2142,28 @@ deben seguirse~\cite{agredo2022thesis,agredo2023strategy}.
 El segundo fue un estudio exploratorio con estudiantes de Ingeniería de
 Sistemas, sobre una versión temprana del proceso y en el contexto de
 aprendizaje colaborativo para el que THUNDERS se concibió, no en
-IR~\cite{agredo2022exploratory}. Su aporte para esta adaptación es limitado
-pero pertinente, ya que mostró que el proceso se percibe como extenso y como
+IR~\cite{agredo2022exploratory}. Su aporte para esta adaptación es limitado, pero mostró que el proceso se percibe como extenso y como
 generador de alta carga cognitiva, y que se necesitan mecanismos para mantener
 el entendimiento durante el desarrollo de la actividad. Como esas dos
 observaciones se refieren al costo de ejecución y no al dominio, se consideran
 válidas también para una sesión de requisitos, que suele ser más corta que la
 actividad estudiada.
 
-Teniendo en cuenta lo anterior, THUNDERS tiene cuatro limitaciones para usarse
-directamente en sesiones de requisitos. La primera es la duración extensa de
-una aplicación completa, la segunda es el número alto de tareas, instrumentos y
-productos de trabajo por fase, la tercera es la carga cognitiva que recae sobre
-los participantes y sobre quien facilita~\cite{sweller1988,dejong2010}, y la
-cuarta es la dificultad de usarlo en sesiones cortas o de ritmo dinámico. De este análisis sale el criterio que guía
-a THUNDERS-Master, que es conservar la intención del proceso original
-(construir, monitorear y validar el entendimiento compartido) reduciendo su
-costo de operación, de modo que cada componente que se transfiera produzca un
-entregable mínimo y verificable.
+Teniendo en cuenta lo anterior, THUNDERS tiene tres limitaciones para usarse
+directamente en sesiones de requisitos. La primera es que una aplicación
+completa dura mucho, la segunda es el número alto de tareas, instrumentos y
+productos de trabajo por fase, y la tercera es la carga cognitiva que recae
+sobre los participantes y sobre quien facilita~\cite{sweller1988,dejong2010}.
+Las tres hacen difícil usarlo en las sesiones cortas de la IR. De este análisis
+sale el criterio que guía a THUNDERS-Master, que es conservar la intención del
+proceso original, construir, monitorear y validar el entendimiento compartido,
+reduciendo su costo de operación, de modo que cada componente que pase al
+proceso adaptado deje un producto pequeño que se pueda revisar.
 
 
 \section{Contexto de uso y usuarios del proceso}
 \label{sec:contexto_uso}
-El proceso adaptado no se pensó para cualquier situación, sino para un contexto
-concreto, y caracterizarlo fue necesario para decidir qué partes de THUNDERS
+El proceso adaptado se pensó para un contexto concreto, y caracterizarlo fue necesario para decidir qué partes de THUNDERS
 tenían sentido en él. El contexto se caracterizó en tres aspectos, que son
 dónde se aplica el proceso, quiénes lo usan y qué condiciones lo hacen más o
 menos necesario.
@@ -2354,13 +2235,12 @@ de forma distinta. \\
 Proyecto & La sesión fija el alcance, hay un contrato cerrado, rotación de
 personas o quienes construyen no participan en los
 encuentros~\cite{xiao2018,fricker2015}. & Dejar una línea base que pueda
-entender alguien que no estuvo, y comprobarlo. \\
+entender alguien que no estuvo en los encuentros, y comprobarlo. \\
 \addlinespace
 Usuarios del proceso & Quienes facilitan tienen poca experiencia en IR, y los
 \textit{stakeholders} tienen poco tiempo y no conocen el
-proceso~\cite{agredo2022exploratory,agredo2023strategy}. & Pocas actividades,
-plantillas de una página, una guía para el facilitador y una forma mínima para
-los contextos de bajo riesgo. \\
+proceso~\cite{agredo2022exploratory,agredo2023strategy}. & Tener pocas actividades, plantillas de una página y una guía para el
+facilitador, y ofrecer una forma mínima para los contextos de bajo riesgo. \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -2379,26 +2259,21 @@ software~\cite{kitchenham2007}.
 \subsection{Ingeniería de métodos situacionales}
 La SME construye un método para una situación a partir de componentes de
 métodos que ya existen, con cuatro actividades que se repiten por
-iteraciones~\cite{henderson2010sme,ralyte2001assembly}. El enfoque se ajusta
-bien a THUNDERS,
-ya que el propio proceso se construyó con ingeniería de métodos
-situacionales~\cite{agredo2022thesis}, y por lo tanto adaptarlo con el mismo
+iteraciones~\cite{henderson2010sme,ralyte2001assembly}. El enfoque se ajusta bien a THUNDERS porque el propio proceso se construyó con
+ingeniería de métodos situacionales~\cite{agredo2022thesis}, y por lo tanto adaptarlo con el mismo
 paradigma permite hacerlo evolucionar sin romper la lógica con la que fue
 especificado.
 
-Su principal ventaja es que permite mantener la coherencia entre objetivos,
-actividades, roles, productos de trabajo y criterios de
-aplicación~\cite{henderson2014}. Su principal limitación es que puede volverse
+Su principal ventaja es que permite mantener la coherencia entre los objetivos
+del método y sus actividades, roles y productos de trabajo~\cite{henderson2014}. Su principal limitación es que puede volverse
 pesada si exige construir repositorios extensos de componentes antes de
-producir una adaptación concreta~\cite{henderson2010sme}. En el caso de
-THUNDERS-Master esa limitación tiene poco efecto, ya que THUNDERS ya está documentado
-en fases, actividades, tareas, roles y productos de trabajo.
+producir una adaptación concreta~\cite{henderson2010sme}. En el caso de THUNDERS-Master esa limitación tiene poco efecto, porque THUNDERS
+ya está documentado al nivel de tarea y no hubo que construir sus componentes.
 
 \subsection{\textit{Method fragments} y \textit{method chunks}}
 Usados como enfoque propio, los fragmentos y los \textit{chunks} de método
 permiten ver un proceso como un conjunto de piezas que se reutilizan según la
-situación~\cite{harmsen1995,ralyte2001assembly}. Esa granularidad es útil para
-THUNDERS-Master, ya que permite transformar tareas o grupos de tareas de
+situación~\cite{harmsen1995,ralyte2001assembly}. Esa granularidad es útil para THUNDERS-Master: permite transformar tareas o grupos de tareas de
 THUNDERS en unidades orientadas a objetivos de la IR, cada una con su intención,
 su situación de uso, sus entradas y sus salidas.
 
@@ -2413,19 +2288,19 @@ la trazabilidad completa de los trece componentes
 
 \subsection{\textit{Software process tailoring}}
 El \textit{tailoring} ajusta un proceso estándar o de la organización a las
-necesidades de un proyecto. El SEI lo trató desde temprano como un mecanismo para
-ajustar los procesos definidos en el marco del \textit{Software Capability
-Maturity Model}~\cite{ginsberg1995}, y luego la literatura empírica mostró que
+necesidades de un proyecto. El \textit{Software Engineering Institute} (SEI) lo trató desde temprano como un
+mecanismo para ajustar los procesos definidos en el marco del \textit{Software
+Capability Maturity Model}~\cite{ginsberg1995}, y luego la literatura empírica mostró que
 permite responder a las condiciones particulares de cada proyecto, equipo y
 organización~\cite{xu2007}.
 
 La revisión sistemática de Kalus y Kuhrmann identifica muchos criterios usados
 para adaptar procesos de software y concluye que la adaptación depende mucho
-del contexto~\cite{kalus2013tailoring}. Esta conclusión es importante para
-THUNDERS-Master, ya que confirma que la decisión de conservar, adaptar o
-retirar elementos de THUNDERS debe basarse en criterios explícitos de contexto.
-Pero el \textit{tailoring} por sí solo no es suficiente si no se complementa
-con un mecanismo que conserve la arquitectura conceptual del método original.
+del contexto~\cite{kalus2013tailoring}. Para THUNDERS-Master esa conclusión confirma que la decisión de conservar,
+adaptar o retirar elementos de THUNDERS debe basarse en criterios explícitos de
+contexto. Pero el \textit{tailoring} por sí solo no es suficiente, porque no
+indica cómo conservar la estructura del método original, es decir, la relación
+entre sus fases, sus actividades y sus productos de trabajo.
 
 \subsection{\textit{Software process lines}}
 Las SPrL gestionan familias de procesos con un núcleo común y una variabilidad
@@ -2433,8 +2308,7 @@ explícita~\cite{kuhrmann2016}, y son útiles cuando una organización necesita
 derivar varias versiones de un proceso para distintos contextos, dominios o
 tipos de proyecto.
 
-Para THUNDERS-Master, las SPrL son interesantes a largo plazo, ya que
-permitirían gestionar variantes para educación, salud o contextos
+Para THUNDERS-Master, las SPrL son interesantes a largo plazo, porque permitirían gestionar variantes para educación, salud o contextos
 empresariales, además de la variante de IR que se desarrolla en este trabajo.
 Pero para una primera adaptación de THUNDERS pueden introducir más
 infraestructura metodológica de la necesaria, por lo que se consideran una
@@ -2442,17 +2316,15 @@ perspectiva futura y no el método principal de la adaptación inicial.
 
 \subsection{Adaptación ágil basada en contexto}
 La adaptación ágil selecciona y ajusta prácticas ágiles según el
-contexto~\cite{campanelli2015agile}, y Kruchten sostiene que la adopción de
-enfoques ágiles debe considerar factores como el tamaño del equipo, la
-criticidad, la distribución, la gobernanza, la tasa de cambio y la estabilidad
-de la arquitectura~\cite{kruchten2013}.
+contexto~\cite{campanelli2015agile}, y Kruchten sostiene que la adopción de enfoques ágiles debe considerar factores
+del contexto como el tamaño del equipo, la criticidad del sistema y la
+distribución del equipo~\cite{kruchten2013}.
 
-El enfoque es pertinente, ya que THUNDERS-Master debe ser ligero, iterativo,
-compatible con la retroalimentación frecuente y útil para equipos que no pueden
-asumir un proceso extenso. Pero la adaptación ágil se concentra en seleccionar
-prácticas ágiles y no necesariamente en conservar la estructura semántica de un
-proceso existente. Por lo tanto, su papel en THUNDERS-Master es complementario,
-ya que aporta criterios de ligereza (Sección~\ref{sec:encaje_agil}) sin reemplazar
+Se tuvo en cuenta porque THUNDERS-Master debe ser ligero y compatible con la
+retroalimentación frecuente de los equipos ágiles. Pero la adaptación ágil se
+concentra en seleccionar prácticas y no en conservar la estructura de un proceso
+existente. Por lo tanto, su papel en THUNDERS-Master es complementario: aporta
+criterios de ligereza (Sección~\ref{sec:encaje_agil}) sin reemplazar
 el marco principal de la adaptación.
 
 \subsection{Comparación de los enfoques de adaptación}
@@ -5484,9 +5356,26 @@ Resultado & De la lista & Divergencia \\
 \chapter{Detalle de la revisión sistemática de la literatura}
 \chaptermark{Detalle de la RSL}
 \label{anx:rsl}
-Este anexo presenta el flujo de selección de estudios en cada una de las tres
-bases de datos consultadas (Sección~\ref{sec:rsl}), con el número de registros
-que quedó después de aplicar cada filtro.
+Este anexo complementa la Sección~\ref{sec:rsl} con el detalle de la RSL: las
+preguntas en el idioma del protocolo, el flujo de selección en cada base de
+datos, los criterios completos, los resultados por pregunta y las amenazas a la
+validez.
+
+\section{Preguntas de investigación en el protocolo}
+El protocolo de la revisión se escribió en inglés. Sus cinco preguntas, tal como
+aparecen en él, son las siguientes.
+
+\begin{itemize}
+  \item RQ1. \foreignlanguage{english}{\textit{What communication problems or misalignments of shared understanding are reported in the literature during requirements elicitation, specification, and validation activities?}}
+  \item RQ2. \foreignlanguage{english}{\textit{In which tasks, artifacts, and situations within elicitation, specification, and validation activities is the need to build shared understanding among stakeholders identified?}}
+  \item RQ3. \foreignlanguage{english}{\textit{What are the most critical moments for achieving shared understanding in each of the elicitation, specification, and validation activities, and why?}}
+  \item RQ4. \foreignlanguage{english}{\textit{What mechanisms, techniques, or approaches have been proposed or used to support the construction and maintenance of shared understanding during elicitation, specification, and validation activities?}}
+  \item RQ5. \foreignlanguage{english}{\textit{What metrics, indicators, and instruments have been proposed to measure or evaluate shared understanding in elicitation, specification, and validation activities, and at what application moments (before, during, or after) is their use recommended?}}
+\end{itemize}
+
+\section{Flujo de selección por base de datos}
+Las tres figuras siguientes muestran el número de registros que quedó en cada
+base de datos después de aplicar cada filtro.
 
 \begin{figure}[htbp]
 \centering
@@ -5581,7 +5470,9 @@ la revisión.
 
 \section{Resultados detallados por pregunta de investigación}
 
-\subsection{RQ1. ¿Qué problemas de comunicación o desalineaciones del entendimiento compartido se reportan durante la elicitación, especificación y validación?}
+\subsection{RQ1. ¿Qué problemas de comunicación o desalineaciones del
+entendimiento compartido se reportan en la literatura durante las actividades de
+elicitación, especificación y validación de requisitos?}
 Los problemas de comunicación y las desalineaciones del entendimiento
 compartido aparecen desde las primeras interacciones entre
 \textit{stakeholders} y se mantienen durante la elicitación, la especificación
@@ -5629,13 +5520,17 @@ Las especificaciones en lenguaje natural admiten varias interpretaciones, de
 modo que el autor de un requisito y sus lectores (analistas, desarrolladores,
 evaluadores o \textit{stakeholders} del negocio) pueden creer que comparten el
 mismo significado cuando en realidad entienden cosas
-distintas~\cite{ribeiro2020}. En los requisitos no funcionales la desalineación
-puede ser mayor si no se discuten de forma explícita o se documentan
-mal~\cite{behutiye2022quality,sherif2023}. Otros estudios indican que la
+distintas~\cite{ribeiro2020}. Esa ambigüedad aparece también como requisitos
+imprecisos, inconsistentes o redundantes~\cite{gupta2022}. En los requisitos no
+funcionales la desalineación puede ser mayor si no se discuten de forma
+explícita o se documentan mal~\cite{behutiye2022quality}. Otros estudios indican que la
 especificación también se ve afectada cuando no existe un lenguaje común del
 dominio~\cite{antonelli2016}, o cuando, al pasar del lenguaje natural a
 modelos, surgen malentendidos por explicaciones ambiguas del proceso o por
 dificultades para comprender las notaciones de modelado~\cite{hayashi2024}.
+Incluso cuando la documentación busca ser completa, su complejidad puede afectar
+su comprensión, lo que muestra que completitud y entendimiento compartido no son
+equivalentes~\cite{balasubramaniam2023}.
 
 En la validación, la desalineación aparece cuando lo documentado no se puede
 contrastar con claridad con lo que los \textit{stakeholders} quisieron expresar
@@ -5651,23 +5546,29 @@ gran escala, la validación empeora cuando la retroalimentación llega tarde o e
 equipo pierde el contexto~\cite{kasauli2021}, y algunos problemas de calidad
 del lenguaje natural, como la ambigüedad o la imposibilidad de verificar,
 dificultan acordar qué significa exactamente el requisito y cómo comprobar que
-se cumple~\cite{gentili2025}.
+se cumple~\cite{gentili2025}. Algo similar ocurre cuando no hay mecanismos para
+medir y controlar la calidad de los requisitos preliminares, porque la
+ambigüedad o la inconsistencia no se detectan a tiempo~\cite{pacheco2022}.
 
-En conjunto, estos problemas no son solo de documentación, ya que también tienen
-causas sociales, de la organización y del contexto. La separación de roles y responsabilidades puede
+Estos problemas tienen, además de causas documentales, causas sociales, de la
+organización y del contexto. La separación de roles y responsabilidades puede
 dificultar una visión compartida del producto~\cite{fuller2021blurring}; en el
 desarrollo global, la distribución del conocimiento en muchos canales y la
 rotación de participantes hacen difícil mantener una visión común y estable de
 los requisitos~\cite{xiao2018}; y en contextos ágiles a gran escala, la falta de
 prácticas sólidas de IR afecta la construcción y la preservación del
 conocimiento compartido sobre objetivos, requisitos y decisiones del
-producto~\cite{kasauli2021}. Por lo tanto, los problemas de comunicación en la
-IR deben entenderse como rupturas en la construcción, la negociación y el
-mantenimiento del significado compartido entre \textit{stakeholders}, y no
-solo como fallas de redacción o de transmisión de
-información~\cite{fuller2021blurring}.
+producto~\cite{kasauli2021}. Cuando los desarrolladores no participan en los
+talleres donde se discuten y justifican los requisitos, se pierde además parte
+del contexto que se necesita para mantener un entendimiento
+común~\cite{fricker2015}. Por lo tanto, los problemas de comunicación en la IR
+son rupturas en la construcción, la negociación y el mantenimiento del
+significado compartido entre \textit{stakeholders}, más que fallas de redacción
+o de transmisión de información~\cite{fuller2021blurring}.
 
-\subsection{RQ2. ¿En qué tareas, artefactos y situaciones de la elicitación, especificación y validación se identifica la necesidad de construir entendimiento compartido?}
+\subsection{RQ2. ¿En qué tareas, artefactos y situaciones dentro de las
+actividades de elicitación, especificación y validación se identifica la
+necesidad de construir entendimiento compartido entre \textit{stakeholders}?}
 La necesidad de construir entendimiento compartido entre \textit{stakeholders}
 aparece de forma transversal en la elicitación, la especificación y la
 validación. Esa necesidad no se limita a que cada participante entienda la
@@ -5742,7 +5643,9 @@ compartido puede apoyarse con artefactos, interacciones y revisiones. Pero la
 literatura no ofrece una guía integrada sobre en qué orden aplicarlos, qué roles
 deben participar en cada momento o cómo verificar que el entendimiento se logró.
 
-\subsection{RQ3. ¿Cuáles son los momentos más críticos para lograr entendimiento compartido en cada actividad de la IR y por qué?}
+\subsection{RQ3. ¿Cuáles son los momentos más críticos para lograr el
+entendimiento compartido en cada una de las actividades de elicitación,
+especificación y validación, y por qué?}
 Los momentos más críticos para lograr el entendimiento compartido en la IR son
 aquellos en los que el significado del requisito todavía es inestable y debe
 negociarse entre distintos \textit{stakeholders}~\cite{balasubramaniam2023}.
@@ -5821,7 +5724,9 @@ acordado se pierda o se transforme al documentarse, y el tercero es que las
 desalineaciones solo se hagan visibles durante la validación o la
 implementación~\cite{okpara2023}.
 
-\subsection{RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o usado para apoyar la construcción y el mantenimiento del entendimiento compartido?}
+\subsection{RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o usado
+para apoyar la construcción y el mantenimiento del entendimiento compartido
+durante las actividades de elicitación, especificación y validación?}
 Los mecanismos, técnicas y enfoques asociados al entendimiento compartido en
 la IR cumplen tres funciones, que son apoyar su construcción inicial, facilitar
 su formalización en artefactos y ayudar a mantenerlo cuando los requisitos
@@ -5917,7 +5822,10 @@ la literatura revisada no ofrece un procedimiento integrado, paso a paso, que
 indique cómo elegir, combinar y aplicar en orden estos mecanismos para asegurar
 el entendimiento compartido a lo largo de las actividades de requisitos.
 
-\subsection{RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para medir o evaluar el entendimiento compartido, y en qué momentos?}
+\subsection{RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para
+medir o evaluar el entendimiento compartido en las actividades de elicitación,
+especificación y validación, y en qué momentos de aplicación (antes, durante o
+después) se recomienda su uso?}
 No existe una métrica única, directa y aceptada para medir el entendimiento
 compartido como constructo. Los estudios primarios reportan un conjunto de
 indicadores indirectos, instrumentos de evaluación y evidencia
@@ -6048,7 +5956,8 @@ validación de requisitos y aportaran evidencia para alguna pregunta.
 \label{anx:tareas_ir}
 Este anexo presenta, para cada una de las tres actividades caracterizadas en el
 Capítulo~\ref{ch:caracterizacion}, sus tareas características con una
-descripción operativa y la evidencia que se espera de cada una, según la norma
+descripción operativa y la evidencia que se espera de cada una, y luego sus
+entradas, técnicas, roles y productos de trabajo, según la norma
 ISO/IEC/IEEE~29148:2018~\cite{iso29148} y la literatura.
 
 \begin{table}[htbp]
@@ -6063,18 +5972,22 @@ ISO/IEC/IEEE~29148:2018~\cite{iso29148} y la literatura.
 \midrule
 Preparar la elicitación & Definir qué parte del sistema se va a tratar, las
 fuentes de información de los requisitos, las técnicas de elicitación y las
-reglas de participación de la sesión. & Plan o agenda de elicitación. \\
+reglas de participación de la sesión. & Plan o agenda de la sesión de elicitación. \\
 Identificar \textit{stakeholders} y fuentes & Reconocer usuarios, clientes,
 operadores, expertos, documentos y normas. & Mapa de \textit{stakeholders} y
-fuentes. \\
+de las fuentes de cada necesidad. \\
 Definir el contexto de uso & Describir los usuarios, sus tareas, los lugares
 donde trabajan y las formas en que operarán el sistema. & Descripción de
 contexto y escenarios. \\
-Elicitar necesidades explícitas e implícitas & Entrevistas, talleres,
-observación, prototipos, análisis del dominio. & Registro de necesidades y
-supuestos. \\
-Analizar escenarios & Casos de uso, \textit{user journeys},
-\textit{day-in-the-life}. & Escenarios revisados con \textit{stakeholders}. \\
+Elicitar necesidades explícitas e implícitas & Usar entrevistas, talleres,
+observación o prototipos para las necesidades que los \textit{stakeholders}
+expresan, y analizar el dominio y los procesos para las que dan por sabidas. &
+Registro de necesidades, cada una con su fuente, y lista de supuestos por
+confirmar. \\
+Analizar escenarios & Recorrer casos de uso, \textit{user journeys} o
+descripciones de un día de trabajo del usuario (\textit{day-in-the-life}) para
+descubrir excepciones y dependencias. & Escenarios revisados con los
+\textit{stakeholders} que los describieron. \\
 Priorizar y depurar & Ordenar las necesidades, eliminar duplicados y detectar
 conflictos entre \textit{stakeholders}. & Priorización inicial y lista de
 conflictos todavía sin resolver. \\
@@ -6082,8 +5995,8 @@ Transformar en requisitos de \textit{stakeholder} & Convertir necesidades en
 enunciados con fuente y contexto. & Requisitos de \textit{stakeholder}
 preliminares. \\
 Retroalimentar y negociar & Devolverles a los \textit{stakeholders} la
-interpretación del analista para que la corrijan, y negociar cuando dos de
-ellos piden cosas incompatibles. & Observaciones, acuerdos y cambios. \\
+interpretación del analista para que la corrijan, y negociar cuando dos de ellos piden cosas incompatibles. & Observaciones de los \textit{stakeholders},
+acuerdos y cambios en las necesidades. \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -6099,26 +6012,29 @@ ellos piden cosas incompatibles. & Observaciones, acuerdos y cambios. \\
 \textbf{Tarea} & \textbf{Descripción operativa} & \textbf{Evidencia esperada} \\
 \midrule
 Definir frontera y alcance & Precisar qué sistema o elemento se describe, qué
-queda fuera y con qué interactúa. & Declaración de alcance y límites. \\
+queda fuera y con qué interactúa. & Declaración de lo que el sistema incluye y
+de lo que queda fuera. \\
 Definir la estrategia de especificación & Establecer la plantilla de redacción
 de los requisitos, su nivel de detalle (del negocio, del \textit{stakeholder},
 del sistema o del software), los atributos obligatorios y los responsables. &
 Guía o plantilla de requisitos. \\
 Formular requisitos & Redactar enunciados claros, singulares, factibles y
-verificables. & Requisitos individuales. \\
+verificables. & Cada requisito redactado por separado, con su identificador. \\
 Clasificar requisitos & Separar funcionales, de calidad, interfaces,
-restricciones, datos, usabilidad y factores humanos. & Taxonomía o etiqueta
-por requisito. \\
+restricciones, datos, usabilidad y factores humanos. & Etiqueta de tipo en
+cada requisito. \\
 Agregar atributos & Registrar identificador, fuente, prioridad, riesgo,
-responsable, justificación, versión y método de evaluación. &
-Repositorio con atributos. \\
+responsable, justificación, versión y método de evaluación. & Repositorio en
+el que cada requisito tiene sus atributos diligenciados. \\
 Analizar consistencia & Detectar contradicciones, duplicados, términos
-inconsistentes y vacíos de cobertura. & Lista de hallazgos de calidad. \\
+inconsistentes y vacíos de cobertura. & Lista de los defectos encontrados en
+los requisitos. \\
 Organizar la documentación & Construir la StRS, la SyRS, la SRS o un artefacto
-equivalente según el nivel de detalle y el alcance. & Documento o repositorio
-estructurado. \\
+equivalente según el nivel de detalle y el alcance. & Documento de
+especificación o repositorio organizado por niveles. \\
 Preparar la verificación y la validación & Asociar cada requisito a su criterio
-de aceptación y a la forma de verificarlo. & Matriz de requisitos y criterios. \\
+de aceptación y a la forma de verificarlo. & Matriz que asocia cada requisito
+con su criterio de aceptación. \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -6139,18 +6055,22 @@ revisión (acta, firma o registro por requisito). & Plan o agenda de
 validación. \\
 Retroalimentar requisitos & Enviar los requisitos escritos a los
 \textit{stakeholders} que los aportaron para que confirmen que expresan lo que
-quisieron decir. & Comentarios y observaciones. \\
+quisieron decir. & Comentarios de los \textit{stakeholders} sobre cada
+requisito. \\
 Ejecutar una revisión estructurada & Recorridos (\textit{walkthroughs}), en los
 que se lee cada requisito con los \textit{stakeholders} para comprobar que lo
 interpretan igual; inspecciones, en las que revisores buscan defectos con una
-lista de chequeo; o talleres. & Acta de revisión. \\
-Usar artefactos de comprensión & Prototipos, modelos, escenarios o
-simulaciones. & Evidencia revisada con \textit{stakeholders}. \\
+lista de chequeo; o talleres. & Acta de la revisión, con los defectos y los
+acuerdos. \\
+Usar artefactos de comprensión & Mostrar prototipos, modelos o escenarios
+para que los \textit{stakeholders} vean lo que describe el requisito. &
+Prototipos o escenarios revisados con los \textit{stakeholders}. \\
 Evaluar contra el contexto & Comprobar que los requisitos sirven para lo que
 los usuarios hacen en su trabajo, con sus tareas reales y en el lugar donde
-usarán el sistema. & Hallazgos por escenario. \\
-Resolver conflictos & Negociar compromisos de alcance, costo, riesgo y
-desempeño. & Decisiones y compromisos. \\
+usarán el sistema. & Hallazgos organizados por escenario de uso. \\
+Resolver conflictos & Negociar entre \textit{stakeholders} cuando un
+requisito afecta el alcance, el costo o el riesgo de otro. & Decisiones
+tomadas y compromisos de cada parte. \\
 Obtener acuerdo & Registrar aprobación, rechazo o aceptación condicionada. &
 Estado de aceptación por requisito. \\
 Fijar la línea base y registrar cambios & Consolidar una versión controlada
@@ -6160,6 +6080,89 @@ cambios. \\
 \bottomrule
 \end{tabularx}
 \end{table}
+
+La Tabla~\ref{tab:catalogo_ir} presenta, para
+cada actividad, lo que recibe, las técnicas que se usan, quiénes participan y lo
+que produce~\cite{iso29148,iso25063,iso25064,ireb2026,brataas2021}.
+
+{\scriptsize
+\renewcommand{\arraystretch}{1.12}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{1.7cm}
+  >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X
+  >{\raggedright\arraybackslash}X@{}}
+\caption{Entradas, técnicas, roles y productos de trabajo de las tres
+actividades.\label{tab:catalogo_ir}}\\
+\toprule
+& \textbf{Elicitación} & \textbf{Especificación} & \textbf{Validación} \\
+\midrule
+\endfirsthead
+\toprule
+& \textbf{Elicitación} & \textbf{Especificación} & \textbf{Validación} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\textbf{Entradas} &
+El problema u oportunidad formulada, los objetivos del negocio o del producto,
+los conceptos operacionales preliminares, la información del dominio y de los
+procesos actuales, el inventario inicial de \textit{stakeholders}, la
+documentación existente (contratos, políticas, sistemas heredados o
+retroalimentación de usuarios) y las restricciones regulatorias, técnicas y de
+la organización. &
+Las necesidades y requisitos de \textit{stakeholder} elicitados, el contexto de
+uso y los escenarios operacionales, las restricciones técnicas, regulatorias y
+del negocio, los criterios de calidad del producto, las decisiones previas de
+priorización y negociación, los supuestos y riesgos, y los sistemas heredados
+con sus interfaces. &
+La StRS, la SyRS, la SRS o un conjunto equivalente de requisitos, los escenarios
+y el contexto de uso, las listas de chequeo de calidad, los criterios de
+aceptación, los prototipos o modelos auxiliares, el registro de decisiones y
+justificaciones, y las versiones previas con sus solicitudes de cambio. \\
+\addlinespace
+\textbf{Técnicas} &
+Entrevistas semiestructuradas, talleres facilitados, lluvia de ideas y sesiones
+de cocreación, observación del trabajo y acompañamiento (\textit{shadowing}),
+revisión de documentación técnica y normativa, escenarios, casos de uso y
+\textit{user journeys}, prototipos de baja fidelidad y \textit{mockups}, y
+análisis de la retroalimentación digital de los usuarios. &
+Plantillas de redacción con niveles de detalle definidos, glosario y
+convenciones de escritura, listas de chequeo de la calidad de cada requisito,
+revisiones guiadas y el modelo ISO/IEC~25010 para clasificar los atributos de
+calidad. &
+Revisiones con los \textit{stakeholders} clave, listas de chequeo de
+completitud, consistencia, viabilidad y posibilidad de prueba, prototipos y
+\textit{mockups} navegables, diagramas de proceso, casos de uso y, en los
+requisitos críticos, simulación o modelado formal. \\
+\addlinespace
+\textbf{Roles} &
+El analista o facilitador, los representantes de los usuarios finales, los
+operadores del sistema, el cliente o patrocinador, los expertos del dominio, los
+perfiles técnicos (arquitectura, desarrollo, calidad, experiencia de usuario o
+seguridad) y, cuando aplica, los perfiles regulatorios o de cumplimiento. &
+El analista o ingeniero de requisitos, los \textit{stakeholders} designados para
+revisar el significado, los perfiles de arquitectura, desarrollo y calidad, el
+responsable del repositorio de requisitos y, cuando existe, el \textit{product
+owner} o responsable de priorizar. &
+Los \textit{stakeholders} que pueden aceptar, rechazar o condicionar requisitos,
+el analista o facilitador de la revisión, el equipo técnico, los perfiles de
+calidad, experiencia de usuario o cumplimiento, y, cuando aplica, el
+\textit{product owner} o responsable de la aceptación. \\
+\addlinespace
+\textbf{Productos de trabajo} &
+El mapa de \textit{stakeholders}, el inventario de fuentes de requisitos, la
+descripción del contexto de uso, los escenarios operacionales, el registro de
+necesidades, restricciones y criterios de calidad con su fuente, un glosario
+inicial, el registro de preguntas, conflictos y supuestos abiertos, y la StRS o
+un insumo equivalente. &
+La StRS, la SyRS o la SRS, el glosario y las convenciones de redacción, el
+repositorio de requisitos con sus atributos, la matriz o los enlaces de
+trazabilidad, las listas de chequeo diligenciadas y el registro de riesgos,
+prioridades, justificaciones y decisiones. &
+Las actas o reportes de revisión, la lista de observaciones y defectos de los
+requisitos, los prototipos o escenarios revisados, el estado de aceptación de
+cada requisito, el registro de cambios y de decisiones de negociación, y la
+línea base del conjunto de requisitos. \\
+\end{xltabular}}
 
 \chapter{Detalle de la construcción con ingeniería de métodos situacionales}
 \chaptermark{Detalle de la construcción}

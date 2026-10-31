@@ -13,263 +13,247 @@
 \contentsline {subsection}{\numberline {1.4.1}¿Por qué se necesita un proceso para el entendimiento compartido en IR?}{5}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}¿Por qué elicitación, especificación y validación?}{6}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}¿Por qué usar THUNDERS?}{6}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}¿Por qué validar en un contexto agrícola?}{7}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.4}¿Por qué evaluar el proceso en un contexto agrícola?}{6}{subsection.1.4.4}%
 \contentsline {section}{\numberline {1.5}Objetivos}{7}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Objetivo general}{7}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Objetivos específicos}{8}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.2}Objetivos específicos}{7}{subsection.1.5.2}%
 \contentsline {section}{\numberline {1.6}Metodología de la investigación}{8}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Aportes del proyecto}{11}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Organización del documento}{11}{section.1.8}%
-\contentsline {chapter}{\numberline {2}Marco conceptual y estado del arte}{12}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Marco teórico}{12}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Conceptos de ingeniería de requisitos}{12}{subsection.2.1.1}%
-\contentsline {paragraph}{Ingeniería de requisitos.}{12}{paragraph*.8}%
-\contentsline {paragraph}{Tipos de requisitos.}{13}{paragraph*.9}%
-\contentsline {paragraph}{Elicitación.}{13}{paragraph*.10}%
-\contentsline {paragraph}{Especificación.}{13}{paragraph*.11}%
-\contentsline {paragraph}{Validación.}{13}{paragraph*.12}%
-\contentsline {subsection}{\numberline {2.1.2}Conceptos de ingeniería de la colaboración}{14}{subsection.2.1.2}%
-\contentsline {paragraph}{Trabajo colaborativo.}{14}{paragraph*.13}%
-\contentsline {paragraph}{Entendimiento compartido.}{14}{paragraph*.14}%
-\contentsline {paragraph}{Carga cognitiva.}{14}{paragraph*.15}%
-\contentsline {subsection}{\numberline {2.1.3}Conceptos de ingeniería de procesos de software}{15}{subsection.2.1.3}%
-\contentsline {paragraph}{Proceso de software.}{15}{paragraph*.16}%
-\contentsline {paragraph}{Modelado de procesos.}{15}{paragraph*.17}%
-\contentsline {paragraph}{Adaptación de procesos.}{15}{paragraph*.18}%
-\contentsline {paragraph}{Ingeniería de métodos situacionales.}{15}{paragraph*.19}%
-\contentsline {paragraph}{Fragmentos y \textit {chunks} de método.}{16}{paragraph*.20}%
-\contentsline {paragraph}{Líneas de procesos y adaptación ágil.}{16}{paragraph*.21}%
-\contentsline {subsection}{\numberline {2.1.4}Conceptos de evaluación de procesos}{16}{subsection.2.1.4}%
-\contentsline {paragraph}{\textit {Goal-Question-Metric} (GQM).}{16}{paragraph*.22}%
-\contentsline {paragraph}{Juicio de expertos.}{16}{paragraph*.23}%
-\contentsline {paragraph}{Estudio de caso.}{17}{paragraph*.24}%
-\contentsline {paragraph}{Utilidad y facilidad de uso percibidas.}{17}{paragraph*.25}%
-\contentsline {section}{\numberline {2.2}Trabajos relacionados}{17}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Mecanismos para construir el entendimiento compartido en la IR}{18}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}THUNDERS y su derivación para la IR}{19}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Adaptación de procesos de software}{19}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Trabajos posteriores a la revisión sistemática}{20}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Comparación de los trabajos relacionados}{21}{subsection.2.2.5}%
-\contentsline {section}{\numberline {2.3}Revisión sistemática de la literatura}{21}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Protocolo y proceso de revisión}{21}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Preguntas de investigación}{22}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Estrategia de búsqueda}{23}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Fuentes de información}{24}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Filtros de búsqueda}{24}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Criterios de inclusión y exclusión}{24}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Resultados del proceso de selección}{24}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Análisis por fuente de información}{25}{subsection.2.3.8}%
-\contentsline {subsection}{\numberline {2.3.9}Distribución temporal de las publicaciones}{25}{subsection.2.3.9}%
-\contentsline {subsection}{\numberline {2.3.10}Resultados por pregunta de investigación}{25}{subsection.2.3.10}%
-\contentsline {subsubsection}{RQ1. ¿Qué problemas de comunicación o desalineaciones del entendimiento compartido se reportan durante la elicitación, especificación y validación?}{26}{subsubsection*.26}%
-\contentsline {subsubsection}{RQ2. ¿En qué tareas, artefactos y situaciones de la elicitación, especificación y validación se identifica la necesidad de construir entendimiento compartido?}{26}{subsubsection*.27}%
-\contentsline {subsubsection}{RQ3. ¿Cuáles son los momentos más críticos para lograr entendimiento compartido en cada actividad de la IR y por qué?}{27}{subsubsection*.28}%
-\contentsline {subsubsection}{RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o usado para apoyar la construcción y el mantenimiento del entendimiento compartido?}{27}{subsubsection*.29}%
-\contentsline {subsubsection}{RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para medir o evaluar el entendimiento compartido, y en qué momentos?}{27}{subsubsection*.30}%
-\contentsline {subsection}{\numberline {2.3.11}Amenazas a la validez}{28}{subsection.2.3.11}%
-\contentsline {subsection}{\numberline {2.3.12}Síntesis de hallazgos}{28}{subsection.2.3.12}%
-\contentsline {subsection}{\numberline {2.3.13}Brecha de investigación}{29}{subsection.2.3.13}%
-\contentsline {chapter}{\numberline {3}Caracterización de los elementos necesarios para la adaptación}{32}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Elicitación de requisitos}{34}{section.3.1}%
-\contentsline {paragraph}{Propósito.}{34}{paragraph*.31}%
-\contentsline {paragraph}{Alcance y entradas.}{34}{paragraph*.32}%
-\contentsline {paragraph}{Tareas, técnicas y productos.}{35}{paragraph*.33}%
-\contentsline {paragraph}{Roles involucrados.}{35}{paragraph*.34}%
-\contentsline {paragraph}{Artefactos y productos de trabajo.}{35}{paragraph*.35}%
-\contentsline {paragraph}{Criterios de calidad y salida.}{35}{paragraph*.36}%
-\contentsline {section}{\numberline {3.2}Especificación de requisitos}{36}{section.3.2}%
-\contentsline {paragraph}{Propósito.}{36}{paragraph*.37}%
-\contentsline {paragraph}{Alcance y entradas.}{36}{paragraph*.38}%
-\contentsline {paragraph}{Tareas que caracterizan la actividad.}{36}{paragraph*.39}%
-\contentsline {paragraph}{Reglas de calidad del requisito y del conjunto.}{37}{paragraph*.40}%
-\contentsline {paragraph}{Criterios de lenguaje y estilo.}{37}{paragraph*.41}%
-\contentsline {paragraph}{Roles involucrados.}{37}{paragraph*.42}%
-\contentsline {paragraph}{Artefactos, productos de trabajo y criterios de salida.}{37}{paragraph*.43}%
+\contentsline {chapter}{\numberline {2}Marco conceptual y estado del arte}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Marco teórico}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Conceptos de ingeniería de requisitos}{13}{subsection.2.1.1}%
+\contentsline {paragraph}{Ingeniería de requisitos.}{13}{paragraph*.8}%
+\contentsline {paragraph}{Tipos de requisitos.}{14}{paragraph*.9}%
+\contentsline {paragraph}{Elicitación.}{14}{paragraph*.10}%
+\contentsline {paragraph}{Especificación.}{14}{paragraph*.11}%
+\contentsline {paragraph}{Validación.}{14}{paragraph*.12}%
+\contentsline {subsection}{\numberline {2.1.2}Conceptos de ingeniería de la colaboración}{15}{subsection.2.1.2}%
+\contentsline {paragraph}{Trabajo colaborativo.}{15}{paragraph*.13}%
+\contentsline {paragraph}{Entendimiento compartido.}{15}{paragraph*.14}%
+\contentsline {paragraph}{Carga cognitiva.}{15}{paragraph*.15}%
+\contentsline {subsection}{\numberline {2.1.3}Conceptos de ingeniería de procesos de software}{16}{subsection.2.1.3}%
+\contentsline {paragraph}{Proceso de software.}{16}{paragraph*.16}%
+\contentsline {paragraph}{Modelado de procesos.}{16}{paragraph*.17}%
+\contentsline {paragraph}{Adaptación de procesos.}{16}{paragraph*.18}%
+\contentsline {paragraph}{Ingeniería de métodos situacionales.}{16}{paragraph*.19}%
+\contentsline {paragraph}{Fragmentos y \textit {chunks} de método.}{17}{paragraph*.20}%
+\contentsline {paragraph}{Líneas de procesos y adaptación ágil.}{17}{paragraph*.21}%
+\contentsline {subsection}{\numberline {2.1.4}Conceptos de evaluación de procesos}{17}{subsection.2.1.4}%
+\contentsline {paragraph}{\textit {Goal-Question-Metric} (GQM).}{17}{paragraph*.22}%
+\contentsline {paragraph}{Juicio de expertos.}{17}{paragraph*.23}%
+\contentsline {paragraph}{Estudio de caso.}{18}{paragraph*.24}%
+\contentsline {paragraph}{Utilidad y facilidad de uso percibidas.}{18}{paragraph*.25}%
+\contentsline {section}{\numberline {2.2}Trabajos relacionados}{18}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Mecanismos para construir el entendimiento compartido en la IR}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}THUNDERS y su derivación para la IR}{20}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Adaptación de procesos de software}{21}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Trabajos posteriores a la revisión sistemática}{21}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Comparación de los trabajos relacionados}{22}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Revisión sistemática de la literatura}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Protocolo y proceso de revisión}{23}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Preguntas de investigación}{23}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Estrategia de búsqueda}{24}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Fuentes de información}{25}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Filtros de búsqueda}{25}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Criterios de inclusión y exclusión}{25}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Resultados del proceso de selección}{26}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Análisis por fuente de información}{26}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Distribución temporal de las publicaciones}{27}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.10}Resultados por pregunta de investigación}{27}{subsection.2.3.10}%
+\contentsline {subsubsection}{RQ1. ¿Qué problemas de comunicación o desalineaciones del entendimiento compartido se reportan en la literatura durante las actividades de elicitación, especificación y validación de requisitos?}{27}{subsubsection*.26}%
+\contentsline {subsubsection}{RQ2. ¿En qué tareas, artefactos y situaciones dentro de las actividades de elicitación, especificación y validación se identifica la necesidad de construir entendimiento compartido entre \textit {stakeholders}?}{28}{subsubsection*.27}%
+\contentsline {subsubsection}{RQ3. ¿Cuáles son los momentos más críticos para lograr el entendimiento compartido en cada una de las actividades de elicitación, especificación y validación, y por qué?}{28}{subsubsection*.28}%
+\contentsline {subsubsection}{RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o usado para apoyar la construcción y el mantenimiento del entendimiento compartido durante las actividades de elicitación, especificación y validación?}{28}{subsubsection*.29}%
+\contentsline {subsubsection}{RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para medir o evaluar el entendimiento compartido en las actividades de elicitación, especificación y validación, y en qué momentos de aplicación (antes, durante o después) se recomienda su uso?}{29}{subsubsection*.30}%
+\contentsline {subsection}{\numberline {2.3.11}Amenazas a la validez}{29}{subsection.2.3.11}%
+\contentsline {subsection}{\numberline {2.3.12}Síntesis de hallazgos}{30}{subsection.2.3.12}%
+\contentsline {subsection}{\numberline {2.3.13}Brecha de investigación}{30}{subsection.2.3.13}%
+\contentsline {chapter}{\numberline {3}Caracterización de los elementos necesarios para la adaptación}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Elicitación de requisitos}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Especificación de requisitos}{37}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Validación de requisitos}{38}{section.3.3}%
-\contentsline {paragraph}{Propósito.}{38}{paragraph*.44}%
-\contentsline {paragraph}{Alcance y entradas.}{38}{paragraph*.45}%
-\contentsline {paragraph}{Tareas, técnicas y criterios de salida.}{38}{paragraph*.46}%
-\contentsline {paragraph}{Roles involucrados.}{39}{paragraph*.47}%
-\contentsline {paragraph}{Artefactos y productos de trabajo.}{39}{paragraph*.48}%
-\contentsline {section}{\numberline {3.4}Elementos transversales}{39}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Elementos transversales}{38}{section.3.4}%
 \contentsline {section}{\numberline {3.5}THUNDERS, el proceso base}{39}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Estructura general y formalización}{40}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Fases y actividades}{42}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Elementos transversales}{42}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Implicaciones para la adaptación}{43}{subsection.3.5.4}%
-\contentsline {section}{\numberline {3.6}Contexto de uso y usuarios del proceso}{44}{section.3.6}%
-\contentsline {paragraph}{Dónde se aplica.}{44}{paragraph*.49}%
-\contentsline {paragraph}{Quiénes lo usan.}{44}{paragraph*.50}%
-\contentsline {paragraph}{Qué condiciones lo hacen más o menos necesario.}{44}{paragraph*.51}%
-\contentsline {section}{\numberline {3.7}Métodos de adaptación de procesos}{45}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Ingeniería de métodos situacionales}{45}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}\textit {Method fragments} y \textit {method chunks}}{46}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}\textit {Software process tailoring}}{46}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.5.1}Estructura general y formalización}{39}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Fases y actividades}{41}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Elementos transversales}{41}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Implicaciones para la adaptación}{42}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Contexto de uso y usuarios del proceso}{43}{section.3.6}%
+\contentsline {paragraph}{Dónde se aplica.}{43}{paragraph*.31}%
+\contentsline {paragraph}{Quiénes lo usan.}{43}{paragraph*.32}%
+\contentsline {paragraph}{Qué condiciones lo hacen más o menos necesario.}{43}{paragraph*.33}%
+\contentsline {section}{\numberline {3.7}Métodos de adaptación de procesos}{44}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Ingeniería de métodos situacionales}{44}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}\textit {Method fragments} y \textit {method chunks}}{45}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}\textit {Software process tailoring}}{45}{subsection.3.7.3}%
 \contentsline {subsection}{\numberline {3.7.4}\textit {Software process lines}}{46}{subsection.3.7.4}%
-\contentsline {subsection}{\numberline {3.7.5}Adaptación ágil basada en contexto}{47}{subsection.3.7.5}%
-\contentsline {subsection}{\numberline {3.7.6}Comparación de los enfoques de adaptación}{47}{subsection.3.7.6}%
-\contentsline {chapter}{\numberline {4}Construcción de THUNDERS-Master con ingeniería de métodos situacionales}{49}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Método seleccionado}{49}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Ciclo de construcción}{50}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Especificación de los requisitos del método}{52}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Selección de los componentes}{53}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Criterios de selección}{54}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Mapeo inicial hacia las actividades de la IR}{54}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Trazabilidad entre THUNDERS y la versión final}{54}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Ensamble de los componentes}{55}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Validación del proceso: de la versión 1.0 a la versión final}{57}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Iteración 1: versión 1.0}{57}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Iteración 2: versiones 1.1 y 1.2}{58}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Iteración 3: versión 1.3}{58}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Iteración 4: versión 1.4}{59}{subsection.4.6.4}%
-\contentsline {subsection}{\numberline {4.6.5}Iteración 5: versión 1.5}{60}{subsection.4.6.5}%
-\contentsline {subsection}{\numberline {4.6.6}Iteración 6: versión final}{60}{subsection.4.6.6}%
-\contentsline {chapter}{\numberline {5}THUNDERS-Master}{62}{chapter.5}%
-\contentsline {section}{\numberline {5.1}THUNDERS-Master en resumen}{62}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Fundamentos del proceso}{64}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Entendimiento compartido explícito, implícito y falso}{64}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Principios de diseño}{64}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}La ligereza como proporcionalidad}{65}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Soporte a los requisitos del método}{66}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Fases y actividades}{66}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Roles}{69}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Productos de trabajo e instrumentos}{69}{section.5.6}%
-\contentsline {paragraph}{I2, lista de calidad y aceptación.}{72}{paragraph*.52}%
-\contentsline {paragraph}{I3, guía de micro-chequeos.}{73}{paragraph*.53}%
-\contentsline {section}{\numberline {5.7}Evidencias del entendimiento compartido y reglas}{73}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Forma de ejecución, encaje ágil y límites}{75}{section.5.8}%
-\contentsline {paragraph}{Catálogo de técnicas.}{76}{paragraph*.54}%
-\contentsline {paragraph}{Encaje en marcos ágiles.}{76}{paragraph*.55}%
-\contentsline {paragraph}{Límites declarados.}{76}{paragraph*.56}%
-\contentsline {chapter}{\numberline {6}Evaluación de THUNDERS-Master}{78}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Elementos de cada versión del proceso}{78}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Plan de evaluación basado en GQM}{80}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Estrategia de evaluación seguida}{81}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}Validación de las versiones 1.0 a 1.2}{81}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Validación de la versión 1.3 con expertos}{82}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Diseño: participantes}{82}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Diseño: instrumento}{82}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Ejecución y análisis}{83}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}Resultados cuantitativos}{83}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}Resultados cualitativos}{84}{subsection.6.4.5}%
-\contentsline {section}{\numberline {6.5}Validación de la versión 1.3: estudio de caso exploratorio UniReserva}{84}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Diseño del estudio de caso}{84}{subsection.6.5.1}%
-\contentsline {subsection}{\numberline {6.5.2}Diseño instruccional}{86}{subsection.6.5.2}%
-\contentsline {subsection}{\numberline {6.5.3}Participantes e instrumentos}{87}{subsection.6.5.3}%
-\contentsline {subsection}{\numberline {6.5.4}Ejecución y resultados de la observación}{88}{subsection.6.5.4}%
-\contentsline {subsection}{\numberline {6.5.5}Resultados de la encuesta de cierre}{88}{subsection.6.5.5}%
-\contentsline {section}{\numberline {6.6}Discusión de la evaluación de la versión 1.3}{90}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Lo que dicen las dos fuentes en conjunto}{90}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Comparación con estudios previos}{90}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}Implicaciones para la versión 1.4}{91}{subsection.6.6.3}%
-\contentsline {section}{\numberline {6.7}Validación de las versiones 1.4 y 1.5}{91}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}Revisión de la versión 1.4 con el codirector}{91}{subsection.6.7.1}%
-\contentsline {subsection}{\numberline {6.7.2}Revisión conceptual y analítica de la versión 1.5}{92}{subsection.6.7.2}%
-\contentsline {section}{\numberline {6.8}Validación de los instrumentos de la versión final por juicio de experto}{92}{section.6.8}%
-\contentsline {subsection}{\numberline {6.8.1}Diseño y ejecución}{92}{subsection.6.8.1}%
-\contentsline {subsection}{\numberline {6.8.2}Resultados}{93}{subsection.6.8.2}%
-\contentsline {subsection}{\numberline {6.8.3}Ajustes incorporados}{94}{subsection.6.8.3}%
-\contentsline {section}{\numberline {6.9}Evaluación de la versión final: estudio de caso en contexto agrícola}{94}{section.6.9}%
-\contentsline {subsection}{\numberline {6.9.1}Diseño del estudio de caso}{94}{subsection.6.9.1}%
-\contentsline {paragraph}{Objetivo y preguntas.}{94}{paragraph*.57}%
-\contentsline {paragraph}{Unidad de análisis y selección del caso.}{95}{paragraph*.58}%
-\contentsline {paragraph}{Procedimiento.}{95}{paragraph*.59}%
-\contentsline {paragraph}{Fuentes de datos e instrumentos.}{95}{paragraph*.60}%
-\contentsline {paragraph}{Análisis.}{96}{paragraph*.61}%
-\contentsline {subsection}{\numberline {6.9.2}Ejecución}{96}{subsection.6.9.2}%
-\contentsline {subsection}{\numberline {6.9.3}Resultados}{96}{subsection.6.9.3}%
-\contentsline {section}{\numberline {6.10}Discusión general y amenazas a la validez}{96}{section.6.10}%
-\contentsline {subsection}{\numberline {6.10.1}Amenazas a la validez}{97}{subsection.6.10.1}%
-\contentsline {chapter}{\numberline {7}Conclusiones y trabajo futuro}{98}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusiones}{98}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Contribuciones}{99}{section.7.2}%
-\contentsline {paragraph}{Contribución teórica.}{99}{paragraph*.62}%
-\contentsline {paragraph}{Contribución práctica.}{99}{paragraph*.63}%
-\contentsline {section}{\numberline {7.3}Limitaciones}{100}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Trabajo futuro}{100}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Productos de investigación}{100}{section.7.5}%
-\contentsline {chapter}{\numberline {A}Plantillas de THUNDERS-Master}{110}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}01 \textit {Canvas} del ciclo}{110}{section.Alph1.1}%
-\contentsline {paragraph}{Antes del ciclo (A1 y A3) y forma de ejecución}{110}{paragraph*.65}%
-\contentsline {paragraph}{Bloque de apertura (A4, encuentro~1): registro de paráfrasis para E1}{112}{paragraph*.66}%
-\contentsline {section}{\numberline {A.2}02 Mapa de \textit {stakeholders}}{113}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}03 Declaración del problema y glosario vivo}{113}{section.Alph1.3}%
-\contentsline {section}{\numberline {A.4}04 Registro de necesidades y supuestos}{114}{section.Alph1.4}%
-\contentsline {section}{\numberline {A.5}05 Tarjeta de requisito}{114}{section.Alph1.5}%
-\contentsline {section}{\numberline {A.6}06 Registro de validación y decisiones}{115}{section.Alph1.6}%
-\contentsline {paragraph}{Encuentro~2: validación de los requisitos críticos}{115}{paragraph*.67}%
-\contentsline {paragraph}{Divergencias de interpretación (E4)}{116}{paragraph*.68}%
-\contentsline {section}{\numberline {A.7}07 Línea base y cierre, con las evidencias E1--E5 (I1)}{116}{section.Alph1.7}%
-\contentsline {paragraph}{I1: evidencias del entendimiento compartido}{116}{paragraph*.69}%
-\contentsline {paragraph}{Prueba de traspaso (E5), paquete de cierre y acciones}{117}{paragraph*.70}%
-\contentsline {section}{\numberline {A.8}I2 Lista de calidad y aceptación}{118}{section.Alph1.8}%
-\contentsline {paragraph}{Parte A: calidad de cada requisito (A5.2, una sola vez, registro por excepción)}{118}{paragraph*.71}%
-\contentsline {paragraph}{Parte B: calidad del conjunto (A5.3, una vez por ciclo)}{118}{paragraph*.72}%
-\contentsline {paragraph}{Parte C: aceptación de cada requisito crítico (A5.3, con el \textit {stakeholder}, tras recorrer el ejemplo)}{118}{paragraph*.73}%
-\contentsline {section}{\numberline {A.9}I3 Guía de micro-chequeos}{119}{section.Alph1.9}%
-\contentsline {paragraph}{Técnicas (ítems 1 a 4)}{119}{paragraph*.74}%
-\contentsline {paragraph}{Registro de micro-chequeos (encuentro~1), con su cierre (ítem 7)}{120}{paragraph*.75}%
-\contentsline {paragraph}{Cierre de bloque (ítems 5 y 6)}{120}{paragraph*.76}%
-\contentsline {chapter}{\numberline {B}Detalle de la revisión sistemática de la literatura}{121}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Criterios de inclusión y exclusión}{123}{section.Alph2.1}%
-\contentsline {subsection}{\numberline {B.1.1}Criterios de inclusión}{123}{subsection.Alph2.1.1}%
-\contentsline {subsection}{\numberline {B.1.2}Criterios de exclusión}{123}{subsection.Alph2.1.2}%
-\contentsline {section}{\numberline {B.2}Justificación del periodo de búsqueda}{124}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Distribución temporal de las publicaciones}{124}{section.Alph2.3}%
-\contentsline {section}{\numberline {B.4}Resultados detallados por pregunta de investigación}{125}{section.Alph2.4}%
-\contentsline {subsection}{\numberline {B.4.1}RQ1. ¿Qué problemas de comunicación o desalineaciones del entendimiento compartido se reportan durante la elicitación, especificación y validación?}{125}{subsection.Alph2.4.1}%
-\contentsline {subsection}{\numberline {B.4.2}RQ2. ¿En qué tareas, artefactos y situaciones de la elicitación, especificación y validación se identifica la necesidad de construir entendimiento compartido?}{127}{subsection.Alph2.4.2}%
-\contentsline {subsection}{\numberline {B.4.3}RQ3. ¿Cuáles son los momentos más críticos para lograr entendimiento compartido en cada actividad de la IR y por qué?}{128}{subsection.Alph2.4.3}%
-\contentsline {subsection}{\numberline {B.4.4}RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o usado para apoyar la construcción y el mantenimiento del entendimiento compartido?}{130}{subsection.Alph2.4.4}%
-\contentsline {subsection}{\numberline {B.4.5}RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para medir o evaluar el entendimiento compartido, y en qué momentos?}{132}{subsection.Alph2.4.5}%
-\contentsline {section}{\numberline {B.5}Amenazas a la validez de la revisión}{134}{section.Alph2.5}%
+\contentsline {subsection}{\numberline {3.7.5}Adaptación ágil basada en contexto}{46}{subsection.3.7.5}%
+\contentsline {subsection}{\numberline {3.7.6}Comparación de los enfoques de adaptación}{46}{subsection.3.7.6}%
+\contentsline {chapter}{\numberline {4}Construcción de THUNDERS-Master con ingeniería de métodos situacionales}{48}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Método seleccionado}{48}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Ciclo de construcción}{49}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Especificación de los requisitos del método}{51}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Selección de los componentes}{52}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Criterios de selección}{53}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Mapeo inicial hacia las actividades de la IR}{53}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Trazabilidad entre THUNDERS y la versión final}{53}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Ensamble de los componentes}{54}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Validación del proceso: de la versión 1.0 a la versión final}{56}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Iteración 1: versión 1.0}{56}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Iteración 2: versiones 1.1 y 1.2}{57}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Iteración 3: versión 1.3}{57}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Iteración 4: versión 1.4}{58}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}Iteración 5: versión 1.5}{59}{subsection.4.6.5}%
+\contentsline {subsection}{\numberline {4.6.6}Iteración 6: versión final}{59}{subsection.4.6.6}%
+\contentsline {chapter}{\numberline {5}THUNDERS-Master}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}THUNDERS-Master en resumen}{61}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Fundamentos del proceso}{63}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Entendimiento compartido explícito, implícito y falso}{63}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Principios de diseño}{63}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}La ligereza como proporcionalidad}{64}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Soporte a los requisitos del método}{65}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Fases y actividades}{65}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Roles}{68}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Productos de trabajo e instrumentos}{68}{section.5.6}%
+\contentsline {paragraph}{I2, lista de calidad y aceptación.}{71}{paragraph*.34}%
+\contentsline {paragraph}{I3, guía de micro-chequeos.}{72}{paragraph*.35}%
+\contentsline {section}{\numberline {5.7}Evidencias del entendimiento compartido y reglas}{72}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Forma de ejecución, encaje ágil y límites}{74}{section.5.8}%
+\contentsline {paragraph}{Catálogo de técnicas.}{75}{paragraph*.36}%
+\contentsline {paragraph}{Encaje en marcos ágiles.}{75}{paragraph*.37}%
+\contentsline {paragraph}{Límites declarados.}{75}{paragraph*.38}%
+\contentsline {chapter}{\numberline {6}Evaluación de THUNDERS-Master}{77}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Elementos de cada versión del proceso}{77}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Plan de evaluación basado en GQM}{79}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Estrategia de evaluación seguida}{80}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Validación de las versiones 1.0 a 1.2}{80}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Validación de la versión 1.3 con expertos}{81}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Diseño: participantes}{81}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Diseño: instrumento}{81}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Ejecución y análisis}{82}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Resultados cuantitativos}{82}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.5}Resultados cualitativos}{83}{subsection.6.4.5}%
+\contentsline {section}{\numberline {6.5}Validación de la versión 1.3: estudio de caso exploratorio UniReserva}{83}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Diseño del estudio de caso}{83}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Diseño instruccional}{85}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Participantes e instrumentos}{86}{subsection.6.5.3}%
+\contentsline {subsection}{\numberline {6.5.4}Ejecución y resultados de la observación}{87}{subsection.6.5.4}%
+\contentsline {subsection}{\numberline {6.5.5}Resultados de la encuesta de cierre}{87}{subsection.6.5.5}%
+\contentsline {section}{\numberline {6.6}Discusión de la evaluación de la versión 1.3}{89}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Lo que dicen las dos fuentes en conjunto}{89}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Comparación con estudios previos}{89}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Implicaciones para la versión 1.4}{90}{subsection.6.6.3}%
+\contentsline {section}{\numberline {6.7}Validación de las versiones 1.4 y 1.5}{90}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Revisión de la versión 1.4 con el codirector}{90}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}Revisión conceptual y analítica de la versión 1.5}{91}{subsection.6.7.2}%
+\contentsline {section}{\numberline {6.8}Validación de los instrumentos de la versión final por juicio de experto}{91}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Diseño y ejecución}{91}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Resultados}{92}{subsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.8.3}Ajustes incorporados}{93}{subsection.6.8.3}%
+\contentsline {section}{\numberline {6.9}Evaluación de la versión final: estudio de caso en contexto agrícola}{93}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Diseño del estudio de caso}{93}{subsection.6.9.1}%
+\contentsline {paragraph}{Objetivo y preguntas.}{93}{paragraph*.39}%
+\contentsline {paragraph}{Unidad de análisis y selección del caso.}{94}{paragraph*.40}%
+\contentsline {paragraph}{Procedimiento.}{94}{paragraph*.41}%
+\contentsline {paragraph}{Fuentes de datos e instrumentos.}{94}{paragraph*.42}%
+\contentsline {paragraph}{Análisis.}{95}{paragraph*.43}%
+\contentsline {subsection}{\numberline {6.9.2}Ejecución}{95}{subsection.6.9.2}%
+\contentsline {subsection}{\numberline {6.9.3}Resultados}{95}{subsection.6.9.3}%
+\contentsline {section}{\numberline {6.10}Discusión general y amenazas a la validez}{95}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Amenazas a la validez}{96}{subsection.6.10.1}%
+\contentsline {chapter}{\numberline {7}Conclusiones y trabajo futuro}{97}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusiones}{97}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Contribuciones}{98}{section.7.2}%
+\contentsline {paragraph}{Contribución teórica.}{98}{paragraph*.44}%
+\contentsline {paragraph}{Contribución práctica.}{98}{paragraph*.45}%
+\contentsline {section}{\numberline {7.3}Limitaciones}{99}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Trabajo futuro}{99}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Productos de investigación}{99}{section.7.5}%
+\contentsline {chapter}{\numberline {A}Plantillas de THUNDERS-Master}{109}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}01 \textit {Canvas} del ciclo}{109}{section.Alph1.1}%
+\contentsline {paragraph}{Antes del ciclo (A1 y A3) y forma de ejecución}{109}{paragraph*.47}%
+\contentsline {paragraph}{Bloque de apertura (A4, encuentro~1): registro de paráfrasis para E1}{111}{paragraph*.48}%
+\contentsline {section}{\numberline {A.2}02 Mapa de \textit {stakeholders}}{112}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}03 Declaración del problema y glosario vivo}{112}{section.Alph1.3}%
+\contentsline {section}{\numberline {A.4}04 Registro de necesidades y supuestos}{113}{section.Alph1.4}%
+\contentsline {section}{\numberline {A.5}05 Tarjeta de requisito}{113}{section.Alph1.5}%
+\contentsline {section}{\numberline {A.6}06 Registro de validación y decisiones}{114}{section.Alph1.6}%
+\contentsline {paragraph}{Encuentro~2: validación de los requisitos críticos}{114}{paragraph*.49}%
+\contentsline {paragraph}{Divergencias de interpretación (E4)}{115}{paragraph*.50}%
+\contentsline {section}{\numberline {A.7}07 Línea base y cierre, con las evidencias E1--E5 (I1)}{115}{section.Alph1.7}%
+\contentsline {paragraph}{I1: evidencias del entendimiento compartido}{115}{paragraph*.51}%
+\contentsline {paragraph}{Prueba de traspaso (E5), paquete de cierre y acciones}{116}{paragraph*.52}%
+\contentsline {section}{\numberline {A.8}I2 Lista de calidad y aceptación}{117}{section.Alph1.8}%
+\contentsline {paragraph}{Parte A: calidad de cada requisito (A5.2, una sola vez, registro por excepción)}{117}{paragraph*.53}%
+\contentsline {paragraph}{Parte B: calidad del conjunto (A5.3, una vez por ciclo)}{117}{paragraph*.54}%
+\contentsline {paragraph}{Parte C: aceptación de cada requisito crítico (A5.3, con el \textit {stakeholder}, tras recorrer el ejemplo)}{117}{paragraph*.55}%
+\contentsline {section}{\numberline {A.9}I3 Guía de micro-chequeos}{118}{section.Alph1.9}%
+\contentsline {paragraph}{Técnicas (ítems 1 a 4)}{118}{paragraph*.56}%
+\contentsline {paragraph}{Registro de micro-chequeos (encuentro~1), con su cierre (ítem 7)}{119}{paragraph*.57}%
+\contentsline {paragraph}{Cierre de bloque (ítems 5 y 6)}{119}{paragraph*.58}%
+\contentsline {chapter}{\numberline {B}Detalle de la revisión sistemática de la literatura}{120}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Preguntas de investigación en el protocolo}{120}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Flujo de selección por base de datos}{121}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Criterios de inclusión y exclusión}{121}{section.Alph2.3}%
+\contentsline {subsection}{\numberline {B.3.1}Criterios de inclusión}{121}{subsection.Alph2.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Criterios de exclusión}{123}{subsection.Alph2.3.2}%
+\contentsline {section}{\numberline {B.4}Justificación del periodo de búsqueda}{123}{section.Alph2.4}%
+\contentsline {section}{\numberline {B.5}Distribución temporal de las publicaciones}{124}{section.Alph2.5}%
+\contentsline {section}{\numberline {B.6}Resultados detallados por pregunta de investigación}{124}{section.Alph2.6}%
+\contentsline {subsection}{\numberline {B.6.1}RQ1. ¿Qué problemas de comunicación o desalineaciones del entendimiento compartido se reportan en la literatura durante las actividades de elicitación, especificación y validación de requisitos?}{124}{subsection.Alph2.6.1}%
+\contentsline {subsection}{\numberline {B.6.2}RQ2. ¿En qué tareas, artefactos y situaciones dentro de las actividades de elicitación, especificación y validación se identifica la necesidad de construir entendimiento compartido entre \textit {stakeholders}?}{126}{subsection.Alph2.6.2}%
+\contentsline {subsection}{\numberline {B.6.3}RQ3. ¿Cuáles son los momentos más críticos para lograr el entendimiento compartido en cada una de las actividades de elicitación, especificación y validación, y por qué?}{128}{subsection.Alph2.6.3}%
+\contentsline {subsection}{\numberline {B.6.4}RQ4. ¿Qué mecanismos, técnicas o enfoques se han propuesto o usado para apoyar la construcción y el mantenimiento del entendimiento compartido durante las actividades de elicitación, especificación y validación?}{130}{subsection.Alph2.6.4}%
+\contentsline {subsection}{\numberline {B.6.5}RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para medir o evaluar el entendimiento compartido en las actividades de elicitación, especificación y validación, y en qué momentos de aplicación (antes, durante o después) se recomienda su uso?}{132}{subsection.Alph2.6.5}%
+\contentsline {section}{\numberline {B.7}Amenazas a la validez de la revisión}{134}{section.Alph2.7}%
 \contentsline {chapter}{\numberline {C}Tareas características de las actividades de la IR}{136}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Detalle de la construcción con ingeniería de métodos situacionales}{139}{appendix.Alph4}%
-\contentsline {chapter}{\numberline {E}Análisis detallado de THUNDERS}{144}{appendix.Alph5}%
-\contentsline {section}{\numberline {E.1}Fase \textit {Beginning}: diseño de la actividad colaborativa}{144}{section.Alph5.1}%
-\contentsline {section}{\numberline {E.2}Fase \textit {Developing}: ejecución de la actividad colaborativa}{146}{section.Alph5.2}%
-\contentsline {section}{\numberline {E.3}Fase \textit {Measuring}: validación, evaluación y cierre}{147}{section.Alph5.3}%
-\contentsline {chapter}{\numberline {F}Especificación de la versión 1.3}{150}{appendix.Alph6}%
-\contentsline {section}{\numberline {F.1}Visión general de la versión 1.3}{150}{section.Alph6.1}%
-\contentsline {section}{\numberline {F.2}Propósito y principios de diseño}{151}{section.Alph6.2}%
-\contentsline {section}{\numberline {F.3}Modelo conceptual operativo}{152}{section.Alph6.3}%
-\contentsline {section}{\numberline {F.4}Fase 1: \textit {Beginning} / Preparar}{155}{section.Alph6.4}%
-\contentsline {subsection}{\numberline {F.4.1}A1. Planificar la sesión de requisitos}{155}{subsection.Alph6.4.1}%
-\contentsline {subsection}{\numberline {F.4.2}A2. Identificar los \textit {stakeholders} mínimos}{156}{subsection.Alph6.4.2}%
-\contentsline {subsection}{\numberline {F.4.3}A3. Formular el problema y el glosario semilla}{157}{subsection.Alph6.4.3}%
-\contentsline {subsection}{\numberline {F.4.4}A4. Preparar los materiales y los instrumentos de validación}{158}{subsection.Alph6.4.4}%
-\contentsline {subsection}{\numberline {F.4.5}A2b. Organizar subgrupos o turnos (opcional)}{159}{subsection.Alph6.4.5}%
-\contentsline {section}{\numberline {F.5}Fase 2: \textit {Developing} / Construir}{160}{section.Alph6.5}%
-\contentsline {subsection}{\numberline {F.5.1}A5. Alinear el punto de partida}{161}{subsection.Alph6.5.1}%
-\contentsline {subsection}{\numberline {F.5.2}A6. Elicitar necesidades y supuestos}{162}{subsection.Alph6.5.2}%
-\contentsline {subsection}{\numberline {F.5.3}A7. Especificar requisitos y criterios}{163}{subsection.Alph6.5.3}%
-\contentsline {subsection}{\numberline {F.5.4}A8. Verificar el entendimiento compartido y la trazabilidad}{164}{subsection.Alph6.5.4}%
-\contentsline {section}{\numberline {F.6}Fase 3: \textit {Measuring} / Validar y cerrar}{165}{section.Alph6.6}%
-\contentsline {subsection}{\numberline {F.6.1}A9. Validar requisitos y criterios}{165}{subsection.Alph6.6.1}%
-\contentsline {subsection}{\numberline {F.6.2}A10. Resolver discrepancias}{166}{subsection.Alph6.6.2}%
-\contentsline {subsection}{\numberline {F.6.3}A11. Establecer la línea base y definir acciones}{167}{subsection.Alph6.6.3}%
-\contentsline {subsection}{\numberline {F.6.4}Síntesis de las actividades}{168}{subsection.Alph6.6.4}%
-\contentsline {section}{\numberline {F.7}Roles y responsabilidades}{170}{section.Alph6.7}%
-\contentsline {section}{\numberline {F.8}Artefactos mínimos y evidencia observable}{172}{section.Alph6.8}%
-\contentsline {section}{\numberline {F.9}Instrumentos de verificación del entendimiento}{173}{section.Alph6.9}%
-\contentsline {section}{\numberline {F.10}Catálogo de técnicas de sesión}{174}{section.Alph6.10}%
-\contentsline {section}{\numberline {F.11}Variabilidad contextual y criterios de activación}{175}{section.Alph6.11}%
-\contentsline {section}{\numberline {F.12}Encaje de THUNDERS-Master en marcos ágiles}{176}{section.Alph6.12}%
-\contentsline {section}{\numberline {F.13}Trazabilidad entre THUNDERS y la versión 1.3}{178}{section.Alph6.13}%
-\contentsline {section}{\numberline {F.14}Correspondencia entre las versiones 1.3, 1.4 y 1.5}{180}{section.Alph6.14}%
-\contentsline {chapter}{\numberline {G}Plantillas del modo asistido de la versión 1.3}{183}{appendix.Alph7}%
-\contentsline {section}{\numberline {G.1}\textit {Canvas} de sesión (A1)}{184}{section.Alph7.1}%
-\contentsline {section}{\numberline {G.2}Mapa mínimo de \textit {stakeholders} (A2)}{184}{section.Alph7.2}%
-\contentsline {section}{\numberline {G.3}Glosario vivo (A3)}{185}{section.Alph7.3}%
-\contentsline {section}{\numberline {G.4}Registro de necesidades y supuestos (A6)}{185}{section.Alph7.4}%
-\contentsline {section}{\numberline {G.5}Tarjeta de requisito o historia (A7)}{185}{section.Alph7.5}%
-\contentsline {section}{\numberline {G.6}Matriz mínima de trazabilidad (A8)}{186}{section.Alph7.6}%
-\contentsline {section}{\numberline {G.7}Registro de decisiones y línea base (A10 y A11)}{187}{section.Alph7.7}%
-\contentsline {section}{\numberline {G.8}I1. Lista de verificación del entendimiento compartido (A5, A8 y A9)}{187}{section.Alph7.8}%
-\contentsline {section}{\numberline {G.9}I2. Lista de verificación de calidad y aceptación (A9)}{188}{section.Alph7.9}%
-\contentsline {section}{\numberline {G.10}I3. Guía de micro-chequeos (A8)}{188}{section.Alph7.10}%
-\contentsline {chapter}{\numberline {H}Ítems del cuestionario de validación con expertos}{189}{appendix.Alph8}%
-\contentsline {chapter}{\numberline {I}Material del estudio de caso UniReserva}{192}{appendix.Alph9}%
-\contentsline {chapter}{\numberline {J}Respuestas individuales de la encuesta de cierre del caso UniReserva}{194}{appendix.Alph10}%
-\contentsline {chapter}{\numberline {K}Validación de los instrumentos por juicio de experto}{196}{appendix.Alph11}%
-\contentsline {chapter}{\numberline {L}Protocolo del estudio de caso en contexto agrícola}{199}{appendix.Alph12}%
+\contentsline {chapter}{\numberline {D}Detalle de la construcción con ingeniería de métodos situacionales}{141}{appendix.Alph4}%
+\contentsline {chapter}{\numberline {E}Análisis detallado de THUNDERS}{146}{appendix.Alph5}%
+\contentsline {section}{\numberline {E.1}Fase \textit {Beginning}: diseño de la actividad colaborativa}{146}{section.Alph5.1}%
+\contentsline {section}{\numberline {E.2}Fase \textit {Developing}: ejecución de la actividad colaborativa}{148}{section.Alph5.2}%
+\contentsline {section}{\numberline {E.3}Fase \textit {Measuring}: validación, evaluación y cierre}{149}{section.Alph5.3}%
+\contentsline {chapter}{\numberline {F}Especificación de la versión 1.3}{152}{appendix.Alph6}%
+\contentsline {section}{\numberline {F.1}Visión general de la versión 1.3}{152}{section.Alph6.1}%
+\contentsline {section}{\numberline {F.2}Propósito y principios de diseño}{153}{section.Alph6.2}%
+\contentsline {section}{\numberline {F.3}Modelo conceptual operativo}{154}{section.Alph6.3}%
+\contentsline {section}{\numberline {F.4}Fase 1: \textit {Beginning} / Preparar}{157}{section.Alph6.4}%
+\contentsline {subsection}{\numberline {F.4.1}A1. Planificar la sesión de requisitos}{157}{subsection.Alph6.4.1}%
+\contentsline {subsection}{\numberline {F.4.2}A2. Identificar los \textit {stakeholders} mínimos}{158}{subsection.Alph6.4.2}%
+\contentsline {subsection}{\numberline {F.4.3}A3. Formular el problema y el glosario semilla}{159}{subsection.Alph6.4.3}%
+\contentsline {subsection}{\numberline {F.4.4}A4. Preparar los materiales y los instrumentos de validación}{160}{subsection.Alph6.4.4}%
+\contentsline {subsection}{\numberline {F.4.5}A2b. Organizar subgrupos o turnos (opcional)}{161}{subsection.Alph6.4.5}%
+\contentsline {section}{\numberline {F.5}Fase 2: \textit {Developing} / Construir}{162}{section.Alph6.5}%
+\contentsline {subsection}{\numberline {F.5.1}A5. Alinear el punto de partida}{163}{subsection.Alph6.5.1}%
+\contentsline {subsection}{\numberline {F.5.2}A6. Elicitar necesidades y supuestos}{164}{subsection.Alph6.5.2}%
+\contentsline {subsection}{\numberline {F.5.3}A7. Especificar requisitos y criterios}{165}{subsection.Alph6.5.3}%
+\contentsline {subsection}{\numberline {F.5.4}A8. Verificar el entendimiento compartido y la trazabilidad}{166}{subsection.Alph6.5.4}%
+\contentsline {section}{\numberline {F.6}Fase 3: \textit {Measuring} / Validar y cerrar}{167}{section.Alph6.6}%
+\contentsline {subsection}{\numberline {F.6.1}A9. Validar requisitos y criterios}{167}{subsection.Alph6.6.1}%
+\contentsline {subsection}{\numberline {F.6.2}A10. Resolver discrepancias}{168}{subsection.Alph6.6.2}%
+\contentsline {subsection}{\numberline {F.6.3}A11. Establecer la línea base y definir acciones}{169}{subsection.Alph6.6.3}%
+\contentsline {subsection}{\numberline {F.6.4}Síntesis de las actividades}{170}{subsection.Alph6.6.4}%
+\contentsline {section}{\numberline {F.7}Roles y responsabilidades}{172}{section.Alph6.7}%
+\contentsline {section}{\numberline {F.8}Artefactos mínimos y evidencia observable}{174}{section.Alph6.8}%
+\contentsline {section}{\numberline {F.9}Instrumentos de verificación del entendimiento}{175}{section.Alph6.9}%
+\contentsline {section}{\numberline {F.10}Catálogo de técnicas de sesión}{176}{section.Alph6.10}%
+\contentsline {section}{\numberline {F.11}Variabilidad contextual y criterios de activación}{177}{section.Alph6.11}%
+\contentsline {section}{\numberline {F.12}Encaje de THUNDERS-Master en marcos ágiles}{178}{section.Alph6.12}%
+\contentsline {section}{\numberline {F.13}Trazabilidad entre THUNDERS y la versión 1.3}{180}{section.Alph6.13}%
+\contentsline {section}{\numberline {F.14}Correspondencia entre las versiones 1.3, 1.4 y 1.5}{182}{section.Alph6.14}%
+\contentsline {chapter}{\numberline {G}Plantillas del modo asistido de la versión 1.3}{185}{appendix.Alph7}%
+\contentsline {section}{\numberline {G.1}\textit {Canvas} de sesión (A1)}{186}{section.Alph7.1}%
+\contentsline {section}{\numberline {G.2}Mapa mínimo de \textit {stakeholders} (A2)}{186}{section.Alph7.2}%
+\contentsline {section}{\numberline {G.3}Glosario vivo (A3)}{187}{section.Alph7.3}%
+\contentsline {section}{\numberline {G.4}Registro de necesidades y supuestos (A6)}{187}{section.Alph7.4}%
+\contentsline {section}{\numberline {G.5}Tarjeta de requisito o historia (A7)}{187}{section.Alph7.5}%
+\contentsline {section}{\numberline {G.6}Matriz mínima de trazabilidad (A8)}{188}{section.Alph7.6}%
+\contentsline {section}{\numberline {G.7}Registro de decisiones y línea base (A10 y A11)}{189}{section.Alph7.7}%
+\contentsline {section}{\numberline {G.8}I1. Lista de verificación del entendimiento compartido (A5, A8 y A9)}{189}{section.Alph7.8}%
+\contentsline {section}{\numberline {G.9}I2. Lista de verificación de calidad y aceptación (A9)}{190}{section.Alph7.9}%
+\contentsline {section}{\numberline {G.10}I3. Guía de micro-chequeos (A8)}{190}{section.Alph7.10}%
+\contentsline {chapter}{\numberline {H}Ítems del cuestionario de validación con expertos}{191}{appendix.Alph8}%
+\contentsline {chapter}{\numberline {I}Material del estudio de caso UniReserva}{194}{appendix.Alph9}%
+\contentsline {chapter}{\numberline {J}Respuestas individuales de la encuesta de cierre del caso UniReserva}{196}{appendix.Alph10}%
+\contentsline {chapter}{\numberline {K}Validación de los instrumentos por juicio de experto}{198}{appendix.Alph11}%
+\contentsline {chapter}{\numberline {L}Protocolo del estudio de caso en contexto agrícola}{201}{appendix.Alph12}%
