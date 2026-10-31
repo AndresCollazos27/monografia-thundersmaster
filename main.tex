@@ -96,7 +96,7 @@
 \newcommand{\seccionescapitulo}[3]{%
 \begin{figure}[htbp]
 \centering
-\begin{tikzpicture}[font=\scriptsize,
+\begin{tikzpicture}[font=\ifnum#1>7 \tiny\else\scriptsize\fi,
   every node/.append style={execute at begin node={%
     \hyphenpenalty=10000\exhyphenpenalty=10000\relax}},
   secbox/.style={draw=azulT, fill=azulT!7, rounded corners=2pt, align=center,
@@ -113,6 +113,11 @@
 
 % Espacio antes y después del título de capítulo
 \titlespacing*{\chapter}{0pt}{-12pt}{24pt}
+
+% Colores de las plantillas de la versión final
+\definecolor{tmOpc}{HTML}{FFF2CC}
+\definecolor{tmAuto}{HTML}{E2F0E6}
+\definecolor{tmCtx}{HTML}{DCE3F0}
 
 % Encabezado de las tablas de plantillas
 \newcommand{\plantillacab}{\toprule
@@ -207,8 +212,10 @@ explícito e implícito, organizó el proceso en ciclos de dos encuentros, uno p
 construir y otro para validar, con tres fases, seis actividades, seis roles,
 siete artefactos, dos instrumentos y cinco evidencias que comprueban que los
 participantes interpretan igual los requisitos críticos, y no solo que estén
-escritos. La versión final es la que se evalúa en un estudio de caso en un
-contexto agrícola (objetivo~4).
+escritos. Un experto validó el contenido de sus instrumentos, con medias
+entre 3,56 y 4,00 sobre 4 en claridad, coherencia y relevancia, y sus
+recomendaciones se incorporaron. La versión final es la que se evalúa en un
+estudio de caso en un contexto agrícola (objetivo~4).
 
 \pendiente{Agregar en una o dos frases el resultado principal del estudio de
 caso en contexto agrícola.}
@@ -251,8 +258,10 @@ understanding, organized the process in cycles of two meetings, one to build and
 one to validate, with three phases, six activities, six roles, seven artifacts,
 two instruments and five pieces of evidence that check that participants
 interpret critical requirements in the same way, and not only that they are
-written down. The final version is the one evaluated in a case study in an
-agricultural context.
+written down. An expert validated the content of its instruments, with means
+between 3.56 and 4.00 out of 4 for clarity, coherence and relevance, and the
+recommendations were incorporated. The final version is the one evaluated in a
+case study in an agricultural context.
 
 \vspace{0.4cm}
 \noindent\textbf{Keywords:} requirements engineering, shared understanding,
@@ -329,12 +338,10 @@ que se construyó el proceso original, en seis iteraciones. Cada iteración dej�
 una versión del proceso y una validación cuyos resultados alimentaron la
 iteración siguiente.
 
-Las tres primeras iteraciones construyeron la especificación. La versión 1.0
-organizó la adaptación en cuatro momentos, la versión 1.2 recuperó las tres
-fases de THUNDERS con once actividades y se presentó en un artículo aceptado en
-el congreso JIIHC~2026, y la versión 1.3 completó el análisis de THUNDERS tarea
-por tarea, incorporó un plan de evaluación y las plantillas de apoyo, y pasó por
-tres rondas de revisión con la directora del trabajo. La versión 1.3 se evaluó
+Las tres primeras iteraciones construyeron la especificación hasta la versión
+1.3; la versión 1.2 se presentó en un artículo aceptado en el congreso
+JIIHC~2026, y la 1.3 pasó por tres rondas de revisión con la directora del
+trabajo. La versión 1.3 se evaluó
 en septiembre de 2026 de dos formas. Cinco expertos en ingeniería de software y
 en IR la valoraron con un cuestionario de 37 ítems, en una escala de 1 a 5, y le
 dieron 4,34 en completitud y 4,27 en utilidad, pero 3,30 en ligereza. En un
@@ -342,18 +349,17 @@ estudio de caso exploratorio con once estudiantes, llamado UniReserva, los dos
 equipos detectaron la contradicción central que se había sembrado en el caso, y
 los participantes valoraron con 4,55 que el proceso les ayudó a notar que no
 entendían lo mismo, pero con 2,09 la claridad de los pasos. Las tres
-iteraciones siguientes respondieron a esos resultados. La versión 1.4 redujo el
-proceso a ocho actividades obligatorias y dos opcionales, bajó de 116 a 66 los
-campos de las plantillas y caracterizó el contexto de uso. La versión 1.5, que
-surgió de una revisión con el codirector Leandro Antonelli, agrupó la
-elicitación, la especificación y la validación en un subproceso y dejó el
-proceso principal con seis actividades. Por último, la versión final, que surgió
-de una revisión conceptual basada en la distinción de Glinz y Fricker entre
+iteraciones siguientes respondieron a esos resultados con un proceso más simple,
+validado en una revisión con el codirector Leandro Antonelli, hasta la versión
+final, que, a partir de una revisión conceptual basada en la distinción de Glinz y Fricker entre
 entendimiento compartido explícito e implícito~\cite{glinz2015shared}, organizó
 el proceso en ciclos de dos encuentros con los \textit{stakeholders}, uno para
 construir y otro para validar, y revisó las cinco evidencias del entendimiento
 compartido para que comprueben que los participantes interpretan igual lo
-crítico, y no solo que algo quedó escrito.
+crítico, y no solo que algo quedó escrito. Los instrumentos de esa versión se
+validaron por juicio de experto, con medias entre 3,56 y 4,00 sobre 4 en
+claridad, coherencia y relevancia, y sus recomendaciones se incorporaron antes de
+cerrarla.
 
 \pendiente{Agregar en una o dos frases el resultado general del estudio de caso
 en contexto agrícola con la versión final (objetivo~4), cuando se tengan los
@@ -635,8 +641,8 @@ fases con sus métodos, sus hitos y las seis iteraciones.
 \node[val, below=1.5mm of i2] (v2) {Revisión por pares del artículo (JIIHC 2026)};
 \node[val, below=1.5mm of i3] (v3) {Tres revisiones con la directora; 5 expertos; estudio de caso UniReserva};
 \node[val, below=1.5mm of i4] (v4) {Revisión con el codirector};
-\node[val, below=1.5mm of i5] (v5) {Revisión conceptual y analítica; simulación de escritorio};
-\node[val, below=1.5mm of i6] (v6) {Estudio de caso en contexto agrícola};
+\node[val, below=1.5mm of i5] (v5) {Revisión conceptual y analítica de la especificación};
+\node[val, below=1.5mm of i6] (v6) {Juicio de experto sobre los instrumentos; estudio de caso agrícola};
 \foreach \i in {1,...,6} \draw[semithick, draw=meaLine] (i\i)--(v\i);
 \begin{scope}[on background layer]
 \node[draw=devLine, dashed, rounded corners=3pt, fill=devFill!25, inner sep=2mm,
@@ -663,11 +669,9 @@ Capítulos~\ref{ch:marco} y~\ref{ch:caracterizacion}.
 
 La segunda fase, de formulación, derivó THUNDERS-Master (objetivo~3). Entre los
 métodos de adaptación revisados se eligió la ingeniería de métodos situacionales
-porque es la base con la que se construyó THUNDERS, lo que permite hacer
-evolucionar el proceso sin romper la lógica con la que fue especificado, y
-porque, complementada con \textit{method chunks} y con criterios de
-\textit{tailoring}, permite conservar solo los componentes que aportan a la IR
-(Sección~\ref{sec:metodo_seleccionado}). A su vez, la tercera fase, de
+porque es la base con la que se construyó THUNDERS y porque, complementada con
+\textit{method chunks} y con criterios de \textit{tailoring}, permite conservar
+solo los componentes que aportan a la IR (Sección~\ref{sec:metodo_seleccionado}). A su vez, la tercera fase, de
 evaluación, se planteó en el anteproyecto como un taller de validación con
 expertos seguido de un estudio de caso en contexto agrícola. Como las dos fases
 se ejecutaron por iteraciones, a continuación se resume cada iteración, con lo
@@ -700,9 +704,10 @@ Capítulo~\ref{ch:evaluacion}, sus validaciones.
   con solo tener algo escrito, aunque el grupo no lo entendiera igual.
 \item \textbf{Iteración 6, versión final.} Organizó el proceso en ciclos de dos
   encuentros, uno para construir y otro para validar, revisó las evidencias para
-  que comprueben interpretaciones y redujo las plantillas de trece a nueve. Es la
-  versión que presenta el Capítulo~\ref{ch:proceso} y la que se evalúa en el
-  estudio de caso en contexto agrícola (objetivo~4).
+  que comprueben interpretaciones y redujo las plantillas de trece a nueve. Sus
+  instrumentos se validaron por juicio de experto y se ajustaron con sus
+  recomendaciones. Es la versión que presenta el Capítulo~\ref{ch:proceso} y la
+  que se evalúa en el estudio de caso en contexto agrícola (objetivo~4).
 \end{itemize}
 
 \pendiente{Completar la iteración~6 con una frase sobre el resultado del estudio
@@ -938,14 +943,11 @@ del problema'', como situación ``inicio de una sesión de elicitación'' y como
 salida ``un registro de acuerdos y dudas''.
 
 \paragraph{Líneas de procesos y adaptación ágil.}
-Una línea de procesos de software (SPrL, \textit{Software Process Line}) es un
-conjunto de procesos que comparten un núcleo común y una variabilidad
-controlada, de modo que de ella se derivan variantes para distintos
-contextos~\cite{kuhrmann2016}. La adaptación ágil, por su parte, selecciona y
-ajusta prácticas ágiles según factores del proyecto como el tamaño del equipo,
-la criticidad, la distribución o la tasa de cambio~\cite{campanelli2015agile,kruchten2013}.
-El Capítulo~\ref{ch:caracterizacion} compara estos enfoques como alternativas
-para adaptar THUNDERS.
+Una línea de procesos de software (SPrL) es un conjunto de procesos con un
+núcleo común y una variabilidad controlada~\cite{kuhrmann2016}, y la adaptación
+ágil selecciona prácticas ágiles según el
+contexto~\cite{campanelli2015agile,kruchten2013}. El
+Capítulo~\ref{ch:caracterizacion} compara estos enfoques.
 
 \subsection{Conceptos de evaluación de procesos}
 \label{sec:marco_evaluacion}
@@ -1005,23 +1007,21 @@ trabajo. Para cada uno se presenta qué se hizo, qué se obtuvo y qué quedó
 pendiente frente al problema de este trabajo, y al final la
 Tabla~\ref{tab:comparacion_trabajos} los compara.
 
-\pendiente{Agregar trabajos relacionados publicados después del corte de la RSL
-(búsqueda no sistemática en Scopus y Google Scholar con términos como
-\textit{shared understanding} y \textit{requirements engineering process},
-\textit{situational method engineering} y \textit{requirements}, o
-\textit{process tailoring} y \textit{collaboration}). La directora pidió
-explícitamente esta búsqueda adicional. Cada trabajo nuevo debe describirse con
-el mismo formato (qué hizo, qué obtuvo, qué dejó pendiente) e incluirse en la
-Tabla~\ref{tab:comparacion_trabajos}.}
+Como la RSL cubre hasta su fecha de corte, se hizo además una búsqueda no
+sistemática de trabajos posteriores sobre entendimiento compartido en la IR,
+cuyos resultados se presentan al final de esta sección.
 
 \subsection{Mecanismos para construir el entendimiento compartido en la IR}
 Bittner y Leimeister~\cite{bittner2014shared} estudiaron, desde la ingeniería
 de la colaboración, por qué el entendimiento compartido importa en grupos de
-trabajo heterogéneos y cómo lograrlo. Definieron el concepto con sus
-dimensiones y propusieron diseñar el proceso de colaboración con técnicas de
-facilitación que lo provoquen de forma deliberada. Su aporte es la definición
-que este trabajo adopta, pero su propuesta no está pensada para la IR ni indica
-cómo comprobar el entendimiento en las actividades de requisitos.
+trabajo heterogéneos y cómo lograrlo. Definieron el concepto y diseñaron un
+módulo de colaboración reutilizable, un \textit{thinkLet} compuesto llamado
+\textit{MindMerger}, que evaluaron en un estudio de investigación-acción en un
+fabricante alemán de automóviles, donde observaron conductas de aprendizaje en
+equipo y una mayor comprensión de las tareas entre trabajadores con perfiles
+distintos. Su aporte es la definición que este trabajo adopta, pero su
+propuesta no está pensada para la IR ni indica cómo comprobar el entendimiento
+en las actividades de requisitos.
 
 Antonelli et al.~\cite{antonelli2016} propusieron una forma colaborativa de
 construir el léxico extendido del lenguaje (LEL), que es un glosario en el que
@@ -1032,24 +1032,20 @@ el mismo significado. Su alcance es el lenguaje del dominio, de modo que no
 cubre la especificación ni la validación de los requisitos que usan esos
 términos.
 
-Calefato et al.~\cite{calefato2015} evaluaron el uso de traducción automática
-en tiempo real en reuniones de requisitos multilingües de proyectos globales.
-Organizaron las reuniones con un moderador, un relator que registraba los
-acuerdos y una pizarra compartida, y midieron la comunicación con indicadores
-como las solicitudes de aclaración, los tipos de malentendido y las
-intervenciones por participante. Su aporte para este trabajo son esos
-indicadores observables y las prácticas de \textit{grounding}, que son las
-preguntas, confirmaciones y reformulaciones con las que los participantes
-comprueban que entienden lo mismo. Su alcance se limita a la elicitación en
-reuniones distribuidas.
+Calefato et al.~\cite{calefato2015} evaluaron la traducción automática en tiempo
+real en reuniones de requisitos multilingües, organizadas con un moderador, un
+relator y una pizarra compartida, y midieron la comunicación con indicadores
+como las solicitudes de aclaración y los tipos de malentendido. Su aporte son
+esos indicadores y las prácticas de \textit{grounding}, que son las preguntas,
+confirmaciones y reformulaciones con las que los participantes comprueban que
+entienden lo mismo, pero su alcance se limita a la elicitación en reuniones
+distribuidas.
 
 Fricker et al.~\cite{fricker2015} propusieron grabar en video los talleres de
-requisitos para comunicar lo acordado a los desarrolladores que no asistieron,
-con las razones, las prioridades y los matices de la conversación que un
-documento no conserva. El trabajo atiende el traspaso del entendimiento a
-quienes no participaron, que es uno de los momentos críticos que encontró la
-RSL, pero no indica cómo construir ese entendimiento ni cómo comprobar que quien
-ve el video lo interpreta igual.
+requisitos para comunicar a los desarrolladores ausentes lo acordado, con las
+razones y los matices que un documento no conserva. Atienden el traspaso a
+quienes no participaron, que es uno de los momentos críticos de la RSL, pero no
+indican cómo comprobar que quien ve el video lo interpreta igual.
 
 Irshad et al.~\cite{irshad2021bdd} adaptaron el desarrollo guiado por el
 comportamiento (BDD, \textit{Behavior-Driven Development}) para sistemas de gran
@@ -1068,11 +1064,13 @@ norma puede aligerarse para una organización con pocos recursos, que es una
 decisión parecida a la de este trabajo, pero su objeto es la calidad de la
 elicitación y no el entendimiento compartido.
 
-Okpara et al.~\cite{okpara2023} estudiaron, con profesionales de equipos remotos,
-el papel de la comunicación informal en la construcción del entendimiento
-compartido sobre los requisitos no funcionales. Encontraron que buena parte de
-ese entendimiento se construye en conversaciones informales que el trabajo
-remoto reduce. Su aporte es mostrar que el entendimiento sobre los requisitos no
+Okpara et al.~\cite{okpara2023} estudiaron, con entrevistas y observaciones en
+una organización de software que trabaja de forma remota, cómo se construye el
+entendimiento compartido sobre los requisitos no funcionales. Identificaron
+prácticas para construirlo y encontraron que la comunicación informal, incluidas
+las interacciones no planeadas del día a día, es determinante, mientras que los
+vacíos de comunicación y el conocimiento limitado del contexto del cliente lo
+dificultan. Su aporte es mostrar que el entendimiento sobre los requisitos no
 funcionales es frágil, pero no proponen un proceso para construirlo.
 
 \subsection{THUNDERS y su derivación para la IR}
@@ -1114,6 +1112,36 @@ de estos trabajos se ocupa del entendimiento compartido, pero muestran las
 opciones que existen para adaptar un proceso, que el Capítulo~\ref{ch:caracterizacion}
 compara para elegir la que se usó.
 
+\subsection{Trabajos posteriores a la revisión sistemática}
+Londoño, Agredo-Delgado y Ruiz~\cite{londono2023prototyping} propusieron una
+estrategia ágil de prototipado para construir el entendimiento compartido en la
+IR, construida, como THUNDERS-Master, con ingeniería de métodos situacionales.
+La estrategia se organiza en fases, que van de la planificación y la
+identificación y el análisis de requisitos al prototipado no funcional, la
+gestión de requisitos, el prototipado funcional y la socialización, y usa los
+prototipos como una representación tangible de los requisitos. Es el trabajo más
+parecido en el método de construcción, pero el entendimiento se apoya en el
+prototipo, mientras que THUNDERS-Master comprueba entre perfiles la
+interpretación de lo crítico, con prototipo o sin él, y deja evidencias de que se
+logró.
+
+Chamizo Quiñones, Rodríguez Bautista y Agredo-Delgado~\cite{chamizo2025guide}
+propusieron una guía para fortalecer la construcción del entendimiento
+compartido en las actividades de la IR, a partir de las propuestas y técnicas
+que reporta la literatura. A diferencia de THUNDERS-Master, se presenta como una
+guía de apoyo y no como un proceso con roles, productos de trabajo y evidencias
+para comprobar el entendimiento.
+
+Por último, el mapeo sistemático de Londoño et al.~\cite{londono2026mapping}
+sobre la importancia del entendimiento compartido en la ingeniería de software
+identifica como retos abiertos su verificación, las herramientas de apoyo al
+proceso y la evaluación empírica, que son los tres frentes que este trabajo
+atiende con las evidencias E1 a E5, las plantillas del modo asistido y los
+estudios de caso.
+
+\pendiente{Verificar con los textos completos estos tres trabajos y sus celdas
+en la Tabla~\ref{tab:comparacion_trabajos}, y completar volumen y páginas.}
+
 \subsection{Comparación de los trabajos relacionados}
 La Tabla~\ref{tab:comparacion_trabajos} compara los trabajos con siete criterios
 que salen del problema de este trabajo: si definen un proceso con fases o
@@ -1127,7 +1155,10 @@ del entendimiento compartido, y que la estrategia derivada de THUNDERS es la
 facilidad de uso.
 
 \begin{table}[htbp]
-\caption{Comparación de los trabajos relacionados con THUNDERS-Master.}
+\caption{Comparación de los trabajos relacionados con THUNDERS-Master (EC:
+entendimiento compartido; Elic., Espec. y Valid.: cubre la elicitación, la
+especificación o la validación; ``--'': no se pudo establecer con la
+información publicada).}
 \label{tab:comparacion_trabajos}
 \centering
 \scriptsize
@@ -1136,12 +1167,11 @@ facilidad de uso.
 \newcommand{\si}{\textcolor{devLine}{\textbf{Sí}}}
 \newcommand{\no}{\textcolor{meaLine}{No}}
 \newcommand{\pa}{\textcolor{begLine}{Parcial}}
-\begin{tabularx}{\textwidth}{@{}Y *{7}{>{\centering\arraybackslash}p{1.25cm}}@{}}
+\begin{tabularx}{\textwidth}{@{}Y *{7}{>{\centering\arraybackslash}p{1.3cm}}@{}}
 \toprule
-\textbf{Trabajo} & \textbf{Proceso con fases o actividades} &
-\textbf{Elicitación} & \textbf{Especifi\-cación} & \textbf{Validación} &
-\textbf{Construye el entendimiento} & \textbf{Lo verifica o mide} &
-\textbf{Adapta un proceso y su costo} \\
+\textbf{Trabajo} & \textbf{Proceso con fases} & \textbf{Elic.} &
+\textbf{Espec.} & \textbf{Valid.} & \textbf{Construye el EC} &
+\textbf{Verifica o mide el EC} & \textbf{Adapta un proceso} \\
 \midrule
 Bittner y Leimeister~\cite{bittner2014shared} & \pa & \no & \no & \no & \si & \pa & \no \\
 Antonelli et al.~\cite{antonelli2016} & \pa & \si & \pa & \no & \si & \no & \no \\
@@ -1152,6 +1182,8 @@ Pacheco et al.~\cite{pacheco2022} & \si & \si & \no & \no & \no & \si & \si \\
 Okpara et al.~\cite{okpara2023} & \no & \si & \si & \no & \pa & \no & \no \\
 THUNDERS~\cite{agredo2022thesis} & \si & \pa & \pa & \pa & \si & \si & \pa \\
 Estrategia para la IR~\cite{agredo2023strategy} & \si & \si & \si & \si & \si & \si & \pa \\
+Prototipado ágil~\cite{londono2023prototyping} & \si & \si & \si & \pa & \si & -- & \pa \\
+Guía para la IR~\cite{chamizo2025guide} & \pa & \pa & \pa & \pa & \si & -- & \no \\
 Kalus y Kuhrmann~\cite{kalus2013tailoring}; Campanelli y Parreiras~\cite{campanelli2015agile} & \no & \no & \no & \no & \no & \no & \si \\
 \midrule
 \textbf{THUNDERS-Master} & \si & \si & \si & \si & \si & \si & \si \\
@@ -1237,16 +1269,10 @@ La revisión se guió por cinco preguntas:
         (antes, durante o después)?
 \end{itemize}
 
-En la RQ5, \emph{medir} se entiende como identificar o recolectar métricas e
-indicadores observables asociados al entendimiento compartido, mientras que
-\emph{evaluar} implica interpretar esos indicadores o valorar la evidencia con
-instrumentos, criterios, escalas, cuestionarios o juicio de expertos. Los
-momentos antes, durante y después se refieren a cada actividad, por lo que
-corresponden a antes de iniciar, durante la ejecución o después de terminar la
-elicitación, la especificación o la validación. Con estas cinco preguntas el
-entendimiento compartido se caracteriza desde las rupturas reportadas, las
-tareas y artefactos donde se necesita, los momentos en que debe lograrse, los
-mecanismos que lo apoyan y las formas de medirlo o evaluarlo.
+En la RQ5, \emph{medir} es recolectar indicadores observables del entendimiento
+compartido y \emph{evaluar} es interpretarlos o valorar la evidencia con
+instrumentos o juicio de expertos, y los momentos se refieren a antes, durante o
+después de cada actividad de la IR.
 
 \pendiente{Confirmar que la redacción de RQ1 a RQ5 es la misma del protocolo
 de la RSL y del artículo de JIIHC~2026. La directora preguntó si la RQ2 se había
@@ -1280,13 +1306,9 @@ nombran esas actividades, mientras que la cadena no lo hace, y al final solo
 quedaron estudios con evidencia concreta sobre ellas.
 
 \subsection{Fuentes de información}
-La búsqueda se hizo en tres bases de datos con amplia cobertura en ingeniería
-de software y áreas afines: ScienceDirect, Scopus y Web of Science. Antes de
-aplicar filtros, eliminar duplicados y evaluar los criterios de inclusión y
-exclusión, la primera ejecución de la cadena recuperó 826 registros en
-ScienceDirect, 420 en Scopus y 116 en Web of Science. Se eligieron estas
-fuentes por su uso habitual para recuperar publicaciones arbitradas en
-computación, ingeniería y desarrollo de software.
+La búsqueda se hizo en ScienceDirect, Scopus y Web of Science, por su uso
+habitual para recuperar publicaciones arbitradas en computación e ingeniería de
+software.
 
 \subsection{Filtros de búsqueda}
 Para delimitar el corpus se aplicaron cinco filtros. El periodo fue
@@ -1340,12 +1362,8 @@ Web of Science. La Figura~\ref{fig:prisma} resume el flujo de selección.
 \label{fig:prisma}
 \end{figure}
 
-El número alto de exclusiones era de esperarse, ya que la estrategia de
-búsqueda se diseñó amplia para no omitir estudios en un dominio todavía
-disperso y heterogéneo en sus conceptos. La reducción por
-duplicados, en cambio, fue baja (de 153 a 144 registros), lo que indica que hubo algo de
-solapamiento entre las bases, pero que cada una aportó registros en buena
-parte distintos.
+El número alto de exclusiones era de esperarse, ya que la búsqueda se diseñó
+amplia para no omitir estudios en un dominio disperso.
 
 \subsection{Análisis por fuente de información}
 La Tabla~\ref{tab:rsl_fuentes} resume cómo se comportó cada base de datos
@@ -1388,13 +1406,8 @@ cinco publicaciones. Esta distribución no permite hablar de una tendencia
 lineal, pero sí sugiere que el interés por el tema ha aumentado en los últimos
 años.
 
-Con estos datos, el entendimiento compartido en la IR parece
-estar en consolidación, sobre todo en los años recientes. El tema no se ha
-tratado de forma continua ni homogénea en el periodo analizado y aparece
-disperso entre los estudios seleccionados. La frecuencia observada respalda la
-idea de que es un tema vigente y todavía en desarrollo conceptual, con una
-producción limitada y heterogénea, por lo que se necesitan revisiones enfocadas
-que organicen y sinteticen la evidencia.
+Por lo tanto, el tema parece estar en consolidación y todavía en desarrollo
+conceptual.
 
 \subsection{Resultados por pregunta de investigación}
 Esta subsección resume lo que la evidencia responde a cada pregunta. El
@@ -2960,13 +2973,13 @@ detallados de cada validación se presentan en el Capítulo~\ref{ch:evaluacion}.
 \draw[fl] (v4)--(a4); \draw[fl] (a4)--(r4);
 \draw[fl, draw=devLine, thick] (v3)--(v4);
 \node[ver] (v5) at (14.5mm,-60.0mm) {\textbf{Iteración 5}\\ Versión 1.5};
-\node[val] (a5) at (59mm,-60.0mm) {Revisión conceptual (Glinz y Fricker), revisión analítica y simulación de escritorio.};
+\node[val] (a5) at (59mm,-60.0mm) {Revisión conceptual (Glinz y Fricker) y revisión analítica de la especificación.};
 \node[res] (r5) at (121mm,-60.0mm) {Tres evidencias se cumplían con un entendimiento falso y el proceso no cabía en una sesión. $\to$ Ciclo de dos encuentros y evidencias revisadas.};
 \draw[fl] (v5)--(a5); \draw[fl] (a5)--(r5);
 \draw[fl, draw=devLine, thick] (v4)--(v5);
 \node[ver] (v6) at (14.5mm,-75.0mm) {\textbf{Iteración 6}\\ Versión final};
-\node[val] (a6) at (59mm,-75.0mm) {Estudio de caso en contexto agrícola.};
-\node[res] (r6) at (121mm,-75.0mm) {Resultados en la Sección~\ref{sec:caso_agricola}.};
+\node[val] (a6) at (59mm,-75.0mm) {Juicio de experto sobre los instrumentos (22-10-2026); estudio de caso en contexto agrícola.};
+\node[res] (r6) at (121mm,-75.0mm) {Instrumentos válidos (medias de 3,56 a 4,00 sobre 4) con ajustes en I1, I2 e I3. $\to$ Versión final. Estudio de caso: Sección~\ref{sec:caso_agricola}.};
 \draw[fl] (v6)--(a6); \draw[fl] (a6)--(r6);
 \draw[fl, draw=devLine, thick] (v5)--(v6);
 \end{tikzpicture}
@@ -3093,8 +3106,8 @@ mantuvieron, aunque la fase 2 pasó a llamarse ``Construir y validar'' y la fase
 
 La versión 1.5 se validó con una revisión conceptual basada en la distinción de
 Glinz y Fricker entre entendimiento compartido explícito, implícito y
-falso~\cite{glinz2015shared}, con una revisión analítica de la especificación y
-con una simulación de escritorio en tres casos (Sección~\ref{sec:val_conceptual}).
+falso~\cite{glinz2015shared} y con una revisión analítica de la especificación
+(Sección~\ref{sec:val_conceptual}).
 La revisión conceptual mostró que E2, E3 y E5 se podían dar por cumplidas con
 tener una definición, un criterio o una línea base escritos, aunque dos perfiles
 siguieran entendiendo cosas distintas, y la analítica, que ningún paso
@@ -3110,16 +3123,28 @@ encuentros con los \textit{stakeholders}, uno para construir y otro para
 validar, con la especificación entre los dos y sin los \textit{stakeholders}.
 Las cinco evidencias se revisaron para que cada una se obtenga con una práctica
 que hace visible la interpretación, como la paráfrasis o un ejemplo recorrido
-entre perfiles distintos, y declaran qué cuenta como ``no''. La lista de calidad
-se aplica una sola vez, las evidencias se marcan en la plantilla de línea base y
-la guía de verificación exige al menos dos micro-chequeos por encuentro, incluso
-en la forma mínima. Se agregaron cinco reglas, como que una restricción no
+entre perfiles distintos, y declaran qué cuenta como ``no''. La revisión de
+calidad de cada requisito se hace una sola vez, al especificar, las evidencias
+se marcan en la plantilla de línea base y la guía de micro-chequeos exige al
+menos dos micro-chequeos por encuentro, incluso en la forma mínima. Se agregaron cinco reglas, como que una restricción no
 negociable no se vota y que el mediador no puede ser parte del conflicto, y la
 forma de ejecución se decide con dos preguntas, que son cuánto entendimiento
 implícito existe y cuánto cuesta un malentendido. Las plantillas pasaron de
-trece a nueve, que son siete artefactos y dos instrumentos. El
-Capítulo~\ref{ch:proceso} presenta esta versión y el Capítulo~\ref{ch:evaluacion}
-presenta su evaluación en el estudio de caso en contexto agrícola.
+trece a nueve, que son siete artefactos y dos instrumentos.
+
+Los instrumentos de esta versión se validaron por juicio de experto el 22 de
+octubre de 2026, con la propuesta de Escobar-Pérez y Cuervo-Martínez para la
+validez de contenido~\cite{escobar2008validez}. Los veinte ítems evaluados
+obtuvieron medias entre 3,56 y 4,00 sobre 4 en claridad, coherencia y
+relevancia, y el concepto fue favorable con recomendaciones, que se
+incorporaron antes de cerrar la versión: precisar cuándo una divergencia queda
+resuelta, reducir la subjetividad de algunos ítems, separar la evidencia de
+comprensión de los controles de trazabilidad, corregir la regla de cierre de E4
+y comprobar que el \textit{stakeholder} y quien probará el requisito lo
+interpretan igual (Sección~\ref{sec:val_experto_final}). El
+Capítulo~\ref{ch:proceso} presenta la versión resultante y el
+Capítulo~\ref{ch:evaluacion}, su evaluación en el estudio de caso en contexto
+agrícola.
 
 La Tabla~\ref{tab:v13_final} da la correspondencia entre las actividades de la
 versión evaluada con expertos y en UniReserva (1.3) y las de la versión final,
@@ -3173,7 +3198,7 @@ Por último, presenta la forma de ejecutar el proceso según el contexto, su enc
 en marcos ágiles y sus límites. La Figura~\ref{fig:secciones_c5} resume las
 secciones del capítulo.
 
-\seccionescapitulo{8}{5.1/{THUNDERS-Master en resumen},5.2/{Fundamentos del proceso},5.3/{Soporte a los requisitos del método},5.4/{Fases y actividades},5.5/{Roles},5.6/{Productos de trabajo e instrumentos},5.7/{Evidencias y reglas},5.8/{Forma de ejecución, encaje ágil y límites}}{fig:secciones_c5}
+\seccionescapitulo{8}{5.1/{THUNDERS-Master en resumen},5.2/{Fundamentos del proceso},5.3/{Soporte a los requisitos del método},5.4/{Fases y actividades},5.5/{Roles},5.6/{Productos e instrumentos},5.7/{Evidencias y reglas},5.8/{Ejecución, encaje ágil y límites}}{fig:secciones_c5}
 
 \section{THUNDERS-Master en resumen}
 \label{sec:vista}
@@ -3258,7 +3283,7 @@ observables. La Figura~\ref{fig:modelo_final} presenta el modelo del proceso.
   igual $\cdot$ E4 divergencias explícitas $\cdot$ E5 entendimiento
   transferible. \textbf{Roles:} FR Facilitador $\cdot$ AN Analista $\cdot$ RT
   Relator $\cdot$ SD Stakeholder de dominio $\cdot$ PO Responsable de decisión
-  $\cdot$ QA Representante técnico.};
+  $\cdot$ QA Responsable de calidad.};
 \end{tikzpicture}
 \caption{Modelo de THUNDERS-Master: el ciclo de requisitos con sus tres fases,
 sus actividades, el subproceso A5, los dos encuentros, los hitos EC-1 y EC-2 y
@@ -3273,22 +3298,17 @@ del subproceso A5, son las actividades de THUNDERS-Master. RM-01 a RM-14 son los
 requisitos del método (Sección~\ref{sec:requisitos_metodo}). E1 a E5 son las
 evidencias del entendimiento compartido, y EC-1 y EC-2 son los dos hitos de
 validación del entendimiento que define THUNDERS y que el proceso adaptado
-hereda. I2 e I3 son los dos instrumentos de verificación.\footnote{El
-instrumento I1, la lista de evidencias, existió hasta la versión 1.5 y se
-integró en la plantilla de línea base, por lo que se conserva la numeración de
-los otros dos.}
+hereda. I1, I2 e I3 son los instrumentos de verificación: I2, la lista de
+calidad y aceptación, e I3, la guía de micro-chequeos, tienen plantilla propia,
+mientras que I1 son las cinco casillas de las evidencias E1 a E5 dentro de la
+plantilla de línea base.
 
-Dos calificativos se repiten en el proceso. Un requisito es \emph{crítico}
-cuando una mala interpretación tendría consecuencias que el equipo no puede
-absorber, por ejemplo porque decide el alcance o la arquitectura, compromete una
-obligación legal o contractual, o bloquea a otros requisitos. Esa marca la ponen
-el Analista y el Responsable de decisión al especificar, y es la que activa las
-exigencias adicionales del proceso, que son el criterio de aceptación con un
-ejemplo concreto y su recorrido en la validación. Un \emph{supuesto} es una
-afirmación sobre el contexto, los datos o el comportamiento del sistema que se da
-por cierta sin haberse verificado y de la que depende un requisito, como dar por
-hecho que el catálogo de productos siempre estará disponible en línea.
-Registrarlo permite descubrir luego si el requisito se apoyaba en algo falso.
+Un requisito es \emph{crítico} cuando decide el alcance o la arquitectura,
+compromete una obligación legal o contractual, o bloquea a otros, de modo que
+malinterpretarlo tendría consecuencias que el equipo no puede absorber; esa
+marca activa el criterio con un ejemplo y su recorrido en la validación. Un
+\emph{supuesto} es algo que se da por cierto sin haberse verificado y de lo que
+depende un requisito, como que todos los clientes usan WhatsApp.
 
 \section{Fundamentos del proceso}
 \label{sec:fundamentos}
@@ -3497,17 +3517,17 @@ A5.1 Elicitar necesidades y supuestos (encuentro 1, por bloque)
 A5.2 Especificar requisitos y criterios (entre encuentros)
 & Redacta las tarjetas en el formato del equipo, con su necesidad de origen.
   Para cada requisito crítico escribe el criterio y un ejemplo concreto, y para
-  cada restricción, si es negociable y quién es su dueño. Revisa la calidad con
-  I2, una sola vez.
+  cada restricción, si es negociable y quién es su dueño. Revisa la calidad de
+  cada requisito con la parte A de I2, una sola vez.
 & AN (QA)
 & Tarjetas.
 & Prepara E3
 & 5--8 min por requisito, sin \textit{stakeholders} \\
 A5.3 Validar con ejemplos y resolver divergencias (encuentro 2)
-& Aplica los criterios de conjunto de I2. En cada requisito crítico, quien lo
-  aporta y quien lo construirá recorren su ejemplo o prototipo, y el
-  \textit{stakeholder} responde las dos preguntas de aceptación. Resuelve las
-  divergencias y deja la conformidad (firma, verbal o en acta).
+& Revisa el conjunto con la parte B de I2. En cada requisito crítico, quien lo
+  aporta y quien lo construirá recorren su ejemplo o prototipo y se aplica la
+  parte C de I2 (aceptación del \textit{stakeholder} y concordancia con el QA).
+  Resuelve las divergencias y deja la conformidad (firma, verbal o en acta).
 & SD y PO (FR, QA, RT)
 & Tarjetas validadas; registro de validación y decisiones.
 & E3 y E4
@@ -3516,7 +3536,8 @@ A5.3 Validar con ejemplos y resolver divergencias (encuentro 2)
 A6 Establecer la línea base y cerrar
 & Congela la versión en el repositorio del equipo y deja las acciones con
   responsable y fecha. Marca E1 a E5, envía el paquete de cierre con un plazo
-  de objeción para los requisitos no críticos y hace la prueba de traspaso.
+  de objeción para los requisitos no críticos y hace la prueba de traspaso con
+  una muestra de los críticos.
 & RT (FR, PO)
 & Línea base con E1--E5; acciones; paquete de cierre.
 & E5
@@ -3581,29 +3602,30 @@ Stakeholder de dominio (SD) & Aporta las necesidades y valida el significado de
 los requisitos. & A5.3 (con el PO) & Participantes de la actividad \\
 Responsable de decisión (PO) & Prioriza, acepta y media los desacuerdos, salvo
 que sea parte del conflicto. & A5.3 (con el SD) & Sin equivalente propio \\
-Representante técnico o de QA (QA) & Revisa la verificabilidad de los requisitos
-y ayuda a construir los ejemplos. & -- & Sin equivalente propio \\
+Responsable de calidad (QA) & Es quien construirá o probará el requisito;
+revisa su calidad y verificabilidad y ayuda a construir los ejemplos. & -- & Sin equivalente propio \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
 El Facilitador asume la postura que Berry llamó del ignorante inteligente,
 retomada por Glinz y Fricker~\cite{glinz2015shared}, que es la de quien hace las
-preguntas que los expertos no hacen porque la respuesta les parece obvia. Por lo
-tanto, que el Facilitador o el Analista no conozcan el dominio, como ocurre con
-los estudiantes, puede ser una ventaja. El Responsable de decisión y el
-Representante técnico no tienen un rol propio en THUNDERS, ya que hacen
-explícitas la autoridad de aceptación y la revisión de verificabilidad que el
-proceso original reparte dentro de los grupos, y en la IR esas
-responsabilidades deben poder identificarse para validar y cerrar requisitos.
+preguntas que los expertos no hacen porque la respuesta les parece obvia, por lo
+que no conocer el dominio puede ser una ventaja. El Responsable de decisión y el
+Responsable de calidad hacen explícitas la autoridad de aceptación y la revisión
+de verificabilidad que THUNDERS reparte dentro de los grupos.
 
 \section{Productos de trabajo e instrumentos}
 \label{sec:artefactos}
 \label{sec:instrumentos}
-El proceso tiene nueve plantillas, que son siete artefactos y dos instrumentos.
-La Tabla~\ref{tab:plantillas_final} presenta los siete artefactos con la
-actividad que los produce y sus campos, y el Anexo~\ref{anx:plantillas}
-presenta las plantillas del modo asistido.
+El proceso tiene nueve plantillas, que son siete artefactos y dos instrumentos,
+y se diligencian en un libro por ciclo. La Tabla~\ref{tab:plantillas_final}
+presenta los siete artefactos con la actividad que los produce y sus campos, y
+el Anexo~\ref{anx:plantillas} presenta las plantillas del modo asistido con un
+ejemplo de cada campo. En las plantillas, la mayoría de los campos se marcan de
+una lista y no se redactan, y los identificadores, la fuente de cada requisito,
+su estado de validación y las lecturas de las evidencias se calculan a partir de
+lo ya registrado.
 
 \begin{table}[htbp]
 \caption{Artefactos de THUNDERS-Master y sus campos.}
@@ -3615,68 +3637,76 @@ presenta las plantillas del modo asistido.
 \toprule
 \textbf{Artefacto (actividad)} & \textbf{Campos} \\
 \midrule
-01 \textit{Canvas} del ciclo (A1, A3 y A4) & Objetivo; alcance, exclusiones y
-contexto de uso; agenda con su técnica y sus puntos críticos; formato de los
-requisitos; insumos; restricciones conocidas; forma de participación; regla de
-participación y criterio de cierre; forma de ejecución, riesgos y mediador;
-bloque de apertura. \\
-02 Mapa de \textit{stakeholders} (A1) & Actor y rol; qué aporta; quién hace la
-tarea en la práctica; si decide y sobre qué; disponibilidad; fuentes no
-humanas. \\
+01 \textit{Canvas} del ciclo (A1, A3 y A4) & Proyecto, ciclo y equipo;
+objetivo verificable; alcance, exclusiones y contexto de uso; restricciones
+conocidas, con si son negociables y su dueño; agenda con su técnica; formato de
+los requisitos; insumos; participación y criterio de cierre; riesgos y
+mediador; fechas de los dos encuentros; forma de ejecución (dos preguntas y
+extensiones); bloque de apertura con la reformulación de cada perfil
+crítico. \\
+02 Mapa de \textit{stakeholders} (A1) & Actor; rol en el ciclo; qué aporta;
+quién hace la tarea en la práctica; si decide y sobre qué; disponibilidad; y un
+chequeo de suficiencia de las fuentes. \\
 03 Declaración y glosario vivo (A2) & Declaración (enunciado, afectados y
-contraste); por término, definición acordada, ejemplo y variantes, estado y
-responsable. \\
-04 Registro de necesidades (A5.1) & Bloque; enunciado; fuente; contexto y
-valor; supuestos; prioridad; estado (nueva, duplicada, en conflicto o fuera de
-alcance). \\
-05 Tarjeta de requisito (A5.2 y A5.3) & Identificador y tipo (si es una
-restricción, si es negociable y quién es su dueño); enunciado; necesidad y
-fuente; si es crítico; criterio y ejemplo; prioridad y responsable; estado de
-validación y evidencia; decisión. \\
-06 Registro de validación y decisiones (A5.3) & Conjunto revisado; requisitos
-revisados; técnica; resultado de los críticos; divergencias con su resolución;
-conformidad (firma, verbal o en acta). \\
-07 Línea base y cierre (A6) & Identificador y repositorio; requisitos
-incluidos; acciones; evidencias E1--E5; prueba de traspaso; paquete,
-destinatarios y plazo de objeción. \\
+contraste); por término, definición acordada, ejemplo y variantes, si es
+crítico, estado (tentativo, acordado, acordado y comprobado, o en divergencia)
+y responsable. \\
+04 Registro de necesidades (A5.1) & Bloque; necesidad en palabras de la
+fuente; fuente; contexto y valor; supuestos; prioridad; estado (nueva,
+duplicada, en conflicto o fuera de alcance); requisitos que la cubren. \\
+05 Tarjeta de requisito (A5.2 y A5.3) & Necesidad de origen y fuente; tipo
+(funcional, de calidad o restricción); enunciado; si es crítico; criterio de
+aceptación y ejemplo; prioridad; si es una restricción, si es negociable y su
+dueño; quién acepta; estado de validación; divergencias abiertas. \\
+06 Registro de validación y decisiones (A5.3) & Conjunto validado; fecha y
+participantes; técnica; conformidad (firma, verbal o acta) y su constancia;
+por divergencia, dónde se detectó, a qué afecta, quién entiende qué, la
+resolución y su justificación, el estado, el responsable y la fecha. \\
+07 Línea base y cierre (A6) & Identificador, repositorio y fecha; evidencias
+E1--E5 con su respaldo; prueba de traspaso; paquete de cierre con
+destinatarios, medio y plazo de objeción; acciones con responsable y fecha. \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
 \paragraph{I2, lista de calidad y aceptación.}
-Tiene dos partes. La de calidad la aplican el Analista y el Representante
-técnico una sola vez, al especificar (A5.2), y comprueba que cada requisito sea
-claro, consistente con el glosario y con los demás, verificable con un criterio
-observable y vinculado a su necesidad; en la validación (A5.3) se aplican los
-criterios del conjunto de requisitos, que son no tener duplicados ni
-contradicciones, usar los términos del glosario y cubrir toda necesidad
-priorizada. La de aceptación la responde el \textit{stakeholder} en A5.3, solo
-para los requisitos críticos y después de recorrer su ejemplo, con dos
-preguntas: si el requisito expresa su necesidad y si ese ejemplo y ese criterio
-lo convencerían de que se cumple. Cada pregunta se responde con sí, no o
-pendiente. Así, la validación con el \textit{stakeholder} se concentra en el
-significado, que es lo que solo él puede confirmar, y no en la forma del
-requisito.
+Tiene tres partes (Anexo~\ref{anx:plantillas}). La parte A la aplican el
+Analista y el Responsable de calidad una sola vez, al especificar (A5.2), y
+pregunta por cada requisito si permite identificar sin ambigüedad el
+comportamiento, las condiciones y el resultado esperado, si usa los términos del
+glosario, si tiene un criterio de aceptación observable, medible en los no
+funcionales, y si conserva el vínculo con su necesidad; solo se anota lo que
+falla. La parte B revisa el conjunto en el encuentro~2: que no haya requisitos
+que expresen la misma obligación, que se hayan resuelto las contradicciones y
+que toda necesidad priorizada tenga un requisito. La parte C es la aceptación de
+cada requisito crítico, después de recorrer su ejemplo: el \textit{stakeholder}
+dice si el requisito expresa su necesidad y explica con sus palabras el
+resultado que espera (C1), confirma que el ejemplo y el criterio corresponden a
+lo que espera (C2), y se comprueba que él y el Responsable de calidad, que es
+quien construirá o probará el requisito, lo interpretan igual (C3). Cada
+pregunta se responde con sí, no o pendiente, y un ``no'' se registra como
+divergencia. Así, la validación con el \textit{stakeholder} se concentra en el
+significado, que es lo que solo él puede confirmar.
 
-\paragraph{I3, guía de verificación del entendimiento.}
-Orienta los micro-chequeos con los que se detecta, durante el encuentro~1, que
-dos personas entienden distinto lo mismo. A3 la prepara con los puntos críticos
-de la agenda y la técnica que se usará en cada uno. Las técnicas son cuatro. En
-la paráfrasis cruzada, dos perfiles reformulan con sus palabras un requisito o un
-término. En el sondeo de ambigüedad, cada persona da por separado un valor
-concreto, por ejemplo cuántos segundos es ``rápido'', y luego se comparan las
-respuestas. En el ejemplo concreto se pregunta qué pasa si ocurre una situación
-determinada. En la comparación con un sistema de referencia se toma un sistema
-que todos conocen, lo que sirve para los atributos de calidad, que difícilmente
-caben en un escenario~\cite{glinz2015shared}. El resultado de cada micro-chequeo
-es alineado, divergencia o pendiente, y cada uno toma de dos a tres minutos. Al
-cerrar cada bloque de la agenda se aplican además dos chequeos fijos, que
-verifican que los términos nuevos tengan una definición acordada y que los
-requisitos críticos tengan necesidad y fuente. En la variante asíncrona, la
-pregunta se envía por escrito a dos perfiles y se comparan sus respuestas. La
-verificación continua no es un paso del flujo, sino la forma de conducir el
-encuentro~1, y la aplica el Facilitador, con el Relator, en los puntos críticos
-que A3 marcó, con al menos dos micro-chequeos por encuentro.
+\paragraph{I3, guía de micro-chequeos.}
+Orienta los micro-chequeos con los que se detecta, en el encuentro~1, que dos
+personas entienden distinto lo mismo. A3 marca los puntos críticos de la agenda
+y la técnica de cada uno, y en cada punto se hace un micro-chequeo de dos a tres
+minutos, con un mínimo de dos por encuentro. Las técnicas son cuatro: la
+paráfrasis cruzada, en la que dos perfiles explican con sus palabras el mismo
+requisito o término; el sondeo de ambigüedad, en el que cada persona da por
+separado un valor concreto, por ejemplo cuántos segundos es ``rápido'', o su
+interpretación de una regla de negocio; el ejemplo concreto, que pregunta qué
+pasa si ocurre una situación, incluidos los casos límite; y la comparación con
+un sistema que todos conocen, útil para los atributos de
+calidad~\cite{glinz2015shared}, pero solo como técnica complementaria. Cada
+micro-chequeo se cierra con quiénes participaron, la interpretación acordada y
+su resultado (alineado, divergencia o pendiente), y lo que no queda alineado
+pasa al registro de validación y decisiones. Al cerrar cada bloque se comprueba
+además que los términos nuevos tengan una definición acordada y que cada
+requisito crítico tenga anotada su necesidad, este último como un control de
+trazabilidad. La verificación continua no es un paso del flujo, sino la forma de
+conducir el encuentro~1, y la aplica el Facilitador con el Relator.
 
 \section{Evidencias del entendimiento compartido y reglas}
 \label{sec:evidencias_final}
@@ -3687,8 +3717,11 @@ prototipos o el sondeo de ambigüedad, aplicada entre perfiles distintos, y
 declara qué cuenta como ``no''. Estas prácticas se aplican sobre lo crítico. El
 ciclo cierra cuando las cinco evidencias están en ``sí''; un ``no'' en E1, E2 o
 E3 sobre algo crítico abre una divergencia, que pasa a E4, y un ``pendiente''
-genera una acción con responsable y fecha. Las evidencias se marcan en la
-plantilla de línea base, cada una con la referencia del artefacto de donde sale.
+genera una acción con responsable y fecha. Una divergencia crítica que siga
+abierta deja E4 en ``pendiente'', aunque tenga responsable y fecha, y las no
+críticas se cierran por objeción en el paquete de cierre. Las evidencias se
+marcan en la plantilla de línea base, que cumple la función del antiguo
+instrumento I1, cada una con la referencia del artefacto que la respalda.
 La Tabla~\ref{tab:evidencias_final} las presenta.
 
 {\footnotesize
@@ -3719,41 +3752,46 @@ E1 Problema compartido
 & Una persona de cada perfil crítico (quien aporta la necesidad, quien
   especifica o construye y quien acepta) reformula con sus palabras el
   problema, el alcance y el resultado esperado, y las versiones son
-  equivalentes entre sí y con la declaración.
-& Paráfrasis en la apertura del encuentro 1 (A4) y, antes, con un SD en A2.
+  equivalentes entre sí y con la declaración. La equivalencia se juzga por el
+  significado, no por la similitud literal.
+& Registro de paráfrasis en el bloque de apertura del \textit{canvas} (A4) y,
+  antes, con un SD en A2.
 & Alguna versión difiere en el problema, el alcance o el resultado esperado, o
   repite el enunciado sin reformularlo. \\
 \addlinespace
 E2 Vocabulario compartido
 & Los términos críticos tienen una definición acordada y, en los de mayor
   riesgo, perfiles distintos los interpretan igual cuando se les pregunta.
-& Micro-chequeos de la guía I3 (paráfrasis o sondeo de ambigüedad) y revisión
-  del glosario.
+& Micro-chequeos de I3 (paráfrasis o sondeo de ambigüedad) y estado
+  ``acordado y comprobado'' de los términos críticos en el glosario.
 & Dos perfiles interpretan distinto un término crítico. Un término sin
   definición acordada no cuenta como ``sí'', sino como una divergencia. \\
 \addlinespace
 E3 Requisitos críticos interpretados igual
-& Para cada requisito crítico, quien lo aporta o lo acepta y quien lo
-  construirá o probará coinciden en un ejemplo concreto de su cumplimiento, y
-  el criterio de aceptación acordado lo hace observable.
-& Escenario o caso de aceptación recorrido en voz alta, o prototipo. A5.2 lo
+& Para cada requisito crítico, quien lo aporta, quien lo construirá y, cuando
+  es pertinente, quien lo probará coinciden en un ejemplo concreto de su
+  cumplimiento, con sus casos excepcionales y condiciones límite, y el criterio
+  de aceptación lo hace observable.
+& Ejemplo recorrido en voz alta, escenario o prototipo, y parte C de I2. A5.2 lo
   prepara y A5.3 lo comprueba.
 & El ejemplo no convence a quien acepta, o quien construye lo resolvería de
   otra forma. \\
 \addlinespace
 E4 Divergencias explícitas
-& Toda divergencia de interpretación detectada está resuelta con su
-  justificación o asignada a un responsable con fecha, y ninguna queda
-  implícita.
+& Toda divergencia de interpretación que afecta a un requisito crítico está
+  resuelta, documentada y confirmada por los perfiles involucrados; las no
+  críticas tienen responsable y fecha y se cierran por objeción.
 & Registro de validación y decisiones (A5.3), con la escalera o con el dueño
   de la restricción.
-& Una divergencia detectada no tiene resolución ni responsable. \\
+& Una divergencia crítica sigue abierta, aunque tenga responsable y fecha
+  (cuenta como ``pendiente''). \\
 \addlinespace
 E5 Entendimiento transferible
 & Lo acordado está en una línea base identificable, y una persona que no
   participó, idealmente quien construirá o probará, reconstruye solo con la
-  línea base y el paquete de cierre el significado de dos requisitos críticos.
-  La fuente o el PO confirma que coincide.
+  línea base y el paquete de cierre el significado de una muestra de requisitos
+  críticos, de dos o del 20\,\% de ellos, lo que sea mayor. La fuente o el PO
+  confirma que coincide.
 & Prueba de traspaso: paráfrasis sobre el documento, de forma asíncrona (A6).
   Si todos participaron, se registra y se hace con la primera persona que se
   incorpore.
@@ -3829,15 +3867,12 @@ alcance es difuso, se activa un árbol de problemas en A2.
 \paragraph{Catálogo de técnicas.}
 \label{sec:catalogo}
 El \textit{canvas} declara la técnica de cada bloque de la agenda, que se elige
-de un catálogo. Seis técnicas vienen de las actividades colaborativas
-predefinidas de THUNDERS (\textit{Agile Inception}, \textit{Brainstorming},
-\textit{Impact Mapping}, \textit{Storytelling}, el léxico extendido del lenguaje
-y las tres C de las historias de usuario), con sus criterios para elegirlas y
-para no elegirlas, y tres se agregaron desde la RSL y la caracterización
-(\textit{personas}, prototipos y BDD). En THUNDERS cada una es una dinámica
-completa, mientras que aquí funciona como la técnica de un bloque, acotada a su
-tiempo y con el registro que exige la actividad. El Anexo~\ref{anx:v13} describe
-cada técnica con sus criterios de uso.
+de un catálogo de nueve: seis vienen de las actividades colaborativas de
+THUNDERS (\textit{Agile Inception}, \textit{Brainstorming}, \textit{Impact
+Mapping}, \textit{Storytelling}, el léxico extendido del lenguaje y las tres C de
+las historias de usuario) y tres se agregaron desde la RSL (\textit{personas},
+prototipos y BDD). El Anexo~\ref{anx:v13} describe cada una con sus criterios de
+uso.
 
 \paragraph{Encaje en marcos ágiles.}
 \label{sec:encaje_agil}
@@ -3903,12 +3938,13 @@ del proceso y se presenta el plan de evaluación basado en GQM con la estrategia
 que se siguió. Luego se presentan, en orden, las validaciones de las versiones
 1.0 a 1.2, la validación de la versión 1.3 con expertos, el estudio de caso
 exploratorio UniReserva sobre la misma versión, las revisiones de las versiones
-1.4 y 1.5, y el estudio de caso en contexto agrícola con la versión final, cada
+1.4 y 1.5, la validación de los instrumentos de la versión final por juicio de
+experto y el estudio de caso en contexto agrícola con la versión final, cada
 uno con su diseño, su ejecución y sus resultados. Por último, se discuten los
 resultados en conjunto y se presentan las amenazas a la validez. La
 Figura~\ref{fig:secciones_c6} resume las secciones del capítulo.
 
-\seccionescapitulo{9}{6.1/{Elementos de cada versión},6.2/{Plan de evaluación},6.3/{Versiones 1.0 a 1.2},6.4/{Versión 1.3: expertos},6.5/{Versión 1.3: estudio de caso UniReserva},6.6/{Discusión de la versión 1.3},6.7/{Versiones 1.4 y 1.5},6.8/{Versión final: estudio de caso agrícola},6.9/{Discusión general y amenazas}}{fig:secciones_c6}
+\seccionescapitulo{10}{6.1/{Elementos de cada versión},6.2/{Plan de evaluación},6.3/{Versiones 1.0 a 1.2},6.4/{Versión 1.3: expertos},6.5/{Versión 1.3: estudio de caso UniReserva},6.6/{Discusión de la versión 1.3},6.7/{Versiones 1.4 y 1.5},6.8/{Versión final: juicio de experto},6.9/{Versión final: estudio de caso agrícola},6.10/{Discusión general y amenazas}}{fig:secciones_c6}
 
 \section{Elementos de cada versión del proceso}
 \label{sec:elementos_versiones}
@@ -3959,8 +3995,8 @@ Modelado & Tabla de mapeo & Fragmentos de método & Modelo por fases &
 BPMN & BPMN con subproceso & BPMN con \textit{lanes} por rol \\
 \rowcolor{meaFill!60}
 Validación & Revisión inicial & Revisión por pares (JIIHC 2026) & 5 expertos y
-estudio de caso UniReserva & Revisión con el codirector & Revisión conceptual,
-analítica y simulación & Estudio de caso agrícola \\
+estudio de caso UniReserva & Revisión con el codirector & Revisión conceptual
+y analítica & Juicio de experto y estudio de caso agrícola \\
 \end{tabularx}
 \caption{Elementos de cada versión de THUNDERS-Master y forma en que se validó.
 Las celdas verdes marcan los cambios de mayor alcance.}
@@ -4068,9 +4104,10 @@ aplicaron sin conocerla antes~\cite{escobar2008validez,runeson2009case}, y se
 hicieron casi al mismo tiempo (los expertos respondieron entre el 4 y el 15 de
 septiembre de 2026 y UniReserva se realizó el 9 de septiembre), por lo que ambas
 se refieren a la misma versión. Las versiones 1.4 y 1.5 se validaron con
-revisiones de la dirección y con una revisión conceptual y analítica, y la
-versión final se evaluó en el estudio de caso en contexto agrícola
-(Sección~\ref{sec:caso_agricola}).
+revisiones de la dirección y con una revisión conceptual y analítica. En la
+versión final, el contenido de los instrumentos se validó por juicio de experto
+(Sección~\ref{sec:val_experto_final}) y el proceso se evaluó en el estudio de
+caso en contexto agrícola (Sección~\ref{sec:caso_agricola}).
 
 \section{Validación de las versiones 1.0 a 1.2}
 \label{sec:val_v12}
@@ -4485,31 +4522,19 @@ individuales y los comentarios completos están en el Anexo~\ref{anx:encuesta}.
 \label{sec:discusion}
 
 \subsection{Lo que dicen las dos fuentes en conjunto}
-El resultado principal es que lo que juzgaron los expertos al leer la
-especificación coincide con lo que percibieron los estudiantes al ejecutarla.
-Las dos fuentes valoran alta la utilidad. Los expertos le dieron 4,27 a la
-dimensión de utilidad y 4,60 a la suficiencia de las evidencias E1--E5, y los
-estudiantes respondieron todos con 4 o 5 que el proceso les ayudó a notar que no
-entendían lo mismo, y en su mayoría que lo usarían en un proyecto real. La
-observación del caso va en la misma dirección, ya que los dos equipos detectaron
-la contradicción central y la dejaron escrita en el artefacto que correspondía,
-que es justo la conducta que el proceso busca. Las dos fuentes coinciden
-también en la debilidad. La ligereza fue la dimensión peor valorada por los
-expertos (3,30), con el ítem de sesiones breves en 2,80, y la claridad de los
-pasos fue la afirmación con menor acuerdo entre los estudiantes (2,09), junto
-con un esfuerzo mental percibido alto (3,73). Que dos grupos tan distintos, con
-instrumentos distintos y sin contacto entre sí, señalen la misma fortaleza y la
-misma debilidad le da más consistencia al resultado de la que tendría cada
-muestra por separado.
-
-La presión por el tiempo se analiza por separado. Su distribución en dos grupos
-refleja dos experiencias distintas de la misma sesión. Quienes escribían (el
-Relator, que llevaba el glosario y la matriz, y el Responsable de decisión, que
-debía aceptar cada requisito) se sintieron presionados, mientras que los roles que sobre todo aportaban
-conocimiento o revisaban no. Esto sugiere que el cuello de botella está en la
-concentración de la escritura en un rol, más que en el proceso en general, lo que
-coincide con la sugerencia de dos participantes de exigir seis integrantes para
-no combinar al Analista con el Relator.
+Lo que juzgaron los expertos al leer la especificación coincide con lo que
+percibieron los estudiantes al ejecutarla. Las dos fuentes valoran alta la
+utilidad: los expertos le dieron 4,27 a la utilidad y 4,60 a la suficiencia de
+las evidencias, los estudiantes respondieron todos con 4 o 5 que el proceso les
+ayudó a notar que no entendían lo mismo, y los dos equipos dejaron escrita la
+contradicción central. Las dos coinciden también en la debilidad, ya que la
+ligereza fue lo peor valorado por los expertos (3,30) y la claridad de los
+pasos, por los estudiantes (2,09). Que dos grupos distintos, con instrumentos
+distintos y sin contacto entre sí, señalen la misma fortaleza y la misma
+debilidad le da consistencia al resultado. La presión por el tiempo se
+concentró en quienes escribían (el Relator y el Responsable de decisión), lo que
+sugiere que el cuello de botella está en la concentración de la escritura en un
+rol, como señalaron dos participantes al pedir equipos de seis.
 
 \subsection{Comparación con estudios previos}
 El patrón repite el de las validaciones anteriores del proceso base y de su
@@ -4571,7 +4596,7 @@ proceso eran indispensables. Sus cinco recomendaciones (Sección~\ref{sec:v14})
 dieron lugar a la versión 1.5.
 
 \subsection{Revisión conceptual y analítica de la versión 1.5}
-La versión 1.5 se validó con tres revisiones que no involucraron a personas que
+La versión 1.5 se validó con dos revisiones que no involucraron a personas que
 aplicaran el proceso. La primera fue la revisión conceptual con la distinción
 de Glinz y Fricker~\cite{glinz2015shared}, que preguntó, para cada evidencia, si
 comprobaba que el grupo entendía lo mismo o solo que algo había quedado escrito.
@@ -4595,47 +4620,93 @@ discrepancias por resolver, lo que no cabe en una sola sesión y coincide con lo
 que la facilitadora anotó en UniReserva y con la valoración de 2,80 que los
 expertos le dieron al ítem de sesiones breves.
 
-La tercera fue una simulación de escritorio, en la que los autores aplicaron el
-proceso de forma analítica a tres casos de distinto tamaño, uno pequeño, uno
-global y uno rural, para estimar cuántos campos se diligencian por requisito y
-cuántos minutos se pasan con los \textit{stakeholders}, y para comparar la
-versión 1.5 con la versión que resultó de la revisión. La
-Tabla~\ref{tab:simulacion} resume las estimaciones. En los tres casos la
-versión final pide unos 30 a 33 campos por requisito, cuando una historia de
-usuario en un tablero informal lleva entre cinco y siete, y cerca de la mitad del
-tiempo con los \textit{stakeholders} se dedica a comprobar y validar el
-significado. Con el ciclo de dos encuentros el tiempo con los
-\textit{stakeholders} baja entre un 41\,\% y un 46\,\%, ya que la especificación
-pasa a hacerse sin ellos. Estas cifras son estimaciones de un modelo hecho por
-los mismos autores que sembraron los casos, y no mediciones, por lo que se
-convirtieron en indicadores que el estudio de caso agrícola debía medir.
+Las dos revisiones dieron lugar a la versión final: el ciclo de dos encuentros
+responde al problema de tiempo, y las evidencias que comprueban
+interpretaciones responden al entendimiento compartido falso.
+
+
+\section{Validación de los instrumentos de la versión final por juicio de experto}
+\label{sec:val_experto_final}
+Antes de llevar el proceso al estudio de caso se validó por juicio de experto
+el contenido de sus instrumentos, ya que de ellos dependen las cinco
+evidencias.
+
+\subsection{Diseño y ejecución}
+Se siguió la propuesta de Escobar-Pérez y Cuervo-Martínez para la validez de
+contenido~\cite{escobar2008validez}, en la que cada ítem se califica de 1
+(no cumple con el criterio) a 4 (alto nivel) en tres categorías: la claridad,
+que valora si el ítem se comprende fácilmente; la coherencia, que valora si
+tiene una relación lógica con lo que mide; y la relevancia, que valora si es
+esencial y debe incluirse. Además, para cada instrumento se califica la
+suficiencia, que valora si sus ítems bastan para obtener la medición. Se
+evaluaron veinte ítems, seis de I3, nueve de I2 y las cinco evidencias de I1,
+cada uno con una observación opcional, y un concepto general.
+
+El evaluador fue Oscar Revelo Sánchez, quien diligenció el formato el 22 de
+octubre de 2026. Su concepto general fue favorable con recomendaciones de
+ajuste.
+
+\pendiente{Agregar el perfil del experto (formación, experiencia en IR o en
+validación de instrumentos y afiliación) y confirmar si hubo otros
+evaluadores.}
+
+\subsection{Resultados}
+La Tabla~\ref{tab:val_experto} resume las calificaciones. Ningún ítem obtuvo
+menos de 3, y trece de los veinte obtuvieron 4 en las tres categorías. La
+claridad fue la categoría más baja en la lista de calidad (3,56), ya que cuatro
+de sus ítems estaban redactados de forma subjetiva o absoluta, como ``se
+entiende con una sola lectura'' o ``lo convencerían''. Los tres instrumentos
+obtuvieron 3 en suficiencia, es decir, para el experto a cada uno le faltaba
+algo. A la guía de micro-chequeos le faltaba precisar cuándo una divergencia
+queda resuelta; a la lista de calidad, comprobar que los perfiles técnicos y los
+no técnicos interpretan igual los criterios de aceptación; y a las evidencias,
+indicar qué respalda cada ``sí'', ya que la regla de E4 permitía cerrar el ciclo
+con divergencias críticas abiertas.
 
 \begin{table}[htbp]
-\caption{Estimaciones de la simulación de escritorio para las versiones 1.5 y final.}
-\label{tab:simulacion}
+\caption{Validación de contenido de los instrumentos de la versión final por
+juicio de experto (escala de 1 a 4).}
+\label{tab:val_experto}
 \centering
 \footnotesize
 \renewcommand{\arraystretch}{1.15}
-\begin{tabularx}{\textwidth}{@{}Y rrr@{}}
+\begin{tabularx}{\textwidth}{@{}Y rrrrr L{3.4cm}@{}}
 \toprule
-\textbf{Indicador} & \textbf{Caso pequeño} & \textbf{Caso global} &
-\textbf{Caso rural} \\
+\textbf{Instrumento} & \textbf{Ítems} & \textbf{Claridad} & \textbf{Coherencia}
+& \textbf{Relevancia} & \textbf{Suficiencia} & \textbf{Ítems con alguna
+calificación menor que 4} \\
 \midrule
-Campos diligenciados, versión 1.5 $\to$ versión final & 468 $\to$ 374 & 1.722 $\to$
-1.278 & 633 $\to$ 523 \\
-Campos por requisito en la versión final & 31,2 & 30,4 & 32,7 \\
-Minutos con los \textit{stakeholders}, versión 1.5 $\to$ versión final & 194
-$\to$ 107 & 645 $\to$ 346 & 273 $\to$ 160 \\
-Encuentro~1 + encuentro~2 en la versión final (minutos) & 64 + 43 & 222 + 124 &
-96 + 64 \\
+I3 Micro-chequeos & 6 & 3,83 & 3,67 & 3,67 & 3 & Técnica 4 y chequeo
+de cierre 6 \\
+I2 Calidad y aceptación & 9 & 3,56 & 4,00 & 3,89 & 3 & A1, B1, B2 y
+C2 \\
+I1 Evidencias & 5 & 3,80 & 3,80 & 4,00 & 3 & E4 \\
+\midrule
+Total & 20 & 3,70 & 3,85 & 3,85 & -- & 7 de 20 \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-\pendiente{Confirmar si la simulación de escritorio se incluye en la monografía
-y, en ese caso, describir en un anexo los tres casos simulados (dominio, número
-de requisitos y defectos sembrados) y el modelo de costo con el que se
-estimaron los campos y los minutos.}
+\subsection{Ajustes incorporados}
+Todas las observaciones se incorporaron en la versión final, y el
+Anexo~\ref{anx:val_experto} presenta cada una con su calificación y su ajuste.
+Los principales fueron cinco. Se agregó un cierre a cada micro-chequeo, con la
+interpretación acordada, los perfiles y la decisión o acción con responsable y
+fecha, y se pasó a un micro-chequeo en cada punto crítico, con un mínimo de dos.
+Se reformularon los ítems subjetivos de la lista de calidad (A1, B1, B2 y C2) y
+se agregó el ítem C3, que comprueba que el \textit{stakeholder} y quien
+construirá o probará el requisito lo interpretan igual. Se separaron las
+evidencias de comprensión de los controles, de modo que la comparación con un
+sistema de referencia quedó como técnica complementaria y el chequeo de
+trazabilidad, como un control. Se corrigió la regla de E4, que deja en
+``pendiente'' una divergencia crítica abierta aunque tenga responsable y fecha.
+Por último, E3 incluye a quien probará el requisito y los casos límite, E5 fija
+la muestra de la prueba de traspaso en dos requisitos críticos o el 20\,\% de
+ellos, y el rol que se llamaba representante técnico pasó a llamarse
+Responsable de calidad (QA), para no confundirlo con el Relator (RT).
+
+Como la hizo un solo experto y valora el contenido y no el uso, esta validación
+se complementa con el estudio de caso en contexto agrícola.
 
 
 \section{Evaluación de la versión final: estudio de caso en contexto agrícola}
@@ -4643,8 +4714,9 @@ estimaron los campos y los minutos.}
 El estudio de caso del objetivo~4 es la evaluación del proceso en un contexto
 real, con un equipo de desarrollo y con \textit{stakeholders} del sector
 agrícola, por las razones de la Sección~\ref{sec:contexto_agricola}. Se diseñó
-sobre la versión final e incorpora lo aprendido en UniReserva y en las
-revisiones de las versiones 1.4 y 1.5. Como los estudios anteriores, se
+sobre la versión final, con los instrumentos ya ajustados por el juicio de
+experto, e incorpora lo aprendido en UniReserva y en las revisiones de las
+versiones 1.4 y 1.5. Como los estudios anteriores, se
 reporta siguiendo las guías de Runeson y Höst~\cite{runeson2009case}.
 
 \subsection{Diseño del estudio de caso}
@@ -4658,8 +4730,8 @@ las divergencias de interpretación sobre los requisitos críticos. La segunda
 (PCA2) es si las cinco evidencias se pueden obtener en un ciclo de requisitos
 real y si la prueba de traspaso confirma que lo acordado es comprensible para
 quien no participó. La tercera (PCA3) es cuánto cuesta aplicar el proceso, en
-minutos con los \textit{stakeholders} y en campos por requisito, frente a lo
-que estimó la simulación. La cuarta (PCA4) es qué utilidad, qué facilidad de uso
+minutos con los \textit{stakeholders} y en campos diligenciados por
+requisito. La cuarta (PCA4) es qué utilidad, qué facilidad de uso
 y qué carga cognitiva perciben los participantes, y cómo se comparan con lo que
 percibieron los expertos y los estudiantes de UniReserva.
 
@@ -4721,8 +4793,8 @@ diseño y cómo se recogieron los datos.}
 \pendiente{Presentar los resultados por pregunta del caso: divergencias
 detectadas y resueltas por cada técnica de I3, incluido el término con dos
 lecturas (PCA1); estado de E1--E5 y resultado de la prueba de traspaso (PCA2);
-minutos con los \textit{stakeholders} por encuentro y campos por requisito
-frente a la Tabla~\ref{tab:simulacion} (PCA3); y resultados de NASA-TLX, SUS y
+minutos con los \textit{stakeholders} por encuentro y campos diligenciados por
+requisito (PCA3); y resultados de NASA-TLX, SUS y
 la encuesta de cierre, comparados con los expertos y con UniReserva (PCA4).
 Cerrar con las lecciones aprendidas y con las amenazas a la validez del
 estudio, con la clasificación de la Sección~\ref{sec:amenazas_eval}.}
@@ -4733,14 +4805,15 @@ estudio, con la clasificación de la Sección~\ref{sec:amenazas_eval}.}
 Vistas en conjunto, las validaciones de las versiones 1.0 a 1.3 confirmaron
 que el proceso es completo y útil, pero no ligero ni fácil de seguir; las
 revisiones de las versiones 1.4 y 1.5 encontraron que tres evidencias se podían
-cumplir con un entendimiento falso y que el proceso no cabía en una sesión; y
-el estudio de caso en contexto agrícola evalúa, en un contexto real, la
+cumplir con un entendimiento falso y que el proceso no cabía en una sesión; el
+juicio de experto confirmó la validez de contenido de los instrumentos de la
+versión final y precisó cómo cerrar una divergencia; y el estudio de caso en contexto agrícola evalúa, en un contexto real, la
 respuesta de la versión final a esos dos problemas.
 
 \pendiente{Completar la discusión general con los resultados del estudio de caso
 en contexto agrícola: si se mantiene la utilidad que valoraron expertos y
-estudiantes, si mejoró la facilidad de uso frente a la versión 1.3 y si el costo
-medido coincide con el que estimó la simulación.}
+estudiantes, si mejoró la facilidad de uso frente a la versión 1.3 y cuánto cuesta aplicar
+el proceso en un contexto real.}
 
 \subsection{Amenazas a la validez}
 \label{sec:amenazas_eval}
@@ -4783,154 +4856,109 @@ son las que motivaron el diseño del estudio de caso en contexto agrícola.
 \chapter{Conclusiones y trabajo futuro}
 \label{ch:conclusiones}
 
-Este capítulo presenta las conclusiones del trabajo, organizadas según los
-objetivos, y lo que se aprendió en la construcción del proceso. Luego presenta
-las contribuciones teóricas y prácticas, las limitaciones, el trabajo futuro y
-los productos de investigación que se obtuvieron. La
+Este capítulo presenta las conclusiones según los objetivos, las
+contribuciones, las limitaciones, el trabajo futuro y los productos de
+investigación. La
 Figura~\ref{fig:secciones_c7} resume las secciones del capítulo.
 
 \seccionescapitulo{5}{7.1/Conclusiones,7.2/Contribuciones,7.3/Limitaciones,7.4/{Trabajo futuro},7.5/{Productos de investigación}}{fig:secciones_c7}
 
 \section{Conclusiones}
-La revisión sistemática y la caracterización permitieron identificar desde el
-comienzo dónde se rompe el entendimiento compartido, que es al elegir a quién se
-convoca, en las palabras del dominio, al pasar de la necesidad al requisito y al
-momento de validar. Para cada uno de esos puntos la literatura tiene algún mecanismo, pero
-no hay una ruta ligera que los junte y los ordene. Esa brecha
-(Sección~\ref{sec:brecha}) cerró el primer objetivo y fue la razón para adaptar
-THUNDERS en vez de proponer un proceso desde cero.
+La RSL y la caracterización (objetivo~1) mostraron dónde se rompe el
+entendimiento compartido: al elegir a quién se convoca, en las palabras del
+dominio, al pasar de la necesidad al requisito y al validar. Para cada punto hay
+algún mecanismo, pero no una ruta ligera que los ordene (Sección~\ref{sec:brecha}),
+y esa brecha justificó adaptar THUNDERS en vez de partir de cero.
 
-El análisis de THUNDERS actividad por actividad, que corresponde al segundo
-objetivo, fue más útil de lo esperado, ya que al revisar el proceso al nivel de
-tarea se encontró que buena parte de su peso viene del contexto de aprendizaje
-para el que se creó, como la caracterización psicográfica de los participantes
-o la evaluación de su desempeño. Los elementos que construyen entendimiento,
-como el tema, el ciclo individual--grupal, la escalera de conflictos, los dos
-hitos de validación y el cierre, se pudieron conservar casi completos.
+El análisis de THUNDERS al nivel de tarea (objetivo~2) mostró que buena parte
+de su peso viene del contexto de aprendizaje para el que se creó, como la
+caracterización psicográfica o la evaluación del desempeño, mientras que lo que
+construye entendimiento (el tema, el ciclo individual--grupal, la escalera de
+conflictos, los dos hitos de validación y el cierre) se conservó casi completo.
 
 Con esa base se definió THUNDERS-Master (tercer objetivo) en seis iteraciones
 de la ingeniería de métodos situacionales, tres hasta la versión 1.3, que se
 evaluó con expertos y en el estudio de caso UniReserva, y tres más hasta la
-versión final. Una lección de esa construcción es que
-fijar primero los catorce requisitos del método ahorró discusiones, ya que la
-regla de indispensabilidad que salió de ellos resolvió los casos dudosos sin
-tener que argumentar cada decisión desde cero.
+versión final. Fijar primero los catorce requisitos del método ahorró
+discusiones, ya que la regla de indispensabilidad resolvió los casos dudosos.
 
-Para el cuarto objetivo, antes del estudio de caso en contexto agrícola se
-contaba con una evidencia exploratoria sobre la versión 1.3. Cinco expertos le dieron a la versión 1.3 medias
-superiores a 4 en completitud, utilidad, coherencia y valoración global, y todos
-recomendaron pilotarla, cuatro con ajustes. En UniReserva, los dos equipos
-detectaron y dejaron escrita la contradicción central, y los estudiantes
-valoraron con 4,55 que el proceso les ayudó a notar que no entendían lo mismo.
-Pero la ligereza fue lo peor valorado por los expertos (3,30), y la claridad de
-los pasos, lo peor valorado por los estudiantes (2,09).
+Para el cuarto objetivo, antes del estudio de caso agrícola había una evidencia
+exploratoria sobre la versión 1.3: cinco expertos le dieron medias superiores a
+4 en completitud, utilidad y coherencia y recomendaron pilotarla, y en UniReserva
+los dos equipos dejaron escrita la contradicción central, pero la ligereza
+(3,30) y la claridad de los pasos (2,09) fueron lo peor valorado.
 
-Esos dos resultados indican algo que no se había visto en la especificación. La
-versión 1.3 buscó la ligereza quitando actividades, roles y artefactos, y con
-eso conservó la utilidad de THUNDERS, pero no resolvió su facilidad de uso en
-una primera aplicación, que es la misma dificultad que tuvieron el proceso
-original y su primera estrategia para la IR. En la sesión con los estudiantes,
-la mayor dificultad fue manejar al mismo tiempo roles, reglas, fichas e
-instrumentos sin una guía para empezar, y no contar con una caracterización del
-contexto que indicara qué se podía dejar por fuera. La ligereza, entonces, también depende de cómo se presenta el
-proceso y de qué tan bien se ajusta a cada equipo, y esa fue la dirección que
-siguió el refinamiento.
-
-El refinamiento dejó dos aprendizajes. El primero es que la ligereza no se
-logra solo quitando elementos. La versión 1.4 redujo en un 43\,\% los campos de
-las plantillas y la 1.5 dejó el diagrama principal con seis actividades y sin
-compuertas, pero el proceso seguía pidiendo elicitar, especificar y validar en
-una misma sesión, algo que en UniReserva ya había mostrado no caber en sesenta
-minutos. El paso de la sesión al ciclo de dos encuentros no quitó trabajo, pero
-sí lo cambió de lugar, ya que la especificación se hace por fuera del tiempo con
-los \textit{stakeholders}. Por lo tanto, en el presente trabajo la ligereza se
-entiende como proporcionalidad, que consiste en concentrar el costo del proceso donde
-un malentendido sale caro. El segundo aprendizaje es que las evidencias de la
-versión 1.3, que los expertos valoraron con 4,60 como señales observables y
-suficientes, podían darse por cumplidas con solo tener algo escrito, aunque el
-grupo no lo entendiera igual. Ese hallazgo surgió de revisar el proceso con la
-distinción de Glinz y Fricker entre entendimiento explícito, implícito y
-falso~\cite{glinz2015shared}, y no de las evaluaciones, lo que indica que una
-evidencia puede parecer suficiente a quien la juzga y no comprobar lo que
-promete.
+El refinamiento dejó dos aprendizajes. El primero es que la ligereza no se logra
+solo quitando elementos: la versión 1.4 redujo en un 43\,\% los campos y la 1.5
+dejó seis actividades, pero el proceso seguía pidiendo elicitar, especificar y
+validar en una misma sesión. El ciclo de dos encuentros no quitó trabajo, pero
+lo cambió de lugar, ya que la especificación se hace sin los
+\textit{stakeholders}, y por eso en este trabajo la ligereza se entiende como
+proporcionalidad, que es concentrar el costo donde un malentendido sale caro. El
+segundo es que las evidencias de la versión 1.3, que los expertos valoraron con
+4,60, podían darse por cumplidas con solo tener algo escrito, aunque el grupo no
+lo entendiera igual, un hallazgo que salió de la distinción de Glinz y
+Fricker~\cite{glinz2015shared} y no de las evaluaciones. Las evidencias revisadas y sus
+instrumentos se validaron luego por juicio de experto, con medias entre 3,56 y
+4,00 sobre 4, y sus observaciones precisaron cuándo una divergencia queda
+resuelta y cómo se cierra el ciclo.
 
 \pendiente{Completar las conclusiones del objetivo~4 con los resultados del
 estudio de caso en contexto agrícola y con la comparación entre la versión 1.3
-y la versión final. Al final del capítulo, actualizar volumen,
-páginas y DOI del artículo de JIIHC~2026 y el estado del artículo para Elsevier.}
+y la versión final, y agregar a las limitaciones las amenazas de ese estudio. Al
+final del capítulo, actualizar volumen, páginas y DOI del artículo de JIIHC~2026
+y el estado del artículo para Elsevier.}
 
 \section{Contribuciones}
 \paragraph{Contribución teórica.}
-En lo académico, el trabajo deja una síntesis de la evidencia sobre el
-entendimiento compartido en la elicitación, la especificación y la validación,
-una definición operacional basada en cinco evidencias observables, que en la
-versión final comprueban interpretaciones y no solo la existencia de artefactos,
-y una trazabilidad explícita, componente por componente, entre THUNDERS y su
-versión adaptada.
+El trabajo deja una síntesis de la evidencia sobre el entendimiento compartido
+en la elicitación, la especificación y la validación, una definición operacional
+basada en cinco evidencias observables, que en la versión final comprueban
+interpretaciones y no solo la existencia de artefactos, y una trazabilidad
+explícita, componente por componente, entre THUNDERS y su versión adaptada.
 
 \paragraph{Contribución práctica.}
-En lo práctico, ofrece un proceso formal pero ligero, en el
-sentido de proporcional, organizado en ciclos de dos encuentros, con plantillas
-de una página, instrumentos de verificación que se aplican en minutos y una
-forma de ejecución que se decide con dos preguntas, y que puede integrarse en
-los espacios de trabajo que el equipo ya tiene. En lo investigativo, extiende THUNDERS a la IR, aporta una
-primera evidencia sobre su utilidad y sus límites, y deja un diseño de
-evaluación (cuestionario a expertos, caso con información asimétrica y plan GQM)
-que puede reutilizarse en las siguientes versiones.
+Ofrece un proceso proporcional, organizado en ciclos de dos encuentros, con nueve
+plantillas en un libro de cálculo que calcula los identificadores, la
+trazabilidad y las lecturas de las evidencias, instrumentos validados por juicio
+de experto que se aplican en minutos y una forma de ejecución que se decide con
+dos preguntas. Además, deja un diseño de evaluación (cuestionario a expertos,
+caso con información asimétrica y plan GQM) que puede reutilizarse.
 
 \section{Limitaciones}
-La primera limitación es que las dos evaluaciones con personas de la versión
-1.3 fueron un juicio de expertos sobre la especificación y un caso simulado con
-estudiantes, de modo que sus resultados no pueden generalizarse a equipos de la
-industria, y que la evaluación en un contexto real corresponde a un solo estudio
-de caso con la versión final. La segunda es el tamaño de las
-muestras, con cinco expertos y once estudiantes, que solo permite estadística
-descriptiva. La tercera es que el registro del caso UniReserva no fue
+La primera limitación es que las evaluaciones con personas de la versión 1.3
+fueron un juicio de expertos sobre la especificación y un caso simulado con
+estudiantes, con muestras pequeñas (cinco expertos y once estudiantes) que solo
+permiten estadística descriptiva, y que la evaluación en un contexto real es un
+solo estudio de caso. La segunda es que el registro de UniReserva no fue
 sistemático, por lo que solo se puede afirmar la detección de la contradicción
-central y no la de las otras siete. La cuarta es que la encuesta de cierre usó
-una afirmación por constructo y no los instrumentos estandarizados que prevé el
-plan GQM. La quinta es la cercanía de dos de las personas involucradas en la
-evaluación con el proyecto, ya que la directora facilitó el caso y uno de los
-expertos es codirector del trabajo. La sexta es que las versiones 1.4 y
-1.5 no se evaluaron con personas que aplicaran el proceso, sino con una revisión
-con el codirector, una revisión conceptual y analítica y una simulación de
-escritorio hecha por los mismos autores. La séptima son los límites propios de la
-versión final (Sección~\ref{sec:limites_final}), en especial que sus evidencias son indicadores
-sobre los requisitos críticos y no una medida del entendimiento compartido.
-
-\pendiente{Ampliar las limitaciones con las amenazas a la validez del estudio de
-caso en contexto agrícola.}
+central, y que su encuesta usó una afirmación por constructo. La tercera es la
+cercanía con el proyecto de la directora, que facilitó el caso, y del
+codirector, que fue uno de los expertos. La cuarta es que las versiones 1.4 y
+1.5 no se evaluaron con personas que aplicaran el proceso, y que los
+instrumentos de la versión final los validó un solo experto. La quinta son los
+límites propios de la versión final (Sección~\ref{sec:limites_final}), en
+especial que sus evidencias son indicadores sobre los requisitos críticos y no
+una medida del entendimiento compartido.
 
 \section{Trabajo futuro}
 \label{sec:trabajo_futuro}
 El trabajo inmediato es construir la guía de inicio de una página que se
-planteó luego de UniReserva, para responder por dónde empezar y qué sigue, y
-ajustar el proceso con los resultados del estudio de caso en contexto agrícola
-(Sección~\ref{sec:caso_agricola}) en una versión 2.0. También queda pendiente
-replicar el estudio con equipos de la industria, para comparar el costo y la
-detección de divergencias por cada técnica de la guía I3.
-
-A mediano plazo se plantea desarrollar una herramienta de software que apoye el
-diligenciamiento del proceso en sus dos modos, construir un repositorio de
-\textit{method chunks} para la IR y explorar una línea de procesos que permita
-derivar variantes de THUNDERS-Master para otros dominios, como educación, salud o
-contextos empresariales.
+planteó luego de UniReserva y ajustar el proceso con los resultados del estudio
+de caso en contexto agrícola (Sección~\ref{sec:caso_agricola}) en una versión
+2.0. También queda replicar el estudio en la industria y llevar el libro de
+plantillas a una herramienta web.
 
 \section{Productos de investigación}
-Hasta el momento el trabajo ha producido un artículo aceptado y tiene otro en
-preparación.
-
-El primero es el artículo ``THUNDERS-Master: A Lightweight Process for Building
+El trabajo ha producido un artículo aceptado y tiene otro en preparación. El
+primero es el artículo ``THUNDERS-Master: A Lightweight Process for Building
 Shared Understanding in Requirements Engineering'', de Andrés Felipe Collazos
 Fernández, José David Chilito Cometa, Vanessa Agredo-Delgado, Cesar Alberto
 Collazos y Leandro Antonelli, aceptado en el \textit{4th International Workshop
-on Collaboration in Knowledge Discovery and Decision-Making} (JIIHC~2026) para su
-publicación en la serie \textit{Communications in Computer and Information
-Science} de Springer. El artículo presenta la RSL, la caracterización de las
-actividades de la IR y la propuesta de adaptación.
-
-El segundo es un artículo con el proceso terminado, que se planea enviar a una
-revista de Elsevier.
+on Collaboration in Knowledge Discovery and Decision-Making} (JIIHC~2026), de la
+serie \textit{Communications in Computer and Information Science} de Springer,
+con la RSL, la caracterización y la propuesta. El segundo, con el proceso
+terminado, se planea enviar a una revista de Elsevier.
 
 
 \bibliographystyle{unsrt}
@@ -4942,21 +4970,516 @@ revista de Elsevier.
 \chapter{Plantillas de THUNDERS-Master}
 \chaptermark{Plantillas de THUNDERS-Master}
 \label{anx:plantillas}
-Este anexo presenta las nueve plantillas de una página que el modo asistido
-ofrece para los siete artefactos y los dos instrumentos del proceso
-(Sección~\ref{sec:artefactos}). Cada plantilla conserva el código de colores de
-THUNDERS: los campos sin color son obligatorios, \colorbox{ctxFill}{los grises
-son información de contexto}, \colorbox{opcFill}{los amarillos son opcionales}
-y \colorbox{herFill}{los azules heredan su valor de un artefacto anterior}. En
-el modo experto los mismos campos pueden registrarse en las herramientas del
-equipo.
+Este anexo presenta las nueve plantillas del modo asistido de la versión final,
+que son siete artefactos (01 a 07) y dos instrumentos con plantilla propia (I2 e
+I3); el instrumento I1 son las cinco casillas de las evidencias E1 a E5 en la
+plantilla 07. Las plantillas se diligencian en un libro de cálculo por ciclo de
+requisitos, en el orden del flujo: antes del ciclo, A1 a A3 (01, 02, 03 y el plan
+de I3); en el encuentro~1, A4 (apertura de 01) y A5.1 (04 e I3); entre
+encuentros, A5.2 (05 y parte A de I2); en el encuentro~2, A5.3 (partes B y C de
+I2, y 06); y al cierre, A6 (07). En el modo experto los mismos campos se
+registran en las herramientas que el equipo ya usa.
 
-\pendiente{Incluir las nueve plantillas nuevas de la versión final: 01
-\textit{Canvas} del ciclo, 02 Mapa de \textit{stakeholders}, 03 Declaración y
-glosario vivo, 04 Registro de necesidades, 05 Tarjeta de requisito, 06 Registro
-de validación y decisiones, 07 Línea base y cierre, I2 Lista de calidad y
-aceptación, e I3 Guía de verificación del entendimiento. (Pendiente de las
-plantillas que se enviarán en el siguiente mensaje.)}
+Cada campo conserva el código de colores de THUNDERS: los campos sin color son
+obligatorios, los \colorbox{tmOpc}{amarillos} son opcionales, los
+\colorbox{tmAuto}{verdes} se calculan o se heredan de otra plantilla y no se
+escriben, y los \colorbox{tmCtx}{azules} son información de contexto. La mayoría
+de los campos se marcan de una lista y no se redactan, y los identificadores
+(N-01, R-01, T-01, D-01, MC-01) se generan solos. La última columna muestra un
+ejemplo ilustrativo de una panadería que quiere recibir encargos por WhatsApp o
+por web; no hace parte de la evaluación del proceso. La
+Tabla~\ref{tab:resumen_plantillas} resume las nueve plantillas.
+
+\begin{table}[!h]
+\caption{Las nueve plantillas de THUNDERS-Master.}
+\label{tab:resumen_plantillas}
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{@{}l L{3.1cm} L{2.1cm} L{2.0cm} Y l@{}}
+\toprule
+\textbf{N.º} & \textbf{Plantilla} & \textbf{Actividad} & \textbf{Diligencia} & \textbf{Cuándo} & \textbf{Evidencia} \\
+\midrule
+
+01 & \textit{Canvas} del ciclo & A1, A3 y A4 & FR (AN, PO) & Antes del ciclo; apertura en el encuentro 1 & E1 \\
+02 & Mapa de \textit{stakeholders} & A1 & FR (AN, PO) & Antes del ciclo & — \\
+03 & Declaración del problema y glosario vivo & A2, vivo en todo el ciclo & FR (AN, SD) & Antes del ciclo y durante él & E1, E2 \\
+04 & Registro de necesidades y supuestos & A5.1 & AN (SD, FR, RT) & Encuentro 1, por bloque & E2 \\
+05 & Tarjetas de requisito & A5.2 y A5.3 & AN (QA) & Entre encuentros & E3 \\
+06 & Registro de validación y decisiones & A5.3 & SD y PO (FR, QA, RT) & Encuentro 2; divergencias desde A4 & E3, E4 \\
+07 & Línea base y cierre, con I1 (E1–E5) & A6 & RT (FR, PO) & Final del encuentro 2 y asíncrono & E1–E5 \\
+I2 & Lista de calidad y aceptación & A5.2 (parte A) y A5.3 (B y C) & AN y QA; SD en la parte C & Al especificar y en el encuentro 2 & E3 \\
+I3 & Guía de micro-chequeos & A3 (plan) y A5.1 & FR con RT & Encuentro 1 & E2, E4 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{01 \textit{Canvas} del ciclo}
+\noindent\textbf{Actividad:} A1, A3 y A4 $\cdot$ \textbf{Diligencia:} FR (AN, PO) $\cdot$ \textbf{Cuándo:} Antes del ciclo; apertura en el encuentro 1 $\cdot$ \textbf{Evidencia:} E1
+
+
+\paragraph{Antes del ciclo (A1 y A3) y forma de ejecución}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Proyecto, ciclo y equipo & Proyecto y número de ciclo; quién es FR, AN, RT, PO y QA. & Panadería La Espiga · ciclo 1 · FR y RT: Andrés · AN y QA: Camila · PO: Marta \\
+Objetivo verificable & ¿Qué decisión o artefacto debe existir al terminar el ciclo y quién lo aprueba? & Tarjetas validadas del encargo por WhatsApp o web, aprobadas por Marta \\
+Alcance, exclusiones y contexto de uso & Qué entra, qué queda fuera y dónde se usará (usuarios, tareas y ambiente). & Encargo del pedido del día siguiente y vista en caja. Fuera: puntos de fidelización. Celular Android de gama baja; wifi que se cae \\
+Restricciones conocidas & Revise cinco disparadores: datos personales, normas del sector, plataforma y conectividad, volumen y tiempos, integraciones. Para cada una: ¿es negociable? ¿quién es su dueño? Una restricción no negociable no se vota. & Datos personales de clientes (Ley 1581 de 2012): no negociable, dueña Marta. Conectividad: wifi inestable en la caja \\
+Agenda & Bloques con su tiempo y técnica de elicitación. Los puntos críticos y su técnica de verificación se marcan en la hoja I3. & Bloque 1, pedidos: 45 min, entrevista grupal. Bloque 2, domicilios: 30 min, \textit{storytelling} \\
+Formato de los requisitos & El que el equipo ya usa: requisito textual, historia, escenario o ficha. & Historia de usuario con criterio y ejemplo \\
+Insumos & Documentos, \textit{backlog} o datos: dónde están y quién tiene acceso. Se referencian, no se copian. & Fotos de la libreta de pedidos, en la carpeta compartida (acceso: Camila) \\
+Participación y criterio de cierre & Plenaria, subgrupos o turnos; cómo se da la palabra y qué condición cierra cada encuentro. & Plenaria por turnos; el encuentro 1 cierra cuando cada necesidad tiene fuente \\
+Riesgos y mediador & Fuente clave sin disponibilidad o vacío de cobertura. Mediador si hay conflicto: no puede ser parte de él. & Don Ever no puede asistir. Mediador: Andrés (FR) \\
+Fecha del encuentro 1 & Construir: A4 y A5.1. & 06/10/2026 \\
+Fecha del encuentro 2 & Validar (A5.3): a más tardar dos semanas después del encuentro 1. & 13/10/2026 \\
+\cellcolor{tmAuto}Control del plazo & Automático: días entre los dos encuentros (máximo 14). & Sí: 7 días entre encuentros \\
+¿Cuánto entendimiento implícito existe? & Alto: ya trabajaron juntos en el dominio, hay glosario o sistema de referencia común, comparten lugar y cultura y se tienen confianza. Bajo: \textit{stakeholders} externos o nuevos, equipo distribuido, rotación, contrato cerrado, regulación o diseño nuevo. & Bajo: \textit{stakeholders} externos y ciclo de arranque \\
+¿Cuánto cuesta un malentendido? & Caro si hay requisitos críticos: deciden el alcance o la arquitectura, comprometen una obligación legal o contractual, o bloquean a otros. & Caro: hay pagos y datos personales \\
+\cellcolor{tmAuto}Forma de ejecución & Automática a partir de las dos respuestas. & Núcleo con las extensiones que pida el obstáculo \\
+\cellcolor{tmOpc}Extensiones activadas & Distribuido: micro-chequeo escrito y una paráfrasis por región. Regulación: trazabilidad extendida solo de los regulados. Usuarios que no leen: prototipo en papel y conformidad oral. Conflicto alto o alcance difuso: árbol de problemas en A2. & Usuarios que no leen: conformidad oral en el encuentro 2 \\
+\end{xltabular}}
+
+\paragraph{Bloque de apertura (A4, encuentro~1): registro de paráfrasis para E1}
+Una persona de cada perfil crítico reformula con sus palabras el problema, el alcance y el resultado esperado, y se marca si su versión es equivalente a las demás y a la declaración. La equivalencia se juzga por el significado y no por la similitud literal; si una versión difiere, se registra la divergencia en 06.
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Quien aporta la necesidad & Persona, su reformulación y si es equivalente (sí o no). & Luisa (cajera): «Los clientes no pueden encargar el pan de mañana sin llamar, y a veces horneamos encargos que nadie recoge». Sí \\
+Quien especifica o construye & Persona, su reformulación y si es equivalente (sí o no). & Camila (AN): «Que el cliente encargue por WhatsApp o web y la caja vea qué encargos están pagados». Sí \\
+Quien acepta & Persona, su reformulación y si es equivalente (sí o no). & Marta (PO): «No perder encargos ni hornear de más». Sí \\
+\cellcolor{tmOpc}Otro perfil crítico (opcional) & Persona, su reformulación y si es equivalente (sí o no). & — \\
+\cellcolor{tmOpc}Ajustes acordados & Qué se corrigió en el \textit{canvas}, la declaración o el glosario. & Ninguno: las tres versiones coinciden \\
+\cellcolor{tmAuto}E1 · lectura automática & Se copia en la plantilla 07 (I1). & Sí: las versiones de los perfiles críticos son equivalentes \\
+\end{xltabular}}
+
+\section{02 Mapa de \textit{stakeholders}}
+\noindent\textbf{Actividad:} A1 $\cdot$ \textbf{Diligencia:} FR (AN, PO) $\cdot$ \textbf{Cuándo:} Antes del ciclo $\cdot$ \textbf{Evidencia:} —
+
+
+Una fila por actor o fuente no humana. Se pregunta siempre quién hace la tarea en la práctica, para que aparezcan quienes nadie convocó.
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Actor & Persona, área o fuente no humana & Marta, dueña \\
+Rol en el ciclo & FR, AN, RT, SD, PO, QA, otro, no convocado o fuente no humana & PO \\
+¿Qué aporta? & Conocimiento, decisión o dato que trae & Objetivo del negocio, prioridades y precios \\
+¿Quién hace la tarea en la práctica? & Quién ejecuta de verdad la tarea de la que habla & Luisa recibe los pedidos; Don Ever decide hasta qué hora se reciben, porque planea la producción a las 3 a. m. \\
+¿Decide? ¿Sobre qué? & Vacío o «No» si no decide & Sí: alcance, prioridades y precios \\
+Disponibilidad & Cuándo y cuánto tiempo & 90 min, martes en la tarde \\
+¿Cada tema crítico tiene una fuente, y está convocado quien hace la tarea en la práctica? & Chequeo de suficiencia (A1). &  \\
+\cellcolor{tmOpc}Si no: a quién falta convocar y cómo se cubrirá & Chequeo de suficiencia (A1). &  \\
+\end{xltabular}}
+
+\section{03 Declaración del problema y glosario vivo}
+\noindent\textbf{Actividad:} A2, vivo en todo el ciclo $\cdot$ \textbf{Diligencia:} FR (AN, SD) $\cdot$ \textbf{Cuándo:} Antes del ciclo y durante él $\cdot$ \textbf{Evidencia:} E1, E2
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Enunciado (una o dos frases) & Declaración del problema (A2). & «Los clientes frecuentes no pueden dejar encargado el pedido del día siguiente sin llamar o ir al local, y la panadería pierde encargos o los prepara sin estar confirmados». Afectados: clientes, caja y producción. Contraste: Marta la reformuló por nota de voz; equivalente. \\
+Afectados & Declaración del problema (A2). &  \\
+Contraste: quién la reformuló y si es equivalente & Declaración del problema (A2). &  \\
+\cellcolor{tmAuto}ID & Automático &  \\
+Término & Término del dominio & Pedido confirmado \\
+Definición acordada & En palabras del dominio, no del sistema & Pedido que el cliente ya pagó (Nequi o efectivo). Mientras no paga es «pedido recibido». \\
+\cellcolor{tmOpc}Ejemplo y variantes & Un caso concreto y otras formas de decirlo & Variante de Luisa: «confirmado» = «ya le respondí». Ej.: 20 panes pagados por Nequi a las 5 p. m. \\
+¿Crítico? & Sí, si un malentendido sale caro & Sí \\
+Estado & «Acordado y comprobado»: perfiles distintos lo interpretaron igual en I3 & Acordado y comprobado \\
+\cellcolor{tmOpc}Responsable & Solo si aún no está acordado &  \\
+\end{xltabular}}
+
+\section{04 Registro de necesidades y supuestos}
+\noindent\textbf{Actividad:} A5.1 $\cdot$ \textbf{Diligencia:} AN (SD, FR, RT) $\cdot$ \textbf{Cuándo:} Encuentro 1, por bloque $\cdot$ \textbf{Evidencia:} E2
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\cellcolor{tmAuto}ID & Automático &  \\
+Bloque & N.º de bloque de la agenda & 1 \\
+Necesidad & Qué necesita y para qué, en palabras de la fuente & Saber qué encargos ya están pagados antes de hornear \\
+Fuente & Actor del mapa (02) & Marta, dueña \\
+Contexto y valor & Cuándo ocurre y qué se gana o se pierde & Hoy se hornean encargos que nadie recoge: pérdida casi diaria \\
+Supuestos & Lo que se da por hecho y conviene verificar & Todos los clientes usan WhatsApp (falso: doña Rosa y los mayores llaman) \\
+Prioridad & Alta, media o baja & Alta \\
+Estado & Nueva, duplicada, en conflicto o fuera de alcance & Nueva \\
+\cellcolor{tmAuto}Requisitos que la cubren & Automático desde 05 & 1 \\
+\end{xltabular}}
+
+\section{05 Tarjeta de requisito}
+\noindent\textbf{Actividad:} A5.2 y A5.3 $\cdot$ \textbf{Diligencia:} AN (QA) $\cdot$ \textbf{Cuándo:} Entre encuentros $\cdot$ \textbf{Evidencia:} E3
+
+
+Una fila por requisito, con su necesidad de origen: la tarjeta porta la cadena necesidad, requisito, criterio y validación, y la matriz de trazabilidad es una vista de esta plantilla.
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\cellcolor{tmAuto}ID & Automático &  \\
+Necesidad de origen & ID de 04 & N-01 \\
+\cellcolor{tmAuto}Fuente & Se toma de 04 & Marta, dueña \\
+Tipo & Funcional, calidad o restricción & Funcional \\
+Enunciado del requisito & En el formato que el equipo ya usa & Como cajera, quiero ver separados los encargos «recibidos» y los «confirmados (pagados)» para preparar solo los confirmados \\
+¿Crítico? & Ver la definición en Inicio & Sí \\
+Criterio de aceptación y ejemplo & Criterio observable. Críticos: ejemplo «¿qué pasa si\ldots{}?» con casos excepcionales y límite. Calidad: medible y con condiciones de evaluación & Solo los confirmados entran a la lista de producción de las 3 a. m. Ej.: doña Rosa encarga 20 panes y no paga $\to$ queda «recibido» y no aparece. Límite: paga después de la hora de cierre $\to$ pasa al día siguiente (hora por confirmar, D-02) \\
+Prioridad & Alta, media o baja & Alta \\
+\cellcolor{tmOpc}Restricción: ¿negociable? y dueño & Solo si el tipo es restricción & — \\
+\cellcolor{tmOpc}Acepta & Solo si no es el PO & — \\
+\cellcolor{tmAuto}Estado de validación & Sale de I2 · parte C & Aceptado \\
+\cellcolor{tmAuto}Divergencias abiertas & En 06 & 0 \\
+\end{xltabular}}
+
+\section{06 Registro de validación y decisiones}
+\noindent\textbf{Actividad:} A5.3 $\cdot$ \textbf{Diligencia:} SD y PO (FR, QA, RT) $\cdot$ \textbf{Cuándo:} Encuentro 2; divergencias desde A4 $\cdot$ \textbf{Evidencia:} E3, E4
+
+
+\paragraph{Encuentro~2: validación de los requisitos críticos}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Conjunto validado (versión o rango de IDs) & Validación de los críticos (A5.3). &  \\
+Fecha y participantes & Validación de los críticos (A5.3). &  \\
+Técnica usada (ejemplo recorrido, escenario o prototipo) & Validación de los críticos (A5.3). &  \\
+Conformidad (firma, verbal o acta) & Validación de los críticos (A5.3). &  \\
+Constancia: quién la dio y dónde quedó & Validación de los críticos (A5.3). &  \\
+\cellcolor{tmAuto}Resultado de los críticos (automático) & Validación de los críticos (A5.3). &  \\
+\end{xltabular}}
+
+\paragraph{Divergencias de interpretación (E4)}
+Se registran todas las divergencias del ciclo desde que aparecen (en A4, en I3, en I2 o en la prueba de traspaso). Una divergencia se da por resuelta cuando los perfiles involucrados confirman la interpretación acordada; una crítica que siga abierta deja E4 en ``pendiente.
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\cellcolor{tmAuto}ID & Automático &  \\
+Detectada en & Mecanismo que la descubrió & I3 paráfrasis cruzada \\
+Afecta a & R-xx o T-xx & R-01 \\
+\cellcolor{tmAuto}¿Crítica? & Automático desde 05 o 03 & Sí \\
+Divergencia: quién entiende qué & Las interpretaciones en conflicto, con sus autores & Luisa: «confirmado» es cuando responde el mensaje. Marta: cuando el cliente ya pagó por Nequi \\
+Resolución acordada y justificación & O la acción pendiente & Dos estados: «recibido» y «confirmado (pagado)»; solo los confirmados van a producción. Negociado; Luisa y Marta confirmaron la interpretación \\
+Estado & Resuelta y confirmada, pendiente o no crítica & Resuelta y confirmada \\
+\cellcolor{tmOpc}Responsable & Si queda pendiente &  \\
+\cellcolor{tmOpc}Fecha límite & Si queda pendiente &  \\
+\end{xltabular}}
+
+\section{07 Línea base y cierre, con las evidencias E1--E5 (I1)}
+\noindent\textbf{Actividad:} A6 $\cdot$ \textbf{Diligencia:} RT (FR, PO) $\cdot$ \textbf{Cuándo:} Final del encuentro 2 y asíncrono $\cdot$ \textbf{Evidencia:} E1–E5
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Identificador y versión & Línea base (A6). &  \\
+Repositorio o enlace & Línea base (A6). &  \\
+Fecha de congelamiento & Línea base (A6). &  \\
+\cellcolor{tmAuto}Contenido (automático) & Línea base (A6). &  \\
+\end{xltabular}}
+
+\paragraph{I1: evidencias del entendimiento compartido}
+El ciclo cierra solo con las cinco evidencias en ``sí, y cada ``sí se respalda con la evidencia indicada; un ``no abre una divergencia y un ``pendiente, una acción con responsable y fecha. La plantilla muestra una lectura automática de lo registrado, pero el resultado lo decide el Facilitador.
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.27\textwidth}@{}}
+\toprule
+\textbf{Evidencia} & \textbf{Pregunta} & \textbf{Respaldo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Evidencia} & \textbf{Pregunta} & \textbf{Respaldo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\textbf{E1 · Problema compartido} & ¿Una persona de cada perfil crítico reformuló con sus palabras el problema, el alcance y el resultado esperado, y las versiones son equivalentes? La equivalencia se juzga por el significado, no por la similitud literal. & Registro de paráfrasis: 01 \textit{Canvas}, bloque de apertura (A4) \\
+\textbf{E2 · Vocabulario compartido} & ¿Los términos críticos tienen definición acordada y, en los de mayor riesgo, perfiles distintos los interpretan igual? & Glosario acordado: 03, estado de los términos críticos \\
+\textbf{E3 · Críticos interpretados igual} & En cada requisito crítico, ¿quien lo aporta, quien lo construirá y, cuando sea pertinente, quien lo verificará mediante pruebas coincidieron en un ejemplo concreto de su cumplimiento, incluidos casos excepcionales y condiciones límite cuando corresponda? & Ejemplo acordado y criterio de aceptación validado: 05 e I2, parte C \\
+\textbf{E4 · Divergencias explícitas} & ¿Todas las divergencias de interpretación que afectan a los requisitos críticos han sido resueltas, y sus acuerdos documentados y confirmados por los perfiles involucrados? Una divergencia crítica que siga abierta, aunque tenga responsable y fecha, se marca «pendiente» y no cuenta como «sí». Las no críticas se registran con responsable y fecha y se cierran por objeción en el paquete de cierre. & Registro de validación y decisiones: 06 \\
+\textbf{E5 · Entendimiento transferible} & ¿Alguien que no participó reconstruyó, solo con la línea base, el significado de los requisitos críticos de la muestra, y la fuente confirmó que coincide? La muestra es de dos requisitos críticos o del 20 \% de ellos, lo que sea mayor. & Resultado de la prueba de traspaso: esta hoja, más abajo \\
+\end{xltabular}}
+
+\paragraph{Prueba de traspaso (E5), paquete de cierre y acciones}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+Requisito crítico (ID) &  & R-01 \\
+Quién reconstruye y qué entendió &  & Pedro, desarrollador que entra en noviembre: «solo los encargos pagados pasan a producción; los demás quedan como recibidos» \\
+¿La fuente o el PO confirma que coincide? &  & Sí \\
+\cellcolor{tmOpc}Si no coincide: qué se corrigió (tarjeta o paquete) &  & — \\
+Destinatarios & Paquete de cierre. &  \\
+Medio (WhatsApp, correo, audio o acta) & Paquete de cierre. &  \\
+Plazo de objeción & Paquete de cierre. &  \\
+\cellcolor{tmOpc}Objeciones recibidas y respuesta & Paquete de cierre. &  \\
+\cellcolor{tmOpc}Acción: origen &  & Mapa (02) \\
+Acción: acción &  & Convocar a Don Ever, que planea la producción, al próximo ciclo \\
+Acción: responsable &  & Andrés (FR) \\
+Acción: fecha &  & 20/10/2026 \\
+\end{xltabular}}
+
+\section{I2 Lista de calidad y aceptación}
+\noindent\textbf{Actividad:} A5.2 (parte A) y A5.3 (B y C) $\cdot$ \textbf{Diligencia:} AN y QA; SD en la parte C $\cdot$ \textbf{Cuándo:} Al especificar y en el encuentro 2 $\cdot$ \textbf{Evidencia:} E3
+
+
+\paragraph{Parte A: calidad de cada requisito (A5.2, una sola vez, registro por excepción)}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.07\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\textbf{A1} & ¿El requisito está formulado de manera que los perfiles involucrados puedan identificar inequívocamente el comportamiento, las condiciones y el resultado esperado? \\
+\textbf{A2} & ¿Usa los términos del dominio tal como los define el glosario acordado? \\
+\textbf{A3} & ¿Tiene un criterio de aceptación observable que permite demostrar que se cumple? En los requisitos no funcionales, ¿el criterio es medible y especifica las condiciones de evaluación cuando corresponde? \\
+\textbf{A4} & ¿Conserva el vínculo con la necesidad que lo originó? \\
+\end{xltabular}}
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\cellcolor{tmAuto}ID & Desde 05 &  \\
+\cellcolor{tmAuto}Requisito & Desde 05 & Que registrar un encargo sea rápido para Luisa \\
+Revisión A1–A4 & Cumple, corregir o pendiente & Corregir \\
+\cellcolor{tmOpc}Si no cumple: ítem que falla y qué corregir & Solo si no cumple & A3: «rápido» no es medible; pasa a «registrar un encargo en máximo tres toques y 30 segundos» \\
+\end{xltabular}}
+
+\paragraph{Parte B: calidad del conjunto (A5.3, una vez por ciclo)}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.07\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.22\textwidth}@{}}
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} & \textbf{Quién responde} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} & \textbf{Quién responde} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\textbf{B1} & ¿Se verificó que no existen requisitos duplicados o redundantes que expresen esencialmente la misma obligación del sistema? Varios requisitos pueden responder a una misma necesidad sin ser redundantes. & Juicio del AN y el QA \\
+\textbf{B2} & ¿Se identificaron y resolvieron las contradicciones o incompatibilidades entre los requisitos especificados, considerando las condiciones de aplicación de cada uno? & Juicio del AN y el QA \\
+\textbf{B3} & ¿Toda necesidad priorizada tiene al menos un requisito? & \cellcolor{tmAuto}Lectura automática desde 04 \\
+\end{xltabular}}
+
+\paragraph{Parte C: aceptación de cada requisito crítico (A5.3, con el \textit{stakeholder}, tras recorrer el ejemplo)}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.07\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\textbf{C1} & Al \textit{stakeholder}, en cada requisito crítico: ¿este requisito expresa su necesidad? Además, explica con sus palabras el resultado que espera obtener con el requisito (columna H). \\
+\textbf{C2} & Al \textit{stakeholder}, tras recorrer el ejemplo: ¿confirma que el comportamiento descrito en el ejemplo y el criterio de aceptación corresponden a los resultados y condiciones que espera del sistema? Las discrepancias entre su interpretación y la del equipo técnico se registran explícitamente en 06. \\
+\textbf{C3} & ¿El \textit{stakeholder} y el QA (quien construirá o probará) interpretan de manera equivalente las condiciones, el comportamiento esperado y los criterios de aceptación de cada requisito crítico? \\
+\end{xltabular}}
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\cellcolor{tmAuto}ID crítico & Desde 05 &  \\
+\cellcolor{tmAuto}Requisito & Desde 05 & Ver separados los encargos recibidos y los confirmados (pagados) \\
+C1 ¿Expresa su necesidad? & Sí / No / Pend. & Sí \\
+C2 ¿Confirma ejemplo y criterio? & Sí / No / Pend. & Sí \\
+C3 ¿Interpretan igual SD y QA? & Sí / No / Pend. & Sí \\
+\cellcolor{tmOpc}ID en 06 & Si alguna es «No» & — \\
+\cellcolor{tmAuto}Resultado & Automático; pasa a 05 & Aceptado \\
+C1 · Resultado que espera, en palabras del \textit{stakeholder} & Breve, en sus palabras & «Que en la caja se vea qué encargos ya pagaron, para no hornear de más» \\
+\end{xltabular}}
+
+\section{I3 Guía de micro-chequeos}
+\noindent\textbf{Actividad:} A3 (plan) y A5.1 $\cdot$ \textbf{Diligencia:} FR con RT $\cdot$ \textbf{Cuándo:} Encuentro 1 $\cdot$ \textbf{Evidencia:} E2, E4
+
+
+Un micro-chequeo en cada punto crítico marcado en la agenda, con un mínimo de dos por encuentro, de dos a tres minutos cada uno. Comprueba una interpretación y no rediscute el requisito. En la variante asíncrona, la pregunta se envía por escrito a dos perfiles y se comparan las respuestas.
+
+
+\paragraph{Técnicas (ítems 1 a 4)}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.05\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.35\textwidth}@{}}
+\toprule
+\textbf{Ítem} & \textbf{Técnica y cómo se aplica} & \textbf{Pregunta de verificación} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ítem} & \textbf{Técnica y cómo se aplica} & \textbf{Pregunta de verificación} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\textbf{1} & Paráfrasis cruzada. Dos perfiles distintos explican con sus palabras el mismo requisito o término. & ¿Las explicaciones de ambos perfiles conservan el mismo significado, las condiciones y el resultado esperado? \\
+\textbf{2} & Sondeo de ambigüedad. Cada persona da por separado un valor concreto («¿cuántos segundos es rápido?») o su interpretación de una regla de negocio, un concepto del dominio, una responsabilidad o un comportamiento del sistema. & ¿Las respuestas coinciden? \\
+\textbf{3} & Ejemplo concreto. Se plantea un caso: «¿qué pasa si\ldots{}?»; en los requisitos críticos se incluyen casos excepcionales y condiciones límite. & ¿Todos esperan el mismo resultado? \\
+\textbf{4} & Sistema de referencia. Se compara con un sistema que todos conocen (útil para atributos de calidad). Es una técnica complementaria: no constituye evidencia suficiente por sí sola. & ¿Los participantes identifican e interpretan de manera equivalente las características concretas del sistema de referencia que se emplean para explicar el requisito? \\
+\end{xltabular}}
+
+\paragraph{Registro de micro-chequeos (encuentro~1), con su cierre (ítem 7)}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Campo} & \textbf{Qué se registra} & \textbf{Ejemplo ilustrativo} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\cellcolor{tmAuto}ID & Automático &  \\
+\cellcolor{tmOpc}Bloque & N.º & 1 \\
+Punto crítico: requisito o término & Se planifica en A3 & Estado del pedido: «pedido confirmado» \\
+Técnica & Se planifica en A3 & Paráfrasis cruzada \\
+Quiénes participaron y qué se acordó & Nombre y perfil de cada uno (aporta, construye, acepta o prueba); lo acordado o, si divergen, qué entendió cada uno & Luisa (SD, cajera) y Marta (PO, dueña). Luisa: «confirmado» al responder el mensaje; Marta: cuando pagó por Nequi. No coinciden \\
+Resultado & De la lista & Divergencia \\
+\cellcolor{tmOpc}ID en 06 & Si no está alineado & D-01 \\
+\cellcolor{tmAuto}Control & Automático & OK \\
+\end{xltabular}}
+
+\paragraph{Cierre de bloque (ítems 5 y 6)}
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.05\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\textbf{5} & ¿Los términos nuevos tienen una definición acordada en el glosario? En los términos críticos, ¿una comprobación breve muestra que perfiles distintos interpretan la definición de la misma manera? \\
+\textbf{6} & Control de trazabilidad: ¿cada requisito crítico tiene anotadas su necesidad y la persona que la aportó? Controla la trazabilidad del proceso; no es evidencia directa de comprensión, a diferencia de los micro-chequeos. \\
+\end{xltabular}}
+
 
 \chapter{Detalle de la revisión sistemática de la literatura}
 \chaptermark{Detalle de la RSL}
@@ -8165,6 +8688,56 @@ orientación o tiempo que permita explicar y/o entender los pasos''.} \\
 \caption{Distribución de las respuestas de la encuesta de cierre por afirmación.}
 \label{fig:encuesta}
 \end{figure}
+\chapter{Validación de los instrumentos por juicio de experto}
+\chaptermark{Validación de los instrumentos}
+\label{anx:val_experto}
+Este anexo presenta, para cada ítem de los instrumentos I1, I2 e I3, las
+calificaciones del experto en claridad (Cl), coherencia (Co) y relevancia (Re),
+de 1 a 4, la suficiencia de cada instrumento (Suf.), la síntesis de su
+observación y el ajuste que se hizo en la versión final
+(Sección~\ref{sec:val_experto_final}). Los ítems de I3 son las cuatro técnicas
+(1 a 4) y los dos chequeos de cierre de bloque (5 y 6); los de I2, sus partes A,
+B y C; y los de I1, las evidencias E1 a E5.
+
+
+{\scriptsize\renewcommand{\arraystretch}{1.25}\setlength{\tabcolsep}{3pt}
+\begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.05\textwidth}>{\raggedright\arraybackslash}p{0.07\textwidth}>{\raggedright\arraybackslash}p{0.03\textwidth}>{\raggedright\arraybackslash}p{0.03\textwidth}>{\raggedright\arraybackslash}p{0.03\textwidth}>{\raggedright\arraybackslash}p{0.04\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{0.36\textwidth}@{}}
+\toprule
+\textbf{Instr.} & \textbf{Ítem} & \textbf{Cl} & \textbf{Co} & \textbf{Re} & \textbf{Suf.} & \textbf{Observación del experto} & \textbf{Ajuste en la versión final} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Instr.} & \textbf{Ítem} & \textbf{Cl} & \textbf{Co} & \textbf{Re} & \textbf{Suf.} & \textbf{Observación del experto} & \textbf{Ajuste en la versión final} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+I3 & 1 & 4 & 4 & 4 &  & Ítem sólido. «¿Dicen lo mismo?» puede confundir coincidencia con reproducción literal. & Pregunta: «¿Las explicaciones de ambos perfiles conservan el mismo significado, las condiciones y el resultado esperado?» \\
+I3 & 2 & 4 & 4 & 4 &  & Ampliar más allá de los valores numéricos: reglas de negocio, conceptos, responsabilidades y comportamientos. & El sondeo incluye reglas de negocio, conceptos del dominio, responsabilidades y comportamientos del sistema. \\
+I3 & 3 & 4 & 4 & 4 &  & Incluir casos excepcionales y condiciones límite en los críticos. & En los críticos, el ejemplo incluye casos excepcionales y condiciones límite. \\
+I3 & 4 & 3 & 3 & 3 &  & Conocer el mismo sistema no garantiza entender igual sus características; reformular y tratarla como técnica complementaria. & Pregunta sobre las características concretas del sistema de referencia; se declara complementaria, no evidencia suficiente por sí sola. \\
+I3 & 5 & 4 & 4 & 4 &  & Una definición acordada no prueba que todos la comprendan; comprobar la interpretación de los términos críticos. & Se añade una comprobación breve entre perfiles en los términos críticos. \\
+I3 & 6 & 4 & 3 & 3 &  & Relación indirecta con el entendimiento compartido; conservarlo como control de trazabilidad. & Se rotula como control de trazabilidad, distinto de la evidencia directa de comprensión. \\
+I3 & Suficiencia &  &  &  & 3 & No precisa cuándo una divergencia queda resuelta ni cómo registrar la evidencia; el mínimo de dos puede quedarse corto con varios críticos. & Nuevo ítem 7 (cierre del micro-chequeo): interpretación acordada, perfiles y decisión o acción con responsable y fecha. Un micro-chequeo en cada punto crítico de la agenda, con mínimo de dos. Resuelta = los perfiles confirman. \\
+I2 & A1 & 3 & 4 & 4 &  & «Se entiende con una sola lectura» es subjetivo; acercarlo a la verificabilidad. & Reformulado: comportamiento, condiciones y resultado esperado identificables inequívocamente. \\
+I2 & A2 & 4 & 4 & 4 &  & Precisar que se refiere a los términos del dominio del glosario acordado. & Precisado: «términos del dominio tal como los define el glosario acordado». \\
+I2 & A3 & 4 & 4 & 4 &  & En los no funcionales, verificar que el criterio sea medible y con condiciones de evaluación. & Se añade la condición para los no funcionales. \\
+I2 & A4 & 4 & 4 & 4 &  & Adecuado; sin cambios. & Se conserva. \\
+I2 & B1 & 3 & 4 & 3 &  & Varios requisitos pueden responder a una misma necesidad sin ser redundantes. & Reformulado sobre duplicados que expresen esencialmente la misma obligación del sistema. \\
+I2 & B2 & 3 & 4 & 4 &  & La formulación absoluta dificulta evaluarlo; considerar las condiciones de aplicación. & Reformulado: contradicciones identificadas y resueltas según las condiciones de aplicación. \\
+I2 & B3 & 4 & 4 & 4 &  & Claro, coherente y relevante; sin cambios. & Se conserva, con lectura automática desde 04. \\
+I2 & C1 & 4 & 4 & 4 &  & Un «sí» no basta como evidencia; pedir la explicación del \textit{stakeholder} en sus palabras. & El \textit{stakeholder} explica el resultado que espera y queda registrado. \\
+I2 & C2 & 3 & 4 & 4 &  & «Lo convencerían» es subjetivo; registrar las discrepancias. & Reformulado: confirma que ejemplo y criterio corresponden a lo que espera; las discrepancias van a 06. \\
+I2 & Suficiencia &  &  &  & 3 & Falta verificar que perfiles técnicos y no técnicos interpretan igual los criterios de aceptación. & Nuevo ítem C3: concordancia entre el \textit{stakeholder} y el QA. Se nombra el rol del proceso (QA) en lugar de «representante técnico», para no confundirlo con el RT (relator). \\
+I1 & E1 & 4 & 4 & 4 &  & Aclarar que la equivalencia se evalúa por el significado, no por la similitud literal. & Aclarado; respaldo: registro de paráfrasis. \\
+I1 & E2 & 4 & 4 & 4 &  & Acertado que contemple la interpretación y no solo la definición; sin cambios. & Respaldo: glosario acordado. \\
+I1 & E3 & 4 & 4 & 4 &  & Incluir casos límite y, cuando sea pertinente, a quien lo verificará mediante pruebas. & Incluye a quien prueba y los casos excepcionales y límite; respaldo: ejemplo y criterio validados. \\
+I1 & E4 & 3 & 3 & 4 &  & Inconsistencia en la regla de cierre: un «sí» con divergencias críticas abiertas permitía cerrar el ciclo. & Una divergencia crítica abierta es «pendiente», no «sí»; las no críticas se cierran por objeción. La hoja 07 avisa si se marca «sí» sin respaldo. \\
+I1 & E5 & 4 & 4 & 4 &  & Fortaleza distintiva; justificar la muestra de dos críticos. & Muestra: dos o el 20 \% de los críticos, lo que sea mayor (cálculo automático). \\
+I1 & Suficiencia &  &  &  & 3 & Precisar qué evidencia respalda cada respuesta afirmativa y alinear el cierre con el estado real de las divergencias. & Cada «sí» indica su respaldo, con lectura automática desde las hojas. \\
+\end{xltabular}}
+
+
 
 \chapter{Protocolo del estudio de caso en contexto agrícola}
 \chaptermark{Protocolo del estudio de caso agrícola}
