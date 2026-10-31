@@ -3,51 +3,62 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Esquema de extracción de datos y su relación con las preguntas de investigación.}}{16}{table.2.1}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Hallazgos de la RSL y su implicación para THUNDERS-Master.}}{33}{table.2.2}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces De la brecha identificada a la justificación de adaptar THUNDERS.}}{34}{table.2.3}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparación de los trabajos relacionados con THUNDERS-Master.}}{21}{table.2.1}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Esquema de extracción de datos y su relación con las preguntas de investigación.}}{22}{table.2.2}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Estudios por fuente de información en cada etapa de la selección.}}{25}{table.2.3}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Hallazgos de la RSL y su implicación para THUNDERS-Master.}}{29}{table.2.4}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces De la brecha identificada a la justificación de adaptar THUNDERS.}}{31}{table.2.5}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Caracterización operativa de las actividades de ingeniería de requisitos.}}{36}{table.3.1}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Tareas características de la elicitación.}}{38}{table.3.2}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Tareas características de la especificación.}}{40}{table.3.3}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Tareas características de la validación.}}{43}{table.3.4}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Elementos transversales a las tres actividades.}}{44}{table.3.5}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Caracterización operativa de las actividades de ingeniería de requisitos.}}{33}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Elementos transversales a las tres actividades.}}{40}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Condiciones del contexto de uso y su implicación para el proceso.}}{45}{table.3.3}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Comparación de métodos de adaptación frente al caso THUNDERS-Master.}}{48}{table.3.4}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{Síntesis de las actividades de THUNDERS y de sus elementos. Roles: DI (diseñador de instrumentos), CA (coordinador de la actividad), DA (diseñador de la actividad), RI (recolector de información), LA (líder de la actividad), PA (participantes).}}{52}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Comparación de métodos de adaptación frente al caso THUNDERS-Master.}}{58}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Aplicación de las cuatro operaciones de la SME en la definición de THUNDERS-Master.}}{59}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Guía de aplicación de la SME orientada por \textit {chunks} para derivar THUNDERS-Master.}}{61}{table.4.4}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Criterios de decisión para adaptar los componentes de THUNDERS.}}{63}{table.4.5}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Mapeo inicial de elementos de THUNDERS hacia actividades de IR (versión 1.0).}}{64}{table.4.6}%
-\contentsline {table}{\numberline {4.7}{Trazabilidad entre THUNDERS y THUNDERS-Master v1.3.}}{65}{table.4.7}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Evolución de THUNDERS-Master hasta la versión 1.3.}}{67}{table.4.8}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Aplicación de las cuatro operaciones de la SME en la definición de THUNDERS-Master.}}{51}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Correspondencia entre las actividades de la versión 1.3 y las de la versión final.}}{61}{table.4.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{Especificación resumida de las actividades de THUNDERS-Master v1.3.}}{88}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{Roles de THUNDERS-Master v1.3 y su participación por actividad.}}{90}{table.5.2}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Criterios de activación contextual en THUNDERS-Master v1.3 (entre corchetes, la fuente o el requisito del que se deriva cada criterio).}}{96}{table.5.3}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Encaje de las actividades de THUNDERS-Master en ceremonias ágiles.}}{97}{table.5.4}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Ruta de evolución de THUNDERS-Master.}}{98}{table.5.5}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Elementos de THUNDERS-Master que atienden cada requisito del método.}}{66}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{Especificación resumida de las actividades de THUNDERS-Master.}}{67}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Roles de THUNDERS-Master.}}{72}{table.5.3}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Artefactos de THUNDERS-Master y sus campos.}}{73}{table.5.4}%
+\contentsline {table}{\numberline {5.5}{Evidencias del entendimiento compartido en THUNDERS-Master.}}{74}{table.5.5}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Forma de ejecución de THUNDERS-Master según el entendimiento implícito y el costo de un malentendido.}}{76}{table.5.6}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Encaje de las actividades de THUNDERS-Master en las reuniones de un marco ágil.}}{77}{table.5.7}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{Plan de evaluación GQM de THUNDERS-Master v1.3.}}{100}{table.6.1}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Valoración de los expertos por dimensión (escala de 1 a 5, n = 5).}}{103}{table.6.2}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Hallazgos cualitativos de la validación con expertos y su implicación de diseño.}}{105}{table.6.3}%
-\contentsline {table}{\numberline {6.4}{\ignorespaces Contradicciones sembradas en el caso UniReserva y criterio de detección.}}{107}{table.6.4}%
-\contentsline {table}{\numberline {6.5}{\ignorespaces Agenda de la sesión UniReserva y su correspondencia con las actividades de THUNDERS-Master.}}{108}{table.6.5}%
-\contentsline {table}{\numberline {6.6}{\ignorespaces Estado observado de las contradicciones sembradas y de las mecánicas de la sesión.}}{109}{table.6.6}%
-\contentsline {table}{\numberline {6.7}{\ignorespaces Resultados de la encuesta de cierre del caso UniReserva (escala de 1 a 5, n = 11).}}{110}{table.6.7}%
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Evolución estructural de THUNDERS-Master de la versión 1.3 a la versión 1.6.}}{116}{table.7.1}%
-\contentsline {table}{\numberline {7.2}{\ignorespaces Correspondencia entre las actividades de las versiones 1.3 y 1.4 y origen de cada cambio.}}{117}{table.7.2}%
-\contentsline {table}{\numberline {7.3}{\ignorespaces Correspondencia entre las actividades de las versiones 1.4 y 1.5.}}{120}{table.7.3}%
-\contentsline {table}{\numberline {7.4}{Evidencias del entendimiento compartido en THUNDERS-Master v1.6.}}{123}{table.7.4}%
-\contentsline {table}{\numberline {7.5}{\ignorespaces Forma de ejecución de THUNDERS-Master v1.6 según el entendimiento implícito y el costo de un malentendido.}}{126}{table.7.5}%
-\contentsline {table}{\numberline {7.6}{\ignorespaces Artefactos de THUNDERS-Master v1.6 y sus campos.}}{127}{table.7.6}%
-\contentsline {table}{\numberline {7.7}{Especificación resumida de las actividades de THUNDERS-Master v1.6.}}{128}{table.7.7}%
-\contentsline {table}{\numberline {7.8}{\ignorespaces Correspondencia entre las actividades de las versiones 1.3 y 1.6.}}{133}{table.7.8}%
+\contentsline {table}{\numberline {6.1}{Plan de evaluación GQM de THUNDERS-Master.}}{80}{table.6.1}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Valoración de los expertos por dimensión (escala de 1 a 5, n = 5).}}{84}{table.6.2}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Hallazgos cualitativos de la validación con expertos y su implicación de diseño.}}{85}{table.6.3}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Contradicciones sembradas en el caso UniReserva y criterio de detección.}}{87}{table.6.4}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Estado observado de las contradicciones sembradas y de las mecánicas de la sesión.}}{89}{table.6.5}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Resultados de la encuesta de cierre del caso UniReserva (escala de 1 a 5, n = 11).}}{89}{table.6.6}%
+\contentsline {table}{\numberline {6.7}{\ignorespaces Estimaciones de la simulación de escritorio para las versiones 1.5 y final.}}{93}{table.6.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{Ítems Likert del cuestionario de validación con expertos (1 = total desacuerdo, 5 = total acuerdo).}}{157}{table.B.1}%
+\contentsline {table}{\numberline {C.1}{\ignorespaces Tareas características de la elicitación.}}{126}{table.Alph3.1}%
+\contentsline {table}{\numberline {C.2}{\ignorespaces Tareas características de la especificación.}}{127}{table.Alph3.2}%
+\contentsline {table}{\numberline {C.3}{\ignorespaces Tareas características de la validación.}}{128}{table.Alph3.3}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{Respuestas individuales de la encuesta de cierre (n = 11).}}{159}{table.C.1}%
+\contentsline {table}{\numberline {D.4}{Trazabilidad entre THUNDERS y la versión final de THUNDERS-Master.}}{129}{table.Alph4.4}%
+\contentsline {table}{\numberline {D.1}{\ignorespaces Criterios de decisión para adaptar los componentes de THUNDERS.}}{131}{table.Alph4.1}%
+\contentsline {table}{\numberline {D.2}{\ignorespaces Guía de aplicación de la SME orientada por \textit {chunks} para derivar THUNDERS-Master.}}{132}{table.Alph4.2}%
+\contentsline {table}{\numberline {D.3}{\ignorespaces Mapeo inicial de elementos de THUNDERS hacia actividades de IR (versión 1.0).}}{133}{table.Alph4.3}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {E.1}{Síntesis de las actividades de THUNDERS y de sus elementos. Roles: DI (diseñador de instrumentos), CA (coordinador de la actividad), DA (diseñador de la actividad), RI (recolector de información), LA (líder de la actividad), PA (participantes).}}{138}{table.Alph5.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {F.1}{Especificación resumida de las actividades de THUNDERS-Master v1.3.}}{159}{table.Alph6.1}%
+\contentsline {table}{\numberline {F.2}{Roles de THUNDERS-Master v1.3 y su participación por actividad.}}{161}{table.Alph6.2}%
+\contentsline {table}{\numberline {F.3}{\ignorespaces Criterios de activación contextual en THUNDERS-Master v1.3 (entre corchetes, la fuente o el requisito del que se deriva cada criterio).}}{167}{table.Alph6.3}%
+\contentsline {table}{\numberline {F.4}{\ignorespaces Encaje de las actividades de THUNDERS-Master en ceremonias ágiles.}}{168}{table.Alph6.4}%
+\contentsline {table}{\numberline {F.5}{Trazabilidad entre THUNDERS y THUNDERS-Master v1.3.}}{169}{table.Alph6.5}%
+\contentsline {table}{\numberline {F.6}{\ignorespaces Correspondencia entre las actividades de las versiones 1.3 y 1.4 y origen de cada cambio.}}{171}{table.Alph6.6}%
+\contentsline {table}{\numberline {F.7}{\ignorespaces Correspondencia entre las actividades de las versiones 1.4 y 1.5.}}{172}{table.Alph6.7}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {H.1}{Ítems Likert del cuestionario de validación con expertos (1 = total desacuerdo, 5 = total acuerdo).}}{179}{table.Alph8.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {I.1}{\ignorespaces Agenda de la sesión UniReserva y su correspondencia con las actividades de THUNDERS-Master.}}{183}{table.Alph9.1}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {J.1}{Respuestas individuales de la encuesta de cierre (n = 11).}}{184}{table.Alph10.1}%
+\addvspace {10\p@ }
