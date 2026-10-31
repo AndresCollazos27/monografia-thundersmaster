@@ -165,33 +165,31 @@
 \contentsline {chapter}{\numberline {7}Conclusiones y trabajo futuro}{97}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Conclusiones}{97}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Contribuciones}{98}{section.7.2}%
-\contentsline {paragraph}{Contribución teórica.}{98}{paragraph*.44}%
-\contentsline {paragraph}{Contribución práctica.}{98}{paragraph*.45}%
 \contentsline {section}{\numberline {7.3}Limitaciones}{99}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Trabajo futuro}{99}{section.7.4}%
 \contentsline {section}{\numberline {7.5}Productos de investigación}{99}{section.7.5}%
 \contentsline {chapter}{\numberline {A}Plantillas de THUNDERS-Master}{109}{appendix.Alph1}%
 \contentsline {section}{\numberline {A.1}01 \textit {Canvas} del ciclo}{109}{section.Alph1.1}%
-\contentsline {paragraph}{Antes del ciclo (A1 y A3) y forma de ejecución}{109}{paragraph*.47}%
-\contentsline {paragraph}{Bloque de apertura (A4, encuentro~1): registro de paráfrasis para E1}{111}{paragraph*.48}%
+\contentsline {paragraph}{Antes del ciclo (A1 y A3) y forma de ejecución}{109}{paragraph*.45}%
+\contentsline {paragraph}{Bloque de apertura (A4, encuentro~1): registro de paráfrasis para E1}{111}{paragraph*.46}%
 \contentsline {section}{\numberline {A.2}02 Mapa de \textit {stakeholders}}{112}{section.Alph1.2}%
 \contentsline {section}{\numberline {A.3}03 Declaración del problema y glosario vivo}{112}{section.Alph1.3}%
 \contentsline {section}{\numberline {A.4}04 Registro de necesidades y supuestos}{113}{section.Alph1.4}%
 \contentsline {section}{\numberline {A.5}05 Tarjeta de requisito}{113}{section.Alph1.5}%
 \contentsline {section}{\numberline {A.6}06 Registro de validación y decisiones}{114}{section.Alph1.6}%
-\contentsline {paragraph}{Encuentro~2: validación de los requisitos críticos}{114}{paragraph*.49}%
-\contentsline {paragraph}{Divergencias de interpretación (E4)}{115}{paragraph*.50}%
+\contentsline {paragraph}{Encuentro~2: validación de los requisitos críticos}{114}{paragraph*.47}%
+\contentsline {paragraph}{Divergencias de interpretación (E4)}{115}{paragraph*.48}%
 \contentsline {section}{\numberline {A.7}07 Línea base y cierre, con las evidencias E1--E5 (I1)}{115}{section.Alph1.7}%
-\contentsline {paragraph}{I1: evidencias del entendimiento compartido}{115}{paragraph*.51}%
-\contentsline {paragraph}{Prueba de traspaso (E5), paquete de cierre y acciones}{116}{paragraph*.52}%
+\contentsline {paragraph}{I1: evidencias del entendimiento compartido}{115}{paragraph*.49}%
+\contentsline {paragraph}{Prueba de traspaso (E5), paquete de cierre y acciones}{116}{paragraph*.50}%
 \contentsline {section}{\numberline {A.8}I2 Lista de calidad y aceptación}{117}{section.Alph1.8}%
-\contentsline {paragraph}{Parte A: calidad de cada requisito (A5.2, una sola vez, registro por excepción)}{117}{paragraph*.53}%
-\contentsline {paragraph}{Parte B: calidad del conjunto (A5.3, una vez por ciclo)}{117}{paragraph*.54}%
-\contentsline {paragraph}{Parte C: aceptación de cada requisito crítico (A5.3, con el \textit {stakeholder}, tras recorrer el ejemplo)}{117}{paragraph*.55}%
+\contentsline {paragraph}{Parte A: calidad de cada requisito (A5.2, una sola vez, registro por excepción)}{117}{paragraph*.51}%
+\contentsline {paragraph}{Parte B: calidad del conjunto (A5.3, una vez por ciclo)}{117}{paragraph*.52}%
+\contentsline {paragraph}{Parte C: aceptación de cada requisito crítico (A5.3, con el \textit {stakeholder}, tras recorrer el ejemplo)}{117}{paragraph*.53}%
 \contentsline {section}{\numberline {A.9}I3 Guía de micro-chequeos}{118}{section.Alph1.9}%
-\contentsline {paragraph}{Técnicas (ítems 1 a 4)}{118}{paragraph*.56}%
-\contentsline {paragraph}{Registro de micro-chequeos (encuentro~1), con su cierre (ítem 7)}{119}{paragraph*.57}%
-\contentsline {paragraph}{Cierre de bloque (ítems 5 y 6)}{119}{paragraph*.58}%
+\contentsline {paragraph}{Técnicas (ítems 1 a 4)}{118}{paragraph*.54}%
+\contentsline {paragraph}{Registro de micro-chequeos (encuentro~1), con su cierre (ítem 7)}{119}{paragraph*.55}%
+\contentsline {paragraph}{Cierre de bloque (ítems 5 y 6)}{119}{paragraph*.56}%
 \contentsline {chapter}{\numberline {B}Detalle de la revisión sistemática de la literatura}{120}{appendix.Alph2}%
 \contentsline {section}{\numberline {B.1}Preguntas de investigación en el protocolo}{120}{section.Alph2.1}%
 \contentsline {section}{\numberline {B.2}Flujo de selección por base de datos}{121}{section.Alph2.2}%
