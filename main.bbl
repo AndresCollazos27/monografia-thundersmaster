@@ -1,6 +1,11 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{89}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{iso29148}
+\bibitem[{ISO/IEC/IEEE}(2018)]{iso29148}
 {ISO/IEC/IEEE}.
 \newblock {ISO/IEC/IEEE 29148:2018 -- Systems and software engineering -- Life
   cycle processes -- Requirements engineering}.
@@ -8,439 +13,542 @@
   International Electrotechnical Commission, and Institute of Electrical and
   Electronics Engineers, Geneva, Switzerland, 2018.
 
-\bibitem{nuseibeh2000roadmap}
+\bibitem[Nuseibeh and Easterbrook(2000)]{nuseibeh2000roadmap}
 Bashar Nuseibeh and Steve Easterbrook.
 \newblock Requirements engineering: A roadmap.
-\newblock In {\em Proceedings of the Conference on the Future of Software
+\newblock In \emph{Proceedings of the Conference on the Future of Software
   Engineering}, pages 35--46, 2000.
+\newblock \doi{10.1145/336512.336523}.
 
-\bibitem{fuller2021blurring}
+\bibitem[Fuller and Kruchten(2021)]{fuller2021blurring}
 Robert~C. Fuller and Philippe Kruchten.
 \newblock Blurring boundaries: Toward the collective empathic understanding of
   product requirements.
-\newblock {\em Information and Software Technology}, 140:106670, 2021.
+\newblock \emph{Information and Software Technology}, 140:\penalty0 106670,
+  2021.
+\newblock \doi{10.1016/j.infsof.2021.106670}.
 
-\bibitem{bittner2014shared}
+\bibitem[Bittner and Leimeister(2014)]{bittner2014shared}
 E.~A.~Christiane Bittner and Jan~Marco Leimeister.
 \newblock Creating shared understanding in heterogeneous work groups: Why it
   matters and how to achieve it.
-\newblock {\em Journal of Management Information Systems}, 31(1):111--144,
-  2014.
+\newblock \emph{Journal of Management Information Systems}, 31\penalty0
+  (1):\penalty0 111--144, 2014.
+\newblock \doi{10.2753/MIS0742-1222310106}.
 
-\bibitem{boehm2001defect}
+\bibitem[Boehm and Basili(2001)]{boehm2001defect}
 Barry Boehm and Victor~R. Basili.
 \newblock Software defect reduction top 10 list.
-\newblock {\em Computer}, 34(1):135--137, 2001.
+\newblock \emph{Computer}, 34\penalty0 (1):\penalty0 135--137, 2001.
+\newblock \doi{10.1109/2.962984}.
 
-\bibitem{agredo2022thesis}
+\bibitem[Agredo-Delgado(2022)]{agredo2022thesis}
 Vanessa Agredo-Delgado.
-\newblock {\em A process to improve computer-supported collaborative work
+\newblock \emph{A process to improve computer-supported collaborative work
   through the construction, monitoring and assistance of shared understanding
   in problem-solving activities}.
 \newblock PhD thesis, Universidad del Cauca, Popayán, Colombia, 2022.
 
-\bibitem{glinz2015shared}
+\bibitem[Glinz and Fricker(2015)]{glinz2015shared}
 Martin Glinz and Samuel~A. Fricker.
 \newblock On shared understanding in software engineering: an essay.
-\newblock {\em Computer Science -- Research and Development},
-  30(3--4):363--376, 2015.
+\newblock \emph{Computer Science -- Research and Development}, 30\penalty0
+  (3--4):\penalty0 363--376, 2015.
+\newblock \doi{10.1007/s00450-014-0256-x}.
 
-\bibitem{asadabadi2020ambiguity}
+\bibitem[Asadabadi et~al.(2020)Asadabadi, Saberi, Zwikael, and
+  Chang]{asadabadi2020ambiguity}
 Mehdi~Rajabi Asadabadi, Morteza Saberi, Ofer Zwikael, and Elizabeth Chang.
 \newblock Ambiguous requirements: A semi-automated approach to identify and
   clarify ambiguity in large-scale projects.
-\newblock {\em Computers and Industrial Engineering}, 149:106828, 2020.
+\newblock \emph{Computers and Industrial Engineering}, 149:\penalty0 106828,
+  2020.
+\newblock \doi{10.1016/j.cie.2020.106828}.
 
-\bibitem{fucci2022traceability}
+\bibitem[Fucci et~al.(2022)Fucci, Alégroth, and
+  Axelsson]{fucci2022traceability}
 Davide Fucci, Emil Alégroth, and Tobias Axelsson.
 \newblock When traceability goes awry: An industrial experience report.
-\newblock {\em Journal of Systems and Software}, 192:111389, 2022.
+\newblock \emph{Journal of Systems and Software}, 192:\penalty0 111389, 2022.
+\newblock \doi{10.1016/j.jss.2022.111389}.
 
-\bibitem{agredo2022exploratory}
+\bibitem[Agredo-Delgado et~al.(2022)Agredo-Delgado, Ruiz, Collazos, and
+  Moreira]{agredo2022exploratory}
 Vanessa Agredo-Delgado, Pablo~H. Ruiz, Cesar~A. Collazos, and Fernando Moreira.
 \newblock An exploratory study on the validation of thunders: A process to
   achieve shared understanding in problem-solving activities.
-\newblock {\em Informatics}, 9(2):39, 2022.
+\newblock \emph{Informatics}, 9\penalty0 (2):\penalty0 39, 2022.
+\newblock \doi{10.3390/informatics9020039}.
 
-\bibitem{agredo2023strategy}
+\bibitem[Agredo-Delgado et~al.(2023{\natexlab{a}})Agredo-Delgado, Ruiz,
+  Garz{\'o}n, and Collazos]{agredo2023strategy}
 Vanessa Agredo-Delgado, Pablo~H. Ruiz, Luis~E. Garz{\'o}n, and Cesar~A.
   Collazos.
 \newblock A strategy for building shared understanding in requirements
   engineering activities.
-\newblock {\em Electronic Journal of SADIO}, 22(3):41--54, 2023.
+\newblock \emph{Electronic Journal of SADIO}, 22\penalty0 (3):\penalty0 41--54,
+  2023{\natexlab{a}}.
 
-\bibitem{sweller1988}
+\bibitem[Sweller(1988)]{sweller1988}
 John Sweller.
 \newblock Cognitive load during problem solving: Effects on learning.
-\newblock {\em Cognitive Science}, 12(2):257--285, 1988.
+\newblock \emph{Cognitive Science}, 12\penalty0 (2):\penalty0 257--285, 1988.
+\newblock \doi{10.1207/s15516709cog1202_4}.
 
-\bibitem{mattmann2015quality}
+\bibitem[Mattmann et~al.(2015)]{mattmann2015quality}
 Ivo Mattmann et~al.
 \newblock The inscrutable jungle of quality criteria -- how to formulate
   requirements for a successful product development.
-\newblock {\em Procedia CIRP}, 36:153--158, 2015.
+\newblock \emph{Procedia CIRP}, 36:\penalty0 153--158, 2015.
+\newblock \doi{10.1016/j.procir.2015.01.046}.
 
-\bibitem{alsanoosy2019power}
+\bibitem[Alsanoosy et~al.(2019)Alsanoosy, Spichkova, and
+  Harland]{alsanoosy2019power}
 Tawfeeq Alsanoosy, Maria Spichkova, and James Harland.
 \newblock The influence of power distance on requirements engineering
   activities.
-\newblock {\em Procedia Computer Science}, 159:2394--2403, 2019.
+\newblock \emph{Procedia Computer Science}, 159:\penalty0 2394--2403, 2019.
+\newblock \doi{10.1016/j.procs.2019.09.414}.
 
-\bibitem{grande2024devops}
+\bibitem[Grande et~al.(2024)]{grande2024devops}
 Roberto Grande et~al.
 \newblock Is it worth adopting devops practices in global software engineering?
   possible challenges and benefits.
-\newblock {\em Computer Standards \& Interfaces}, 87:103767, 2024.
+\newblock \emph{Computer Standards \& Interfaces}, 87:\penalty0 103767, 2024.
+\newblock \doi{10.1016/j.csi.2023.103767}.
 
-\bibitem{omg2008spem}
+\bibitem[{Object Management Group}(2008)]{omg2008spem}
 {Object Management Group}.
 \newblock Software \& systems process engineering meta-model specification
   ({SPEM}), version 2.0.
 \newblock Technical Report formal/2008-04-01, Object Management Group, 2008.
 
-\bibitem{agredo2023validating}
+\bibitem[Agredo-Delgado et~al.(2023{\natexlab{b}})Agredo-Delgado, Ruiz, and
+  Collazos]{agredo2023validating}
 Vanessa Agredo-Delgado, Pablo~H. Ruiz, and Cesar~A. Collazos.
 \newblock Validating the formal specification of the {THUNDERS} process.
-\newblock {\em TecnoL{\'o}gicas}, 26(57):e2658, 2023.
+\newblock \emph{TecnoL{\'o}gicas}, 26\penalty0 (57):\penalty0 e2658,
+  2023{\natexlab{b}}.
 
-\bibitem{getson2022communication}
+\bibitem[Getson et~al.(2022)]{getson2022communication}
 Jonathan~M. Getson et~al.
 \newblock Understanding scientists' communication challenges at the
   intersection of climate and agriculture.
-\newblock {\em PLOS ONE}, 17(8):e0269927, 2022.
+\newblock \emph{PLOS ONE}, 17\penalty0 (8):\penalty0 e0269927, 2022.
+\newblock \doi{10.1371/journal.pone.0269927}.
 
-\bibitem{lopez2021crowdre}
+\bibitem[López et~al.(2021)López, Da~Silva, Pino, and
+  Martínez]{lopez2021crowdre}
 Fabián López, Tiago Da~Silva, José~A. Pino, and Alicia Martínez.
 \newblock Crowdre4df: A crowd-based requirements engineering method for
   developing digital farming solutions.
-\newblock In {\em IFIP Advances in Information and Communication Technology},
+\newblock In \emph{IFIP Advances in Information and Communication Technology},
   volume 632, pages 310--326, 2021.
+\newblock \doi{10.1007/978-3-030-86979-3_19}.
 
-\bibitem{sulaiman2021ict}
+\bibitem[Sulaiman et~al.(2021)Sulaiman, Hall, Reddy, and
+  Dorai]{sulaiman2021ict}
 Rohana Sulaiman, Andy Hall, T.~S.~V. Reddy, and K.~Dorai.
 \newblock Icts and innovation systems in agricultural development: From
   knowledge sharing to knowledge co-creation.
-\newblock {\em Agricultural Systems}, 188:103026, 2021.
+\newblock \emph{Agricultural Systems}, 188:\penalty0 103026, 2021.
+\newblock \doi{10.1016/j.agsy.2020.103026}.
 
-\bibitem{humphrey1989}
+\bibitem[Humphrey(1989)]{humphrey1989}
 Watts~S. Humphrey.
-\newblock {\em Managing the Software Process}.
+\newblock \emph{Managing the Software Process}.
 \newblock Addison-Wesley, Reading, MA, 1989.
 
-\bibitem{petersen2008systematic}
+\bibitem[Petersen et~al.(2008)Petersen, Feldt, Mujtaba, and
+  Mattsson]{petersen2008systematic}
 Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
 \newblock Systematic mapping studies in software engineering.
-\newblock In {\em Proceedings of the 12th International Conference on
+\newblock In \emph{Proceedings of the 12th International Conference on
   Evaluation and Assessment in Software Engineering (EASE 2008)}, Electronic
   Workshops in Computing, pages 68--77, Swindon, UK, 2008. BCS Learning \&
   Development.
 
-\bibitem{ralyte2001assembly}
+\bibitem[Ralyté and Rolland(2001)]{ralyte2001assembly}
 Jolita Ralyté and Colette Rolland.
 \newblock An assembly process model for method engineering.
-\newblock In {\em Advanced Information Systems Engineering (CAiSE)}, pages
+\newblock In \emph{Advanced Information Systems Engineering (CAiSE)}, pages
   267--283, 2001.
+\newblock \doi{10.1007/3-540-45341-5_18}.
 
-\bibitem{henderson2010sme}
+\bibitem[Henderson-Sellers and Ralyté(2010)]{henderson2010sme}
 Brian Henderson-Sellers and Jolita Ralyté.
 \newblock Situational method engineering: State-of-the-art review.
-\newblock {\em Journal of Universal Computer Science}, 16(3):424--478, 2010.
+\newblock \emph{Journal of Universal Computer Science}, 16\penalty0
+  (3):\penalty0 424--478, 2010.
+\newblock \doi{10.3217/jucs-016-03-0424}.
 
-\bibitem{mirbel2006sme}
+\bibitem[Mirbel and Ralyté(2006)]{mirbel2006sme}
 Isabelle Mirbel and Jolita Ralyté.
 \newblock Situational method engineering: Combining assembly-based and
   roadmap-driven approaches.
-\newblock {\em Requirements Engineering}, 11(1):58--78, 2006.
+\newblock \emph{Requirements Engineering}, 11\penalty0 (1):\penalty0 58--78,
+  2006.
+\newblock \doi{10.1007/s00766-005-0019-0}.
 
-\bibitem{kalus2013tailoring}
+\bibitem[Kalus and Kuhrmann(2013)]{kalus2013tailoring}
 Georg Kalus and Marco Kuhrmann.
 \newblock Criteria for software process tailoring: A systematic review.
-\newblock In {\em Proceedings of the International Conference on Software and
+\newblock In \emph{Proceedings of the International Conference on Software and
   System Process (ICSSP)}, pages 171--180, 2013.
+\newblock \doi{10.1145/2486046.2486078}.
 
-\bibitem{basili1994gqm}
+\bibitem[Basili et~al.(1994)Basili, Caldiera, and Rombach]{basili1994gqm}
 Victor~R. Basili, Gianluigi Caldiera, and H.~Dieter Rombach.
 \newblock The goal question metric approach.
-\newblock In {\em Encyclopedia of Software Engineering}. Wiley, 1994.
+\newblock In \emph{Encyclopedia of Software Engineering}. Wiley, 1994.
 
-\bibitem{escobar2008validez}
+\bibitem[Escobar-P{\'e}rez and Cuervo-Mart{\'i}nez(2008)]{escobar2008validez}
 Jazmine Escobar-P{\'e}rez and {\'A}ngela Cuervo-Mart{\'i}nez.
 \newblock Validez de contenido y juicio de expertos: una aproximaci{\'o}n a su
   utilizaci{\'o}n.
-\newblock {\em Avances en Medici{\'o}n}, 6:27--36, 2008.
+\newblock \emph{Avances en Medici{\'o}n}, 6:\penalty0 27--36, 2008.
 
-\bibitem{runeson2009case}
+\bibitem[Runeson and H{\"o}st(2009)]{runeson2009case}
 Per Runeson and Martin H{\"o}st.
 \newblock Guidelines for conducting and reporting case study research in
   software engineering.
-\newblock {\em Empirical Software Engineering}, 14(2):131--164, 2009.
+\newblock \emph{Empirical Software Engineering}, 14\penalty0 (2):\penalty0
+  131--164, 2009.
+\newblock \doi{10.1007/s10664-008-9102-8}.
 
-\bibitem{omg2011bpmn}
+\bibitem[{Object Management Group}(2011)]{omg2011bpmn}
 {Object Management Group}.
 \newblock Business process model and notation ({BPMN}), version 2.0.
 \newblock Technical Report formal/2011-01-03, Object Management Group, 2011.
 
-\bibitem{iso25010}
+\bibitem[{ISO/IEC}(2023)]{iso25010}
 {ISO/IEC}.
 \newblock {ISO/IEC 25010:2023 -- Systems and software engineering -- SQuaRE --
   Product quality model}.
 \newblock Technical report, International Organization for Standardization and
   International Electrotechnical Commission, 2023.
 
-\bibitem{behutiye2022quality}
+\bibitem[Behutiye et~al.(2022)Behutiye, Rodríguez, Oivo, Aaramaa, Partanen,
+  and Abhervé]{behutiye2022quality}
 Woubshet Behutiye, Pilar Rodríguez, Markku Oivo, Sanja Aaramaa, Jari Partanen,
   and Antonin Abhervé.
 \newblock Towards optimal quality requirement documentation in agile software
   development: A multiple case study.
-\newblock {\em Journal of Systems and Software}, 183:111112, 2022.
+\newblock \emph{Journal of Systems and Software}, 183:\penalty0 111112, 2022.
+\newblock \doi{10.1016/j.jss.2021.111112}.
 
-\bibitem{okpara2023}
+\bibitem[Okpara et~al.(2023)Okpara, Werner, Murray, and Damian]{okpara2023}
 Laura Okpara, Colin Werner, Adam Murray, and Daniela Damian.
 \newblock The role of informal communication in building shared understanding
   of non-functional requirements in remote continuous software engineering.
-\newblock {\em Requirements Engineering}, 28(4):595--617, 2023.
+\newblock \emph{Requirements Engineering}, 28\penalty0 (4):\penalty0 595--617,
+  2023.
 
-\bibitem{spijkman2021alignment}
+\bibitem[Spijkman et~al.(2021)]{spijkman2021alignment}
 Tim Spijkman et~al.
 \newblock Alignment and granularity of requirements and architecture in agile
   development: A functional perspective.
-\newblock {\em Information and Software Technology}, 133:106535, 2021.
+\newblock \emph{Information and Software Technology}, 133:\penalty0 106535,
+  2021.
+\newblock \doi{10.1016/j.infsof.2021.106535}.
 
-\bibitem{dejong2010}
+\bibitem[de~Jong(2010)]{dejong2010}
 Ton de~Jong.
 \newblock Cognitive load theory, educational research, and instructional
   design: Some food for thought.
-\newblock {\em Instructional Science}, 38:105--134, 2010.
+\newblock \emph{Instructional Science}, 38:\penalty0 105--134, 2010.
+\newblock \doi{10.1007/s11251-009-9110-0}.
 
-\bibitem{ginsberg1995}
+\bibitem[Ginsberg and Quinn(1995)]{ginsberg1995}
 Mark~P. Ginsberg and Linda Quinn.
 \newblock Process tailoring and the software capability maturity model.
 \newblock Technical Report CMU/SEI-94-TR-024, Software Engineering Institute,
   Carnegie Mellon University, 1995.
 
-\bibitem{xu2007}
+\bibitem[Xu and Ramesh(2007)]{xu2007}
 Peng Xu and Balasubramaniam Ramesh.
 \newblock Software process tailoring: An empirical investigation.
-\newblock {\em Journal of Management Information Systems}, 24(2):293--328,
-  2007.
+\newblock \emph{Journal of Management Information Systems}, 24\penalty0
+  (2):\penalty0 293--328, 2007.
+\newblock \doi{10.2753/MIS0742-1222240211}.
 
-\bibitem{brinkkemper1996method}
+\bibitem[Brinkkemper(1996)]{brinkkemper1996method}
 Sjaak Brinkkemper.
 \newblock Method engineering: Engineering of information systems development
   methods and tools.
-\newblock {\em Information and Software Technology}, 38(4):275--280, 1996.
+\newblock \emph{Information and Software Technology}, 38\penalty0 (4):\penalty0
+  275--280, 1996.
+\newblock \doi{10.1016/0950-5849(95)01059-9}.
 
-\bibitem{henderson2014}
+\bibitem[Henderson-Sellers et~al.(2014)Henderson-Sellers, Ralyté, Ågerfalk,
+  and Rossi]{henderson2014}
 Brian Henderson-Sellers, Jolita Ralyté, Pär~J. Ågerfalk, and Matti Rossi.
-\newblock {\em Situational Method Engineering}.
+\newblock \emph{Situational Method Engineering}.
 \newblock Springer, Berlin, 2014.
+\newblock \doi{10.1007/978-3-642-41467-1}.
 
-\bibitem{harmsen1995}
+\bibitem[Harmsen and Brinkkemper(1995)]{harmsen1995}
 A.~Frank Harmsen and Sjaak Brinkkemper.
 \newblock Description and manipulation of method fragments for situational
   method assembly.
-\newblock In {\em Proceedings of the 5th International Workshop on Experience
+\newblock In \emph{Proceedings of the 5th International Workshop on Experience
   with the Management of Software Projects}, 1995.
 
-\bibitem{kuhrmann2016}
+\bibitem[Kuhrmann et~al.(2016)Kuhrmann, Ternité, Friedrich, Rausch, and
+  Broy]{kuhrmann2016}
 Marco Kuhrmann, Thomas Ternité, Jürgen Friedrich, Andreas Rausch, and Manfred
   Broy.
 \newblock Flexible software process lines in practice: A metamodel-based
   approach to effectively construct and manage families of software process
   models.
-\newblock {\em Journal of Systems and Software}, 121:49--71, 2016.
+\newblock \emph{Journal of Systems and Software}, 121:\penalty0 49--71, 2016.
 
-\bibitem{campanelli2015agile}
+\bibitem[Campanelli and Parreiras(2015)]{campanelli2015agile}
 Amadeu~Silveira Campanelli and Fernando~Silva Parreiras.
 \newblock Agile methods tailoring: A systematic literature review.
-\newblock {\em Journal of Systems and Software}, 110:85--100, 2015.
+\newblock \emph{Journal of Systems and Software}, 110:\penalty0 85--100, 2015.
+\newblock \doi{10.1016/j.jss.2015.08.035}.
 
-\bibitem{kruchten2013}
+\bibitem[Kruchten(2013)]{kruchten2013}
 Philippe Kruchten.
 \newblock Contextualizing agile software development.
-\newblock {\em Journal of Software: Evolution and Process}, 25(4):351--361,
-  2013.
+\newblock \emph{Journal of Software: Evolution and Process}, 25\penalty0
+  (4):\penalty0 351--361, 2013.
+\newblock \doi{10.1002/smr.572}.
 
-\bibitem{davis1989perceived}
+\bibitem[Davis(1989)]{davis1989perceived}
 Fred~D. Davis.
 \newblock Perceived usefulness, perceived ease of use, and user acceptance of
   information technology.
-\newblock {\em MIS Quarterly}, 13(3):319--340, 1989.
+\newblock \emph{MIS Quarterly}, 13\penalty0 (3):\penalty0 319--340, 1989.
+\newblock \doi{10.2307/249008}.
 
-\bibitem{antonelli2016}
+\bibitem[Antonelli et~al.(2016)Antonelli, Rossi, and Oliveros]{antonelli2016}
 Leandro Antonelli, Gustavo Rossi, and Alejandro Oliveros.
 \newblock A collaborative approach to describe the domain language through the
   language extended lexicon.
-\newblock {\em The Journal of Object Technology}, 15(3):3:1, 2016.
+\newblock \emph{The Journal of Object Technology}, 15\penalty0 (3):\penalty0
+  3:1, 2016.
+\newblock \doi{10.5381/jot.2016.15.3.a3}.
 
-\bibitem{calefato2015}
+\bibitem[Calefato et~al.(2015)Calefato, Lanubile, Conte, and
+  Prikladnicki]{calefato2015}
 Fabio Calefato, Filippo Lanubile, Tayana Conte, and Rafael Prikladnicki.
 \newblock Assessing the impact of real-time machine translation on multilingual
   meetings in global software projects.
-\newblock {\em Empirical Software Engineering}, 21(3):1002--1034, 2015.
+\newblock \emph{Empirical Software Engineering}, 21\penalty0 (3):\penalty0
+  1002--1034, 2015.
+\newblock \doi{10.1007/s10664-015-9372-x}.
 
-\bibitem{fricker2015}
+\bibitem[Fricker et~al.(2015)Fricker, Schneider, Fotrousi, and
+  Thuemmler]{fricker2015}
 Samuel~A. Fricker, Kurt Schneider, Farnaz Fotrousi, and Christoph Thuemmler.
 \newblock Workshop videos for requirements communication.
-\newblock {\em Requirements Engineering}, 21(4):521--552, 2015.
+\newblock \emph{Requirements Engineering}, 21\penalty0 (4):\penalty0 521--552,
+  2015.
+\newblock \doi{10.1007/s00766-015-0231-5}.
 
-\bibitem{irshad2021bdd}
+\bibitem[Irshad et~al.(2021)Irshad, Britto, and Petersen]{irshad2021bdd}
 Mohsin Irshad, Ricardo Britto, and Kai Petersen.
 \newblock Adapting behavior driven development (bdd) for large-scale software
   systems.
-\newblock {\em Journal of Systems and Software}, 177:110944, 2021.
+\newblock \emph{Journal of Systems and Software}, 177:\penalty0 110944, 2021.
+\newblock \doi{10.1016/j.jss.2021.110944}.
 
-\bibitem{pacheco2022}
+\bibitem[Pacheco et~al.(2022)Pacheco, Garcia, Calvo-Manzano, and
+  Reyes]{pacheco2022}
 Carla Pacheco, Ivan Garcia, Jose~A. Calvo-Manzano, and Magdalena Reyes.
 \newblock Measuring and improving software requirements elicitation in a
   small-sized software organization: a lightweight implementation of
   iso/iec/ieee 15939:2017 -- systems and software engineering -- measurement
   process.
-\newblock {\em Requirements Engineering}, 28(2):257--281, 2022.
+\newblock \emph{Requirements Engineering}, 28\penalty0 (2):\penalty0 257--281,
+  2022.
 
-\bibitem{londono2023prototyping}
-Iván Londoño, Vanessa Agredo-Delgado, and Pablo~H. Ruiz.
+\bibitem[Londoño et~al.(2023)Londoño, Agredo-Delgado, and
+  Ruiz~Melenje]{londono2023prototyping}
+Iván Londoño, Vanessa Agredo-Delgado, and Pablo~Hernando Ruiz~Melenje.
 \newblock Agile prototyping strategy for building shared understanding in
   requirements engineering.
-\newblock {\em I+T+C Investigación, Tecnología y Ciencia}, 2023.
+\newblock \emph{I+T+C Investigación, Tecnología y Ciencia}, 1\penalty0 (17),
+  2023.
+\newblock \doi{10.57173/ritc.v1n17a6}.
 
-\bibitem{chamizo2025guide}
-Jarnelly~Valentina Chamizo~Quiñones, Isabella Rodríguez~Bautista, and Vanessa
-  Agredo-Delgado.
+\bibitem[Chamizo~Quiñones et~al.(2025)Chamizo~Quiñones, Rodríguez~Bautista,
+  Agredo-Delgado, and Ruiz]{chamizo2025guide}
+Jarnelly~Valentina Chamizo~Quiñones, Isabella Rodríguez~Bautista, Vanessa
+  Agredo-Delgado, and Pablo~H. Ruiz.
 \newblock Guide for strengthening the building of shared understanding in
   requirements engineering activities.
-\newblock In {\em Human-Computer Interaction (HCI-COLLAB 2024)}. Springer,
-  Cham, 2025.
+\newblock In \emph{Human-Computer Interaction (HCI-COLLAB 2024)}, volume 2332
+  of \emph{Communications in Computer and Information Science}, pages 187--198.
+  Springer, Cham, 2025.
+\newblock \doi{10.1007/978-3-031-91328-0_15}.
 
-\bibitem{londono2026mapping}
+\bibitem[Londoño et~al.(2026)Londoño, Collazos, Ruiz, Agredo-Delgado, and
+  Moreira]{londono2026mapping}
 Iván Londoño, Cesar~A. Collazos, Pablo~H. Ruiz, Vanessa Agredo-Delgado, and
   Fernando Moreira.
 \newblock Importance of shared understanding in software engineering: A
   systematic literature mapping.
-\newblock In {\em Proceedings of the 19th Iberian Conference on Information
-  Systems and Technologies (CISTI 2024)}, volume 1746 of {\em Lecture Notes in
+\newblock In \emph{Proceedings of the 19th Iberian Conference on Information
+  Systems and Technologies (CISTI 2024)}, volume 1746 of \emph{Lecture Notes in
   Networks and Systems}, pages 396--410. Springer, Cham, 2026.
+\newblock \doi{10.1007/978-3-032-12876-8_35}.
 
-\bibitem{balasubramaniam2023}
+\bibitem[Balasubramaniam et~al.(2023)Balasubramaniam, Kauppinen, Rannisto,
+  Hiekkanen, and Kujala]{balasubramaniam2023}
 Nagadivya Balasubramaniam, Marjo Kauppinen, Antti Rannisto, Kari Hiekkanen, and
   Sari Kujala.
 \newblock Transparency and explainability of ai systems: From ethical
   guidelines to requirements.
-\newblock {\em Information and Software Technology}, 159:107197, 2023.
+\newblock \emph{Information and Software Technology}, 159:\penalty0 107197,
+  2023.
+\newblock \doi{10.1016/j.infsof.2023.107197}.
 
-\bibitem{burkhardt2015}
+\bibitem[Burkhardt et~al.(2015)Burkhardt, Nazemi, Tomic, and
+  Ginters]{burkhardt2015}
 Dirk Burkhardt, Kawa Nazemi, Silvana Tomic, and Egils Ginters.
 \newblock Best-practice piloting of integrated social media analysis solution
   for e-participation in cities.
-\newblock {\em Procedia Computer Science}, 77:11--21, 2015.
+\newblock \emph{Procedia Computer Science}, 77:\penalty0 11--21, 2015.
+\newblock \doi{10.1016/j.procs.2015.12.354}.
 
-\bibitem{khan2022stakeholders}
+\bibitem[Khan et~al.(2022)Khan, Khan, Assam, Almasoud, Abdelmaboud, and
+  Hamza]{khan2022stakeholders}
 Fahim~Muhammad Khan, Javed~Ali Khan, Muhammad Assam, Ahmed~S. Almasoud,
   Abdelzahir Abdelmaboud, and Manar Ahmed~Mohammed Hamza.
 \newblock A comparative systematic analysis of stakeholder's identification
   methods in requirements elicitation.
-\newblock {\em IEEE Access}, 10:30982--31011, 2022.
+\newblock \emph{IEEE Access}, 10:\penalty0 30982--31011, 2022.
+\newblock \doi{10.1109/ACCESS.2022.3152073}.
 
-\bibitem{laporte2023}
+\bibitem[Laporte et~al.(2023)Laporte, Verret, and Muñoz]{laporte2023}
 Claude~Y. Laporte, Guillaume Verret, and Mirna Muñoz.
 \newblock A software project that partially failed: A small organization that
   ignored the management and technical practices of software standards.
-\newblock {\em Computer}, 56(5):138--144, 2023.
+\newblock \emph{Computer}, 56\penalty0 (5):\penalty0 138--144, 2023.
 
-\bibitem{khan2021}
+\bibitem[Khan et~al.(2021)Khan, Niazi, El-Attar, Ikram, Khan, and
+  Gill]{khan2021}
 Habib~Ullah Khan, Mahmood Niazi, Mohamed El-Attar, Naveed Ikram, Siffat~Ullah
   Khan, and Asif~Qumer Gill.
 \newblock Empirical investigation of critical requirements engineering
   practices for global software development.
-\newblock {\em IEEE Access}, 9:93593--93613, 2021.
+\newblock \emph{IEEE Access}, 9:\penalty0 93593--93613, 2021.
+\newblock \doi{10.1109/ACCESS.2021.3092679}.
 
-\bibitem{akbar2021}
+\bibitem[Akbar et~al.(2021)Akbar, Naveed, Mahmood, Rafi, Alsanad,
+  Abdul-Aziz~Alsanad, Gumaei, and Alothaim]{akbar2021}
 Muhammad~Azeem Akbar, Wishal Naveed, Sajjad Mahmood, Saima Rafi, Ahmed Alsanad,
   Abeer Abdul-Aziz~Alsanad, Abdu Gumaei, and Abdulrahman Alothaim.
 \newblock Prioritization of global software requirements' engineering barriers:
   An analytical hierarchy process.
-\newblock {\em IET Software}, 15(4):277--291, 2021.
+\newblock \emph{IET Software}, 15\penalty0 (4):\penalty0 277--291, 2021.
 
-\bibitem{ribeiro2020}
+\bibitem[Ribeiro and Berry(2020)]{ribeiro2020}
 Cristina Ribeiro and Daniel Berry.
 \newblock The prevalence and severity of persistent ambiguity in software
   requirements specifications: Is a special effort needed to find them?
-\newblock {\em Science of Computer Programming}, 195:102472, 2020.
+\newblock \emph{Science of Computer Programming}, 195:\penalty0 102472, 2020.
 
-\bibitem{kunz2016}
+\bibitem[Kunz et~al.(2016)Kunz, Pohlmann, Heinze, Brandner, Reiß, Kamradt,
+  Szecsenyi, and Ose]{kunz2016}
 Aline Kunz, Sabrina Pohlmann, Oliver Heinze, Antje Brandner, Christina Reiß,
   Martina Kamradt, Joachim Szecsenyi, and Dominik Ose.
 \newblock Strengthening interprofessional requirements engineering through
   action sheets: A pilot study.
-\newblock {\em JMIR Human Factors}, 3(2):e25, 2016.
+\newblock \emph{JMIR Human Factors}, 3\penalty0 (2):\penalty0 e25, 2016.
+\newblock \doi{10.2196/humanfactors.5364}.
 
-\bibitem{kasauli2021}
+\bibitem[Kasauli et~al.(2021)Kasauli, Knauss, Horkoff, Liebel, and
+  de~Oliveira~Neto]{kasauli2021}
 Rashidah Kasauli, Eric Knauss, Jennifer Horkoff, Grischa Liebel, and
   Francisco~Gomes de~Oliveira~Neto.
 \newblock Requirements engineering challenges and practices in large-scale
   agile system development.
-\newblock {\em Journal of Systems and Software}, 172:110851, 2021.
+\newblock \emph{Journal of Systems and Software}, 172:\penalty0 110851, 2021.
+\newblock \doi{10.1016/j.jss.2020.110851}.
 
-\bibitem{martins2019}
+\bibitem[Ferreira~Martins et~al.(2019)Ferreira~Martins, Carvalho~de
+  Oliveira~Junior, Dias~Canedo, Dias~Kosloski, Ávila Paldês, and
+  Costa~Oliveira]{martins2019}
 Hugo Ferreira~Martins, Antônio Carvalho~de Oliveira~Junior, Edna Dias~Canedo,
   Ricardo~Ajax Dias~Kosloski, Roberto Ávila Paldês, and Edgard
   Costa~Oliveira.
 \newblock Design thinking: Challenges for software requirements elicitation.
-\newblock {\em Information}, 10(12):371, 2019.
+\newblock \emph{Information}, 10\penalty0 (12):\penalty0 371, 2019.
+\newblock \doi{10.3390/info10120371}.
 
-\bibitem{gupta2022}
+\bibitem[Gupta et~al.(2022)Gupta, Poels, and Bera]{gupta2022}
 Abhimanyu Gupta, Geert Poels, and Palash Bera.
 \newblock Using conceptual models in agile software development: A possible
   solution to requirements engineering challenges in agile projects.
-\newblock {\em IEEE Access}, 10:119745--119766, 2022.
+\newblock \emph{IEEE Access}, 10:\penalty0 119745--119766, 2022.
+\newblock \doi{10.1109/ACCESS.2022.3221428}.
 
-\bibitem{gentili2025}
+\bibitem[Gentili and Falessi(2025)]{gentili2025}
 Emanuele Gentili and Davide Falessi.
 \newblock Practitioners' perceptions on requirements smells.
-\newblock {\em Information and Software Technology}, 187:107823, 2025.
+\newblock \emph{Information and Software Technology}, 187:\penalty0 107823,
+  2025.
+\newblock \doi{10.1016/j.infsof.2025.107823}.
 
-\bibitem{xiao2018}
+\bibitem[Xiao et~al.(2018)Xiao, Lindberg, Hansen, and Lyytinen]{xiao2018}
 Xuan Xiao, Aron Lindberg, Sean Hansen, and Kalle Lyytinen.
 \newblock ``computing'' requirements for open source software: A distributed
   cognitive approach.
-\newblock {\em Journal of the Association for Information Systems}, pages
-  1217--1252, 2018.
+\newblock \emph{Journal of the Association for Information Systems},
+  19\penalty0 (12):\penalty0 1217--1252, 2018.
+\newblock \doi{10.17705/1jais.00525}.
 
-\bibitem{devries2023}
+\bibitem[De~Vries and Opperman(2023)]{devries2023}
 Marné De~Vries and Petra Opperman.
 \newblock Improving active participation during enterprise operations modeling
   with an extended story-card-method and participative modeling software.
-\newblock {\em Software and Systems Modeling}, 22(4):1341--1368, 2023.
+\newblock \emph{Software and Systems Modeling}, 22\penalty0 (4):\penalty0
+  1341--1368, 2023.
+\newblock \doi{10.1007/s10270-023-01083-8}.
 
-\bibitem{wang2025personas}
+\bibitem[Wang et~al.(2025)Wang, Arora, Liu, Hoang, Malhotra, Cheng, and
+  Grundy]{wang2025personas}
 Yi~Wang, Chetan Arora, Xiao Liu, Thuong Hoang, Vasudha Malhotra, Ben Cheng, and
   John Grundy.
 \newblock Who uses personas in requirements engineering: The practitioners'
   perspective.
-\newblock {\em Information and Software Technology}, 178:107609, 2025.
+\newblock \emph{Information and Software Technology}, 178:\penalty0 107609,
+  2025.
+\newblock \doi{10.1016/j.infsof.2024.107609}.
 
-\bibitem{parrales2024}
+\bibitem[Parrales-Bravo et~al.(2024)Parrales-Bravo, Caicedo-Quiroz,
+  Barzola-Monteses, Vasquez-Cevallos, Galarza-Soledispa, and
+  Reyes-Wagnio]{parrales2024}
 Franklin Parrales-Bravo, Rosangela Caicedo-Quiroz, Julio Barzola-Monteses,
   Leonel Vasquez-Cevallos, María~Isabel Galarza-Soledispa, and Manuel
   Reyes-Wagnio.
 \newblock Sure: Structure for unambiguous requirement expression in natural
   language.
-\newblock {\em Electronics}, 13(11):2206, 2024.
+\newblock \emph{Electronics}, 13\penalty0 (11):\penalty0 2206, 2024.
+\newblock \doi{10.3390/electronics13112206}.
 
-\bibitem{ali2019}
+\bibitem[Ali and Hong(2019)]{ali2019}
 Nazakat Ali and Jang-Eui Hong.
 \newblock Value-oriented requirements: Eliciting domain requirements from
   social network services to evolve software product lines.
-\newblock {\em Applied Sciences}, 9(19):3944, 2019.
+\newblock \emph{Applied Sciences}, 9\penalty0 (19):\penalty0 3944, 2019.
+\newblock \doi{10.3390/app9193944}.
 
-\bibitem{kosenkov2026}
+\bibitem[Kosenkov et~al.(2026)Kosenkov, Zabardast, Fucci, Mendez, and
+  Unterkalmsteiner]{kosenkov2026}
 Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, and Michael
   Unterkalmsteiner.
 \newblock Privacy by design: Aligning gdpr and software engineering
   specifications with a requirements engineering approach.
-\newblock {\em Information and Software Technology}, 190:107946, 2026.
+\newblock \emph{Information and Software Technology}, 190:\penalty0 107946,
+  2026.
+\newblock \doi{10.1016/j.infsof.2025.107946}.
 
-\bibitem{iso15288}
+\bibitem[{ISO/IEC/IEEE}(2015)]{iso15288}
 {ISO/IEC/IEEE}.
 \newblock {ISO/IEC/IEEE 15288:2015 -- Systems and software engineering --
   System life cycle processes}.
@@ -448,7 +556,7 @@ Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, and Michael
   International Electrotechnical Commission, and Institute of Electrical and
   Electronics Engineers, 2015.
 
-\bibitem{iso12207}
+\bibitem[{ISO/IEC/IEEE}(2017)]{iso12207}
 {ISO/IEC/IEEE}.
 \newblock {ISO/IEC/IEEE 12207:2017 -- Systems and software engineering --
   Software life cycle processes}.
@@ -456,14 +564,14 @@ Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, and Michael
   International Electrotechnical Commission, and Institute of Electrical and
   Electronics Engineers, 2017.
 
-\bibitem{iso9241}
+\bibitem[{ISO}(2018)]{iso9241}
 {ISO}.
 \newblock {ISO 9241-11:2018 -- Ergonomics of human-system interaction -- Part
   11: Usability: Definitions and concepts}.
 \newblock Technical report, International Organization for Standardization,
   2018.
 
-\bibitem{iso25064}
+\bibitem[{ISO/IEC}(2013)]{iso25064}
 {ISO/IEC}.
 \newblock {ISO/IEC 25064:2013 -- Systems and software engineering -- Software
   product Quality Requirements and Evaluation (SQuaRE) -- Common Industry
@@ -471,7 +579,7 @@ Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, and Michael
 \newblock Technical report, International Organization for Standardization and
   International Electrotechnical Commission, 2013.
 
-\bibitem{iso25063}
+\bibitem[{ISO/IEC}(2014)]{iso25063}
 {ISO/IEC}.
 \newblock {ISO/IEC 25063:2014 -- Systems and software engineering -- Systems
   and software product Quality Requirements and Evaluation (SQuaRE) -- Common
@@ -479,90 +587,106 @@ Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, and Michael
 \newblock Technical report, International Organization for Standardization and
   International Electrotechnical Commission, 2014.
 
-\bibitem{lim2021data}
+\bibitem[Lim et~al.(2021)Lim, Henriksson, and Zdravkovic]{lim2021data}
 Samuel Lim, Aron Henriksson, and Jelena Zdravkovic.
 \newblock Data-driven requirements elicitation: A systematic literature review.
-\newblock {\em SN Computer Science}, 2:16, 2021.
+\newblock \emph{SN Computer Science}, 2:\penalty0 16, 2021.
+\newblock \doi{10.1007/s42979-020-00416-4}.
 
-\bibitem{akram2024}
+\bibitem[Akram et~al.(2024)Akram, Ahmad, and Sadiq]{akram2024}
 Faiza Akram, Tanzila Ahmad, and Mehwish Sadiq.
 \newblock Recommendation systems-based software requirements elicitation
   process -- a systematic literature review.
-\newblock {\em Journal of Engineering and Applied Science}, 71:29, 2024.
+\newblock \emph{Journal of Engineering and Applied Science}, 71:\penalty0 29,
+  2024.
+\newblock \doi{10.1186/s44147-024-00363-4}.
 
-\bibitem{ireb2026}
+\bibitem[{International Requirements Engineering Board (IREB)}(2026)]{ireb2026}
 {International Requirements Engineering Board (IREB)}.
 \newblock {CPRE Foundation -- Start Working Effectively in RE}.
 \newblock \url{https://cpre.ireb.org/en/concept/foundationlevel}, 2026.
 \newblock Accessed: Apr. 23, 2026.
 
-\bibitem{brataas2021}
+\bibitem[Brataas et~al.(2021)Brataas, Martini, Hanssen, and
+  Ræder]{brataas2021}
 Gunnar Brataas, Antonio Martini, Geir~K. Hanssen, and Georg Ræder.
 \newblock Agile elicitation of scalability requirements for open systems: A
   case study.
-\newblock {\em Journal of Systems and Software}, 182:111064, 2021.
+\newblock \emph{Journal of Systems and Software}, 182:\penalty0 111064, 2021.
+\newblock \doi{10.1016/j.jss.2021.111064}.
 
-\bibitem{damian2006empirical}
+\bibitem[Damian and Chisan(2006)]{damian2006empirical}
 Daniela~E. Damian and James Chisan.
 \newblock An empirical study of the complex relationships between requirements
   engineering processes and other processes that lead to payoffs in
   productivity, quality, and risk management.
-\newblock {\em IEEE Transactions on Software Engineering}, 32(7):433--453,
-  2006.
+\newblock \emph{IEEE Transactions on Software Engineering}, 32\penalty0
+  (7):\penalty0 433--453, 2006.
+\newblock \doi{10.1109/TSE.2006.61}.
 
-\bibitem{kitchenham2007}
+\bibitem[Kitchenham and Charters(2007)]{kitchenham2007}
 Barbara Kitchenham and Stuart Charters.
 \newblock Guidelines for performing systematic literature reviews in software
   engineering.
 \newblock Technical Report EBSE-2007-01, Keele University and Durham
   University, 2007.
 
-\bibitem{brooke1996sus}
+\bibitem[Brooke(1996)]{brooke1996sus}
 John Brooke.
 \newblock Sus: A quick and dirty usability scale.
-\newblock In {\em Usability Evaluation in Industry}, pages 189--194. Taylor and
-  Francis, 1996.
+\newblock In \emph{Usability Evaluation in Industry}, pages 189--194. Taylor
+  and Francis, 1996.
 
-\bibitem{hart1988nasa}
+\bibitem[Hart and Staveland(1988)]{hart1988nasa}
 Sandra~G. Hart and Lowell~E. Staveland.
 \newblock Development of nasa-tlx (task load index): Results of empirical and
   theoretical research.
-\newblock In {\em Human Mental Workload}, volume~52 of {\em Advances in
+\newblock In \emph{Human Mental Workload}, volume~52 of \emph{Advances in
   Psychology}, pages 139--183. North-Holland, 1988.
+\newblock \doi{10.1016/S0166-4115(08)62386-9}.
 
-\bibitem{braun2006thematic}
+\bibitem[Braun and Clarke(2006)]{braun2006thematic}
 Virginia Braun and Victoria Clarke.
 \newblock Using thematic analysis in psychology.
-\newblock {\em Qualitative Research in Psychology}, 3(2):77--101, 2006.
+\newblock \emph{Qualitative Research in Psychology}, 3\penalty0 (2):\penalty0
+  77--101, 2006.
+\newblock \doi{10.1191/1478088706qp063oa}.
 
-\bibitem{zowghi2003teaching}
+\bibitem[Zowghi and Paryani(2003)]{zowghi2003teaching}
 Didar Zowghi and Suresh Paryani.
 \newblock Teaching requirements engineering through role playing: lessons
   learnt.
-\newblock In {\em Proceedings of the 11th IEEE International Requirements
+\newblock In \emph{Proceedings of the 11th IEEE International Requirements
   Engineering Conference}, pages 233--241. IEEE, 2003.
+\newblock \doi{10.1109/ICRE.2003.1232733}.
 
-\bibitem{svensson2017role}
+\bibitem[Svensson and Regnell(2017)]{svensson2017role}
 Richard~Berntsson Svensson and Bj{\"o}rn Regnell.
 \newblock Is role playing in requirements engineering education increasing
   learning outcome?
-\newblock {\em Requirements Engineering}, 22(4):475--489, 2017.
+\newblock \emph{Requirements Engineering}, 22\penalty0 (4):\penalty0 475--489,
+  2017.
+\newblock \doi{10.1007/s00766-016-0248-4}.
 
-\bibitem{deterding2011gamification}
+\bibitem[Deterding et~al.(2011)Deterding, Dixon, Khaled, and
+  Nacke]{deterding2011gamification}
 Sebastian Deterding, Dan Dixon, Rilla Khaled, and Lennart Nacke.
 \newblock From game design elements to gamefulness: defining ``gamification''.
-\newblock In {\em Proceedings of the 15th International Academic MindTrek
+\newblock In \emph{Proceedings of the 15th International Academic MindTrek
   Conference}, pages 9--15. ACM, 2011.
+\newblock \doi{10.1145/2181037.2181040}.
 
-\bibitem{hayashi2024}
+\bibitem[Hayashi et~al.(2024)Hayashi, Hayashi, Sonobe, Sato, and
+  Takeuchi]{hayashi2024}
 Masami Hayashi, Kaori Hayashi, Yohei Sonobe, Hiroyuki Sato, and Hironori
   Takeuchi.
 \newblock Specification description analysis method for requirement modeling.
-\newblock {\em Procedia Computer Science}, 246:189--198, 2024.
+\newblock \emph{Procedia Computer Science}, 246:\penalty0 189--198, 2024.
 
-\bibitem{sherif2023}
+\bibitem[Sherif et~al.(2023)Sherif, Helmy, and Galal-Edeen]{sherif2023}
 Ezeldin Sherif, Waleed Helmy, and Galal~Hassan Galal-Edeen.
 \newblock Proposed framework to manage non-functional requirements in agile.
-\newblock {\em IEEE Access}, 11:53995--54005, 2023.
+\newblock \emph{IEEE Access}, 11:\penalty0 53995--54005, 2023.
+\newblock \doi{10.1109/ACCESS.2023.3281195}.
 
 \end{thebibliography}
