@@ -86,8 +86,9 @@ Vanessa Agredo-Delgado, Pablo~H. Ruiz, Luis~E. Garz{\'o}n, and Cesar~A.
   Collazos.
 \newblock A strategy for building shared understanding in requirements
   engineering activities.
-\newblock \emph{Electronic Journal of SADIO}, 22\penalty0 (3):\penalty0 41--54,
-  2023{\natexlab{a}}.
+\newblock \emph{SADIO Electronic Journal of Informatics and Operations
+  Research}, 22\penalty0 (3):\penalty0 41--54, 2023{\natexlab{a}}.
+\newblock \doi{10.24215/15146774e016}.
 
 \bibitem[Sweller(1988)]{sweller1988}
 John Sweller.
@@ -129,6 +130,7 @@ Vanessa Agredo-Delgado, Pablo~H. Ruiz, and Cesar~A. Collazos.
 \newblock Validating the formal specification of the {THUNDERS} process.
 \newblock \emph{TecnoL{\'o}gicas}, 26\penalty0 (57):\penalty0 e2658,
   2023{\natexlab{b}}.
+\newblock \doi{10.22430/22565337.2658}.
 
 \bibitem[Getson et~al.(2022)]{getson2022communication}
 Jonathan~M. Getson et~al.
@@ -167,6 +169,7 @@ Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
   Evaluation and Assessment in Software Engineering (EASE 2008)}, Electronic
   Workshops in Computing, pages 68--77, Swindon, UK, 2008. BCS Learning \&
   Development.
+\newblock \doi{10.14236/ewic/EASE2008.8}.
 
 \bibitem[Ralyté and Rolland(2001)]{ralyte2001assembly}
 Jolita Ralyté and Colette Rolland.
@@ -243,6 +246,7 @@ Laura Okpara, Colin Werner, Adam Murray, and Daniela Damian.
   of non-functional requirements in remote continuous software engineering.
 \newblock \emph{Requirements Engineering}, 28\penalty0 (4):\penalty0 595--617,
   2023.
+\newblock \doi{10.1007/s00766-023-00404-z}.
 
 \bibitem[Spijkman et~al.(2021)]{spijkman2021alignment}
 Tim Spijkman et~al.
@@ -302,6 +306,7 @@ Marco Kuhrmann, Thomas Ternité, Jürgen Friedrich, Andreas Rausch, and Manfred
   approach to effectively construct and manage families of software process
   models.
 \newblock \emph{Journal of Systems and Software}, 121:\penalty0 49--71, 2016.
+\newblock \doi{10.1016/j.jss.2016.07.031}.
 
 \bibitem[Campanelli and Parreiras(2015)]{campanelli2015agile}
 Amadeu~Silveira Campanelli and Fernando~Silva Parreiras.
@@ -364,6 +369,7 @@ Carla Pacheco, Ivan Garcia, Jose~A. Calvo-Manzano, and Magdalena Reyes.
   process.
 \newblock \emph{Requirements Engineering}, 28\penalty0 (2):\penalty0 257--281,
   2022.
+\newblock \doi{10.1007/s00766-022-00394-4}.
 
 \bibitem[Londoño et~al.(2023)Londoño, Agredo-Delgado, and
   Ruiz~Melenje]{londono2023prototyping}
@@ -428,6 +434,7 @@ Claude~Y. Laporte, Guillaume Verret, and Mirna Muñoz.
 \newblock A software project that partially failed: A small organization that
   ignored the management and technical practices of software standards.
 \newblock \emph{Computer}, 56\penalty0 (5):\penalty0 138--144, 2023.
+\newblock \doi{10.1109/MC.2023.3253979}.
 
 \bibitem[Khan et~al.(2021)Khan, Niazi, El-Attar, Ikram, Khan, and
   Gill]{khan2021}
@@ -445,12 +452,14 @@ Muhammad~Azeem Akbar, Wishal Naveed, Sajjad Mahmood, Saima Rafi, Ahmed Alsanad,
 \newblock Prioritization of global software requirements' engineering barriers:
   An analytical hierarchy process.
 \newblock \emph{IET Software}, 15\penalty0 (4):\penalty0 277--291, 2021.
+\newblock \doi{10.1049/sfw2.12022}.
 
 \bibitem[Ribeiro and Berry(2020)]{ribeiro2020}
 Cristina Ribeiro and Daniel Berry.
 \newblock The prevalence and severity of persistent ambiguity in software
   requirements specifications: Is a special effort needed to find them?
 \newblock \emph{Science of Computer Programming}, 195:\penalty0 102472, 2020.
+\newblock \doi{10.1016/j.scico.2020.102472}.
 
 \bibitem[Kunz et~al.(2016)Kunz, Pohlmann, Heinze, Brandner, Reiß, Kamradt,
   Szecsenyi, and Ose]{kunz2016}
@@ -682,6 +691,7 @@ Masami Hayashi, Kaori Hayashi, Yohei Sonobe, Hiroyuki Sato, and Hironori
   Takeuchi.
 \newblock Specification description analysis method for requirement modeling.
 \newblock \emph{Procedia Computer Science}, 246:\penalty0 189--198, 2024.
+\newblock \doi{10.1016/j.procs.2024.09.265}.
 
 \bibitem[Sherif et~al.(2023)Sherif, Helmy, and Galal-Edeen]{sherif2023}
 Ezeldin Sherif, Waleed Helmy, and Galal~Hassan Galal-Edeen.

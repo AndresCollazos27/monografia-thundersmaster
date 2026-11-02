@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1793640917.53052 "main.aux" "main.bbl" "main" 1793640955.23277 0
-  "./refs.bib" 1793640897.57107 33165 e4548eb384c1667ec6ede70ba39bd167 ""
+["bibtex main"] 1793641260.22581 "main.aux" "main.bbl" "main" 1793641265.61044 0
+  "./refs.bib" 1793641260.09409 33620 22b9300c84b9f662f5f8c2d23405f1b8 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1233624470 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1793640955.01606 93690 a9b92b4bc42b1e211551d3b5790e13ac "pdflatex"
+  "main.aux" 1793641265.35608 93690 a9b92b4bc42b1e211551d3b5790e13ac "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1793640950.57877 "main.tex" "main.pdf" "main" 1793640955.2332 0
+["pdflatex"] 1793641260.28865 "main.tex" "main.pdf" "main" 1793641265.61079 0
   "/etc/texmf/web2c/texmf.cnf" 1793414571.48428 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -324,13 +324,13 @@
   "figures/Figura_ScienceDirect.png" 1793413596.95117 1038391 5ecc84d1a0cabeb4b37e222ec1e532e1 ""
   "figures/Figura_Scopus.png" 1793413596.95117 1380342 7389277de8202a68c7dcbbabf6cb5a6c ""
   "figures/Figura_WoS.png" 1793413596.95428 1390346 4639178acb7d932a24826d771b514215 ""
-  "main.aux" 1793640955.01606 93690 a9b92b4bc42b1e211551d3b5790e13ac "pdflatex"
-  "main.bbl" 1793640917.54805 31666 d2b0aeaea88de24d71c8cc7893aca5a0 "bibtex main"
-  "main.lof" 1793640955.02406 4642 32e89086e7ea49259ccc1fe41820f2c1 "pdflatex"
-  "main.lot" 1793640955.02406 7378 fb24e842c2c1353234543f87b6399c40 "pdflatex"
-  "main.out" 1793640955.02406 60082 52091cc263c5076094c051df86caf94e "pdflatex"
+  "main.aux" 1793641265.35608 93690 a9b92b4bc42b1e211551d3b5790e13ac "pdflatex"
+  "main.bbl" 1793641260.26007 32121 eb6fc60b79cfc5b8a326718049df5b65 "bibtex main"
+  "main.lof" 1793641265.37208 4642 32e89086e7ea49259ccc1fe41820f2c1 "pdflatex"
+  "main.lot" 1793641265.37208 7378 fb24e842c2c1353234543f87b6399c40 "pdflatex"
+  "main.out" 1793641265.37208 60082 52091cc263c5076094c051df86caf94e "pdflatex"
   "main.tex" 1793640950.46006 528384 b10b17e03ec7e46dc4cd3fbecb59f08a ""
-  "main.toc" 1793640955.02406 26653 28ef06bdab5b3227938f80b82fda6c9e "pdflatex"
+  "main.toc" 1793641265.37208 26653 28ef06bdab5b3227938f80b82fda6c9e "pdflatex"
   (generated)
   "main.aux"
   "main.lof"
