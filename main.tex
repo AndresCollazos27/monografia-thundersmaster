@@ -2654,8 +2654,7 @@ Tabla~\ref{tab:thunders_traceability}.
 La Tabla~\ref{tab:thunders_traceability}, en el Anexo~\ref{anx:construccion},
 documenta la decisión que se tomó sobre cada uno de los trece componentes de
 THUNDERS, con la fase a la que pertenece y el elemento de la versión final de
-THUNDERS~Master en el que queda. En resumen, C-02, C-08 y C-13 se conservan y
-adaptan (problema y glosario, apertura del encuentro~1 y línea base); C-10 y
+THUNDERS~Master en el que queda. Según esa tabla, C-02, C-08 y C-13 se conservan y adaptan (problema y glosario, apertura del encuentro~1 y línea base); C-10 y
 C-11 se adaptan como núcleo del subproceso A5; C-01, C-03, C-05 y C-06 se
 simplifican o se dividen; C-04 queda como opcional; C-07 y C-09 se fusionan con
 otras actividades; y C-12 sale de las actividades obligatorias. Las
@@ -5136,7 +5135,8 @@ El ciclo cierra solo con las cinco evidencias en ``sí, y cada ``sí se respalda
 \endlastfoot
 \textbf{E1 · Problema compartido} & ¿Una persona de cada perfil crítico reformuló con sus palabras el problema, el alcance y el resultado esperado, y las versiones son equivalentes? La equivalencia se juzga por el significado, no por la similitud literal. & Registro de paráfrasis: 01 \textit{Canvas}, bloque de apertura (A4) \\
 \textbf{E2 · Vocabulario compartido} & ¿Los términos críticos tienen definición acordada y, en los de mayor riesgo, perfiles distintos los interpretan igual? & Glosario acordado: 03, estado de los términos críticos \\
-\textbf{E3 · Críticos interpretados igual} & En cada requisito crítico, ¿quien lo aporta, quien lo construirá y, cuando sea pertinente, quien lo verificará mediante pruebas coincidieron en un ejemplo concreto de su cumplimiento, incluidos casos excepcionales y condiciones límite cuando corresponda? & Ejemplo acordado y criterio de aceptación validado: 05 e I2, parte C \\
+\textbf{E3 · Críticos interpretados igual} & En cada requisito crítico, ¿quien lo aporta, quien lo construirá y, si es otra persona, quien lo verificará
+mediante pruebas coincidieron en un ejemplo concreto de su cumplimiento, incluidos casos excepcionales y condiciones límite cuando corresponda? & Ejemplo acordado y criterio de aceptación validado: 05 e I2, parte C \\
 \textbf{E4 · Divergencias explícitas} & ¿Todas las divergencias de interpretación que afectan a los requisitos críticos han sido resueltas, y sus acuerdos documentados y confirmados por los perfiles involucrados? Una divergencia crítica que siga abierta, aunque tenga responsable y fecha, se marca «pendiente» y no cuenta como «sí». Las no críticas se registran con responsable y fecha y se cierran por objeción en el paquete de cierre. & Registro de validación y decisiones: 06 \\
 \textbf{E5 · Entendimiento transferible} & ¿Alguien que no participó reconstruyó, solo con la línea base, el significado de los requisitos críticos de la muestra, y la fuente confirmó que coincide? La muestra es de dos requisitos críticos o del 20 \% de ellos, lo que sea mayor. & Resultado de la prueba de traspaso: esta hoja, más abajo \\
 \end{xltabular}}
@@ -5532,11 +5532,11 @@ medir y controlar la calidad de los requisitos preliminares, porque la
 ambigüedad o la inconsistencia no se detectan a tiempo~\cite{pacheco2022}.
 
 Estos problemas tienen, además de causas documentales, causas sociales, de la
-organización y del contexto. La separación de roles y responsabilidades puede
-dificultar una visión compartida del producto~\cite{fuller2021blurring}; en el
-desarrollo global, la distribución del conocimiento en muchos canales y la
-rotación de participantes hacen difícil mantener una visión común y estable de
-los requisitos~\cite{xiao2018}; y en contextos ágiles a gran escala, la falta de
+organización y del contexto. La separación de roles y responsabilidades puede dificultar una visión
+compartida del producto~\cite{fuller2021blurring}. En el desarrollo global, la
+distribución del conocimiento en muchos canales y la rotación de participantes
+hacen difícil mantener una visión común y estable de los
+requisitos~\cite{xiao2018}, y en contextos ágiles a gran escala, la falta de
 prácticas sólidas de IR afecta la construcción y la preservación del
 conocimiento compartido sobre objetivos, requisitos y decisiones del
 producto~\cite{kasauli2021}. Cuando los desarrolladores no participan en los
@@ -5636,8 +5636,11 @@ artefactos más formales, ya que esa transformación puede introducir
 ambigüedades, omisiones o interpretaciones distintas~\cite{ribeiro2020}. De
 forma similar, contrastar los requisitos con los criterios de aceptación, las
 pruebas o las decisiones de implementación es un momento crítico, porque allí
-se comprueba si el significado acordado se mantiene~\cite{laporte2023}. A
-diferencia de la RQ2, que identifica dónde aparece la necesidad de construir
+se comprueba si el significado acordado se mantiene~\cite{laporte2023}. Cuando
+esas aclaraciones llegan tarde, incompletas o sin los actores que deberían
+participar, el entendimiento compartido puede no consolidarse y las
+desalineaciones pueden quedar ocultas hasta etapas avanzadas del
+proyecto~\cite{sherif2023}. A diferencia de la RQ2, que identifica dónde aparece la necesidad de construir
 entendimiento compartido, esta pregunta se concentra en los momentos de mayor
 riesgo, que son los puntos donde la falta de alineación puede generar
 malentendidos, ambigüedades, pérdida de contexto o decisiones inconsistentes
@@ -5717,8 +5720,11 @@ sociales, basados en la interacción directa entre \textit{stakeholders}
 (entrevistas, reuniones, talleres, discusiones guiadas); mecanismos técnicos,
 apoyados en artefactos, modelos, plantillas o repositorios; y mecanismos
 sociotécnicos, que combinan la conversación entre participantes con artefactos
-que hacen visible, estable y revisable lo que se acordó~\cite{balasubramaniam2023}.
-Estos mecanismos son apoyos parciales, pensados para contextos específicos, y no
+que hacen visible, estable y revisable lo que se
+acordó~\cite{balasubramaniam2023}. En varios estudios estos mecanismos aparecen
+como apoyos que estructuran la comunicación, reducen la ambigüedad y ayudan a
+mantener el significado de los requisitos a lo largo del
+proceso~\cite{sherif2023}. Son apoyos parciales, pensados para contextos específicos, y no
 una guía completa ni una prueba de que el entendimiento compartido se alcanzó.
 
 Durante la elicitación se reportan con frecuencia talleres colaborativos,
@@ -5741,7 +5747,7 @@ con los que los \textit{stakeholders} representan en conjunto procesos,
 escenarios o elementos del dominio~\cite{devries2023}. El uso de
 \textit{personas} se reporta como una forma de representar las
 características, necesidades y expectativas de los
-usuarios~\cite{wang2025personas}, y los glosarios del dominio, como el
+usuarios~\cite{wang2025personas}. Los glosarios del dominio, como el
 \textit{Language Extended Lexicon} (LEL), permiten acordar significados comunes
 para los términos relevantes y reducen el riesgo de que distintos
 \textit{stakeholders} usen las mismas palabras con significados diferentes, o
@@ -5762,16 +5768,17 @@ requisitos, como el modelado participativo, con el que se construyen
 representaciones del dominio con participación activa de los
 \textit{stakeholders}~\cite{devries2023}, y las \textit{Action Sheets} como
 apoyo para estructurar información de requisitos en trabajo
-colaborativo~\cite{kunz2016}. Adicionalmente, se reportan mecanismos de
-procesamiento de lenguaje natural (NLP) para convertir expresiones informales o
-poco estructuradas en requisitos más comprensibles y consistentes~\cite{ali2019};
-prácticas de trazabilidad y de gestión explícita del cambio, para saber cómo
-cambia un requisito, quién lo modifica y qué artefactos se ven
-afectados~\cite{behutiye2022quality}; mecanismos de control de calidad del
-lenguaje, como inspecciones focalizadas y guías de reescritura para detectar
-ambigüedades persistentes~\cite{ribeiro2020}; y propuestas de detección
-automática de \textit{requirement smells} con expresiones regulares, NLP o
-aprendizaje automático~\cite{gentili2025}.
+colaborativo~\cite{kunz2016}. Adicionalmente, se reportan mecanismos de procesamiento de lenguaje natural
+(NLP, por \textit{Natural Language Processing}) para convertir expresiones
+informales o poco estructuradas en requisitos más comprensibles y
+consistentes~\cite{ali2019}, y prácticas de trazabilidad y de gestión explícita
+del cambio, para saber cómo cambia un requisito, quién lo modifica y qué
+artefactos se ven afectados~\cite{behutiye2022quality}. Para la calidad del
+lenguaje se usan inspecciones focalizadas y guías de reescritura que detectan
+ambigüedades persistentes~\cite{ribeiro2020}, y propuestas de detección
+automática de \textit{requirement smells}, que son señales de un requisito mal
+escrito, con expresiones regulares, NLP o aprendizaje
+automático~\cite{gentili2025}.
 
 En la validación, los mecanismos se orientan a comprobar si el significado
 construido y formalizado se mantiene cuando los \textit{stakeholders} contrastan

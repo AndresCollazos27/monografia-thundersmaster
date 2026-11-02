@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.31)  2 NOV 2026 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.10.31)  2 NOV 2026 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1508,193 +1508,193 @@ LaTeX Info: Redefining \% on input line 2583.
 LaTeX Info: Redefining \. on input line 2632.
 LaTeX Info: Redefining \% on input line 2632.
  [51]
-LaTeX Info: Redefining \. on input line 2666.
-LaTeX Info: Redefining \% on input line 2666.
+LaTeX Info: Redefining \. on input line 2665.
+LaTeX Info: Redefining \% on input line 2665.
  [52]
-Overfull \hbox (1.53207pt too wide) in paragraph at lines 2716--2716
+Overfull \hbox (1.53207pt too wide) in paragraph at lines 2715--2715
  []\T1/lmr/bx/n/8 Construir[] 
  []
 
-LaTeX Info: Redefining \. on input line 2791.
-LaTeX Info: Redefining \% on input line 2791.
+LaTeX Info: Redefining \. on input line 2790.
+LaTeX Info: Redefining \% on input line 2790.
 [53]
-LaTeX Info: Redefining \. on input line 2791.
-LaTeX Info: Redefining \% on input line 2791.
+LaTeX Info: Redefining \. on input line 2790.
+LaTeX Info: Redefining \% on input line 2790.
  [54]
-Underfull \hbox (badness 1910) in paragraph at lines 2826--2826
+Underfull \hbox (badness 1910) in paragraph at lines 2825--2825
 [][]\T1/lmr/m/n/8 Tres evi-den-cias se cum-pl�an con un 
  []
 
-LaTeX Info: Redefining \. on input line 2853.
-LaTeX Info: Redefining \% on input line 2853.
+LaTeX Info: Redefining \. on input line 2852.
+LaTeX Info: Redefining \% on input line 2852.
 [55]
-LaTeX Info: Redefining \. on input line 2898.
-LaTeX Info: Redefining \% on input line 2898.
+LaTeX Info: Redefining \. on input line 2897.
+LaTeX Info: Redefining \% on input line 2897.
  [56]
-LaTeX Info: Redefining \. on input line 2934.
-LaTeX Info: Redefining \% on input line 2934.
+LaTeX Info: Redefining \. on input line 2933.
+LaTeX Info: Redefining \% on input line 2933.
  [57]
-LaTeX Info: Redefining \. on input line 2979.
-LaTeX Info: Redefining \% on input line 2979.
+LaTeX Info: Redefining \. on input line 2978.
+LaTeX Info: Redefining \% on input line 2978.
  [58]
-LaTeX Info: Redefining \. on input line 3029.
-LaTeX Info: Redefining \% on input line 3029.
+LaTeX Info: Redefining \. on input line 3028.
+LaTeX Info: Redefining \% on input line 3028.
  [59]
 Cap\'{\i }tulo 5.
 [60
 
 ]
-LaTeX Info: Redefining \. on input line 3144.
-LaTeX Info: Redefining \% on input line 3144.
+LaTeX Info: Redefining \. on input line 3143.
+LaTeX Info: Redefining \% on input line 3143.
  [61]
-LaTeX Info: Redefining \. on input line 3189.
-LaTeX Info: Redefining \% on input line 3189.
+LaTeX Info: Redefining \. on input line 3188.
+LaTeX Info: Redefining \% on input line 3188.
  [62]
-LaTeX Info: Redefining \. on input line 3232.
-LaTeX Info: Redefining \% on input line 3232.
+LaTeX Info: Redefining \. on input line 3231.
+LaTeX Info: Redefining \% on input line 3231.
  [63]
-LaTeX Info: Redefining \. on input line 3369.
-LaTeX Info: Redefining \% on input line 3369.
+LaTeX Info: Redefining \. on input line 3368.
+LaTeX Info: Redefining \% on input line 3368.
  [64]
-LaTeX Info: Redefining \. on input line 3369.
-LaTeX Info: Redefining \% on input line 3369.
+LaTeX Info: Redefining \. on input line 3368.
+LaTeX Info: Redefining \% on input line 3368.
  [65
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3369 \end{xltabular}
+l.3368 \end{xltabular}
                       }]
-LaTeX Info: Redefining \. on input line 3379.
-LaTeX Info: Redefining \% on input line 3379.
+LaTeX Info: Redefining \. on input line 3378.
+LaTeX Info: Redefining \% on input line 3378.
  [66]
 <figures/BPMN_final_principal.pdf, id=2293, 1445.4pt x 1094.89055pt>
 File: figures/BPMN_final_principal.pdf Graphic file (type pdf)
 <use figures/BPMN_final_principal.pdf>
 Package pdftex.def Info: figures/BPMN_final_principal.pdf  used on input line 3
-382.
+381.
 (pdftex.def)             Requested size: 652.69566pt x 479.00612pt.
 <figures/BPMN_final_A5.pdf, id=2295, 1445.4pt x 1105.73097pt>
 File: figures/BPMN_final_A5.pdf Graphic file (type pdf)
 <use figures/BPMN_final_A5.pdf>
-Package pdftex.def Info: figures/BPMN_final_A5.pdf  used on input line 3389.
+Package pdftex.def Info: figures/BPMN_final_A5.pdf  used on input line 3388.
 (pdftex.def)             Requested size: 652.69566pt x 482.08826pt.
-LaTeX Info: Redefining \. on input line 3453.
-LaTeX Info: Redefining \% on input line 3453.
+LaTeX Info: Redefining \. on input line 3452.
+LaTeX Info: Redefining \% on input line 3452.
  [67]
-LaTeX Info: Redefining \. on input line 3453.
-LaTeX Info: Redefining \% on input line 3453.
+LaTeX Info: Redefining \. on input line 3452.
+LaTeX Info: Redefining \% on input line 3452.
  [68 <./figures/BPMN_final_principal.pdf>]
-LaTeX Info: Redefining \. on input line 3453.
-LaTeX Info: Redefining \% on input line 3453.
+LaTeX Info: Redefining \. on input line 3452.
+LaTeX Info: Redefining \% on input line 3452.
 
 [69 <./figures/BPMN_final_A5.pdf>]
-LaTeX Info: Redefining \. on input line 3521.
-LaTeX Info: Redefining \% on input line 3521.
+LaTeX Info: Redefining \. on input line 3520.
+LaTeX Info: Redefining \% on input line 3520.
  [70]
-LaTeX Info: Redefining \. on input line 3556.
-LaTeX Info: Redefining \% on input line 3556.
+LaTeX Info: Redefining \. on input line 3555.
+LaTeX Info: Redefining \% on input line 3555.
  [71]
-LaTeX Info: Redefining \. on input line 3628.
-LaTeX Info: Redefining \% on input line 3628.
+LaTeX Info: Redefining \. on input line 3627.
+LaTeX Info: Redefining \% on input line 3627.
  [72
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.5}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3628 \end{xltabular}
+l.3627 \end{xltabular}
                       }]
-LaTeX Info: Redefining \. on input line 3665.
-LaTeX Info: Redefining \% on input line 3665.
+LaTeX Info: Redefining \. on input line 3664.
+LaTeX Info: Redefining \% on input line 3664.
  [73]
-LaTeX Info: Redefining \. on input line 3715.
-LaTeX Info: Redefining \% on input line 3715.
+LaTeX Info: Redefining \. on input line 3714.
+LaTeX Info: Redefining \% on input line 3714.
  [74]
-LaTeX Info: Redefining \. on input line 3755.
-LaTeX Info: Redefining \% on input line 3755.
+LaTeX Info: Redefining \. on input line 3754.
+LaTeX Info: Redefining \% on input line 3754.
  [75]
 Cap\'{\i }tulo 6.
 
-Overfull \hbox (2.74057pt too wide) in paragraph at lines 3771--3771
+Overfull \hbox (2.74057pt too wide) in paragraph at lines 3770--3770
  \T1/lmr/m/n/6 Uni-Re-ser-va 
  []
 
 [76
 
 ]
-LaTeX Info: Redefining \. on input line 3840.
-LaTeX Info: Redefining \% on input line 3840.
+LaTeX Info: Redefining \. on input line 3839.
+LaTeX Info: Redefining \% on input line 3839.
  [77]
-LaTeX Info: Redefining \. on input line 3903.
-LaTeX Info: Redefining \% on input line 3903.
+LaTeX Info: Redefining \. on input line 3902.
+LaTeX Info: Redefining \% on input line 3902.
  [78
 pdfTeX warning (ext4): destination with the same identifier (name{table.6.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.3903 \end{xltabular}
+l.3902 \end{xltabular}
                       }]
-LaTeX Info: Redefining \. on input line 3946.
-LaTeX Info: Redefining \% on input line 3946.
+LaTeX Info: Redefining \. on input line 3945.
+LaTeX Info: Redefining \% on input line 3945.
  [79]
-LaTeX Info: Redefining \. on input line 3991.
-LaTeX Info: Redefining \% on input line 3991.
+LaTeX Info: Redefining \. on input line 3990.
+LaTeX Info: Redefining \% on input line 3990.
  [80]
-LaTeX Info: Redefining \. on input line 4032.
-LaTeX Info: Redefining \% on input line 4032.
+LaTeX Info: Redefining \. on input line 4031.
+LaTeX Info: Redefining \% on input line 4031.
  [81]
-LaTeX Info: Redefining \. on input line 4080.
-LaTeX Info: Redefining \% on input line 4080.
+LaTeX Info: Redefining \. on input line 4079.
+LaTeX Info: Redefining \% on input line 4079.
  [82]
-LaTeX Info: Redefining \. on input line 4164.
-LaTeX Info: Redefining \% on input line 4164.
+LaTeX Info: Redefining \. on input line 4163.
+LaTeX Info: Redefining \% on input line 4163.
  [83]
-LaTeX Info: Redefining \. on input line 4164.
-LaTeX Info: Redefining \% on input line 4164.
+LaTeX Info: Redefining \. on input line 4163.
+LaTeX Info: Redefining \% on input line 4163.
  [84]
-LaTeX Info: Redefining \. on input line 4246.
-LaTeX Info: Redefining \% on input line 4246.
+LaTeX Info: Redefining \. on input line 4245.
+LaTeX Info: Redefining \% on input line 4245.
  [85]
-LaTeX Info: Redefining \. on input line 4269.
-LaTeX Info: Redefining \% on input line 4269.
+LaTeX Info: Redefining \. on input line 4268.
+LaTeX Info: Redefining \% on input line 4268.
  [86]
-LaTeX Info: Redefining \. on input line 4321.
-LaTeX Info: Redefining \% on input line 4321.
+LaTeX Info: Redefining \. on input line 4320.
+LaTeX Info: Redefining \% on input line 4320.
  [87]
-LaTeX Info: Redefining \. on input line 4373.
-LaTeX Info: Redefining \% on input line 4373.
+LaTeX Info: Redefining \. on input line 4372.
+LaTeX Info: Redefining \% on input line 4372.
  [88]
-LaTeX Info: Redefining \. on input line 4414.
-LaTeX Info: Redefining \% on input line 4414.
+LaTeX Info: Redefining \. on input line 4413.
+LaTeX Info: Redefining \% on input line 4413.
 
 [89]
-LaTeX Info: Redefining \. on input line 4460.
-LaTeX Info: Redefining \% on input line 4460.
+LaTeX Info: Redefining \. on input line 4459.
+LaTeX Info: Redefining \% on input line 4459.
  [90]
-LaTeX Info: Redefining \. on input line 4495.
-LaTeX Info: Redefining \% on input line 4495.
+LaTeX Info: Redefining \. on input line 4494.
+LaTeX Info: Redefining \% on input line 4494.
  [91]
-LaTeX Info: Redefining \. on input line 4558.
-LaTeX Info: Redefining \% on input line 4558.
+LaTeX Info: Redefining \. on input line 4557.
+LaTeX Info: Redefining \% on input line 4557.
  [92]
-LaTeX Info: Redefining \. on input line 4588.
-LaTeX Info: Redefining \% on input line 4588.
+LaTeX Info: Redefining \. on input line 4587.
+LaTeX Info: Redefining \% on input line 4587.
  [93]
-LaTeX Info: Redefining \. on input line 4629.
-LaTeX Info: Redefining \% on input line 4629.
+LaTeX Info: Redefining \. on input line 4628.
+LaTeX Info: Redefining \% on input line 4628.
  [94]
-LaTeX Info: Redefining \. on input line 4666.
-LaTeX Info: Redefining \% on input line 4666.
+LaTeX Info: Redefining \. on input line 4665.
+LaTeX Info: Redefining \% on input line 4665.
  [95]
-LaTeX Info: Redefining \. on input line 4710.
-LaTeX Info: Redefining \% on input line 4710.
+LaTeX Info: Redefining \. on input line 4709.
+LaTeX Info: Redefining \% on input line 4709.
  [96]
 Cap\'{\i }tulo 7.
 [97
 
 ]
-LaTeX Info: Redefining \. on input line 4792.
-LaTeX Info: Redefining \% on input line 4792.
+LaTeX Info: Redefining \. on input line 4791.
+LaTeX Info: Redefining \% on input line 4791.
  [98] (./main.bbl
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1738,8 +1738,8 @@ s : / / cpre . ireb . org / en / concept /
 LaTeX Info: Redefining \. on input line 512.
 LaTeX Info: Redefining \% on input line 512.
 [107])
-LaTeX Info: Redefining \. on input line 4820.
-LaTeX Info: Redefining \% on input line 4820.
+LaTeX Info: Redefining \. on input line 4819.
+LaTeX Info: Redefining \% on input line 4819.
  [108]
 Anexo A.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd)
@@ -1749,21 +1749,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [109
 
 ]
-LaTeX Info: Redefining \. on input line 4904.
-LaTeX Info: Redefining \% on input line 4904.
+LaTeX Info: Redefining \. on input line 4903.
+LaTeX Info: Redefining \% on input line 4903.
  [110{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
-LaTeX Info: Redefining \. on input line 4934.
-LaTeX Info: Redefining \% on input line 4934.
+LaTeX Info: Redefining \. on input line 4933.
+LaTeX Info: Redefining \% on input line 4933.
  [111]
-LaTeX Info: Redefining \. on input line 4985.
-LaTeX Info: Redefining \% on input line 4985.
+LaTeX Info: Redefining \. on input line 4984.
+LaTeX Info: Redefining \% on input line 4984.
  [112]
-LaTeX Info: Redefining \. on input line 5045.
-LaTeX Info: Redefining \% on input line 5045.
+LaTeX Info: Redefining \. on input line 5044.
+LaTeX Info: Redefining \% on input line 5044.
 
 [113]
-LaTeX Info: Redefining \. on input line 5074.
-LaTeX Info: Redefining \% on input line 5074.
+LaTeX Info: Redefining \. on input line 5073.
+LaTeX Info: Redefining \% on input line 5073.
  [114]
 LaTeX Info: Redefining \. on input line 5142.
 LaTeX Info: Redefining \% on input line 5142.
@@ -1781,7 +1781,7 @@ LaTeX Info: Redefining \. on input line 5337.
 LaTeX Info: Redefining \% on input line 5337.
  [119]
 Anexo B.
-<figures/Figura_ScienceDirect.png, id=3073, 1453.43pt x 1090.0725pt>
+<figures/Figura_ScienceDirect.png, id=3074, 1453.43pt x 1090.0725pt>
 File: figures/Figura_ScienceDirect.png Graphic file (type png)
 <use figures/Figura_ScienceDirect.png>
 Package pdftex.def Info: figures/Figura_ScienceDirect.png  used on input line 5
@@ -1790,12 +1790,12 @@ Package pdftex.def Info: figures/Figura_ScienceDirect.png  used on input line 5
 [120
 
 ]
-<figures/Figura_Scopus.png, id=3078, 1453.43pt x 1090.0725pt>
+<figures/Figura_Scopus.png, id=3079, 1453.43pt x 1090.0725pt>
 File: figures/Figura_Scopus.png Graphic file (type png)
 <use figures/Figura_Scopus.png>
 Package pdftex.def Info: figures/Figura_Scopus.png  used on input line 5370.
 (pdftex.def)             Requested size: 389.13692pt x 291.84517pt.
-<figures/Figura_WoS.png, id=3079, 1453.43pt x 1090.0725pt>
+<figures/Figura_WoS.png, id=3080, 1453.43pt x 1090.0725pt>
 File: figures/Figura_WoS.png Graphic file (type png)
 <use figures/Figura_WoS.png>
 Package pdftex.def Info: figures/Figura_WoS.png  used on input line 5377.
@@ -1810,7 +1810,7 @@ opy)>]
 LaTeX Info: Redefining \. on input line 5444.
 LaTeX Info: Redefining \% on input line 5444.
  [123]
-<figures/Figura2.png, id=3096, 787.0203pt x 462.528pt>
+<figures/Figura2.png, id=3097, 787.0203pt x 462.528pt>
 File: figures/Figura2.png Graphic file (type png)
 <use figures/Figura2.png>
 Package pdftex.def Info: figures/Figura2.png  used on input line 5447.
@@ -1828,30 +1828,30 @@ LaTeX Info: Redefining \% on input line 5564.
 LaTeX Info: Redefining \. on input line 5617.
 LaTeX Info: Redefining \% on input line 5617.
  [127]
-LaTeX Info: Redefining \. on input line 5664.
-LaTeX Info: Redefining \% on input line 5664.
+LaTeX Info: Redefining \. on input line 5667.
+LaTeX Info: Redefining \% on input line 5667.
  [128]
-LaTeX Info: Redefining \. on input line 5708.
-LaTeX Info: Redefining \% on input line 5708.
+LaTeX Info: Redefining \. on input line 5701.
+LaTeX Info: Redefining \% on input line 5701.
  [129]
-LaTeX Info: Redefining \. on input line 5749.
-LaTeX Info: Redefining \% on input line 5749.
+LaTeX Info: Redefining \. on input line 5755.
+LaTeX Info: Redefining \% on input line 5755.
  [130]
-LaTeX Info: Redefining \. on input line 5795.
-LaTeX Info: Redefining \% on input line 5795.
+LaTeX Info: Redefining \. on input line 5802.
+LaTeX Info: Redefining \% on input line 5802.
  [131]
-LaTeX Info: Redefining \. on input line 5843.
-LaTeX Info: Redefining \% on input line 5843.
+LaTeX Info: Redefining \. on input line 5835.
+LaTeX Info: Redefining \% on input line 5835.
 
 [132]
-LaTeX Info: Redefining \. on input line 5887.
-LaTeX Info: Redefining \% on input line 5887.
+LaTeX Info: Redefining \. on input line 5882.
+LaTeX Info: Redefining \% on input line 5882.
  [133]
-LaTeX Info: Redefining \. on input line 5934.
-LaTeX Info: Redefining \% on input line 5934.
+LaTeX Info: Redefining \. on input line 5927.
+LaTeX Info: Redefining \% on input line 5927.
  [134]
-LaTeX Info: Redefining \. on input line 5936.
-LaTeX Info: Redefining \% on input line 5936.
+LaTeX Info: Redefining \. on input line 5943.
+LaTeX Info: Redefining \% on input line 5943.
  [135]
 Anexo C.
 [136
@@ -1861,19 +1861,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.Alph3.4
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.6147 \end{xltabular}
+l.6154 \end{xltabular}
                       }]
-LaTeX Info: Redefining \. on input line 6149.
-LaTeX Info: Redefining \% on input line 6149.
+LaTeX Info: Redefining \. on input line 6156.
+LaTeX Info: Redefining \% on input line 6156.
  [137]
-LaTeX Info: Redefining \. on input line 6149.
-LaTeX Info: Redefining \% on input line 6149.
+LaTeX Info: Redefining \. on input line 6156.
+LaTeX Info: Redefining \% on input line 6156.
  [138]
-LaTeX Info: Redefining \. on input line 6149.
-LaTeX Info: Redefining \% on input line 6149.
+LaTeX Info: Redefining \. on input line 6156.
+LaTeX Info: Redefining \% on input line 6156.
  [139]
-LaTeX Info: Redefining \. on input line 6149.
-LaTeX Info: Redefining \% on input line 6149.
+LaTeX Info: Redefining \. on input line 6156.
+LaTeX Info: Redefining \% on input line 6156.
  [140]
 Anexo D.
 [141
@@ -1883,188 +1883,188 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.Alph4.4
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.6368 \end{xltabular}
+l.6375 \end{xltabular}
                       }]
-LaTeX Info: Redefining \. on input line 6370.
-LaTeX Info: Redefining \% on input line 6370.
+LaTeX Info: Redefining \. on input line 6377.
+LaTeX Info: Redefining \% on input line 6377.
  [142]
-LaTeX Info: Redefining \. on input line 6370.
-LaTeX Info: Redefining \% on input line 6370.
+LaTeX Info: Redefining \. on input line 6377.
+LaTeX Info: Redefining \% on input line 6377.
  [143]
-LaTeX Info: Redefining \. on input line 6370.
-LaTeX Info: Redefining \% on input line 6370.
+LaTeX Info: Redefining \. on input line 6377.
+LaTeX Info: Redefining \% on input line 6377.
  [144]
-LaTeX Info: Redefining \. on input line 6370.
-LaTeX Info: Redefining \% on input line 6370.
+LaTeX Info: Redefining \. on input line 6377.
+LaTeX Info: Redefining \% on input line 6377.
  [145]
 Anexo E.
 [146
 
 ]
-LaTeX Info: Redefining \. on input line 6456.
-LaTeX Info: Redefining \% on input line 6456.
+LaTeX Info: Redefining \. on input line 6463.
+LaTeX Info: Redefining \% on input line 6463.
  [147]
-LaTeX Info: Redefining \. on input line 6492.
-LaTeX Info: Redefining \% on input line 6492.
+LaTeX Info: Redefining \. on input line 6499.
+LaTeX Info: Redefining \% on input line 6499.
  [148]
-LaTeX Info: Redefining \. on input line 6639.
-LaTeX Info: Redefining \% on input line 6639.
+LaTeX Info: Redefining \. on input line 6646.
+LaTeX Info: Redefining \% on input line 6646.
  [149]
-LaTeX Info: Redefining \. on input line 6639.
-LaTeX Info: Redefining \% on input line 6639.
+LaTeX Info: Redefining \. on input line 6646.
+LaTeX Info: Redefining \% on input line 6646.
  [150
 pdfTeX warning (ext4): destination with the same identifier (name{table.Alph5.1
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.6639 \end{xltabular}
+l.6646 \end{xltabular}
                       }]
-LaTeX Info: Redefining \. on input line 6641.
-LaTeX Info: Redefining \% on input line 6641.
+LaTeX Info: Redefining \. on input line 6648.
+LaTeX Info: Redefining \% on input line 6648.
  [151]
 Anexo F.
 [152
 
 ]
-LaTeX Info: Redefining \. on input line 6735.
-LaTeX Info: Redefining \% on input line 6735.
+LaTeX Info: Redefining \. on input line 6742.
+LaTeX Info: Redefining \% on input line 6742.
  [153]
-LaTeX Info: Redefining \. on input line 6888.
-LaTeX Info: Redefining \% on input line 6888.
+LaTeX Info: Redefining \. on input line 6895.
+LaTeX Info: Redefining \% on input line 6895.
  [154]
-LaTeX Info: Redefining \. on input line 6888.
-LaTeX Info: Redefining \% on input line 6888.
+LaTeX Info: Redefining \. on input line 6895.
+LaTeX Info: Redefining \% on input line 6895.
  [155]
-LaTeX Info: Redefining \. on input line 6922.
-LaTeX Info: Redefining \% on input line 6922.
+LaTeX Info: Redefining \. on input line 6929.
+LaTeX Info: Redefining \% on input line 6929.
  [156]
-LaTeX Info: Redefining \. on input line 6972.
-LaTeX Info: Redefining \% on input line 6972.
+LaTeX Info: Redefining \. on input line 6979.
+LaTeX Info: Redefining \% on input line 6979.
  [157]
-LaTeX Info: Redefining \. on input line 7021.
-LaTeX Info: Redefining \% on input line 7021.
+LaTeX Info: Redefining \. on input line 7028.
+LaTeX Info: Redefining \% on input line 7028.
  [158]
-LaTeX Info: Redefining \. on input line 7052.
-LaTeX Info: Redefining \% on input line 7052.
+LaTeX Info: Redefining \. on input line 7059.
+LaTeX Info: Redefining \% on input line 7059.
  [159]
-LaTeX Info: Redefining \. on input line 7104.
-LaTeX Info: Redefining \% on input line 7104.
+LaTeX Info: Redefining \. on input line 7111.
+LaTeX Info: Redefining \% on input line 7111.
  [160]
-LaTeX Info: Redefining \. on input line 7138.
-LaTeX Info: Redefining \% on input line 7138.
+LaTeX Info: Redefining \. on input line 7145.
+LaTeX Info: Redefining \% on input line 7145.
  [161]
-LaTeX Info: Redefining \. on input line 7193.
-LaTeX Info: Redefining \% on input line 7193.
+LaTeX Info: Redefining \. on input line 7200.
+LaTeX Info: Redefining \% on input line 7200.
  [162]
-LaTeX Info: Redefining \. on input line 7230.
-LaTeX Info: Redefining \% on input line 7230.
+LaTeX Info: Redefining \. on input line 7237.
+LaTeX Info: Redefining \% on input line 7237.
  [163]
-LaTeX Info: Redefining \. on input line 7272.
-LaTeX Info: Redefining \% on input line 7272.
+LaTeX Info: Redefining \. on input line 7279.
+LaTeX Info: Redefining \% on input line 7279.
 
 [164]
-LaTeX Info: Redefining \. on input line 7320.
-LaTeX Info: Redefining \% on input line 7320.
+LaTeX Info: Redefining \. on input line 7327.
+LaTeX Info: Redefining \% on input line 7327.
  [165]
-LaTeX Info: Redefining \. on input line 7361.
-LaTeX Info: Redefining \% on input line 7361.
+LaTeX Info: Redefining \. on input line 7368.
+LaTeX Info: Redefining \% on input line 7368.
  [166]
-LaTeX Info: Redefining \. on input line 7406.
-LaTeX Info: Redefining \% on input line 7406.
+LaTeX Info: Redefining \. on input line 7413.
+LaTeX Info: Redefining \% on input line 7413.
  [167]
-LaTeX Info: Redefining \. on input line 7445.
-LaTeX Info: Redefining \% on input line 7445.
+LaTeX Info: Redefining \. on input line 7452.
+LaTeX Info: Redefining \% on input line 7452.
  [168]
-LaTeX Info: Redefining \. on input line 7492.
-LaTeX Info: Redefining \% on input line 7492.
+LaTeX Info: Redefining \. on input line 7499.
+LaTeX Info: Redefining \% on input line 7499.
  [169]
-LaTeX Info: Redefining \. on input line 7615.
-LaTeX Info: Redefining \% on input line 7615.
+LaTeX Info: Redefining \. on input line 7622.
+LaTeX Info: Redefining \% on input line 7622.
  [170]
-LaTeX Info: Redefining \. on input line 7615.
-LaTeX Info: Redefining \% on input line 7615.
+LaTeX Info: Redefining \. on input line 7622.
+LaTeX Info: Redefining \% on input line 7622.
  [171
 pdfTeX warning (ext4): destination with the same identifier (name{table.Alph6.1
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.7615 \end{xltabular}
+l.7622 \end{xltabular}
                       }]
-LaTeX Info: Redefining \. on input line 7710.
-LaTeX Info: Redefining \% on input line 7710.
- [172]
 LaTeX Info: Redefining \. on input line 7717.
 LaTeX Info: Redefining \% on input line 7717.
+ [172]
+LaTeX Info: Redefining \. on input line 7724.
+LaTeX Info: Redefining \% on input line 7724.
  [173
 pdfTeX warning (ext4): destination with the same identifier (name{table.Alph6.2
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.7717 ...efactos mínimos y evidencia observable}
+l.7724 ...efactos mínimos y evidencia observable}
                                                   ]
-LaTeX Info: Redefining \. on input line 7764.
-LaTeX Info: Redefining \% on input line 7764.
+LaTeX Info: Redefining \. on input line 7771.
+LaTeX Info: Redefining \% on input line 7771.
  [174]
-LaTeX Info: Redefining \. on input line 7809.
-LaTeX Info: Redefining \% on input line 7809.
+LaTeX Info: Redefining \. on input line 7816.
+LaTeX Info: Redefining \% on input line 7816.
  [175]
-LaTeX Info: Redefining \. on input line 7865.
-LaTeX Info: Redefining \% on input line 7865.
+LaTeX Info: Redefining \. on input line 7872.
+LaTeX Info: Redefining \% on input line 7872.
  [176]
-LaTeX Info: Redefining \. on input line 7906.
-LaTeX Info: Redefining \% on input line 7906.
+LaTeX Info: Redefining \. on input line 7913.
+LaTeX Info: Redefining \% on input line 7913.
  [177]
-LaTeX Info: Redefining \. on input line 8002.
-LaTeX Info: Redefining \% on input line 8002.
+LaTeX Info: Redefining \. on input line 8009.
+LaTeX Info: Redefining \% on input line 8009.
 
 [178]
-LaTeX Info: Redefining \. on input line 8002.
-LaTeX Info: Redefining \% on input line 8002.
+LaTeX Info: Redefining \. on input line 8009.
+LaTeX Info: Redefining \% on input line 8009.
  [179]
-LaTeX Info: Redefining \. on input line 8122.
-LaTeX Info: Redefining \% on input line 8122.
+LaTeX Info: Redefining \. on input line 8129.
+LaTeX Info: Redefining \% on input line 8129.
  [180]
-LaTeX Info: Redefining \. on input line 8122.
-LaTeX Info: Redefining \% on input line 8122.
+LaTeX Info: Redefining \. on input line 8129.
+LaTeX Info: Redefining \% on input line 8129.
  [181
 pdfTeX warning (ext4): destination with the same identifier (name{table.Alph6.5
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.8122 \end{xltabular}
+l.8129 \end{xltabular}
                       }]
-LaTeX Info: Redefining \. on input line 8200.
-LaTeX Info: Redefining \% on input line 8200.
+LaTeX Info: Redefining \. on input line 8207.
+LaTeX Info: Redefining \% on input line 8207.
  [182]
-LaTeX Info: Redefining \. on input line 8200.
-LaTeX Info: Redefining \% on input line 8200.
+LaTeX Info: Redefining \. on input line 8207.
+LaTeX Info: Redefining \% on input line 8207.
  [183]
-LaTeX Info: Redefining \. on input line 8200.
-LaTeX Info: Redefining \% on input line 8200.
+LaTeX Info: Redefining \. on input line 8207.
+LaTeX Info: Redefining \% on input line 8207.
  [184]
 Anexo G.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8203--8212
+Underfull \hbox (badness 10000) in paragraph at lines 8210--8219
 \T1/lmr/m/n/12 obli-ga-to-rios, [][][][][][], [][][][][][] y
  []
 
 [185
 
 ]
-LaTeX Info: Redefining \. on input line 8265.
-LaTeX Info: Redefining \% on input line 8265.
+LaTeX Info: Redefining \. on input line 8272.
+LaTeX Info: Redefining \% on input line 8272.
  [186]
-LaTeX Info: Redefining \. on input line 8318.
-LaTeX Info: Redefining \% on input line 8318.
+LaTeX Info: Redefining \. on input line 8325.
+LaTeX Info: Redefining \% on input line 8325.
  [187]
-LaTeX Info: Redefining \. on input line 8354.
-LaTeX Info: Redefining \% on input line 8354.
+LaTeX Info: Redefining \. on input line 8361.
+LaTeX Info: Redefining \% on input line 8361.
  [188]
-LaTeX Info: Redefining \. on input line 8383.
-LaTeX Info: Redefining \% on input line 8383.
+LaTeX Info: Redefining \. on input line 8390.
+LaTeX Info: Redefining \% on input line 8390.
  [189]
-LaTeX Info: Redefining \. on input line 8423.
-LaTeX Info: Redefining \% on input line 8423.
+LaTeX Info: Redefining \. on input line 8430.
+LaTeX Info: Redefining \% on input line 8430.
  [190]
 Anexo H.
 [191
@@ -2074,23 +2074,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.Alph8.1
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.8496 \end{xltabular}
+l.8503 \end{xltabular}
                       }]
-Package pgfplots info on input line 8510: Using 'lua backend=false' for axis: x
+Package pgfplots info on input line 8517: Using 'lua backend=false' for axis: x
  coord trafo unsupported.
-LaTeX Info: Redefining \. on input line 8528.
-LaTeX Info: Redefining \% on input line 8528.
+LaTeX Info: Redefining \. on input line 8535.
+LaTeX Info: Redefining \% on input line 8535.
  [192]
-LaTeX Info: Redefining \. on input line 8528.
-LaTeX Info: Redefining \% on input line 8528.
+LaTeX Info: Redefining \. on input line 8535.
+LaTeX Info: Redefining \% on input line 8535.
  [193{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc
 /dvips/lm/lm-mathit.enc}]
 Anexo I.
 [194
 
 ]
-LaTeX Info: Redefining \. on input line 8593.
-LaTeX Info: Redefining \% on input line 8593.
+LaTeX Info: Redefining \. on input line 8600.
+LaTeX Info: Redefining \% on input line 8600.
  [195]
 Anexo J.
 [196
@@ -2100,34 +2100,34 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.Alph10.
 1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.8651 \end{xltabular}
+l.8658 \end{xltabular}
                       }]
-Package pgfplots info on input line 8664: Using 'lua backend=false' for axis: s
+Package pgfplots info on input line 8671: Using 'lua backend=false' for axis: s
 tacked plots unsupported (yet).
-Package pgfplots info on input line 8664: Using 'lua backend=false' for axis: x
+Package pgfplots info on input line 8671: Using 'lua backend=false' for axis: x
  coord trafo unsupported.
-LaTeX Info: Redefining \. on input line 8676.
-LaTeX Info: Redefining \% on input line 8676.
+LaTeX Info: Redefining \. on input line 8683.
+LaTeX Info: Redefining \% on input line 8683.
  [197]
 Anexo K.
 
-Overfull \hbox (0.67404pt too wide) in paragraph at lines 8723--8723
+Overfull \hbox (0.67404pt too wide) in paragraph at lines 8730--8730
 []|\T1/lmr/bx/n/8 Instr.|  
  []
 
 
-Overfull \hbox (0.67404pt too wide) in paragraph at lines 8723--8723
+Overfull \hbox (0.67404pt too wide) in paragraph at lines 8730--8730
 []|\T1/lmr/bx/n/8 Instr.|  
  []
 
 [198
 
 ]
-LaTeX Info: Redefining \. on input line 8723.
-LaTeX Info: Redefining \% on input line 8723.
+LaTeX Info: Redefining \. on input line 8730.
+LaTeX Info: Redefining \% on input line 8730.
  [199]
-LaTeX Info: Redefining \. on input line 8727.
-LaTeX Info: Redefining \% on input line 8727.
+LaTeX Info: Redefining \. on input line 8734.
+LaTeX Info: Redefining \% on input line 8734.
  [200]
 Anexo L.
 [201
@@ -2150,10 +2150,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 52091CC263C5076094C051DF86CAF94E;60082.
  ) 
 Here is how much of TeX's memory you used:
- 44783 strings out of 476047
- 1024072 string characters out of 5792074
+ 44785 strings out of 476047
+ 1024099 string characters out of 5792074
  2002975 words of memory out of 5000000
- 65428 multiletter control sequences out of 15000+600000
+ 65429 multiletter control sequences out of 15000+600000
  678874 words of font info for 102 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
  86i,19n,98p,1583b,2731s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2173,10 +2173,10 @@ e/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm
 /fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (221 pages, 5163178 bytes).
+Output written on main.pdf (221 pages, 5163790 bytes).
 PDF statistics:
- 3957 PDF objects out of 4296 (max. 8388607)
- 3105 compressed objects within 32 object streams
- 644 named destinations out of 1000 (max. 500000)
+ 3960 PDF objects out of 4296 (max. 8388607)
+ 3108 compressed objects within 32 object streams
+ 645 named destinations out of 1000 (max. 500000)
  1847 words of extra memory for PDF output out of 10000 (max. 10000000)
 
