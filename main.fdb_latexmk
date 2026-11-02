@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1793483412.95318 "main.aux" "main.bbl" "main" 1793483420.33733 0
-  "./refs.bib" 1793420324.86894 30359 f688fdf2dc3c83c9ed6056a45b0f5b80 ""
+["bibtex main"] 1793638892.24288 "main.aux" "main.bbl" "main" 1793638897.07083 0
+  "./refs.bib" 1793637865.86132 30489 a0c262024f636fdca0156e7937914179 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1793483420.06444 90173 72f9ff1d2adcf74fc8e4ce13cdf37b1c "pdflatex"
+  "main.aux" 1793638896.83347 89864 f26073aadda674fb78ab497b82b2fc5b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1793483412.98415 "main.tex" "main.pdf" "main" 1793483420.3378 0
+["pdflatex"] 1793638892.26565 "main.tex" "main.pdf" "main" 1793638897.07135 0
   "/etc/texmf/web2c/texmf.cnf" 1793414571.48428 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -323,13 +323,13 @@
   "figures/Figura_ScienceDirect.png" 1793413596.95117 1038391 5ecc84d1a0cabeb4b37e222ec1e532e1 ""
   "figures/Figura_Scopus.png" 1793413596.95117 1380342 7389277de8202a68c7dcbbabf6cb5a6c ""
   "figures/Figura_WoS.png" 1793413596.95428 1390346 4639178acb7d932a24826d771b514215 ""
-  "main.aux" 1793483420.06444 90173 72f9ff1d2adcf74fc8e4ce13cdf37b1c "pdflatex"
-  "main.bbl" 1793483412.97244 23191 2f1e5092f689efbd546f473635a3a268 "bibtex main"
-  "main.lof" 1793483420.07644 4642 0a5a109c771164d45fbb58cffcdabf31 "pdflatex"
-  "main.lot" 1793483420.07644 7378 9db2de29ea496f4773d0350ef88d9844 "pdflatex"
-  "main.out" 1793483420.07244 60064 cdc50323f2e61bcc4e1de641f8c8f341 "pdflatex"
-  "main.tex" 1793483242.90034 525551 e189a3b4d33932f215443161477a663d ""
-  "main.toc" 1793483420.07644 26880 72922293a6050c0ecc5ed8e3f1e7c8e3 "pdflatex"
+  "main.aux" 1793638896.83347 89864 f26073aadda674fb78ab497b82b2fc5b "pdflatex"
+  "main.bbl" 1793638892.25747 23486 b97ada08cfd4c58a6f7d34de8f1c5429 "bibtex main"
+  "main.lof" 1793638896.84147 4642 f5e0299693ece72fd2d60ee9cb2bba1b "pdflatex"
+  "main.lot" 1793638896.84147 7378 b13787520e7937e99956c34f8400470d "pdflatex"
+  "main.out" 1793638896.84147 60082 52091cc263c5076094c051df86caf94e "pdflatex"
+  "main.tex" 1793638882.37792 528154 f19b0dd6cf249e945870d43b8137798f ""
+  "main.toc" 1793638896.84147 26653 4d9a5af1b747fdb79188be27c1ada277 "pdflatex"
   (generated)
   "main.aux"
   "main.lof"

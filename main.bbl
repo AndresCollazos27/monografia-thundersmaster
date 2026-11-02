@@ -131,8 +131,9 @@ Watts~S. Humphrey.
 Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
 \newblock Systematic mapping studies in software engineering.
 \newblock In {\em Proceedings of the 12th International Conference on
-  Evaluation and Assessment in Software Engineering (EASE)}, pages 68--77,
-  2008.
+  Evaluation and Assessment in Software Engineering (EASE 2008)}, Electronic
+  Workshops in Computing, pages 68--77, Swindon, UK, 2008. BCS Learning \&
+  Development.
 
 \bibitem{ralyte2001assembly}
 Jolita Ralyté and Colette Rolland.
@@ -558,5 +559,10 @@ Masami Hayashi, Kaori Hayashi, Yohei Sonobe, Hiroyuki Sato, and Hironori
   Takeuchi.
 \newblock Specification description analysis method for requirement modeling.
 \newblock {\em Procedia Computer Science}, 246:189--198, 2024.
+
+\bibitem{sherif2023}
+Ezeldin Sherif, Waleed Helmy, and Galal~Hassan Galal-Edeen.
+\newblock Proposed framework to manage non-functional requirements in agile.
+\newblock {\em IEEE Access}, 11:53995--54005, 2023.
 
 \end{thebibliography}

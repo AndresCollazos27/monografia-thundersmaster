@@ -1,9 +1,9 @@
-% Monografía THUNDERS-Master. Compilar con pdfLaTeX y BibTeX: latexmk -pdf main.tex
+% Monografía THUNDERS Master. Compilar con pdfLaTeX y BibTeX: latexmk -pdf main.tex
 % Lo que falta por completar está marcado con \pendiente{...} (caja amarilla).
 % Estructura (según las correcciones de la directora y la tesis de THUNDERS):
 %   1 Introducción · 2 Marco y estado del arte · 3 Caracterización
 %   4 Construcción con SME (guía de iteraciones v1.0 -> versión final)
-%   5 THUNDERS-Master (versión final) · 6 Evaluación · 7 Conclusiones · Anexos
+%   5 THUNDERS Master (versión final) · 6 Evaluación · 7 Conclusiones · Anexos
 \documentclass[12pt,letterpaper,oneside]{report}
 
 \usepackage[utf8]{inputenc}
@@ -84,7 +84,7 @@
 
 \usepackage[hidelinks]{hyperref}
 \hypersetup{
-  pdftitle={THUNDERS-Master},
+  pdftitle={THUNDERS Master},
   pdfauthor={Andres Felipe Collazos Fernandez; Jose David Chilito Cometa},
   bookmarksnumbered=true
 }
@@ -189,13 +189,13 @@ partida se tomó THUNDERS, el proceso propuesto por Agredo-Delgado para
 construir, monitorear y asistir el entendimiento compartido, que ya había sido
 validado como completo y útil, pero que resultó extenso y con una carga
 cognitiva alta. Por lo tanto, el presente trabajo de grado propone
-THUNDERS-Master, una adaptación de THUNDERS para la elicitación, la
+THUNDERS~Master, una adaptación de THUNDERS para la elicitación, la
 especificación y la validación de requisitos.
 
 El trabajo comenzó con una revisión sistemática de la literatura, que seleccionó
-29 estudios primarios, y con una caracterización de las tres actividades según
-la norma ISO/IEC/IEEE~29148:2018, de las trece actividades de THUNDERS, del
-contexto de uso y de los métodos de adaptación de procesos. La adaptación se
+29 estudios primarios. Luego se caracterizaron las tres actividades según la
+norma ISO/IEC/IEEE~29148:2018, las trece actividades de THUNDERS, el contexto de
+uso y los métodos de adaptación de procesos. La adaptación se
 hizo con ingeniería de métodos situacionales, apoyada en \textit{method chunks}
 y en criterios de \textit{process tailoring}, en seis iteraciones, cada una con
 su versión y su validación. La versión 1.3 se evaluó con cinco expertos, que le dieron 4,34 en completitud y
@@ -233,12 +233,12 @@ allows stakeholders and the technical team to reach a common interpretation of
 the problem, the requirements and their acceptance criteria. The starting point was THUNDERS, the process proposed by
 Agredo-Delgado to build, monitor and assist shared understanding, which had been
 validated as complete and useful but turned out to be long and to impose a high
-cognitive load. This undergraduate thesis therefore proposes THUNDERS-Master, an
+cognitive load. This undergraduate thesis therefore proposes THUNDERS~Master, an
 adaptation of THUNDERS for requirements elicitation, specification and
 validation.
 
 The work began with a systematic literature review that selected 29 primary
-studies, and with a characterization of the three activities according to the
+studies, followed by a characterization of the three activities according to the
 ISO/\allowbreak IEC/\allowbreak IEEE~29148:2018 standard, of the thirteen
 activities of THUNDERS, of the context of use and of process tailoring methods.
 The adaptation followed situational method engineering, supported by method
@@ -322,7 +322,9 @@ Para apoyar ese paso, el presente trabajo adaptó THUNDERS, un proceso propuesto
 por Agredo-Delgado para construir, monitorear y asistir el entendimiento
 compartido en actividades colaborativas de resolución de
 problemas~\cite{agredo2022thesis}, y lo llevó a las actividades de elicitación,
-especificación y validación de requisitos. El resultado es THUNDERS-Master. El trabajo comenzó con una revisión sistemática de la literatura (RSL), que
+especificación y validación de requisitos. El resultado es THUNDERS~Master, cuyo sufijo viene del rol de \textit{Scrum
+Master}, que facilita el trabajo del equipo en Scrum, y no indica una versión
+superior de THUNDERS. El trabajo comenzó con una revisión sistemática de la literatura (RSL), que
 seleccionó 29 estudios primarios sobre las rupturas, los momentos críticos, los
 mecanismos y las formas de evaluar el entendimiento compartido en esas tres
 actividades. Luego se caracterizaron las tres actividades a partir de la norma
@@ -435,19 +437,16 @@ entorno~\cite{grande2024devops}.
 
 Frente a esta situación se retoma THUNDERS, un proceso para diseñar, ejecutar y
 validar actividades de resolución de problemas con grupos heterogéneos,
-construido con ingeniería de métodos situacionales y especificado en SPEM~2.0 (\textit{Software \& Systems Process Engineering
-Metamodel}), el metamodelo del \textit{Object Management Group} para describir procesos de
-software~\cite{agredo2022thesis,omg2008spem}. Las experiencias de validación
-reportadas indican que THUNDERS es completo, que es útil y que apoya la
-construcción del entendimiento compartido, pero también que es largo, difícil de
-usar y que genera una carga cognitiva
-alta~\cite{agredo2022thesis,agredo2022exploratory}. Por eso la autora propuso
-derivar versiones más simples, que conserven sus aportes con una complejidad que
-un equipo pueda asumir en un proyecto real.
+construido con ingeniería de métodos situacionales y especificado en SPEM~2.0
+(\textit{Software \& Systems Process Engineering Metamodel}), el metamodelo del
+\textit{Object Management Group} para describir procesos de
+software~\cite{agredo2022thesis,omg2008spem}. Como se dijo en la motivación, sus
+validaciones lo encontraron completo y útil, pero largo y exigente en carga
+cognitiva~\cite{agredo2022exploratory}.
 
 Teniendo en cuenta lo anterior, la literatura reporta muchos mecanismos para
 apoyar el entendimiento compartido, como glosarios, talleres, prototipos o
-criterios de aceptación (Sección~\ref{sec:rsl}), pero en la RSL no se encontró
+criterios de aceptación (Sección~\ref{sec:rsl}). Pero en la RSL no se encontró
 una guía que le indique a un equipo, paso a paso, cómo construir ese
 entendimiento, cómo mantenerlo y cómo comprobar que se logró mientras elicita,
 especifica y valida requisitos. THUNDERS ofrece esa guía para actividades colaborativas en general, aunque exige más tiempo y esfuerzo de los que caben en
@@ -633,7 +632,7 @@ fases con sus métodos, sus hitos y las seis iteraciones.
 \node[met, below=2mm of p3] (m3) {\textbf{Métodos}\\ Plan GQM\\ Juicio de expertos\\ Estudio de caso (Runeson y Höst)\\ Revisión conceptual};
 \node[met, below=2mm of p4] (m4) {\textbf{Productos}\\ Artículo JIIHC 2026\\ Artículo de revista\\ Monografía\\ Sustentación};
 \node[hito, below=2mm of m1] (h1) {\textbf{Hito:} brecha de investigación y caracterización (obj.~1 y 2)};
-\node[hito, below=2mm of m2] (h2) {\textbf{Hito:} THUNDERS-Master, versión final (obj.~3)};
+\node[hito, below=2mm of m2] (h2) {\textbf{Hito:} THUNDERS~Master, versión final (obj.~3)};
 \node[hito, below=2mm of m3] (h3) {\textbf{Hito:} proceso evaluado en contexto agrícola (obj.~4)};
 \node[hito, below=2mm of m4] (h4) {\textbf{Hito:} resultados publicados y sustentados};
 % iteraciones
@@ -642,7 +641,7 @@ fases con sus métodos, sus hitos y las seis iteraciones.
   \node[it, anchor=north west] (i\i) at ($(b0)+(\k*26.1mm,0)$) {\textbf{Iteración \i}\\ \v};
 }
 \foreach \a/\b in {1/2,2/3,3/4,4/5,5/6} \draw[fl, draw=devLine] (i\a)--(i\b);
-\node[val, below=1.5mm of i1] (v1) {Revisión inicial de la propuesta};
+\node[val, below=1.5mm of i1] (v1) {Revisión con la directora del trabajo};
 \node[val, below=1.5mm of i2] (v2) {Revisión por pares del artículo (JIIHC 2026)};
 \node[val, below=1.5mm of i3] (v3) {Tres revisiones con la directora; 5 expertos; estudio de caso UniReserva};
 \node[val, below=1.5mm of i4] (v4) {Revisión con el codirector};
@@ -672,7 +671,7 @@ existentes para adaptar procesos. Su producto fue la caracterización que se
 presenta en los Capítulos~\ref{ch:marco} y~\ref{ch:caracterizacion}, con la que
 se dieron por cumplidos los objetivos~1 y~2.
 
-La segunda fase, de formulación, derivó THUNDERS-Master (objetivo~3). Entre los
+La segunda fase, de formulación, derivó THUNDERS~Master (objetivo~3). Entre los
 métodos de adaptación revisados se eligió la ingeniería de métodos situacionales
 porque es la base con la que se construyó THUNDERS y porque, complementada con
 \textit{method chunks} y con criterios de \textit{tailoring}, permite conservar solo los componentes que aportan a la IR
@@ -694,8 +693,9 @@ Capítulo~\ref{ch:evaluacion}, sus validaciones.
 \begin{itemize}
 \item \textbf{Iteración 1, versión 1.0.} Organizó la adaptación en cuatro
   momentos (preparación, elicitación, especificación y validación) y fijó un
-  primer mapeo entre THUNDERS y la IR. Como los momentos no tenían entradas,
-  salidas ni roles, la siguiente versión recuperó la estructura de THUNDERS.
+  primer mapeo entre THUNDERS y la IR. Se validó en una revisión con la
+  directora del trabajo, y como los momentos no tenían entradas, salidas ni
+  roles, la siguiente versión recuperó la estructura de THUNDERS.
 \item \textbf{Iteración 2, versiones 1.1 y 1.2.} Recuperó la estructura de
   THUNDERS con tres fases, once actividades más una opcional, seis roles, siete
   artefactos y cinco evidencias. La versión
@@ -733,7 +733,7 @@ en los artículos derivados y en la sustentación del trabajo de grado.
 \section{Aportes del proyecto}
 El aporte principal es un proceso adaptado para construir el entendimiento
 compartido en la elicitación, la especificación y la validación de requisitos.
-THUNDERS-Master complementa las prácticas que el equipo ya tenga, sin
+THUNDERS~Master complementa las prácticas que el equipo ya tenga, sin
 reemplazarlas, con elementos de la ingeniería de la colaboración y con una forma
 de ejecución que se decide según el contexto. En lo académico, el trabajo amplía
 la comprensión del entendimiento compartido en la IR, propone cinco evidencias
@@ -752,7 +752,7 @@ El documento está organizado en siete capítulos y un conjunto de anexos. El Ca
 trabajos relacionados y la RSL, con la brecha que justifica adaptar THUNDERS. El
 Capítulo~\ref{ch:caracterizacion} caracteriza lo que se necesitó para construir
 el proceso, que son las tres actividades de la IR, el proceso THUNDERS, el
-contexto en el que se usaría y los métodos de adaptación de procesos. El Capítulo~\ref{ch:construccion} presenta la construcción de THUNDERS-Master
+contexto en el que se usaría y los métodos de adaptación de procesos. El Capítulo~\ref{ch:construccion} presenta la construcción de THUNDERS~Master
 con ingeniería de métodos situacionales y la guía de sus seis iteraciones. El Capítulo~\ref{ch:proceso} presenta la versión final del proceso, con sus
 fundamentos, su ciclo de requisitos y su forma de ejecución. El
 Capítulo~\ref{ch:evaluacion} presenta el plan de evaluación y, para cada
@@ -802,7 +802,7 @@ La norma distingue los requisitos funcionales, que describen lo que el sistema
 debe hacer, de los requisitos no funcionales, que incluyen los atributos de
 calidad, como el desempeño, la usabilidad o la seguridad, y las restricciones,
 que son condiciones que limitan la solución, como una norma legal, una
-tecnología obligatoria o un plazo~\cite{iso29148,iso25010}. THUNDERS-Master trabaja con los dos tipos. Los malentendidos aparecen en ambos,
+tecnología obligatoria o un plazo~\cite{iso29148,iso25010}. THUNDERS~Master trabaja con los dos tipos. Los malentendidos aparecen en ambos,
 y la RSL mostró que en los no funcionales la desalineación puede ser mayor,
 porque se discuten menos y se documentan
 peor~\cite{behutiye2022quality,okpara2023}.
@@ -904,7 +904,7 @@ terminan en un \emph{hito}~\cite{omg2008spem}.
 Un modelo de proceso es una representación abstracta de cómo se define y se
 ejecuta un proceso. THUNDERS se especificó con SPEM~2.0~\cite{omg2008spem}, que
 es un metamodelo para describir procesos de ingeniería de software, y
-THUNDERS-Master se diagramó con BPMN~2.0~\cite{omg2011bpmn}, que es una
+THUNDERS~Master se diagramó con BPMN~2.0~\cite{omg2011bpmn}, que es una
 notación para modelar flujos de trabajo con actividades, eventos, compuertas,
 carriles (\textit{lanes}) por responsable y objetos de datos. Se usó BPMN
 porque deja ver en un solo diagrama qué rol lidera cada actividad, qué la
@@ -960,7 +960,7 @@ definen las métricas que responden esas preguntas~\cite{basili1994gqm}. En este
 el plan de evaluación del proceso. Una de sus metas lleva el entendimiento
 compartido a indicadores observables durante la elicitación, la especificación y
 la validación, como las cinco evidencias del proceso o las discrepancias que se
-detectan y se cierran, y las demás preguntan si THUNDERS-Master es útil, si es
+detectan y se cierran, y las demás preguntan si THUNDERS~Master es útil, si es
 fácil de usar y si reduce la carga cognitiva (Sección~\ref{sec:plan_gqm}).
 
 \paragraph{Juicio de expertos.}
@@ -1094,7 +1094,7 @@ ganadera del Cauca. Es el trabajo más cercano a este, ya que adapta el mismo
 proceso al mismo dominio de aplicación. La estrategia se percibió como completa
 y útil, pero no como fácil de usar, ya que sus instrucciones necesitaban un apoyo
 adicional para entenderse. Por lo tanto, quedó pendiente simplificarla y hacerla
-aplicable en las sesiones cortas de la IR, que es lo que busca THUNDERS-Master.
+aplicable en las sesiones cortas de la IR, que es lo que busca THUNDERS~Master.
 
 \subsection{Adaptación de procesos de software}
 Kalus y Kuhrmann~\cite{kalus2013tailoring} hicieron una revisión sistemática de
@@ -1115,20 +1115,20 @@ compara para elegir la que se usó.
 \subsection{Trabajos posteriores a la revisión sistemática}
 Londoño, Agredo-Delgado y Ruiz~\cite{londono2023prototyping} propusieron una
 estrategia ágil de prototipado para construir el entendimiento compartido en la
-IR, construida, como THUNDERS-Master, con ingeniería de métodos situacionales.
+IR, construida, como THUNDERS~Master, con ingeniería de métodos situacionales.
 La estrategia se organiza en fases, que van de la planificación y la
 identificación y el análisis de requisitos al prototipado no funcional, la
 gestión de requisitos, el prototipado funcional y la socialización, y usa los
 prototipos como una representación tangible de los requisitos. Es el trabajo más
 parecido en el método de construcción, pero el entendimiento se apoya en el
-prototipo, mientras que THUNDERS-Master comprueba, con prototipo o sin él, que los
+prototipo, mientras que THUNDERS~Master comprueba, con prototipo o sin él, que los
 distintos perfiles interpretan igual los requisitos críticos, y deja evidencias
 de que se logró.
 
 Chamizo Quiñones, Rodríguez Bautista y Agredo-Delgado~\cite{chamizo2025guide}
 propusieron una guía para fortalecer la construcción del entendimiento
 compartido en las actividades de la IR, a partir de las propuestas y técnicas
-que reporta la literatura. A diferencia de THUNDERS-Master, se presenta como una
+que reporta la literatura. A diferencia de THUNDERS~Master, se presenta como una
 guía de apoyo y no como un proceso con roles, productos de trabajo y evidencias
 para comprobar el entendimiento.
 
@@ -1139,8 +1139,12 @@ proceso y la evaluación empírica, que son los tres frentes que este trabajo
 atiende con las evidencias E1 a E5, las plantillas del modo asistido y los
 estudios de caso.
 
-\pendiente{Verificar con los textos completos estos tres trabajos y sus celdas
-en la Tabla~\ref{tab:comparacion_trabajos}, y completar volumen y páginas.}
+\pendiente{Los tres trabajos de esta subsección se describieron con sus
+resúmenes, porque no se pudo acceder a sus textos completos. Confirmar con los
+textos completos lo que se dice de cada uno y sus celdas en la
+Tabla~\ref{tab:comparacion_trabajos}, y completar el volumen, el número y las
+páginas del artículo de la revista I+T+C y las páginas del capítulo de
+HCI-COLLAB~2024.}
 
 \subsection{Comparación de los trabajos relacionados}
 La Tabla~\ref{tab:comparacion_trabajos} compara los trabajos con siete criterios
@@ -1154,7 +1158,7 @@ del entendimiento compartido, y que la estrategia derivada de THUNDERS es la
 facilidad de uso.
 
 \begin{table}[htbp]
-\caption{Comparación de los trabajos relacionados con THUNDERS-Master (EC:
+\caption{Comparación de los trabajos relacionados con THUNDERS~Master (EC:
 entendimiento compartido; Elic., Espec. y Valid.: cubre la elicitación, la
 especificación o la validación; ``--'': no se pudo establecer con la
 información publicada).}
@@ -1169,7 +1173,7 @@ información publicada).}
 \begin{tabularx}{\textwidth}{@{}Y *{7}{>{\centering\arraybackslash}p{1.3cm}}@{}}
 \toprule
 \textbf{Trabajo} & \textbf{Proceso con fases} & \textbf{Elic.} &
-\textbf{Espec.} & \textbf{Valid.} & \textbf{Construye el EC} &
+\textbf{Espec.} & \textbf{Valid.} & \textbf{Cons\-tru\-ye el EC} &
 \textbf{Verifica o mide el EC} & \textbf{Adapta un proceso} \\
 \midrule
 Bittner y Leimeister~\cite{bittner2014shared} & \pa & \no & \no & \no & \si & \pa & \no \\
@@ -1185,7 +1189,7 @@ Prototipado ágil~\cite{londono2023prototyping} & \si & \si & \si & \pa & \si & 
 Guía para la IR~\cite{chamizo2025guide} & \pa & \pa & \pa & \pa & \si & -- & \no \\
 Kalus y Kuhrmann~\cite{kalus2013tailoring}; Campanelli y Parreiras~\cite{campanelli2015agile} & \no & \no & \no & \no & \no & \no & \si \\
 \midrule
-\textbf{THUNDERS-Master} & \si & \si & \si & \si & \si & \si & \si \\
+\textbf{THUNDERS~Master} & \si & \si & \si & \si & \si & \si & \si \\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -1526,7 +1530,7 @@ relacionados, siempre que estuvieran ligados a las tres actividades.
 
 \subsection{Síntesis de hallazgos}
 La síntesis por preguntas de investigación dejó cinco hallazgos principales,
-que luego sirvieron para tomar las decisiones de diseño de THUNDERS-Master. El
+que luego sirvieron para tomar las decisiones de diseño de THUNDERS~Master. El
 primero es que el entendimiento compartido necesita que participen los
 \textit{stakeholders} que de verdad tienen el conocimiento y la autoridad sobre
 los requisitos. Si se consulta a quien no representa la necesidad real, o si las
@@ -1552,14 +1556,14 @@ instrumentos validados. La Tabla~\ref{tab:rsl_implications} relaciona cada
 hallazgo con su implicación para el proceso.
 
 \begin{table}[htbp]
-\caption{Hallazgos de la RSL y su implicación para THUNDERS-Master.}
+\caption{Hallazgos de la RSL y su implicación para THUNDERS~Master.}
 \label{tab:rsl_implications}
 \centering
 \footnotesize
 \renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\textwidth}{@{}L{6.0cm}Y@{}}
 \toprule
-\textbf{Hallazgo de la RSL} & \textbf{Implicación para THUNDERS-Master} \\
+\textbf{Hallazgo de la RSL} & \textbf{Implicación para THUNDERS~Master} \\
 \midrule
 El entendimiento compartido se describe con conceptos dispersos
 (alineación, comunicación, colaboración, modelos mentales). &
@@ -1592,7 +1596,7 @@ va a construir. \\
 \midrule
 La literatura reporta mecanismos para apoyar el entendimiento compartido, pero
 no una guía integrada para aplicarlos. &
-THUNDERS-Master organiza esos mecanismos en fases y actividades con entradas,
+THUNDERS~Master organiza esos mecanismos en fases y actividades con entradas,
 salidas y roles, para que sirvan de guía al ejecutar cada acción. \\
 \bottomrule
 \end{tabularx}
@@ -1683,7 +1687,7 @@ de los requisitos es el mismo para todos. \\
 \chaptermark{Caracterización para la adaptación}
 \label{ch:caracterizacion}
 
-Antes de construir THUNDERS-Master fue necesario conocer todo lo que la
+Antes de construir THUNDERS~Master fue necesario conocer todo lo que la
 adaptación iba a usar. Este capítulo reúne esa caracterización, que responde a
 los objetivos~1 y~2. Primero caracteriza las tres actividades de la IR sobre las que trabaja el
 proceso, que son la elicitación, la especificación y la validación, con lo que
@@ -1693,18 +1697,18 @@ resultados de sus validaciones.
 Después caracteriza el contexto en el que se usaría el proceso adaptado y a las
 personas que lo usarían. Por último, compara los métodos existentes para adaptar
 procesos, ya que de esa comparación salió el método con el que se construyó
-THUNDERS-Master (Capítulo~\ref{ch:construccion}). La
+THUNDERS~Master (Capítulo~\ref{ch:construccion}). La
 Figura~\ref{fig:secciones_c3} resume las secciones del capítulo.
 
 \seccionescapitulo{7}{3.1/{Elicitación de requisitos},3.2/{Especificación de requisitos},3.3/{Validación de requisitos},3.4/{Elementos transversales},3.5/{THUNDERS, el proceso base},3.6/{Contexto de uso y usuarios},3.7/{Métodos de adaptación de procesos}}{fig:secciones_c3}
 
 La caracterización de las tres actividades toma como base la norma
-ISO/IEC/IEEE~29148:2018~\cite{iso29148}, que es la norma internacional sobre
-los procesos y productos de la IR, y se complementa con las normas de ciclo de
-vida~\cite{iso15288,iso12207}, con el modelo de calidad del producto
-ISO/IEC~25010~\cite{iso25010}, que se usa para clasificar los atributos de
-calidad que deben tener los requisitos no funcionales, con las normas de
-usabilidad~\cite{iso9241}, que se usan porque la validación debe comprobar que
+ISO/IEC/IEEE~29148:2018~\cite{iso29148}, que es la norma internacional sobre los
+procesos y productos de la IR, y se complementa con las normas de ciclo de
+vida~\cite{iso15288,iso12207}. También usa el modelo de calidad del producto
+ISO/IEC~25010~\cite{iso25010}, para clasificar los atributos de calidad que
+deben tener los requisitos no funcionales, y las normas de
+usabilidad~\cite{iso9241}, porque la validación debe comprobar que
 los requisitos sirven a los usuarios en sus tareas reales, y con la literatura
 académica. Su propósito es saber, para cada actividad, qué debe producir y qué
 debe conservar para que el entendimiento compartido no se pierda al pasar a la
@@ -1877,9 +1881,9 @@ aceptar, rechazar o condicionar un requisito, el analista o facilitador de la
 revisión y el equipo técnico.
 
 La validación se da por cerrada cuando los \textit{stakeholders} relevantes
-revisaron el conjunto en un formato que entienden, los defectos críticos están
-resueltos o registrados, hay evidencia de acuerdo o de aceptación condicionada y
-la nueva versión queda controlada en una línea base, que es la versión aprobada
+revisaron el conjunto en un formato que entienden y los defectos críticos están
+resueltos o registrados. También debe haber evidencia de acuerdo o de aceptación
+condicionada, y la nueva versión debe quedar controlada en una línea base, que es la versión aprobada
 del conjunto de requisitos a partir de la cual todo cambio se
 registra~\cite{iso29148}.
 
@@ -1893,7 +1897,7 @@ riesgos~\cite{damian2006empirical}, y Fucci et al. mostraron que la trazabilidad
 sirve para conservar la memoria de las decisiones y explicar por qué existe cada
 requisito~\cite{fucci2022traceability}. Estos
 elementos, junto con las tareas de las tres actividades, son los que luego se
-convierten en requisitos del método para THUNDERS-Master
+convierten en requisitos del método para THUNDERS~Master
 (Sección~\ref{sec:requisitos_metodo}).
 
 \begin{table}[htbp]
@@ -1933,7 +1937,7 @@ conflictos siguen abiertos, para saber si el entendimiento se logró. \\
 \label{sec:analisis_thunders}
 El análisis de THUNDERS que se presenta a continuación se hizo sobre su
 especificación~\cite{agredo2022thesis} y es el fundamento de la adaptación
-(objetivo~2). La construcción de THUNDERS-Master declara qué tareas y elementos
+(objetivo~2). La construcción de THUNDERS~Master declara qué tareas y elementos
 del proceso original se conservan, se adaptan, se fusionan o se retiran
 (Sección~\ref{sec:seleccion}), y esa declaración solo se puede verificar si los
 componentes del proceso base están descritos con suficiente detalle. Para
@@ -2142,7 +2146,7 @@ completa dura mucho, la segunda es el número alto de tareas, instrumentos y
 productos de trabajo por fase, y la tercera es la carga cognitiva que recae
 sobre los participantes y sobre quien facilita~\cite{sweller1988,dejong2010}.
 Las tres hacen difícil usarlo en las sesiones cortas de la IR. De este análisis
-sale el criterio que guía a THUNDERS-Master, que es conservar la intención del
+sale el criterio que guía a THUNDERS~Master, que es conservar la intención del
 proceso original, construir, monitorear y validar el entendimiento compartido,
 reduciendo su costo de operación, de modo que cada componente que pase al
 proceso adaptado deje un producto pequeño que se pueda revisar.
@@ -2155,8 +2159,7 @@ tenían sentido en él. El contexto se caracterizó en tres aspectos, que son
 dónde se aplica el proceso, quiénes lo usan y qué condiciones lo hacen más o
 menos necesario.
 
-\paragraph{Dónde se aplica.}
-THUNDERS-Master se aplica en los encuentros de trabajo en los que un equipo de
+THUNDERS~Master se aplica en los encuentros de trabajo en los que un equipo de
 desarrollo de software ejecuta una o varias de las tres actividades con los
 \textit{stakeholders}, como una entrevista, un taller de elicitación, una
 reunión de refinamiento del \textit{backlog} o una revisión de requisitos. Esos
@@ -2170,7 +2173,6 @@ El tercero es que ocurren dentro de una metodología de desarrollo que el equipo
 ya tiene, ágil o tradicional, de modo que el proceso debe complementarla y no
 reemplazarla~\cite{kasauli2021}.
 
-\paragraph{Quiénes lo usan.}
 El proceso tiene tres grupos de usuarios, con necesidades distintas. El primero
 son quienes facilitan y especifican, que son miembros del equipo de desarrollo,
 como un analista, un \textit{product owner} o, en contextos académicos,
@@ -2184,7 +2186,6 @@ probarán el sistema, que muchas veces no estuvieron en los encuentros y reciben
 los requisitos por escrito, por lo que necesitan que lo acordado les llegue con
 el mismo significado~\cite{fricker2015}.
 
-\paragraph{Qué condiciones lo hacen más o menos necesario.}
 El costo de un malentendido y la facilidad para evitarlo cambian según el
 equipo, el sistema y el proyecto. La Tabla~\ref{tab:contexto_uso} resume esas
 condiciones, que salen de la RSL y de las validaciones de THUNDERS, y su
@@ -2254,20 +2255,20 @@ especificado.
 Su principal ventaja es que permite mantener la coherencia entre los objetivos
 del método y sus actividades, roles y productos de trabajo~\cite{henderson2014}. Su principal limitación es que puede volverse
 pesada si exige construir repositorios extensos de componentes antes de
-producir una adaptación concreta~\cite{henderson2010sme}. En el caso de THUNDERS-Master esa limitación tiene poco efecto, porque THUNDERS
+producir una adaptación concreta~\cite{henderson2010sme}. En el caso de THUNDERS~Master esa limitación tiene poco efecto, porque THUNDERS
 ya está documentado al nivel de tarea y no hubo que construir sus componentes.
 
 \subsection{\textit{Method fragments} y \textit{method chunks}}
 Usados como enfoque propio, los fragmentos y los \textit{chunks} de método
 permiten ver un proceso como un conjunto de piezas que se reutilizan según la
-situación~\cite{harmsen1995,ralyte2001assembly}. Esa granularidad es útil para THUNDERS-Master: permite transformar tareas o grupos de tareas de
+situación~\cite{harmsen1995,ralyte2001assembly}. Esa granularidad es útil para THUNDERS~Master: permite transformar tareas o grupos de tareas de
 THUNDERS en unidades orientadas a objetivos de la IR, cada una con su intención,
 su situación de uso, sus entradas y sus salidas.
 
 La ventaja de los \textit{chunks} es que permiten una adaptación fina y
 trazable que conserva la intención de cada componente~\cite{mirbel2006sme}. Su
 limitación es que requieren reglas de composición para evitar inconsistencias
-entre las piezas seleccionadas~\cite{ralyte2001assembly}. En THUNDERS-Master esa
+entre las piezas seleccionadas~\cite{ralyte2001assembly}. En THUNDERS~Master esa
 limitación se maneja con una matriz que relaciona cada \textit{chunk} con la
 elicitación, la especificación o la validación (Tabla~\ref{tab:mapeo_re}) y con
 la trazabilidad completa de los trece componentes
@@ -2283,7 +2284,7 @@ organización~\cite{xu2007}.
 
 La revisión sistemática de Kalus y Kuhrmann identifica muchos criterios usados
 para adaptar procesos de software y concluye que la adaptación depende mucho
-del contexto~\cite{kalus2013tailoring}. Para THUNDERS-Master esa conclusión confirma que la decisión de conservar,
+del contexto~\cite{kalus2013tailoring}. Para THUNDERS~Master esa conclusión confirma que la decisión de conservar,
 adaptar o retirar elementos de THUNDERS debe basarse en criterios explícitos de
 contexto. Pero el \textit{tailoring} por sí solo no es suficiente, porque no
 indica cómo conservar la estructura del método original, es decir, la relación
@@ -2295,7 +2296,7 @@ explícita~\cite{kuhrmann2016}, y son útiles cuando una organización necesita
 derivar varias versiones de un proceso para distintos contextos, dominios o
 tipos de proyecto.
 
-Para THUNDERS-Master, las SPrL son interesantes a largo plazo, porque permitirían gestionar variantes para educación, salud o contextos
+Para THUNDERS~Master, las SPrL son interesantes a largo plazo, porque permitirían gestionar variantes para educación, salud o contextos
 empresariales, además de la variante de IR que se desarrolla en este trabajo.
 Pero para una primera adaptación de THUNDERS pueden introducir más
 infraestructura metodológica de la necesaria, por lo que se consideran una
@@ -2307,10 +2308,10 @@ contexto~\cite{campanelli2015agile}, y Kruchten sostiene que la adopción de enf
 del contexto como el tamaño del equipo, la criticidad del sistema y la
 distribución del equipo~\cite{kruchten2013}.
 
-Se tuvo en cuenta porque THUNDERS-Master debe ser ligero y compatible con la
+Se tuvo en cuenta porque THUNDERS~Master debe ser ligero y compatible con la
 retroalimentación frecuente de los equipos ágiles. Pero la adaptación ágil se
 concentra en seleccionar prácticas y no en conservar la estructura de un proceso
-existente. Por lo tanto, su papel en THUNDERS-Master es complementario: aporta
+existente. Por lo tanto, su papel en THUNDERS~Master es complementario: aporta
 criterios de ligereza (Sección~\ref{sec:encaje_agil}) sin reemplazar
 el marco principal de la adaptación.
 
@@ -2323,7 +2324,7 @@ pudiera aplicar en el tiempo de un trabajo de grado. La
 Tabla~\ref{tab:comparacion} resume el análisis cualitativo.
 
 \begin{table}[htbp]
-\caption{Comparación de métodos de adaptación frente al caso THUNDERS-Master.}
+\caption{Comparación de métodos de adaptación frente al caso THUNDERS~Master.}
 \label{tab:comparacion}
 \centering
 \scriptsize
@@ -2389,11 +2390,11 @@ introducen más infraestructura de la necesaria para una primera adaptación. El
 Capítulo~\ref{ch:construccion} detalla por qué se eligió la SME, cómo se
 complementó con los otros enfoques y cómo se aplicó.
 
-\chapter{Construcción de THUNDERS-Master con ingeniería de métodos situacionales}
-\chaptermark{Construcción de THUNDERS-Master}
+\chapter{Construcción de THUNDERS~Master con ingeniería de métodos situacionales}
+\chaptermark{Construcción de THUNDERS~Master}
 \label{ch:construccion}
 
-Este capítulo presenta cómo se construyó THUNDERS-Master a partir de THUNDERS,
+Este capítulo presenta cómo se construyó THUNDERS~Master a partir de THUNDERS,
 que corresponde al objetivo~3. Primero explica por qué se eligió la ingeniería
 de métodos situacionales entre los enfoques caracterizados en el capítulo
 anterior y cómo se complementó. Luego presenta el ciclo con el que se aplicó, que
@@ -2429,7 +2430,7 @@ prácticas sin garantizar que se mantenga la intención de THUNDERS.
 
 \section{Ciclo de construcción}
 \label{sec:ciclo_construccion}
-En THUNDERS-Master la SME se usó como una lógica de construcción, con cuatro
+En THUNDERS~Master la SME se usó como una lógica de construcción, con cuatro
 actividades, que son especificar los requisitos del método, seleccionar los
 componentes relevantes del proceso base, ensamblarlos en un flujo para la IR y
 validar el resultado~\cite{ralyte2001assembly}. Igual que en la construcción
@@ -2460,11 +2461,11 @@ iteraciones.
 \draw[fl] (a3.west) to[out=180,in=-90] (a4.south);
 \draw[fl] (a4.north) to[out=90,in=180] node[pos=0.5, above left, font=\tiny, text width=26mm, align=right] {resultados y oportunidades de mejora para la siguiente versión} (a1.west);
 \node[io, anchor=south] at ($(a1.north)+(-42mm,1mm)$) (in) {\textbf{Entradas:} RSL, caracterización de la IR, análisis de THUNDERS, contexto de uso};
-\node[io, anchor=south] at ($(a1.north)+(42mm,1mm)$) (out) {\textbf{Salida:} THUNDERS-Master, versión final (Capítulo~\ref{ch:proceso})};
+\node[io, anchor=south] at ($(a1.north)+(42mm,1mm)$) (out) {\textbf{Salida:} THUNDERS~Master, versión final (Capítulo~\ref{ch:proceso})};
 \draw[-{Stealth[length=1.6mm]}, draw=black!50] (in.east) -- ($(a1.north west)+(4mm,0)$);
 \draw[-{Stealth[length=1.6mm]}, draw=black!50] ($(a1.north east)+(-4mm,0)$) -- (out.west);
 \end{tikzpicture}
-\caption{Ciclo de construcción de THUNDERS-Master con las cuatro actividades de
+\caption{Ciclo de construcción de THUNDERS~Master con las cuatro actividades de
 la ingeniería de métodos situacionales.}
 \label{fig:ciclo_sme}
 \end{figure}
@@ -2475,14 +2476,14 @@ actividades obligatorias. La Tabla~\ref{tab:sme} indica cómo se aplicó cada
 actividad y dónde puede verificarse su resultado.
 
 \begin{table}[htbp]
-\caption{Aplicación de las cuatro actividades de la SME en la definición de THUNDERS-Master.}
+\caption{Aplicación de las cuatro actividades de la SME en la definición de THUNDERS~Master.}
 \label{tab:sme}
 \centering
 \footnotesize
 \renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\textwidth}{@{}L{3.0cm}Y Y@{}}
 \toprule
-\textbf{Actividad} & \textbf{Aplicación en THUNDERS-Master} &
+\textbf{Actividad} & \textbf{Aplicación en THUNDERS~Master} &
 \textbf{Salida de diseño y dónde se verifica} \\
 \midrule
 Especificar los requisitos del método
@@ -2530,7 +2531,7 @@ descrita por su intención y su situación de aplicación, con sus entradas y su
 salida. Por eso, en el Capítulo~\ref{ch:proceso} cada actividad se presenta con
 su intención, sus entradas, su salida, el rol que la lidera y la evidencia que
 deja, y todas cierran con un resultado que se puede revisar. La Tabla~\ref{tab:sme_application}, en el Anexo~\ref{anx:construccion}, presenta la
-guía que se siguió para derivar THUNDERS-Master con este método.
+guía que se siguió para derivar THUNDERS~Master con este método.
 
 
 \section{Especificación de los requisitos del método}
@@ -2585,7 +2586,7 @@ del proceso atiende cada uno (Tabla~\ref{tab:soporte_rm}).
 \end{description}
 
 Los catorce requisitos no forman una lista homogénea. Cada uno responde a una
-de las tres condiciones que THUNDERS-Master debe cumplir al mismo tiempo, y esa relación es la que permite comprobar que el proceso sirve para las tres
+de las tres condiciones que THUNDERS~Master debe cumplir al mismo tiempo, y esa relación es la que permite comprobar que el proceso sirve para las tres
 actividades de la IR, que construye entendimiento compartido y que es ligero.
 Que sirva para las tres actividades lo aseguran los requisitos que salen de lo
 que cada una debe producir, que son RM-01 y RM-05 para la elicitación, RM-06, RM-07 y RM-08 para
@@ -2632,12 +2633,11 @@ opcional o retirar) resulta de aplicarlos en conjunto.
 
 Como regla de trabajo, cada componente se valoró de 1 a 5 en aporte al
 entendimiento compartido, utilidad para la IR, costo, carga cognitiva,
-frecuencia y dependencia. Se conserva cuando su aporte al entendimiento
-compartido y su utilidad para la IR son altos; se adapta cuando su valor
-conceptual es alto pero su costo o su carga cognitiva también lo son; se
-fusiona cuando es redundante con otro artefacto, rol o tarea; y se retira
-cuando su aporte y su utilidad son bajos y su costo de aplicación es medio o
-alto.
+frecuencia y dependencia. Un componente se conserva cuando su aporte al entendimiento compartido y su
+utilidad para la IR son altos, y se adapta cuando su valor conceptual es alto
+pero su costo o su carga cognitiva también lo son. Se fusiona cuando es
+redundante con otro artefacto, rol o tarea, y se retira cuando su aporte y su
+utilidad son bajos y su costo de aplicación es medio o alto.
 
 \subsection{Mapeo inicial hacia las actividades de la IR}
 En la primera versión de la propuesta se hizo un mapeo inicial que relaciona
@@ -2654,8 +2654,7 @@ Tabla~\ref{tab:thunders_traceability}.
 La Tabla~\ref{tab:thunders_traceability}, en el Anexo~\ref{anx:construccion},
 documenta la decisión que se tomó sobre cada uno de los trece componentes de
 THUNDERS, con la fase a la que pertenece y el elemento de la versión final de
-THUNDERS-Master en el que queda. En resumen, C-02, C-08 y C-13 se conservan y
-adaptan (problema y glosario, apertura del encuentro~1 y línea base); C-10 y
+THUNDERS~Master en el que queda. Según esa tabla, C-02, C-08 y C-13 se conservan y adaptan (problema y glosario, apertura del encuentro~1 y línea base); C-10 y
 C-11 se adaptan como núcleo del subproceso A5; C-01, C-03, C-05 y C-06 se
 simplifican o se dividen; C-04 queda como opcional; C-07 y C-09 se fusionan con
 otras actividades; y C-12 sale de las actividades obligatorias. Las
@@ -2772,7 +2771,7 @@ estructura, pero la ejecuta en un ciclo con dos encuentros con los
 \node[draw=azulT, dashed, rounded corners=2pt, inner sep=0.8mm, fit=(c4dev1)(c4dev3)] {};
 \node[pie, anchor=north] at (139.4mm,-101.1mm) {6 actividades; ciclo de dos encuentros; 7 artefactos; 2 instrumentos};
 \end{tikzpicture}
-\caption{Evolución de la estructura de THUNDERS-Master de la versión 1.0 a la
+\caption{Evolución de la estructura de THUNDERS~Master de la versión 1.0 a la
 versión final. Los recuadros punteados son elementos opcionales, el sombreado
 verde es un mecanismo transversal y el marco azul agrupa el subproceso A5.}
 \label{fig:estructuras}
@@ -2781,7 +2780,7 @@ verde es un mecanismo transversal y el marco azul agrupa el subproceso A5.}
 \section{Validación del proceso: de la versión 1.0 a la versión final}
 \label{sec:iteraciones}
 La cuarta actividad del ciclo es la validación de cada versión. Como THUNDERS,
-THUNDERS-Master se construyó de forma iterativa e incremental, considerando en
+THUNDERS~Master se construyó de forma iterativa e incremental, considerando en
 cada iteración las oportunidades de mejora que dejó la validación anterior,
 hasta obtener la versión final. La Figura~\ref{fig:resumen_iteraciones} resume
 lo que se hizo para validar cada versión y lo que se obtuvo, y las subsecciones
@@ -2803,7 +2802,7 @@ detallados de cada validación se presentan en el Capítulo~\ref{ch:evaluacion}.
 \node[cab] at (121mm,8mm) {Resultado $\to$ cambio para la siguiente};
 
 \node[ver] (v1) at (14.5mm,0.0mm) {\textbf{Iteración 1}\\ Versión 1.0};
-\node[val] (a1) at (59mm,0.0mm) {Revisión inicial de la propuesta.};
+\node[val] (a1) at (59mm,0.0mm) {Revisión con la directora del trabajo.};
 \node[res] (r1) at (121mm,0.0mm) {Los cuatro momentos no tenían entradas, salidas ni roles. $\to$ Se recuperan las fases y actividades de THUNDERS.};
 \draw[fl] (v1)--(a1); \draw[fl] (a1)--(r1);
 \node[ver] (v2) at (14.5mm,-15.0mm) {\textbf{Iteración 2}\\ Versiones 1.1 y 1.2};
@@ -2844,15 +2843,14 @@ preparación contextual, la elicitación colaborativa, la especificación
 compartida y la validación del entendimiento, y dejaba fijado el mapeo inicial
 entre los elementos de THUNDERS y las actividades de la IR
 (Tabla~\ref{tab:mapeo_re}), junto con los criterios para conservar, adaptar,
-fusionar o retirar cada elemento (Tabla~\ref{tab:decision_criteria}). Su
-limitación era que los cuatro momentos no tenían actividades con entradas,
+fusionar o retirar cada elemento (Tabla~\ref{tab:decision_criteria}). Esta
+versión se validó en una revisión con la directora del trabajo. Su limitación
+era que los cuatro momentos no tenían actividades con entradas,
 salidas y roles, por lo que no se podía declarar de qué componente de THUNDERS
 venía cada parte del proceso. La siguiente versión recuperó por eso la
 estructura de fases y actividades del proceso original.
 
-\pendiente{Confirmar cómo se validó la versión 1.0 (por ejemplo, en una reunión
-con la directora o en el anteproyecto) y con qué resultado, para completar esta
-iteración y la Figura~\ref{fig:resumen_iteraciones}.}
+
 
 \subsection{Iteración 2: versiones 1.1 y 1.2}
 Las versiones 1.1 y 1.2 recuperaron las tres fases de THUNDERS, definieron once
@@ -2863,8 +2861,11 @@ fijaron también los catorce requisitos del método
 (Sección~\ref{sec:requisitos_metodo}) y un plan inicial de evaluación. La versión 1.2 se validó con la revisión por pares del
 artículo en el que se presentó, que fue aceptado en el \textit{4th
 International Workshop on Collaboration in Knowledge Discovery and
-Decision-Making} (JIIHC~2026). Lo que quedaba pendiente era declarar, tarea por
-tarea, de dónde venía cada actividad en THUNDERS, ya que la versión se había
+Decision-Making} (JIIHC~2026). Sus tres revisores valoraron la claridad de la propuesta y pidieron, sobre todo,
+contextualizar mejor THUNDERS, mostrar
+con datos cómo se adaptó y aplicar el proceso en un estudio de caso
+(Sección~\ref{sec:val_v12}). Lo que quedaba pendiente era declarar, tarea por
+tarea, de dónde venía cada actividad en THUNDERS, porque la versión se había
 construido sobre una lectura general del proceso original.
 
 \subsection{Iteración 3: versión 1.3}
@@ -3024,10 +3025,10 @@ A11 Establecer la línea base y definir acciones & A6 \\
 \end{tabularx}
 \end{table}
 
-\chapter{THUNDERS-Master}
+\chapter{THUNDERS~Master}
 \label{ch:proceso}
 
-Este capítulo presenta la versión final de THUNDERS-Master, que es el producto
+Este capítulo presenta la versión final de THUNDERS~Master, que es el producto
 del objetivo~3 y el resultado de las seis iteraciones del
 Capítulo~\ref{ch:construccion}. Primero presenta el proceso en resumen y su
 modelo. Luego presenta sus fundamentos, que son la distinción entre
@@ -3042,17 +3043,14 @@ secciones del capítulo.
 
 \seccionescapitulo{8}{5.1/{Resumen del proceso},5.2/{Fundamentos del proceso},5.3/{Soporte a los requisitos del método},5.4/{Fases y actividades},5.5/{Roles},5.6/{Productos e instrumentos},5.7/{Evidencias y reglas},5.8/{Ejecución, encaje ágil y límites}}{fig:secciones_c5}
 
-\section{THUNDERS-Master en resumen}
+\section{THUNDERS~Master en resumen}
 \label{sec:vista}
-THUNDERS-Master es un proceso para construir, monitorear y validar el
+THUNDERS~Master es un proceso para construir, monitorear y validar el
 entendimiento compartido durante la elicitación, la especificación y la
 validación de requisitos de software. Se ejecuta dentro de los encuentros que el equipo ya realiza con los
 \textit{stakeholders}, sin reemplazar la metodología de desarrollo que tenga,
 ágil o tradicional, y deja productos de trabajo de una página para seguir
-trabajando sin perder el contexto. Su nombre toma el sufijo \emph{Master} del
-rol de \textit{Scrum Master}, porque alude a la función de facilitación sobre la que
-se organiza el proceso, y no quiere decir que sea una versión superior de
-THUNDERS.
+trabajando sin perder el contexto.
 
 La unidad de aplicación del proceso es el \emph{ciclo de requisitos}, que tiene
 dos encuentros con los \textit{stakeholders}. En el encuentro~1 se construye: se alinea el punto de partida y se elicitan las necesidades. Entre
@@ -3125,7 +3123,7 @@ observables. La Figura~\ref{fig:modelo_final} presenta el modelo del proceso.
   Relator $\cdot$ SD Stakeholder de dominio $\cdot$ PO Responsable de decisión
   $\cdot$ QA Responsable de calidad.};
 \end{tikzpicture}
-\caption{Modelo de THUNDERS-Master: el ciclo de requisitos con sus tres fases,
+\caption{Modelo de THUNDERS~Master: el ciclo de requisitos con sus tres fases,
 sus actividades, el subproceso A5, los dos encuentros, los hitos EC-1 y EC-2 y
 las evidencias que deja cada actividad.}
 \label{fig:modelo_final}
@@ -3134,7 +3132,7 @@ las evidencias que deja cada actividad.}
 Como en el documento conviven elementos de dos procesos, es necesario fijar los
 identificadores. C-01 a C-13 son las actividades de THUNDERS
 (Sección~\ref{sec:analisis_thunders}). A1 a A6, con A5.1, A5.2 y A5.3 dentro
-del subproceso A5, son las actividades de THUNDERS-Master. RM-01 a RM-14 son los
+del subproceso A5, son las actividades de THUNDERS~Master. RM-01 a RM-14 son los
 requisitos del método (Sección~\ref{sec:requisitos_metodo}). E1 a E5 son las
 evidencias del entendimiento compartido, y EC-1 y EC-2 son los dos hitos de
 validación del entendimiento que define THUNDERS y que el proceso adaptado
@@ -3200,7 +3198,7 @@ proceso.
 
 \subsection{La ligereza como proporcionalidad}
 \label{sec:ligereza_proporcional}
-THUNDERS-Master no es ligero en términos absolutos. En el modo asistido, un
+THUNDERS~Master no es ligero en términos absolutos. En el modo asistido, un
 requisito crítico lleva su necesidad, su fuente, su criterio, su ejemplo, su
 estado de validación y su decisión, que son más campos de los que lleva una
 historia de usuario en un tablero informal, y buena parte del tiempo con los
@@ -3217,7 +3215,7 @@ en el número de plantillas, que pasó de trece en la versión 1.4 a nueve, y en
 modo experto, que no crea documentos fuera de las herramientas del equipo.
 
 Por lo tanto, en el presente trabajo la ligereza se entiende como
-proporcionalidad: THUNDERS-Master busca ser más liviano que THUNDERS y
+proporcionalidad: THUNDERS~Master busca ser más liviano que THUNDERS y
 concentrar su costo donde un malentendido sale caro, sin pretender competir con
 la práctica informal de un equipo pequeño. Esta forma de
 entenderla responde a la observación de uno de los expertos de que el
@@ -3232,7 +3230,7 @@ elemento que lo cumple, y ningún elemento se conserva si no atiende al menos un
 que es lo que pide la regla de indispensabilidad.
 
 \begin{table}[htbp]
-\caption{Elementos de THUNDERS-Master que atienden cada requisito del método.}
+\caption{Elementos de THUNDERS~Master que atienden cada requisito del método.}
 \label{tab:soporte_rm}
 \centering
 \footnotesize
@@ -3291,7 +3289,7 @@ son valores de referencia que el estudio de caso debía calibrar
                                 >{\raggedright\arraybackslash}p{0.14\textwidth}
                                 >{\raggedright\arraybackslash}p{0.075\textwidth}
                                 >{\raggedright\arraybackslash}p{0.12\textwidth}@{}}
-\caption{Especificación resumida de las actividades de THUNDERS-Master
+\caption{Especificación resumida de las actividades de THUNDERS~Master
 (FR: Facilitador; AN: Analista; RT: Relator; SD: \textit{Stakeholder} de
 dominio; PO: Responsable de decisión; QA: Responsable de
 calidad).\label{tab:actividades_final}}\\
@@ -3381,14 +3379,14 @@ días después del encuentro~1.
 \begin{sidewaysfigure}
 \centering
 \includegraphics[width=\textheight,height=0.9\textwidth,keepaspectratio,trim=0 0 0 34bp,clip]{BPMN_final_principal.pdf}
-\caption{Diagrama BPMN del proceso principal de THUNDERS-Master.}
+\caption{Diagrama BPMN del proceso principal de THUNDERS~Master.}
 \label{fig:bpmn_final}
 \end{sidewaysfigure}
 
 \begin{sidewaysfigure}
 \centering
 \includegraphics[width=\textheight,height=0.9\textwidth,keepaspectratio,trim=0 0 0 38bp,clip]{BPMN_final_A5.pdf}
-\caption{Diagrama BPMN del subproceso A5 de THUNDERS-Master, Elicitar,
+\caption{Diagrama BPMN del subproceso A5 de THUNDERS~Master, Elicitar,
 especificar y validar los requisitos, que se invoca desde el proceso
 principal entre A4 y A6.}
 \label{fig:bpmn_final_a5}
@@ -3406,7 +3404,7 @@ roles con su responsabilidad, las actividades que lideran y el rol de THUNDERS
 del que vienen.
 
 \begin{table}[htbp]
-\caption{Roles de THUNDERS-Master.}
+\caption{Roles de THUNDERS~Master.}
 \label{tab:roles_final}
 \centering
 \footnotesize
@@ -3453,7 +3451,7 @@ su estado de validación y las lecturas de las evidencias se calculan a partir d
 lo ya registrado.
 
 \begin{table}[htbp]
-\caption{Artefactos de THUNDERS-Master y sus campos.}
+\caption{Artefactos de THUNDERS~Master y sus campos.}
 \label{tab:plantillas_final}
 \centering
 \footnotesize
@@ -3510,12 +3508,12 @@ glosario, si tiene un criterio de aceptación observable, medible en los no
 funcionales, y si conserva el vínculo con su necesidad; solo se anota lo que
 falla. La parte B revisa el conjunto en el encuentro~2: que no haya requisitos
 que expresen la misma obligación, que se hayan resuelto las contradicciones y
-que toda necesidad priorizada tenga un requisito. La parte C es la aceptación de
-cada requisito crítico, después de recorrer su ejemplo: el \textit{stakeholder}
-dice si el requisito expresa su necesidad y explica con sus palabras el
-resultado que espera (C1), confirma que el ejemplo y el criterio corresponden a
-lo que espera (C2), y se comprueba que él y el Responsable de calidad, que es
-quien construirá o probará el requisito, lo interpretan igual (C3). Cada
+que toda necesidad priorizada tenga un requisito. La parte C es la aceptación de cada requisito crítico, después de recorrer su
+ejemplo. El \textit{stakeholder} dice si el requisito expresa su necesidad y
+explica con sus palabras el resultado que espera (C1), y confirma que el ejemplo
+y el criterio corresponden a lo que espera (C2). Por último, se comprueba que él
+y el Responsable de calidad, que es quien construirá o probará el requisito, lo
+interpretan igual (C3). Cada
 pregunta se responde con sí, no o pendiente, y un ``no'' se registra como
 divergencia. Así, la validación con el \textit{stakeholder} se concentra en el
 significado, que es lo que solo él puede confirmar.
@@ -3562,7 +3560,7 @@ La Tabla~\ref{tab:evidencias_final} las presenta.
                                 >{\raggedright\arraybackslash}X
                                 >{\raggedright\arraybackslash}p{0.21\textwidth}
                                 >{\raggedright\arraybackslash}p{0.22\textwidth}@{}}
-\caption{Evidencias del entendimiento compartido en THUNDERS-Master.\label{tab:evidencias_final}}\\
+\caption{Evidencias del entendimiento compartido en THUNDERS~Master.\label{tab:evidencias_final}}\\
 \toprule
 \textbf{Evidencia} & \textbf{Qué se observa} & \textbf{Cómo se comprueba} &
 \textbf{Cuenta como ``no'' si} \\
@@ -3665,7 +3663,7 @@ requisitos críticos. La Tabla~\ref{tab:forma_final} muestra la forma de
 ejecución que resulta de las dos preguntas.
 
 \begin{table}[htbp]
-\caption{Forma de ejecución de THUNDERS-Master según el entendimiento implícito y el costo de un malentendido.}
+\caption{Forma de ejecución de THUNDERS~Master según el entendimiento implícito y el costo de un malentendido.}
 \label{tab:forma_final}
 \centering
 \footnotesize
@@ -3697,7 +3695,7 @@ alcance es difuso, se activa un árbol de problemas en A2.
 \paragraph{Catálogo de técnicas.}
 \label{sec:catalogo}
 El \textit{canvas} declara la técnica de cada bloque de la agenda, que se elige
-de un catálogo de nueve: seis vienen de las actividades colaborativas de
+de un catálogo de nueve técnicas. Seis vienen de las actividades colaborativas de
 THUNDERS (\textit{Agile Inception}, \textit{Brainstorming}, \textit{Impact
 Mapping}, \textit{Storytelling}, el léxico extendido del lenguaje y las tres C de las historias de usuario, que
 son tarjeta, conversación y confirmación) y tres se agregaron desde la RSL (\textit{personas},
@@ -3706,7 +3704,7 @@ uso.
 
 \paragraph{Encaje en marcos ágiles.}
 \label{sec:encaje_agil}
-THUNDERS-Master se concibe como una práctica que se aplica dentro de las
+THUNDERS~Master se concibe como una práctica que se aplica dentro de las
 metodologías ágiles y no como un marco que las reemplace. Scrum o Kanban ya
 coordinan el trabajo con reuniones de planificación, refinamiento y revisión,
 pero no indican cómo asegurar que los participantes interpreten igual el
@@ -3715,7 +3713,7 @@ parte y puede integrarse en los espacios que el equipo ya tiene sin crear
 reuniones nuevas (Tabla~\ref{tab:agile_fit}).
 
 \begin{table}[htbp]
-\caption{Encaje de las actividades de THUNDERS-Master en las reuniones de un marco ágil.}
+\caption{Encaje de las actividades de THUNDERS~Master en las reuniones de un marco ágil.}
 \label{tab:agile_fit}
 \centering
 \footnotesize
@@ -3753,11 +3751,11 @@ descansan en el entendimiento implícito, protegido solo por el ciclo corto y po
 el plazo de objeción, y la equivalencia de las paráfrasis la juzga el
 Facilitador.
 
-\chapter{Evaluación de THUNDERS-Master}
+\chapter{Evaluación de THUNDERS~Master}
 \label{ch:evaluacion}
 
 Este capítulo presenta la validación de cada una de las versiones de
-THUNDERS-Master y la evaluación de la versión final en un contexto real, que
+THUNDERS~Master y la evaluación de la versión final en un contexto real, que
 corresponde al objetivo~4. Como el proceso se construyó por iteraciones, cada
 versión se validó de una forma distinta, y lo que resultó de cada validación
 alimentó la versión siguiente. Primero se resumen los elementos de cada versión
@@ -3818,11 +3816,11 @@ entendimiento implícito y costo \\
 Modelado & Tabla de mapeo & Fragmentos de método & Modelo por fases &
 BPMN & BPMN con subproceso & BPMN con \textit{lanes} por rol \\
 \rowcolor{meaFill!60}
-Validación & Revisión inicial & Revisión por pares (JIIHC 2026) & 5 expertos y
+Validación & Revisión con la directora & Revisión por pares (JIIHC 2026) & 5 expertos y
 estudio de caso UniReserva & Revisión con el codirector & Revisión conceptual
 y analítica & Juicio de experto y estudio de caso agrícola \\
 \end{tabularx}
-\caption{Elementos de cada versión de THUNDERS-Master y forma en que se validó.
+\caption{Elementos de cada versión de THUNDERS~Master y forma en que se validó.
 Las celdas verdes marcan los cambios de mayor alcance.}
 \label{fig:elementos_versiones}
 \end{figure}
@@ -3830,7 +3828,7 @@ Las celdas verdes marcan los cambios de mayor alcance.}
 \section{Plan de evaluación basado en GQM}
 \label{sec:plan_gqm}
 El plan se estructuró con GQM~\cite{basili1994gqm}. La meta global es evaluar
-si THUNDERS-Master ayuda a construir, monitorear y validar el entendimiento
+si THUNDERS~Master ayuda a construir, monitorear y validar el entendimiento
 compartido durante la elicitación, la especificación y la validación de
 requisitos. La Tabla~\ref{tab:gqm} la descompone en seis metas, cada una con la
 pregunta que la hace operativa, sus métricas o indicadores y el instrumento con
@@ -3846,7 +3844,7 @@ Index})~\cite{hart1988nasa}.
                                 >{\raggedright\arraybackslash}p{0.22\textwidth}
                                 >{\raggedright\arraybackslash}X
                                 >{\raggedright\arraybackslash}p{0.23\textwidth}@{}}
-\caption{Plan de evaluación GQM de THUNDERS-Master.\label{tab:gqm}}\\
+\caption{Plan de evaluación GQM de THUNDERS~Master.\label{tab:gqm}}\\
 \toprule
 \textbf{Meta} & \textbf{Pregunta} & \textbf{Métricas o indicadores} &
 \textbf{Instrumento y momento} \\
@@ -3924,10 +3922,10 @@ respondió un cuestionario en línea. En paralelo, la versión 1.3 se aplicó co
 estudiantes de la electiva Interacción Humano-Computador, a cargo de la
 directora del trabajo, en una sesión de requisitos simulada que se diseñó como
 un estudio de caso exploratorio (UniReserva) y que cubrió el recorrido
-metodológico previsto en el plan. Las dos evaluaciones se complementan, ya que
-los expertos revisaron la especificación sin aplicarla y los estudiantes la
-aplicaron sin conocerla antes~\cite{escobar2008validez,runeson2009case}, y se
-hicieron casi al mismo tiempo (los expertos respondieron entre el 4 y el 15 de
+metodológico previsto en el plan. Las dos evaluaciones se complementan, porque los expertos revisaron la
+especificación sin aplicarla y los estudiantes la aplicaron sin conocerla
+antes~\cite{escobar2008validez,runeson2009case}. Además se hicieron casi al
+mismo tiempo (los expertos respondieron entre el 4 y el 15 de
 septiembre de 2026 y UniReserva se realizó el 9 de septiembre), por lo que ambas
 se refieren a la misma versión. Las versiones 1.4 y 1.5 se validaron con
 revisiones de la dirección y con una revisión conceptual y analítica. En la
@@ -3937,18 +3935,46 @@ caso en contexto agrícola (Sección~\ref{sec:caso_agricola}).
 
 \section{Validación de las versiones 1.0 a 1.2}
 \label{sec:val_v12}
-Las primeras versiones se validaron con revisiones de la especificación y no
-con personas que aplicaran el proceso. La versión 1.2 se presentó en el artículo
+Las primeras versiones se validaron con revisiones de la especificación y no con
+personas que aplicaran el proceso. La versión 1.0 se revisó con la directora del
+trabajo, y la versión 1.2 se presentó en el artículo
 ``THUNDERS-Master: A Lightweight Process for Building Shared Understanding in
 Requirements Engineering'', que pasó por la revisión por pares del
 \textit{4th International Workshop on Collaboration in Knowledge Discovery and
-Decision-Making} (JIIHC~2026) y fue aceptado para su publicación. Esa revisión
-valoró la propuesta de adaptación, la RSL y la caracterización de las
-actividades de la IR, y su aceptación dio pie a completar la especificación en la
-versión 1.3.
+Decision-Making} (JIIHC~2026) y fue aceptado para su publicación.
 
-\pendiente{Agregar las observaciones de los revisores del artículo de JIIHC~2026
-y confirmar cómo se revisó la versión 1.0.}
+El artículo tuvo tres revisores, que lo calificaron con aceptación, aceptación
+débil y rechazo débil. Los tres valoraron la claridad del texto y la relevancia
+del problema, y uno destacó que la adaptación estaba descrita de forma clara, con
+una justificación coherente para cada cambio, y que podía servir de punto de
+partida para evaluar el proceso en casos reales. Sus observaciones se
+concentraron en cuatro puntos. El primero, que señalaron dos revisores, fue que
+THUNDERS se presentaba como si el lector ya lo conociera, sin explicar su
+origen, su propósito, su estructura ni sus componentes. El segundo fue que
+varias afirmaciones se apoyaban en una RSL que el artículo no presentaba formalmente, y que faltaban datos para mostrar cómo se adaptó el proceso y
+por qué la revisión respalda esa adaptación. El tercero fue que hacía falta al
+menos un estudio de caso pequeño para saber si la adaptación es coherente y
+aplicable. El cuarto fue que el sufijo \textit{Master} sugería una versión
+superior, cuando la propuesta se parece más a una versión simplificada de
+THUNDERS. Además, los revisores sugirieron explicar las contribuciones desde las
+primeras secciones, agregar referencias recientes, reducir párrafos redundantes
+y, en un caso, usar ontologías del dominio para formalizar el significado de los
+requisitos e inferir requisitos que nadie mencionó.
+
+Estas observaciones coinciden con lo que trabajaron la versión 1.3 y esta
+monografía. THUNDERS se caracteriza componente por componente en la
+Sección~\ref{sec:analisis_thunders}, y la versión 1.3 declaró, tarea por tarea,
+de dónde viene cada actividad. La RSL se presenta con su protocolo en la
+Sección~\ref{sec:rsl} y en el Anexo~\ref{anx:rsl}, y la
+Tabla~\ref{tab:rsl_implications} relaciona sus hallazgos con las decisiones de
+diseño. La versión 1.3 se evaluó con expertos y con el estudio de caso
+UniReserva, y para la versión final se diseñó el estudio de caso en contexto
+agrícola. El origen del nombre se explica desde el
+Capítulo~\ref{ch:introduccion}, y los trabajos posteriores a la RSL se presentan
+en la Sección~\ref{sec:trabajos_relacionados}. Las ontologías no se
+incorporaron, porque el proceso trata el significado del dominio con el glosario
+vivo y con la técnica del léxico extendido del lenguaje, que exigen menos
+modelado, y la sugerencia queda como trabajo futuro.
 
 \section{Validación de la versión 1.3 con expertos}
 \label{sec:validacion_expertos}
@@ -4116,7 +4142,7 @@ artefactos en el modelo. \\
 El caso se diseñó y se reporta siguiendo las guías de Runeson y
 Höst~\cite{runeson2009case}. Es un estudio exploratorio de caso único con dos
 unidades de análisis embebidas, que son los dos equipos que ejecutaron el
-proceso. Su objetivo fue explorar si THUNDERS-Master, aplicado por un equipo sin
+proceso. Su objetivo fue explorar si THUNDERS~Master, aplicado por un equipo sin
 experiencia previa en él, hace visible el desentendimiento entre los
 participantes y si puede ejecutarse dentro de una sesión corta. La unidad de
 análisis es el equipo que ejecuta una sesión de requisitos simulada.
@@ -4496,7 +4522,7 @@ juicio de experto (escala de 1 a 4).}
 \renewcommand{\arraystretch}{1.15}
 \begin{tabularx}{\textwidth}{@{}Y rrrrr L{3.4cm}@{}}
 \toprule
-\textbf{Instrumento} & \textbf{Ítems} & \textbf{Claridad} & \textbf{Coherencia}
+\textbf{Instru\-mento} & \textbf{Ítems} & \textbf{Claridad} & \textbf{Coherencia}
 & \textbf{Relevancia} & \textbf{Suficiencia} & \textbf{Ítems con alguna
 calificación menor que 4} \\
 \midrule
@@ -4545,7 +4571,7 @@ reporta siguiendo las guías de Runeson y Höst~\cite{runeson2009case}.
 
 \subsection{Diseño del estudio de caso}
 \paragraph{Objetivo y preguntas.}
-El objetivo fue evaluar la utilidad de THUNDERS-Master para construir el
+El objetivo fue evaluar la utilidad de THUNDERS~Master para construir el
 entendimiento compartido en un equipo de desarrollo de un producto de software
 orientado al contexto agrícola. A partir de las metas del plan GQM
 (Tabla~\ref{tab:gqm}) se plantearon cuatro preguntas. La primera (PCA1) es si el
@@ -4702,7 +4728,7 @@ caracterización psicográfica o la evaluación del desempeño, mientras que lo 
 construye entendimiento (el tema, el ciclo individual--grupal, la escalera de
 conflictos, los dos hitos de validación y el cierre) se conservó casi completo.
 
-Con esa base se definió THUNDERS-Master (objetivo~3) en seis iteraciones
+Con esa base se definió THUNDERS~Master (objetivo~3) en seis iteraciones
 de la ingeniería de métodos situacionales, tres hasta la versión 1.3, que se
 evaluó con expertos y en el estudio de caso UniReserva, y tres más hasta la
 versión final. Fijar primero los catorce requisitos del método ahorró
@@ -4729,11 +4755,9 @@ instrumentos se validaron luego por juicio de experto, con medias entre 3,56 y
 4,00 sobre 4, y sus observaciones precisaron cuándo una divergencia queda
 resuelta y cómo se cierra el ciclo.
 
-\pendiente{Completar las conclusiones del objetivo~4 con los resultados del
-estudio de caso en contexto agrícola y con la comparación entre la versión 1.3
-y la versión final, y agregar a las limitaciones las amenazas de ese estudio. Al
-final del capítulo, actualizar volumen, páginas y DOI del artículo de JIIHC~2026
-y el estado del artículo para Elsevier.}
+\pendiente{Completar las conclusiones del objetivo~4 y las limitaciones con el
+estudio de caso en contexto agrícola, y actualizar los datos de publicación de
+los dos artículos.}
 
 \section{Contribuciones}
 En lo teórico, el trabajo deja una síntesis de la evidencia sobre el entendimiento compartido
@@ -4770,8 +4794,10 @@ una medida del entendimiento compartido.
 El trabajo inmediato es construir la guía de inicio de una página que se
 planteó luego de UniReserva y ajustar el proceso con los resultados del estudio
 de caso en contexto agrícola (Sección~\ref{sec:caso_agricola}) en una versión
-2.0. También queda replicar el estudio en la industria y llevar el libro de
-plantillas a una herramienta web.
+2.0. También queda replicar el estudio en la industria, llevar el libro de
+plantillas a una herramienta web y explorar, como sugirió uno de los revisores
+del artículo de JIIHC~2026, el uso de ontologías del dominio para formalizar el
+significado de los requisitos.
 
 \section{Productos de investigación}
 El trabajo ha producido un artículo aceptado y tiene otro en preparación. El
@@ -4790,8 +4816,8 @@ con la RSL, la caracterización y la propuesta. El segundo, con el proceso termi
 \appendix
 \renewcommand{\appendixname}{Anexo}
 
-\chapter{Plantillas de THUNDERS-Master}
-\chaptermark{Plantillas de THUNDERS-Master}
+\chapter{Plantillas de THUNDERS~Master}
+\chaptermark{Plantillas de THUNDERS~Master}
 \label{anx:plantillas}
 Este anexo presenta las nueve plantillas del modo asistido de la versión final,
 que son siete artefactos (01 a 07) y dos instrumentos con plantilla propia (I2 e
@@ -4817,7 +4843,7 @@ por web; no hace parte de la evaluación del proceso. La
 Tabla~\ref{tab:resumen_plantillas} resume las nueve plantillas.
 
 \begin{table}[!h]
-\caption{Las nueve plantillas de THUNDERS-Master.}
+\caption{Las nueve plantillas de THUNDERS~Master.}
 \label{tab:resumen_plantillas}
 \centering
 \scriptsize
@@ -5109,7 +5135,8 @@ El ciclo cierra solo con las cinco evidencias en ``sí, y cada ``sí se respalda
 \endlastfoot
 \textbf{E1 · Problema compartido} & ¿Una persona de cada perfil crítico reformuló con sus palabras el problema, el alcance y el resultado esperado, y las versiones son equivalentes? La equivalencia se juzga por el significado, no por la similitud literal. & Registro de paráfrasis: 01 \textit{Canvas}, bloque de apertura (A4) \\
 \textbf{E2 · Vocabulario compartido} & ¿Los términos críticos tienen definición acordada y, en los de mayor riesgo, perfiles distintos los interpretan igual? & Glosario acordado: 03, estado de los términos críticos \\
-\textbf{E3 · Críticos interpretados igual} & En cada requisito crítico, ¿quien lo aporta, quien lo construirá y, cuando sea pertinente, quien lo verificará mediante pruebas coincidieron en un ejemplo concreto de su cumplimiento, incluidos casos excepcionales y condiciones límite cuando corresponda? & Ejemplo acordado y criterio de aceptación validado: 05 e I2, parte C \\
+\textbf{E3 · Críticos interpretados igual} & En cada requisito crítico, ¿quien lo aporta, quien lo construirá y, si es otra persona, quien lo verificará
+mediante pruebas coincidieron en un ejemplo concreto de su cumplimiento, incluidos casos excepcionales y condiciones límite cuando corresponda? & Ejemplo acordado y criterio de aceptación validado: 05 e I2, parte C \\
 \textbf{E4 · Divergencias explícitas} & ¿Todas las divergencias de interpretación que afectan a los requisitos críticos han sido resueltas, y sus acuerdos documentados y confirmados por los perfiles involucrados? Una divergencia crítica que siga abierta, aunque tenga responsable y fecha, se marca «pendiente» y no cuenta como «sí». Las no críticas se registran con responsable y fecha y se cierran por objeción en el paquete de cierre. & Registro de validación y decisiones: 06 \\
 \textbf{E5 · Entendimiento transferible} & ¿Alguien que no participó reconstruyó, solo con la línea base, el significado de los requisitos críticos de la muestra, y la fuente confirmó que coincide? La muestra es de dos requisitos críticos o del 20 \% de ellos, lo que sea mayor. & Resultado de la prueba de traspaso: esta hoja, más abajo \\
 \end{xltabular}}
@@ -5505,11 +5532,11 @@ medir y controlar la calidad de los requisitos preliminares, porque la
 ambigüedad o la inconsistencia no se detectan a tiempo~\cite{pacheco2022}.
 
 Estos problemas tienen, además de causas documentales, causas sociales, de la
-organización y del contexto. La separación de roles y responsabilidades puede
-dificultar una visión compartida del producto~\cite{fuller2021blurring}; en el
-desarrollo global, la distribución del conocimiento en muchos canales y la
-rotación de participantes hacen difícil mantener una visión común y estable de
-los requisitos~\cite{xiao2018}; y en contextos ágiles a gran escala, la falta de
+organización y del contexto. La separación de roles y responsabilidades puede dificultar una visión
+compartida del producto~\cite{fuller2021blurring}. En el desarrollo global, la
+distribución del conocimiento en muchos canales y la rotación de participantes
+hacen difícil mantener una visión común y estable de los
+requisitos~\cite{xiao2018}, y en contextos ágiles a gran escala, la falta de
 prácticas sólidas de IR afecta la construcción y la preservación del
 conocimiento compartido sobre objetivos, requisitos y decisiones del
 producto~\cite{kasauli2021}. Cuando los desarrolladores no participan en los
@@ -5609,8 +5636,11 @@ artefactos más formales, ya que esa transformación puede introducir
 ambigüedades, omisiones o interpretaciones distintas~\cite{ribeiro2020}. De
 forma similar, contrastar los requisitos con los criterios de aceptación, las
 pruebas o las decisiones de implementación es un momento crítico, porque allí
-se comprueba si el significado acordado se mantiene~\cite{laporte2023}. A
-diferencia de la RQ2, que identifica dónde aparece la necesidad de construir
+se comprueba si el significado acordado se mantiene~\cite{laporte2023}. Cuando
+esas aclaraciones llegan tarde, incompletas o sin los actores que deberían
+participar, el entendimiento compartido puede no consolidarse y las
+desalineaciones pueden quedar ocultas hasta etapas avanzadas del
+proyecto~\cite{sherif2023}. A diferencia de la RQ2, que identifica dónde aparece la necesidad de construir
 entendimiento compartido, esta pregunta se concentra en los momentos de mayor
 riesgo, que son los puntos donde la falta de alineación puede generar
 malentendidos, ambigüedades, pérdida de contexto o decisiones inconsistentes
@@ -5690,8 +5720,11 @@ sociales, basados en la interacción directa entre \textit{stakeholders}
 (entrevistas, reuniones, talleres, discusiones guiadas); mecanismos técnicos,
 apoyados en artefactos, modelos, plantillas o repositorios; y mecanismos
 sociotécnicos, que combinan la conversación entre participantes con artefactos
-que hacen visible, estable y revisable lo que se acordó~\cite{balasubramaniam2023}.
-Estos mecanismos son apoyos parciales, pensados para contextos específicos, y no
+que hacen visible, estable y revisable lo que se
+acordó~\cite{balasubramaniam2023}. En varios estudios estos mecanismos aparecen
+como apoyos que estructuran la comunicación, reducen la ambigüedad y ayudan a
+mantener el significado de los requisitos a lo largo del
+proceso~\cite{sherif2023}. Son apoyos parciales, pensados para contextos específicos, y no
 una guía completa ni una prueba de que el entendimiento compartido se alcanzó.
 
 Durante la elicitación se reportan con frecuencia talleres colaborativos,
@@ -5714,7 +5747,7 @@ con los que los \textit{stakeholders} representan en conjunto procesos,
 escenarios o elementos del dominio~\cite{devries2023}. El uso de
 \textit{personas} se reporta como una forma de representar las
 características, necesidades y expectativas de los
-usuarios~\cite{wang2025personas}, y los glosarios del dominio, como el
+usuarios~\cite{wang2025personas}. Los glosarios del dominio, como el
 \textit{Language Extended Lexicon} (LEL), permiten acordar significados comunes
 para los términos relevantes y reducen el riesgo de que distintos
 \textit{stakeholders} usen las mismas palabras con significados diferentes, o
@@ -5735,16 +5768,17 @@ requisitos, como el modelado participativo, con el que se construyen
 representaciones del dominio con participación activa de los
 \textit{stakeholders}~\cite{devries2023}, y las \textit{Action Sheets} como
 apoyo para estructurar información de requisitos en trabajo
-colaborativo~\cite{kunz2016}. Adicionalmente, se reportan mecanismos de
-procesamiento de lenguaje natural (NLP) para convertir expresiones informales o
-poco estructuradas en requisitos más comprensibles y consistentes~\cite{ali2019};
-prácticas de trazabilidad y de gestión explícita del cambio, para saber cómo
-cambia un requisito, quién lo modifica y qué artefactos se ven
-afectados~\cite{behutiye2022quality}; mecanismos de control de calidad del
-lenguaje, como inspecciones focalizadas y guías de reescritura para detectar
-ambigüedades persistentes~\cite{ribeiro2020}; y propuestas de detección
-automática de \textit{requirement smells} con expresiones regulares, NLP o
-aprendizaje automático~\cite{gentili2025}.
+colaborativo~\cite{kunz2016}. Adicionalmente, se reportan mecanismos de procesamiento de lenguaje natural
+(NLP, por \textit{Natural Language Processing}) para convertir expresiones
+informales o poco estructuradas en requisitos más comprensibles y
+consistentes~\cite{ali2019}, y prácticas de trazabilidad y de gestión explícita
+del cambio, para saber cómo cambia un requisito, quién lo modifica y qué
+artefactos se ven afectados~\cite{behutiye2022quality}. Para la calidad del
+lenguaje se usan inspecciones focalizadas y guías de reescritura que detectan
+ambigüedades persistentes~\cite{ribeiro2020}, y propuestas de detección
+automática de \textit{requirement smells}, que son señales de un requisito mal
+escrito, con expresiones regulares, NLP o aprendizaje
+automático~\cite{gentili2025}.
 
 En la validación, los mecanismos se orientan a comprobar si el significado
 construido y formalizado se mantiene cuando los \textit{stakeholders} contrastan
@@ -6123,7 +6157,7 @@ línea base del conjunto de requisitos. \\
 \chaptermark{Detalle de la construcción}
 \label{anx:construccion}
 Este anexo presenta la guía con la que se aplicó la SME para derivar
-THUNDERS-Master (Sección~\ref{sec:ciclo_construccion}), el mapeo inicial de la
+THUNDERS~Master (Sección~\ref{sec:ciclo_construccion}), el mapeo inicial de la
 versión 1.0 entre los elementos de THUNDERS y las actividades de la IR, y la
 trazabilidad completa entre THUNDERS y la versión final
 (Sección~\ref{sec:seleccion}).
@@ -6159,7 +6193,7 @@ requisitos? & Los elementos de uso excepcional se activan solo por contexto
 (Sección~\ref{sec:forma_final}). \\
 Compatibilidad ágil & ¿El elemento es compatible con sesiones cortas,
 retroalimentación frecuente y documentación suficiente? & Encaje de
-THUNDERS-Master en marcos ágiles (Sección~\ref{sec:encaje_agil}). \\
+THUNDERS~Master en marcos ágiles (Sección~\ref{sec:encaje_agil}). \\
 Dependencia metodológica & ¿Quitar el elemento rompe la coherencia de otros
 \textit{chunks} esenciales? & Reglas de composición de \textit{method
 chunks}~\cite{ralyte2001assembly}. \\
@@ -6171,7 +6205,7 @@ tarea. \\
 \end{table}
 
 \begin{table}[htbp]
-\caption{Guía de aplicación de la SME orientada por \textit{chunks} para derivar THUNDERS-Master.}
+\caption{Guía de aplicación de la SME orientada por \textit{chunks} para derivar THUNDERS~Master.}
 \label{tab:sme_application}
 \centering
 \footnotesize
@@ -6210,7 +6244,7 @@ Valorar cada \textit{chunk} por su aporte al entendimiento compartido, utilidad
 en la IR, costo, carga cognitiva, frecuencia, dependencia y redundancia. &
 Decisión de conservar, adaptar, fusionar o retirar
 (Tabla~\ref{tab:decision_criteria}). \\
-Ensamblar THUNDERS-Master &
+Ensamblar THUNDERS~Master &
 Ordenar los \textit{chunks} seleccionados en un flujo ligero para preparar,
 construir, validar y cerrar las sesiones de requisitos. &
 Estructura del proceso en cada versión (Figura~\ref{fig:estructuras}). \\
@@ -6274,16 +6308,16 @@ Registro de retroalimentación y decisiones. \\
 \begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}
                                 >{\raggedright\arraybackslash}p{0.14\textwidth}
                                 >{\raggedright\arraybackslash}X@{}}
-\caption{Trazabilidad entre THUNDERS y la versión final de THUNDERS-Master.\label{tab:thunders_traceability}}\\
+\caption{Trazabilidad entre THUNDERS y la versión final de THUNDERS~Master.\label{tab:thunders_traceability}}\\
 \toprule
 \textbf{Componente de THUNDERS (fase)} & \textbf{Decisión} &
-\textbf{Destino en THUNDERS-Master} \\
+\textbf{Destino en THUNDERS~Master} \\
 \midrule
 \endfirsthead
 \multicolumn{3}{@{}l}{\emph{Tabla~\ref{tab:thunders_traceability} (continuación)}}\\
 \toprule
 \textbf{Componente de THUNDERS (fase)} & \textbf{Decisión} &
-\textbf{Destino en THUNDERS-Master} \\
+\textbf{Destino en THUNDERS~Master} \\
 \midrule
 \endhead
 \midrule
@@ -6614,7 +6648,7 @@ C-13 Cerrar la actividad
 \chapter{Especificación de la versión 1.3}
 \chaptermark{Especificación de la versión 1.3}
 \label{anx:v13}
-Este anexo presenta la especificación de la versión 1.3 de THUNDERS-Master, que
+Este anexo presenta la especificación de la versión 1.3 de THUNDERS~Master, que
 es la versión que se evaluó con expertos y en el estudio de caso UniReserva
 (Capítulo~\ref{ch:evaluacion}), la trazabilidad de esa versión con THUNDERS y la
 correspondencia de sus actividades con las de las versiones 1.4 y 1.5. Se
@@ -6624,7 +6658,7 @@ Tabla~\ref{tab:v13_final}.
 
 \section{Visión general de la versión 1.3}
 \label{sec:vista-v13}
-THUNDERS-Master es un proceso ligero para apoyar la construcción, el monitoreo
+THUNDERS~Master es un proceso ligero para apoyar la construcción, el monitoreo
 y la validación del entendimiento compartido durante la elicitación, la
 especificación y la validación de requisitos. No reemplaza ninguna metodología
 de desarrollo, ágil o tradicional, ni las prácticas de gestión de producto que
@@ -6636,7 +6670,7 @@ En adelante se llama \emph{sesión de requisitos} a cualquier encuentro de
 trabajo en el que se ejecute una o varias de las tres actividades, ya sea una
 entrevista, un taller de elicitación, una reunión de refinamiento o una
 revisión con \textit{stakeholders}. La sesión es la unidad de aplicación del
-proceso, y THUNDERS-Master se ejecuta siempre con sus once actividades. Lo que
+proceso, y THUNDERS~Master se ejecuta siempre con sus once actividades. Lo que
 cambia con el contexto es la profundidad de cada una y la activación de los
 elementos opcionales (Sección~\ref{sec:variabilidad}).
 
@@ -6653,13 +6687,13 @@ quiere decir que sea una versión superior de THUNDERS.
 Como en el documento conviven elementos de dos procesos, es necesario fijar los
 identificadores. C-01 a C-13 son las actividades de THUNDERS
 (Sección~\ref{sec:analisis_thunders}). A1 a A11, más la opcional A2b, son las
-actividades de THUNDERS-Master. RM-01 a RM-14 son los requisitos del método
+actividades de THUNDERS~Master. RM-01 a RM-14 son los requisitos del método
 (Sección~\ref{sec:requisitos_metodo}). E1 a E5 son las evidencias con las que
 se observa el entendimiento compartido en una sesión, y EC-1 y EC-2 son los dos
 hitos de validación del entendimiento que define THUNDERS y que el proceso
 adaptado hereda. Cuando el texto dice ``componente'' se refiere a un C-xx del
 proceso base, y cuando dice ``actividad'' sin más, a una actividad de
-THUNDERS-Master.
+THUNDERS~Master.
 
 \section{Propósito y principios de diseño}
 \label{sec:principios-v13}
@@ -6687,14 +6721,14 @@ el entendimiento durante el trabajo que señaló la validación del proceso
 original~\cite{agredo2022exploratory}.
 
 El cuarto es el monitoreo fusionado. En THUNDERS cada actividad tiene una tarea
-de monitoreo con una lista de verificación por tarea. En THUNDERS-Master esas
+de monitoreo con una lista de verificación por tarea. En THUNDERS~Master esas
 tareas se funden en el monitoreo que hace el Facilitador a lo largo de toda la
 sesión, apoyado en el \textit{canvas} de sesión (el lienzo de una página donde
 A1 deja el plan) y en la lista de verificación del entendimiento, ya que
 mantener una lista por actividad multiplica los documentos sin aportar un valor
 proporcional en una sesión corta.
 
-El quinto son los dos modos de asistencia heredados. THUNDERS-Master puede
+El quinto son los dos modos de asistencia heredados. THUNDERS~Master puede
 ejecutarse en modo experto o en modo asistido, y el modo se elige según la
 madurez del equipo en IR y la criticidad de la sesión. En el modo experto cada
 actividad se ejecuta con libertad, guiada por las recomendaciones y las
@@ -6832,7 +6866,7 @@ ejecuta en las sesiones.
 \node[draw=black!60, dashed, rounded corners=2pt, inner sep=2mm,
       fit=(capal)(F1)(F2)(F3)(EV)] {};
 \end{tikzpicture}
-\caption{Modelo conceptual operativo de THUNDERS-Master v1.3, con sus tres
+\caption{Modelo conceptual operativo de THUNDERS~Master v1.3, con sus tres
 fases, sus once actividades y la opcional A2b, las evidencias del entendimiento
 compartido y la capa externa de evaluación.}
 \label{fig:modelo}
@@ -6846,7 +6880,7 @@ EC-1), la construcción (A8, con los micro-chequeos) y el momento antes de
 cerrar (A9, con la validación semántica, heredera de EC-2).
 
 Una idea central del modelo es que la existencia de documentos no garantiza,
-por sí sola, que haya entendimiento compartido. En THUNDERS-Master el
+por sí sola, que haya entendimiento compartido. En THUNDERS~Master el
 entendimiento se considera construido cuando se observan cinco evidencias. La
 primera (E1) es que los participantes relevantes (la fuente de la necesidad,
 quien la especificará y quien la aceptará) reformulan el problema con
@@ -6901,7 +6935,7 @@ delimitar el trabajo y asegurar que participen las fuentes correctas, que son
 las personas y, cuando aplica, los documentos que tienen el conocimiento del
 dominio y la autoridad de decisión sobre los requisitos que se van a tratar. En
 THUNDERS la fase de inicio abarca los componentes C-01 a C-06, y en
-THUNDERS-Master se condensan en cuatro actividades obligatorias y una opcional.
+THUNDERS~Master se condensan en cuatro actividades obligatorias y una opcional.
 
 \subsection{A1. Planificar la sesión de requisitos}
 La intención de A1 es dejar planificada la sesión (qué se busca, sobre qué
@@ -7012,7 +7046,7 @@ declaración compartida del problema, e identificar los subtemas orienta la
 delimitación del alcance y la búsqueda de términos para el glosario. De C-03
 adapta la tarea de identificar el problema, que THUNDERS apoya en un árbol de
 problemas con causas y consecuencias que luego se transforma en un árbol de
-objetivos. THUNDERS-Master la simplifica a una declaración de una o dos frases,
+objetivos. THUNDERS~Master la simplifica a una declaración de una o dos frases,
 con las causas conocidas cuando ayudan a delimitar, y deja el análisis de árbol
 completo como extensión activable para sesiones de alto conflicto o de alcance
 difuso (Sección~\ref{sec:variabilidad}). Adicionalmente, el glosario semilla
@@ -7113,7 +7147,7 @@ A2b vuelve activables los componentes C-04 y C-07. Organizar los grupos, con la
 estrategia de conformación heterogénea que recomienda THUNDERS, se conserva como
 la definición de subgrupos o turnos, pero sin la caracterización psicográfica
 previa, que se retiró en A2. Diseñar los roles de los participantes se retira,
-ya que THUNDERS-Master ya trae los roles definidos, y la rotación de roles se
+ya que THUNDERS~Master ya trae los roles definidos, y la rotación de roles se
 simplifica en turnos de palabra. La formación efectiva de los grupos en la
 sesión (C-07) se reparte entre esta actividad y la apertura.
 
@@ -7136,7 +7170,7 @@ dentro de esas herramientas.
 
 \section{Fase 2: \textit{Developing} / Construir}
 \label{sec:fase2}
-La fase \textit{Developing} es el núcleo de THUNDERS-Master y adapta el centro
+La fase \textit{Developing} es el núcleo de THUNDERS~Master y adapta el centro
 del proceso original, la descripción de la actividad (C-08) y el desarrollo de
 la actividad colaborativa (C-10), al flujo real de la IR. Su objetivo es
 construir los requisitos de forma colaborativa mientras se monitorea la
@@ -7178,7 +7212,7 @@ primer hito de THUNDERS, la validación del entendimiento compartido inicial
 (EC-1), que en el proceso original se ejecuta dentro de C-10 una vez los
 participantes comprendieron la actividad, para comprobar que todos entendieron
 el problema y los objetivos antes de proponer soluciones~\cite{agredo2022thesis}.
-En THUNDERS-Master ese hito se materializa en la prueba de reformulación de la
+En THUNDERS~Master ese hito se materializa en la prueba de reformulación de la
 apertura.
 
 El Facilitador presenta primero el \textit{canvas}, con el objetivo, el alcance
@@ -7219,7 +7253,7 @@ A6 adapta la primera parte del componente C-10, en la que THUNDERS ejecuta el
 ciclo de comprensión de la actividad, en el que cada participante lee y
 comprende por su cuenta, resuelve sus dudas, comparte su comprensión, el grupo debate y resuelve
 los conflictos y la comprensión grupal se formaliza en un entregable.
-THUNDERS-Master traduce ese ciclo al levantamiento propio de la IR como una
+THUNDERS~Master traduce ese ciclo al levantamiento propio de la IR como una
 secuencia ligera por bloque de la agenda, que va de la expresión individual de
 la necesidad por parte de su fuente a la resolución de dudas, la puesta en común
 con reformulación y el registro del acuerdo o del conflicto. El debate
@@ -7350,7 +7384,7 @@ el ritmo de la sesión y aumenta la carga que el proceso busca reducir.
 \label{sec:fase3}
 La fase \textit{Measuring} se reinterpreta para la IR. En THUNDERS abarca la
 validación de la solución (C-11), la evaluación individual y grupal del
-desempeño (C-12) y el cierre con retroalimentación (C-13). En THUNDERS-Master se
+desempeño (C-12) y el cierre con retroalimentación (C-13). En THUNDERS~Master se
 concentra en validar el significado de los requisitos, resolver las
 discrepancias y cerrar una línea base. La evaluación del desempeño sale del
 núcleo por la delimitación del séptimo principio, y no porque se considere
@@ -7368,7 +7402,7 @@ entendimiento (EC-2), que THUNDERS ejecuta cuando considera resuelto el
 problema, para comprobar que todos comprenden y aceptan la
 solución~\cite{agredo2022thesis}. El otro es el componente C-11, cuyo mecanismo
 es una lista de cumplimiento con criterios de 1 a 5 y puntaje sumado.
-THUNDERS-Master los reinterpreta como la validación de la cadena
+THUNDERS~Master los reinterpreta como la validación de la cadena
 necesidad--requisito--criterio--significado, apoyada en las técnicas habituales
 de la IR, como revisiones o recorridos con \textit{stakeholders}, inspecciones,
 prototipos o casos de prueba de aceptación~\cite{iso29148}, y en la lista de
@@ -7420,7 +7454,7 @@ Como actividad separada, A10 es un elemento nuevo que sale de RM-10, pero
 incorpora dos mecanismos del proceso original. El primero es la escalera de
 resolución de conflictos de THUNDERS, en la que el grupo negocia con argumentos,
 si no hay acuerdo se concilia por votación y, si el desacuerdo persiste,
-interviene un mediador como canal de comunicación. En THUNDERS-Master ese
+interviene un mediador como canal de comunicación. En THUNDERS~Master ese
 mediador es, por defecto, el Responsable de decisión o quien el equipo designe al
 activar el escalamiento. El segundo es el registro de desacuerdos y decisiones
 que THUNDERS trata dentro de la retroalimentación de cierre (C-13), y que aquí
@@ -7487,7 +7521,7 @@ el Responsable de decisión. Para cerrarla se comprueba, con el paquete de
 cierre, que alguien que no asistió puede reconstruir lo acordado, lo pendiente
 con su responsable y la interpretación que debe mantenerse. Si falla, se
 completa antes de dar la sesión por terminada. En muchas prácticas el cierre se
-reduce a guardar notas o a actualizar el \textit{backlog}, y THUNDERS-Master lo
+reduce a guardar notas o a actualizar el \textit{backlog}, y THUNDERS~Master lo
 convierte en un punto de protección del significado.
 
 \subsection{Síntesis de las actividades}
@@ -7505,7 +7539,7 @@ los roles se definen en la Sección~\ref{sec:roles-v13}.
                                 >{\raggedright\arraybackslash}p{0.18\textwidth}
                                 >{\raggedright\arraybackslash}p{0.08\textwidth}
                                 >{\raggedright\arraybackslash}p{0.10\textwidth}@{}}
-\caption{Especificación resumida de las actividades de THUNDERS-Master v1.3.\label{tab:actividades}}\\
+\caption{Especificación resumida de las actividades de THUNDERS~Master v1.3.\label{tab:actividades}}\\
 \toprule
 \textbf{Actividad} & \textbf{Propósito} & \textbf{Entrada principal} &
 \textbf{Salida} & \textbf{Roles} & \textbf{Duración (min)} \\
@@ -7621,7 +7655,7 @@ La Tabla~\ref{tab:roles} resume cada rol.
                                 >{\raggedright\arraybackslash}p{0.14\textwidth}
                                 >{\raggedright\arraybackslash}p{0.14\textwidth}
                                 >{\raggedright\arraybackslash}p{0.18\textwidth}@{}}
-\caption{Roles de THUNDERS-Master v1.3 y su participación por actividad.\label{tab:roles}}\\
+\caption{Roles de THUNDERS~Master v1.3 y su participación por actividad.\label{tab:roles}}\\
 \toprule
 \textbf{Rol} & \textbf{Responsabilidad principal} & \textbf{Actividades} &
 \textbf{Condición de uso} & \textbf{Riesgo que controla} \\
@@ -7683,13 +7717,13 @@ Representante técnico o QA (QA)
 \end{xltabular}}
 
 La tabla solo incluye los roles que se desempeñan dentro de una sesión de
-requisitos. El equipo investigador que valora THUNDERS-Master no aparece, ya que
+requisitos. El equipo investigador que valora THUNDERS~Master no aparece, ya que
 no es un rol del proceso y sus acciones pertenecen a la capa externa de
 evaluación (Capítulo~\ref{ch:evaluacion}).
 
 \section{Artefactos mínimos y evidencia observable}
 \label{sec:artefactos-v13}
-La ligereza de THUNDERS-Master en cuanto a artefactos no significa que el
+La ligereza de THUNDERS~Master en cuanto a artefactos no significa que el
 proceso deje al equipo sin apoyo. Cada artefacto se define como un conjunto
 mínimo de campos, y esos campos pueden registrarse en las herramientas que el
 equipo ya usa, como el \textit{backlog}, la wiki, las actas o el tablero del
@@ -7781,7 +7815,7 @@ distintos. El Facilitador los elige al preparar la guía y los ajusta en la
 sesión según quién esté presente.
 
 El primero de esos tipos, la reformulación cruzada, es el mecanismo con el que
-THUNDERS-Master contrasta las interpretaciones, y esta guía es el único lugar
+THUNDERS~Master contrasta las interpretaciones, y esta guía es el único lugar
 donde el proceso lo define. THUNDERS ofrece para la misma función dos mecanismos
 alternativos, las listas por dimensiones y la comparación de mapas conceptuales
 individuales. El primero se adapta en I1, y el segundo se reemplaza por la
@@ -7796,7 +7830,7 @@ pero sale del núcleo y queda como extensión activable
 \label{sec:catalogo-v13}
 THUNDERS ofrece dentro de C-03 seis actividades colaborativas predefinidas, con
 su descripción, sus criterios de elección y su detalle completo.
-THUNDERS-Master no las lleva como dinámicas obligatorias, ya que modelar toda la
+THUNDERS~Master no las lleva como dinámicas obligatorias, ya que modelar toda la
 dinámica duplicaría los formatos de las sesiones de requisitos, pero conserva su
 valor como catálogo para el campo de técnica del \textit{canvas}. El Facilitador
 puede declararlas como dinámica de un bloque cuando el contexto lo amerita,
@@ -7846,11 +7880,11 @@ referencia este catálogo con una línea por técnica y sus criterios de elecci�
 
 \section{Variabilidad contextual y criterios de activación}
 \label{sec:variabilidad}
-THUNDERS-Master no se ejecuta siempre con la misma intensidad. La variabilidad
+THUNDERS~Master no se ejecuta siempre con la misma intensidad. La variabilidad
 contextual (RM-13) define cuándo activar elementos adicionales y da continuidad a
 un mecanismo del proceso original, ya que desde su quinta versión THUNDERS
 asigna a cada tarea una variabilidad que declara si es opcional y en qué
-contextos debe ejecutarse~\cite{agredo2022thesis}. THUNDERS-Master especializa
+contextos debe ejecutarse~\cite{agredo2022thesis}. THUNDERS~Master especializa
 ese mecanismo para la IR, en línea con la adaptación de procesos de software,
 que pide ajustar los métodos a las condiciones de la organización, la técnica y
 las personas con criterios estructurados~\cite{kalus2013tailoring} y evitar su
@@ -7894,7 +7928,7 @@ en el registro de decisiones, de modo que después se puede verificar por qué s
 activó, o no, cada elemento. La Tabla~\ref{tab:activacion} resume los criterios.
 
 \begin{table}[htbp]
-\caption{Criterios de activación contextual en THUNDERS-Master v1.3 (entre
+\caption{Criterios de activación contextual en THUNDERS~Master v1.3 (entre
 corchetes, la fuente o el requisito del que se deriva cada criterio).}
 \label{tab:activacion}
 \centering
@@ -7952,15 +7986,15 @@ Usuarios finales ausentes o muy heterogéneos [\cite{khan2022stakeholders}; RM-0
 \end{tabularx}
 \end{table}
 
-\section{Encaje de THUNDERS-Master en marcos ágiles}
+\section{Encaje de THUNDERS~Master en marcos ágiles}
 \label{sec:encaje_agil-v13}
-El propósito de THUNDERS-Master es apoyar la construcción, el monitoreo y la
+El propósito de THUNDERS~Master es apoyar la construcción, el monitoreo y la
 validación del entendimiento compartido, por lo que se concibe como una buena
 práctica que se aplica dentro de las metodologías ágiles y no como un marco que
 las reemplace. Scrum o Kanban ya coordinan el trabajo con ceremonias,
 refinamiento y revisiones, pero no indican cómo asegurar que los participantes
 interpreten igual el problema, las necesidades y los criterios de aceptación.
-THUNDERS-Master cubre esa capa semántica y puede integrarse en los espacios que
+THUNDERS~Master cubre esa capa semántica y puede integrarse en los espacios que
 el equipo ya tiene sin crear reuniones nuevas, ya que sus actividades se acoplan
 a las ceremonias existentes (Tabla~\ref{tab:agile_fit-v13}).
 
@@ -7974,7 +8008,7 @@ que permite saber quién originó un requisito, qué necesidad expresa y qué
 criterio demuestra que se cumple.
 
 \begin{table}[htbp]
-\caption{Encaje de las actividades de THUNDERS-Master en ceremonias ágiles.}
+\caption{Encaje de las actividades de THUNDERS~Master en ceremonias ágiles.}
 \label{tab:agile_fit-v13}
 \centering
 \footnotesize
@@ -8002,7 +8036,7 @@ y fija una línea base acordada. \\
 La Tabla~\ref{tab:thunders_traceability_v13} documenta la decisión que se tomó en
 la versión 1.3 sobre cada uno de los trece componentes de THUNDERS, con la fase
 a la que pertenece, la decisión, su justificación y la actividad de
-THUNDERS-Master en la que queda. Esta trazabilidad facilita la revisión del
+THUNDERS~Master en la que queda. Esta trazabilidad facilita la revisión del
 proceso, ya que permite discutir cada decisión con el componente de origen a la
 vista.
 
@@ -8020,16 +8054,16 @@ pero no en una sesión con clientes y usuarios.
 \begin{xltabular}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}
                                 >{\raggedright\arraybackslash}p{0.14\textwidth}
                                 >{\raggedright\arraybackslash}X@{}}
-\caption{Trazabilidad entre THUNDERS y THUNDERS-Master v1.3.\label{tab:thunders_traceability_v13}}\\
+\caption{Trazabilidad entre THUNDERS y THUNDERS~Master v1.3.\label{tab:thunders_traceability_v13}}\\
 \toprule
 \textbf{Componente de THUNDERS (fase)} & \textbf{Decisión} &
-\textbf{Justificación y destino en THUNDERS-Master} \\
+\textbf{Justificación y destino en THUNDERS~Master} \\
 \midrule
 \endfirsthead
 \multicolumn{3}{@{}l}{\emph{Tabla~\ref{tab:thunders_traceability_v13} (continuación)}}\\
 \toprule
 \textbf{Componente de THUNDERS (fase)} & \textbf{Decisión} &
-\textbf{Justificación y destino en THUNDERS-Master} \\
+\textbf{Justificación y destino en THUNDERS~Master} \\
 \midrule
 \endhead
 \midrule
@@ -8095,7 +8129,7 @@ C-13 Cerrar la actividad (\textit{Measuring}) & Conservar y adaptar
 \end{xltabular}}
 
 El resultado de aplicar estos criterios es un núcleo ligero a propósito, y esa
-baja carga permite integrar THUNDERS-Master en flujos ágiles sin
+baja carga permite integrar THUNDERS~Master en flujos ágiles sin
 agregar burocracia (Sección~\ref{sec:encaje_agil-v13}, Tabla~\ref{tab:agile_fit-v13}).
 
 \section{Correspondencia entre las versiones 1.3, 1.4 y 1.5}
@@ -8531,7 +8565,7 @@ La Tabla~\ref{tab:agenda} muestra la agenda y su correspondencia con las
 actividades del proceso.
 
 \begin{table}[htbp]
-\caption{Agenda de la sesión UniReserva y su correspondencia con las actividades de THUNDERS-Master.}
+\caption{Agenda de la sesión UniReserva y su correspondencia con las actividades de THUNDERS~Master.}
 \label{tab:agenda}
 \centering
 \footnotesize
@@ -8676,7 +8710,7 @@ I3 & 3 & 4 & 4 & 4 &  & Incluir casos excepcionales y condiciones límite en los
 I3 & 4 & 3 & 3 & 3 &  & Conocer el mismo sistema no garantiza entender igual sus características; reformular y tratarla como técnica complementaria. & Pregunta sobre las características concretas del sistema de referencia; se declara complementaria, no evidencia suficiente por sí sola. \\
 I3 & 5 & 4 & 4 & 4 &  & Una definición acordada no prueba que todos la comprendan; comprobar la interpretación de los términos críticos. & Se añade una comprobación breve entre perfiles en los términos críticos. \\
 I3 & 6 & 4 & 3 & 3 &  & Relación indirecta con el entendimiento compartido; conservarlo como control de trazabilidad. & Se rotula como control de trazabilidad, distinto de la evidencia directa de comprensión. \\
-I3 & Suficiencia &  &  &  & 3 & No precisa cuándo una divergencia queda resuelta ni cómo registrar la evidencia; el mínimo de dos puede quedarse corto con varios críticos. & Nuevo ítem 7 (cierre del micro-chequeo): interpretación acordada, perfiles y decisión o acción con responsable y fecha. Un micro-chequeo en cada punto crítico de la agenda, con mínimo de dos. Resuelta = los perfiles confirman. \\
+I3 & Sufi\-cien\-cia &  &  &  & 3 & No precisa cuándo una divergencia queda resuelta ni cómo registrar la evidencia; el mínimo de dos puede quedarse corto con varios críticos. & Nuevo ítem 7 (cierre del micro-chequeo): interpretación acordada, perfiles y decisión o acción con responsable y fecha. Un micro-chequeo en cada punto crítico de la agenda, con mínimo de dos. Resuelta = los perfiles confirman. \\
 I2 & A1 & 3 & 4 & 4 &  & «Se entiende con una sola lectura» es subjetivo; acercarlo a la verificabilidad. & Reformulado: comportamiento, condiciones y resultado esperado identificables inequívocamente. \\
 I2 & A2 & 4 & 4 & 4 &  & Precisar que se refiere a los términos del dominio del glosario acordado. & Precisado: «términos del dominio tal como los define el glosario acordado». \\
 I2 & A3 & 4 & 4 & 4 &  & En los no funcionales, verificar que el criterio sea medible y con condiciones de evaluación. & Se añade la condición para los no funcionales. \\
@@ -8686,13 +8720,13 @@ I2 & B2 & 3 & 4 & 4 &  & La formulación absoluta dificulta evaluarlo; considera
 I2 & B3 & 4 & 4 & 4 &  & Claro, coherente y relevante; sin cambios. & Se conserva, con lectura automática desde 04. \\
 I2 & C1 & 4 & 4 & 4 &  & Un «sí» no basta como evidencia; pedir la explicación del \textit{stakeholder} en sus palabras. & El \textit{stakeholder} explica el resultado que espera y queda registrado. \\
 I2 & C2 & 3 & 4 & 4 &  & «Lo convencerían» es subjetivo; registrar las discrepancias. & Reformulado: confirma que ejemplo y criterio corresponden a lo que espera; las discrepancias van a 06. \\
-I2 & Suficiencia &  &  &  & 3 & Falta verificar que perfiles técnicos y no técnicos interpretan igual los criterios de aceptación. & Nuevo ítem C3: concordancia entre el \textit{stakeholder} y el QA. Se nombra el rol del proceso (QA) en lugar de «representante técnico», para no confundirlo con el RT (relator). \\
+I2 & Sufi\-cien\-cia &  &  &  & 3 & Falta verificar que perfiles técnicos y no técnicos interpretan igual los criterios de aceptación. & Nuevo ítem C3: concordancia entre el \textit{stakeholder} y el QA. Se nombra el rol del proceso (QA) en lugar de «representante técnico», para no confundirlo con el RT (relator). \\
 I1 & E1 & 4 & 4 & 4 &  & Aclarar que la equivalencia se evalúa por el significado, no por la similitud literal. & Aclarado; respaldo: registro de paráfrasis. \\
 I1 & E2 & 4 & 4 & 4 &  & Acertado que contemple la interpretación y no solo la definición; sin cambios. & Respaldo: glosario acordado. \\
 I1 & E3 & 4 & 4 & 4 &  & Incluir casos límite y, cuando sea pertinente, a quien lo verificará mediante pruebas. & Incluye a quien prueba y los casos excepcionales y límite; respaldo: ejemplo y criterio validados. \\
 I1 & E4 & 3 & 3 & 4 &  & Inconsistencia en la regla de cierre: un «sí» con divergencias críticas abiertas permitía cerrar el ciclo. & Una divergencia crítica abierta es «pendiente», no «sí»; las no críticas se cierran por objeción. La hoja 07 avisa si se marca «sí» sin respaldo. \\
 I1 & E5 & 4 & 4 & 4 &  & Fortaleza distintiva; justificar la muestra de dos críticos. & Muestra: dos o el 20 \% de los críticos, lo que sea mayor (cálculo automático). \\
-I1 & Suficiencia &  &  &  & 3 & Precisar qué evidencia respalda cada respuesta afirmativa y alinear el cierre con el estado real de las divergencias. & Cada «sí» indica su respaldo, con lectura automática desde las hojas. \\
+I1 & Sufi\-cien\-cia &  &  &  & 3 & Precisar qué evidencia respalda cada respuesta afirmativa y alinear el cierre con el estado real de las divergencias. & Cada «sí» indica su respaldo, con lectura automática desde las hojas. \\
 \end{xltabular}}
 
 
