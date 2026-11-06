@@ -978,6 +978,10 @@ contexto real, cuando hay poco control sobre las variables y las preguntas son
 de tipo cómo y por qué~\cite{runeson2009case}. En este documento se usa siempre
 la expresión \emph{estudio de caso} para el método de investigación, y
 \emph{caso} para la situación concreta que se estudia, como el caso UniReserva.
+En los dos estudios de caso de este trabajo la situación de requisitos se
+construye para un aula, con cartas que le dan a cada rol una parte de la
+información, pero lo que se estudia, que es cómo un equipo usa el proceso para
+detectar y resolver sus malentendidos, ocurre durante la sesión.
 Se eligió este método, y no un experimento, por dos razones. La primera es que
 un experimento exige controlar las variables y comparar grupos equivalentes, uno
 que usa el proceso y otro que no, lo que no era posible con el número de
@@ -3152,6 +3156,7 @@ depende un requisito, como que todos los clientes usan WhatsApp.
 \label{sec:fundamentos}
 
 \subsection{Entendimiento compartido explícito, implícito y falso}
+\label{sec:ec_falso}
 El fundamento conceptual del proceso es la distinción de Glinz y
 Fricker~\cite{glinz2015shared} (Sección~\ref{sec:entendimiento}). Según esos
 autores, escribir algo no garantiza que se entienda igual, y solo una
@@ -3277,8 +3282,8 @@ trece componentes de THUNDERS (Tabla~\ref{tab:thunders_traceability}). \\
 La Tabla~\ref{tab:actividades_final} resume las actividades de la versión final
 con lo que hace cada una, el rol que la lidera, con los que participan entre
 paréntesis (los roles se describen en la Sección~\ref{sec:roles}), su salida, la evidencia que deja y su tiempo orientativo. Los tiempos
-son valores de referencia que el estudio de caso debía calibrar
-(Sección~\ref{sec:caso_agricola}).
+son valores de referencia, que el estudio de caso no calibra porque los fija
+con una agenda (Sección~\ref{sec:caso_agricola}).
 
 {\footnotesize
 \setlength{\tabcolsep}{3pt}
@@ -3755,7 +3760,7 @@ Facilitador.
 \label{ch:evaluacion}
 
 Este capítulo presenta la validación de cada una de las versiones de
-THUNDERS~Master y la evaluación de la versión final en un contexto real, que
+THUNDERS~Master y la evaluación de la versión final en un contexto agrícola, que
 corresponde al objetivo~4. Como el proceso se construyó por iteraciones, cada
 versión se validó de una forma distinta, y lo que resultó de cada validación
 alimentó la versión siguiente. Primero se resumen los elementos de cada versión
@@ -3832,10 +3837,12 @@ si THUNDERS~Master ayuda a construir, monitorear y validar el entendimiento
 compartido durante la elicitación, la especificación y la validación de
 requisitos. La Tabla~\ref{tab:gqm} la descompone en seis metas, cada una con la
 pregunta que la hace operativa, sus métricas o indicadores y el instrumento con
-el momento en que se aplica. Para la facilidad de uso y la carga cognitiva se
-tomaron como referencia la escala SUS (\textit{System Usability
-Scale})~\cite{brooke1996sus} y el cuestionario NASA-TLX (\textit{NASA Task Load
-Index})~\cite{hart1988nasa}.
+el momento en que se aplica. Para la carga cognitiva se tomó como referencia el
+cuestionario NASA-TLX (\textit{NASA Task Load Index})~\cite{hart1988nasa}, que
+mide en seis escalas de 0 a 100 cuánta exigencia, esfuerzo y frustración
+percibe quien hizo la tarea. La escala SUS (\textit{System Usability
+Scale})~\cite{brooke1996sus}, que el plan tomó al principio para la facilidad de
+uso, se retiró en la versión final (Sección~\ref{sec:caso_agricola}).
 
 {\footnotesize
 \setlength{\tabcolsep}{3.5pt}
@@ -3871,8 +3878,8 @@ Utilidad
 Facilidad de uso
 & ¿Puede aplicarse sin un esfuerzo excesivo?
 & Claridad percibida de los pasos, tiempo real de cada actividad frente a su
-  duración orientativa y facilidad percibida (SUS como referencia).
-& Cuestionario (después) y observación de las sesiones (durante). \\
+  duración orientativa y facilidad percibida.
+& Cuestionario (después) y observación o registro de las sesiones (durante). \\
 \addlinespace
 Carga cognitiva
 & ¿Reduce la carga que motivó la adaptación?
@@ -3891,7 +3898,8 @@ Logro del entendimiento
 & Evidencias E1--E5 diligenciadas, balance de la participación entre
   perfiles, solicitudes de aclaración, discrepancias abiertas y cerradas, y
   conformidad registrada.
-& Lista E1--E5 y observación (durante); registro de decisiones (después). \\
+& Lista E1--E5 y observación o registro de la sesión (durante); registro de
+  decisiones (después). \\
 \addlinespace
 Conservación del propósito
 & ¿Mantiene el propósito de THUNDERS de construir, monitorear y validar?
@@ -3907,8 +3915,9 @@ aplicabilidad y su alineación con el plan GQM. La segunda era un recorrido
 metodológico sobre un escenario simulado, recorriendo A1 a A11 con las
 plantillas para comprobar que cada actividad puede ejecutarse con sus entradas,
 su duración y sus salidas. La tercera era un piloto en sesiones reales de
-elicitación, especificación y validación, que corresponde al estudio de caso en
-contexto agrícola del objetivo~4. En la versión final se agregaron al plan cuatro indicadores, que miden lo que
+elicitación, especificación y validación, que en la versión final tomó la forma
+del estudio de caso en contexto agrícola del objetivo~4, con un caso construido
+y equipos de estudiantes (Sección~\ref{sec:caso_agricola}). En la versión final se agregaron al plan cuatro indicadores, que miden lo que
 hasta ese momento solo se había estimado:
 los minutos con los \textit{stakeholders} en cada encuentro, los campos
 diligenciados por requisito, las divergencias detectadas por cada técnica de la
@@ -4561,94 +4570,127 @@ se complementa con el estudio de caso en contexto agrícola.
 
 \section{Evaluación de la versión final: estudio de caso en contexto agrícola}
 \label{sec:caso_agricola}
-El estudio de caso del objetivo~4 es la evaluación del proceso en un contexto
-real, con un equipo de desarrollo y con \textit{stakeholders} del sector
-agrícola, por las razones de la Sección~\ref{sec:contexto_agricola}. Se diseñó
-sobre la versión final, con los instrumentos ya ajustados por el juicio de
-experto, e incorpora lo aprendido en UniReserva y en las revisiones de las
-versiones 1.4 y 1.5. Como los estudios anteriores, se
-reporta siguiendo las guías de Runeson y Höst~\cite{runeson2009case}.
+El estudio de caso del objetivo~4 evalúa la versión final con equipos de
+desarrollo que aplican un ciclo de requisitos completo para un producto de
+software orientado al cultivo de tomates en macetas, por las razones de la
+Sección~\ref{sec:contexto_agricola}. Se diseñó con los instrumentos ya
+ajustados por el juicio de experto, incorpora lo aprendido en UniReserva y en
+las versiones 1.4 y 1.5 y, como los estudios anteriores, se reporta siguiendo
+las guías de Runeson y Höst~\cite{runeson2009case}. Esta sección presenta su
+protocolo; la ejecución y los resultados quedan pendientes hasta que se realice
+la sesión.
 
 \subsection{Diseño del estudio de caso}
 \paragraph{Objetivo y preguntas.}
-El objetivo fue evaluar la utilidad de THUNDERS~Master para construir el
+El objetivo es evaluar la utilidad de THUNDERS~Master para construir el
 entendimiento compartido en un equipo de desarrollo de un producto de software
 orientado al contexto agrícola. A partir de las metas del plan GQM
 (Tabla~\ref{tab:gqm}) se plantearon cuatro preguntas. La primera (PCA1) es si el
 proceso permite que el equipo y los \textit{stakeholders} detecten y resuelvan
-las divergencias de interpretación sobre los requisitos críticos. La segunda
-(PCA2) es si las cinco evidencias se pueden obtener en un ciclo de requisitos
-real y si la prueba de traspaso confirma que lo acordado es comprensible para
-quien no participó. La tercera (PCA3) es cuánto cuesta aplicar el proceso, en
-minutos con los \textit{stakeholders} y en campos diligenciados por
-requisito. La cuarta (PCA4) es qué utilidad, qué facilidad de uso
-y qué carga cognitiva perciben los participantes, y cómo se comparan con lo que
-percibieron los expertos y los estudiantes de UniReserva.
+las divergencias de interpretación sobre los requisitos críticos, incluido el
+entendimiento compartido falso (Sección~\ref{sec:ec_falso}). La segunda (PCA2)
+es si las cinco evidencias se pueden obtener en un ciclo de requisitos y si la
+prueba de traspaso confirma que lo acordado es comprensible para quien no
+participó. La tercera (PCA3) es cuánto cuesta aplicar el proceso, en campos
+escritos o marcados por requisito y en lo que cada equipo alcanza a hacer en un
+tiempo fijo. La cuarta (PCA4) es qué utilidad, qué facilidad de uso y qué carga
+cognitiva perciben los participantes, y cómo se comparan con lo que percibieron
+los estudiantes de UniReserva.
 
-\paragraph{Unidad de análisis y selección del caso.}
-La unidad de análisis es el ciclo de requisitos, con sus dos encuentros, que el
-equipo de desarrollo ejecuta con los \textit{stakeholders}. El caso se
-seleccionó con tres criterios: que existiera una necesidad real de software en
-una organización del sector agrícola, que sus \textit{stakeholders} pudieran
-asistir a los dos encuentros de cada ciclo, y que en el dominio hubiera
-términos con más de una lectura entre los perfiles que participan.
+\paragraph{Unidad de análisis y caso.}
+Como UniReserva, es un estudio de caso único con unidades de análisis
+embebidas, que son las mesas: equipos de seis o siete estudiantes que ejecutan
+con sus \textit{stakeholders} un ciclo de requisitos de la versión final. Con
+unos cuarenta estudiantes se forman seis mesas, que trabajan al mismo tiempo
+sobre el mismo caso. El caso, llamado Tomatera, se construyó para el estudio.
+Terraza Viva, una pequeña empresa de Madrid que vende kits para cultivar tomates
+en macetas, le encarga a Nodo Sur, una empresa de software de La Plata, un
+sensor para la maceta y una app para el celular del cliente. La dueña (PO), su
+asesor de huerto (SD) y, en las mesas de siete, una clienta (segundo SD) son
+personajes que interpretan estudiantes, hablando como españoles, y los demás son
+el equipo de Nodo Sur. El conocimiento del dominio sale de un solo artículo,
+``Cultivar tomates en maceta''~\cite{verdeesvida_tomates}, que en la historia es
+la ficha técnica del asesor. Que el cliente sea español y el equipo argentino es
+deliberado, ya que varios términos cambian de sentido entre los dos países o
+entre el asesor y un desarrollador; un plantel, por ejemplo, es para el asesor
+una planta joven y para un analista puede ser un grupo de personas.
 
-\pendiente{Describir el caso seleccionado: organización, producto de software,
-\textit{stakeholders} (perfiles y número), equipo de desarrollo y fechas.}
+Se eligió un caso construido, y no una organización del sector, por tres
+razones. El objetivo~4 pide evaluar el proceso en un equipo de desarrollo de un
+producto orientado al contexto agrícola y no exige \textit{stakeholders} reales;
+un caso construido permite sembrar las divergencias, como en UniReserva, y
+contrastar lo que cada mesa deja escrito con una clave de corrección; y una
+misma sesión da seis aplicaciones del ciclo con el mismo material. Lo que se
+pierde es validez externa (Sección~\ref{sec:amenazas_eval}).
 
 \paragraph{Procedimiento.}
-El protocolo organiza la aplicación en ciclos de requisitos de la versión final.
-Cada ciclo tiene una preparación casi sin \textit{stakeholders} (A1 a A3); un
-encuentro de construcción, para alinear el punto de partida y elicitar las
-necesidades, las restricciones y los criterios de aceptación (A4 y A5.1); la
-especificación entre encuentros, para escribir las tarjetas de requisito con
-las plantillas del proceso (A5.2); un encuentro de validación, a más tardar dos
-semanas después del primero, con los ejemplos de los requisitos críticos (A5.3);
-y el cierre con la línea base, el paquete de cierre y la prueba de traspaso
-(A6). La forma de ejecución se decide con las dos preguntas de la
-Sección~\ref{sec:forma_final}. El protocolo incluye además al menos un término
-con dos lecturas, identificado de antemano con un contacto del dominio y conocido
-por los observadores, pero no por quien facilitaba, para comprobar si el
-proceso lo detecta sin que el Facilitador lo esté buscando.
+La sesión dura sesenta minutos, con la explicación incluida, y recorre el ciclo
+completo de la versión final, con los dos encuentros el mismo día. La conduce
+Leandro Antonelli, codirector del trabajo, en Argentina y sin los autores en el
+salón, con un guion que le permite responder dudas de procedimiento, pero no de
+contenido. La preparación (A1 a A3) llega diligenciada, como en UniReserva. Los
+dos micro-chequeos de A5.1 se aplican como rondas de sondeo, en
+las que cada integrante responde solo y en silencio una pregunta sobre un punto
+crítico, con paráfrasis cruzada o con sondeo de ambigüedad, y luego la mesa
+compara todas las respuestas a la vez. En el cierre, el QA de cada mesa
+reconstruye la línea base de la mesa siguiente para la prueba de traspaso de E5,
+y el PO de esa mesa confirma si coincide. Una aplicación web construida para el
+estudio guía a cada estudiante desde su celular, le entrega las plantillas,
+lanza las rondas y registra cada entrada, en respuesta a la baja claridad de los
+pasos (2,09) y al registro poco sistemático de UniReserva. El
+Anexo~\ref{anx:protocolo_agricola} presenta el cronograma minuto a minuto
+(Tabla~\ref{tab:cronograma_agricola}) y los materiales de la sesión.
+
+\paragraph{Divergencias sembradas.}
+Las cartas secretas esconden ocho divergencias, tomadas del artículo o del cruce
+entre España y Argentina; el FR y el RT no tienen carta, solo su hoja de rol.
+Cuatro son términos con dos lecturas: guía (T5), que para la dueña es un tallo
+principal y para el analista un tutorial de la app, tutor (T6), plantel (T7) y
+sustrato seco (T4). Dos son reglas del dominio que cambian con el lugar o en las
+que la fuente se contradice, que son los meses del calendario (T2) y la
+temperatura nocturna de alerta (T3). Las otras dos son un supuesto y una
+prioridad del cliente: si Tomatera riega sola o solo avisa (T1) y si el kit
+privilegia el sabor o la cosecha (T8). Cuatro (T3, T4, T5 y T7) están en el plan
+de las rondas, y las otras cuatro quedan fuera a propósito, para ver si las
+encuentran los demás mecanismos del proceso. Igual que en UniReserva, una
+divergencia cuenta solo si quedó escrita en la plantilla que le corresponde,
+según la clave de corrección del anexo.
 
 \paragraph{Fuentes de datos e instrumentos.}
-Luego de la experiencia con UniReserva, el diseño incorporó cuatro mejoras. La
-primera es una hoja de registro por encuentro, que captura el momento en que se
-detecta cada divergencia, los micro-chequeos aplicados con su técnica, los
-requisitos con criterio observable y el estado de las evidencias E1--E5 al
-cierre. La segunda son dos observadores independientes con un protocolo de
-observación. La tercera son encuentros de noventa a ciento veinte minutos, que
-con el ciclo de dos encuentros ya son parte del proceso. La cuarta son los
-instrumentos de referencia para la carga cognitiva y la facilidad de uso,
-NASA-TLX~\cite{hart1988nasa} y SUS~\cite{brooke1996sus}. A esto se suman los artefactos que produce el equipo, los cuatro indicadores que
-se agregaron al plan GQM en la versión final (Sección~\ref{sec:plan_gqm}) y la
-misma encuesta de cierre de cinco afirmaciones de
-UniReserva, para poder comparar los dos estudios. El protocolo completo está en
-el Anexo~\ref{anx:protocolo_agricola}.
+Con seis mesas a la vez, la hoja de registro y los dos observadores por
+encuentro que se previeron luego de UniReserva habrían sido doce personas, así
+que el registro lo lleva la aplicación: cada entrada, divergencia, ronda y
+cambio de tramo queda con su hora y un identificador anónimo de su autor. De ahí
+salen los cuatro indicadores que la versión final agregó al plan GQM, y el
+balance de la participación se aproxima con quién escribió cada entrada. No se
+graba audio ni video. Además se recogen los artefactos de cada mesa, que se
+contrastan con la clave, y una medición individual antes y después del ciclo,
+con cuatro preguntas abiertas, dos sobre divergencias de las rondas y dos sobre
+divergencias que no lo están. Después de la sesión hay un cuestionario anónimo,
+con las cinco afirmaciones de UniReserva, las seis escalas de NASA-TLX sin
+ponderar, en la versión en español de Díaz Ramiro et al.~\cite{diaz2010nasatlx},
+y una pregunta abierta, y una entrevista de cinco
+minutos con los FR, que queda en las notas de quien conduce. La escala SUS se
+retiró del diseño, porque suma diez ítems a un cuestionario que debe ser corto y
+la claridad de los pasos ya la mide la encuesta. La participación es voluntaria,
+sin efecto en la nota y con consentimiento informado.
 
 \paragraph{Análisis.}
-Como se definió en el anteproyecto, las métricas de percepción se analizan con
-estadística descriptiva, y las observaciones, los comentarios abiertos y las
-entrevistas, con análisis temático~\cite{braun2006thematic}, para encontrar
-patrones de entendimiento compartido y puntos de fricción. Las fuentes se
-triangulan entre sí y con los resultados de las evaluaciones de la versión 1.3,
-y del análisis sale un registro de lecciones aprendidas.
+Como se definió en el anteproyecto, la percepción se analiza con estadística
+descriptiva, y los comentarios, la entrevista y las notas, con análisis
+temático~\cite{braun2006thematic}. Dos autores codifican por separado las
+respuestas de la medición en categorías definidas de antemano y se mide su
+acuerdo; el indicador es, por mesa y por pregunta, la proporción de integrantes
+en la categoría más frecuente, antes y después. Las fuentes se triangulan entre sí y con la
+versión 1.3, y del análisis sale un registro de lecciones aprendidas.
 
-\subsection{Ejecución}
-\pendiente{Describir cómo se ejecutó el estudio: número de ciclos y de
-encuentros, duración real de cada uno, roles asignados, forma de ejecución que
-resultó de las dos preguntas y extensiones activadas, desviaciones frente al
-diseño y cómo se recogieron los datos.}
-
-\subsection{Resultados}
-\pendiente{Presentar los resultados por pregunta del caso: divergencias
-detectadas y resueltas por cada técnica de I3, incluido el término con dos
-lecturas (PCA1); estado de E1--E5 y resultado de la prueba de traspaso (PCA2);
-minutos con los \textit{stakeholders} por encuentro y campos diligenciados por
-requisito (PCA3); y resultados de NASA-TLX, SUS y
-la encuesta de cierre, comparados con los expertos y con UniReserva (PCA4).
-Cerrar con las lecciones aprendidas y con las amenazas a la validez del
-estudio, con la clasificación de la Sección~\ref{sec:amenazas_eval}.}
+\subsection{Ejecución y resultados}
+\pendiente{Describir la ejecución (universidad, asignatura, semestre, fecha,
+estudiantes y mesas, desviaciones del cronograma y fallas técnicas) y presentar
+los resultados por pregunta: divergencias que cada mesa dejó escritas, rondas y
+medición antes y después (PCA1); E1--E5 y traspaso (PCA2); campos por requisito
+y críticos especificados y validados (PCA3); y encuesta y NASA-TLX frente a
+UniReserva (PCA4), con las lecciones aprendidas.}
 
 
 \section{Discusión general y amenazas a la validez}
@@ -4661,24 +4703,26 @@ entendimiento falso y que el proceso no cabía en una sesión. La versión final
 respondió a los dos con el ciclo de dos encuentros y con evidencias que
 comprueban interpretaciones, y el juicio de experto confirmó la validez de
 contenido de sus instrumentos y precisó cómo cerrar una divergencia. El estudio
-de caso en contexto agrícola es el que evalúa esa respuesta en un contexto real.
+de caso en contexto agrícola es el que evalúa esa respuesta con equipos que
+aplican el ciclo completo.
 
 \pendiente{Completar la discusión general con los resultados del estudio de caso
 en contexto agrícola: si se mantiene la utilidad que valoraron expertos y
 estudiantes, si mejoró la facilidad de uso frente a la versión 1.3 y cuánto cuesta aplicar
-el proceso en un contexto real.}
+el proceso en un ciclo completo.}
 
 \subsection{Amenazas a la validez}
 \label{sec:amenazas_eval}
 Siguiendo la clasificación de Runeson y Höst~\cite{runeson2009case}, se
-identifican amenazas en cuatro aspectos. Las que se describen a continuación se
-refieren a las evaluaciones de la versión 1.3.
+identifican amenazas en cuatro aspectos. Los cuatro párrafos siguientes se
+refieren a las evaluaciones de la versión 1.3, y el último, a las que ya deja ver
+el diseño del estudio de caso en contexto agrícola.
 
 En cuanto a la validez de constructo, la encuesta de cierre mide utilidad,
 claridad, esfuerzo, presión de tiempo e intención de uso con una sola afirmación
-por constructo y sin un instrumento estandarizado. El plan GQM prevé SUS y
-NASA-TLX para la facilidad de uso y la carga cognitiva, pero no se aplicaron
-para no alargar una sesión que ya tenía el tiempo justo. Adicionalmente, el
+por constructo y sin un instrumento estandarizado. El plan GQM preveía entonces
+SUS y NASA-TLX para la facilidad de uso y la carga cognitiva, pero no se
+aplicaron para no alargar una sesión que ya tenía el tiempo justo. Adicionalmente, el
 calificativo ligero se juzgó sin un referente explícito de comparación, como
 señaló un experto.
 
@@ -4704,6 +4748,17 @@ de modo que la respuesta a la primera pregunta del caso se apoya en la
 observación de la facilitadora y en la contradicción central. Además, los
 comentarios abiertos los codificaron los mismos autores. Estas limitaciones
 son las que motivaron el diseño del estudio de caso en contexto agrícola.
+
+El diseño del estudio de caso agrícola ya deja ver sus propias amenazas. En la
+validez de constructo, la encuesta sigue con una afirmación por constructo y el
+balance de la participación se aproxima con el registro, sin observadores. En la
+validez interna, conduce el codirector, los autores conocen las divergencias y
+diseñaron el plan de las rondas, que favorece a cuatro de ellas, y la medición
+previa puede adelantar lo que preguntan las rondas. En la validez externa, participan
+estudiantes con \textit{stakeholders} simulados, el dominio sale de un solo
+artículo y los dos encuentros ocurren el mismo día. En la fiabilidad, la
+medición la codifican los autores, lo que se mitiga con dos codificadores y la
+medida de su acuerdo.
 
 
 \chapter{Conclusiones y trabajo futuro}
@@ -4777,8 +4832,8 @@ caso con información asimétrica y plan GQM) que puede reutilizarse.
 La primera limitación es que las evaluaciones con personas de la versión 1.3
 fueron un juicio de expertos sobre la especificación y un caso simulado con
 estudiantes, con muestras pequeñas (cinco expertos y once estudiantes) que solo
-permiten estadística descriptiva, y que la evaluación en un contexto real es un
-solo estudio de caso. La segunda es que el registro de UniReserva no fue
+permiten estadística descriptiva, y que la versión final se evalúa en un solo
+estudio de caso, también construido y con estudiantes. La segunda es que el registro de UniReserva no fue
 sistemático, por lo que solo se puede afirmar la detección de la contradicción
 central, y que su encuesta usó una afirmación por constructo. La tercera es la
 cercanía con el proyecto de la directora, que facilitó el caso, y del
@@ -4794,10 +4849,11 @@ una medida del entendimiento compartido.
 El trabajo inmediato es construir la guía de inicio de una página que se
 planteó luego de UniReserva y ajustar el proceso con los resultados del estudio
 de caso en contexto agrícola (Sección~\ref{sec:caso_agricola}) en una versión
-2.0. También queda replicar el estudio en la industria, llevar el libro de
-plantillas a una herramienta web y explorar, como sugirió uno de los revisores
-del artículo de JIIHC~2026, el uso de ontologías del dominio para formalizar el
-significado de los requisitos.
+2.0. También queda replicar el estudio en la industria, con
+\textit{stakeholders} reales y dos semanas entre encuentros, llevar el libro de
+plantillas a una herramienta web, a partir de la aplicación del caso Tomatera, y
+explorar, como sugirió uno de los revisores del artículo de JIIHC~2026, el uso de
+ontologías del dominio para formalizar el significado de los requisitos.
 
 \section{Productos de investigación}
 El trabajo ha producido un artículo aceptado y tiene otro en preparación. El
@@ -8734,10 +8790,350 @@ I1 & Sufi\-cien\-cia &  &  &  & 3 & Precisar qué evidencia respalda cada respue
 \chapter{Protocolo del estudio de caso en contexto agrícola}
 \chaptermark{Protocolo del estudio de caso agrícola}
 \label{anx:protocolo_agricola}
-\pendiente{Incluir el protocolo del estudio de caso en contexto agrícola: carta
-de presentación y consentimiento informado, hoja de registro por encuentro,
-protocolo de observación para los dos observadores, cuestionarios NASA-TLX y SUS,
-encuesta de cierre, guion de entrevista y los artefactos que produjo el
-equipo.}
+Este anexo presenta el protocolo del estudio de caso en contexto agrícola
+(Sección~\ref{sec:caso_agricola}), con lo que recibe quien conduce la sesión y
+con lo que sirve después para corregir y analizar lo que dejan las mesas. La
+Tabla~\ref{tab:materiales_agricola} resume los materiales.
+
+\begin{table}[htbp]
+\caption{Materiales del estudio de caso en contexto agrícola.}
+\label{tab:materiales_agricola}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}L{3.3cm} L{3.0cm} Y@{}}
+\toprule
+\textbf{Material} & \textbf{Para quién} & \textbf{Qué contiene} \\
+\midrule
+Guion minuto a minuto & Quien conduce la sesión & Qué decir y qué hacer en cada
+tramo, qué preguntas responder y cuáles no, y qué hacer si algo falla. \\
+Láminas & Proyección & La historia, el ciclo y las reglas de mesa, más unas
+láminas de respaldo para trabajar sin conexión. \\
+Cartas secretas & PO, SD, segundo SD, AN y QA & Quién es el personaje, lo que
+viene a pedir y lo que da por hecho; las cartas españolas sugieren además cómo
+hablar. \\
+Hojas de rol & Cada rol & Lo que hace en cada tramo, que en la sesión aparece
+también en el celular, tramo por tramo. \\
+Plantillas prellenadas & Cada mesa & Las nueve plantillas de la versión final,
+con la preparación de A1 a A3 ya diligenciada. \\
+Clave de corrección & Quien conduce y los autores & Lo que cree cada rol sobre
+las ocho divergencias y cuándo cuenta cada una como detectada. \\
+Medición, cuestionario y entrevista & Participantes y FR & Las preguntas de las
+Tablas~\ref{tab:medicion_agricola} y~\ref{tab:tlx_agricola} y las tres de la
+entrevista. \\
+Consentimiento y hoja de notas & Participantes y quien conduce & El
+consentimiento informado y una hoja para anotar los incidentes y las preguntas
+de contenido que se respondieron. \\
+Aplicación web y respaldo impreso & Todos & La aplicación, con una guía de una
+página para ponerla en marcha, y el mismo material en papel por si falla la
+conexión. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+La sesión sigue el cronograma de la Tabla~\ref{tab:cronograma_agricola}, que
+marca una aplicación web construida para el estudio. Los estudiantes entran
+desde el celular con un código QR, sin crear cuentas, y en cada tramo el celular
+les dice en una o dos frases qué hacer según su rol. La aplicación les entrega
+las plantillas de la versión final con lo prellenado, lanza las rondas,
+organiza el traspaso y proyecta para todas las mesas el tramo y el cronómetro.
+Al final, una herramienta llena por mesa una copia del libro de plantillas, para
+que sus fórmulas calculen las lecturas de E1 a E5. El estudio no evalúa la
+aplicación, que solo apoya la sesión. Quien conduce responde las dudas de
+procedimiento, como qué tramo sigue o dónde se escribe algo, y no las de
+contenido, como qué significa un término o qué quiere el cliente: a esas
+responde que se las pregunten al PO o al SD, o que lo decide la mesa, y las
+anota. Los autores siguen la sesión a distancia y solo resuelven fallas
+técnicas.
+
+\begin{table}[htbp]
+\caption{Cronograma de la sesión del estudio de caso en contexto agrícola.}
+\label{tab:cronograma_agricola}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}L{1.1cm} L{3.0cm} Y L{1.8cm}@{}}
+\toprule
+\textbf{Minuto} & \textbf{Tramo} & \textbf{Qué hacen las mesas} &
+\textbf{Plantilla} \\
+\midrule
+0--6 & Explicación & Escuchan la historia, el ciclo y las cuatro reglas de
+mesa. & -- \\
+6--9 & Lectura & Cada estudiante lee su carta secreta o su hoja de rol. & -- \\
+9--11 & Medición previa & Cada uno responde solo cuatro preguntas sobre el
+dominio. & Medición \\
+11--15 & Encuentro 1: apertura (A4) & El PO, el SD y el AN escriben su versión
+del problema, del alcance y del resultado esperado, y el FR marca si son
+equivalentes. & 01 (E1) \\
+15--28 & Encuentro 1: elicitación (A5.1) & El AN entrevista al cliente y
+registra cada necesidad con su fuente; en los minutos 18 y 23 se hacen las dos
+rondas de sondeo. & 03, 04 e I3 (E2) \\
+28--35 & Sin el cliente (A5.2) & El cliente escribe lo que espera de cada
+necesidad prioritaria, y el AN y el QA escriben dos o tres tarjetas críticas con
+su criterio y un ejemplo con caso límite. & 05, I2 y 06 \\
+35--45 & Encuentro 2: validación (A5.3) & El QA lee cada ejemplo, el cliente
+dice si es lo que esperaba y las divergencias se resuelven en 06. & I2 y 06 (E3
+y E4) \\
+45--51 & Cierre (A6) & El RT congela la línea base, el FR marca las evidencias y
+se hace la prueba de traspaso entre mesas. & 07 (E5) \\
+51--53 & Medición posterior & Cada uno responde de nuevo las mismas cuatro
+preguntas. & Medición \\
+53--60 & Destape y debate & Se muestran las ocho divergencias sembradas, cada
+mesa marca cuáles registró y se debate. & -- \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Las reglas de mesa son cuatro, y son lo único que se proyecta además de la
+historia y del ciclo: la carta no se muestra y lo que se sabe se cuenta
+hablando; solo existe lo que queda escrito en las plantillas; en una ronda de
+sondeo se responde solo y en silencio, y después se compara; y el mediador no
+puede ser parte del conflicto.
+
+La preparación que llega diligenciada se pensó para que ninguna divergencia
+quede resuelta de antemano. El \textit{canvas} del ciclo (01) fija como objetivo
+las tarjetas validadas de los requisitos críticos del primer ciclo, aprobadas
+por el PO, y deja fuera las plagas, las enfermedades y la tienda en línea. Su
+contexto de uso son las terrazas y los balcones, con la app en el celular del
+cliente, y a propósito no dice en qué país se usa; la restricción de que los
+textos de la app vayan en el español de España choca, también a propósito, con
+el plan del PO de vender en Argentina (T2). Como el cliente es externo y de otro
+país, y hay requisitos críticos que deciden el alcance, la forma de ejecución
+es el núcleo con la extensión de equipo distribuido, que pide una paráfrasis
+por región en la apertura. El mapa de \textit{stakeholders} (02) tiene a la
+dueña, al asesor, a la clienta (solo en las mesas de siete) y a la ficha técnica
+como fuente no humana, que se entrega a quien la pida en el celular y queda
+registrado quién la pidió. La declaración del problema (03) dice que quien
+cultiva tomates en macetas no sabe cuándo regar, cuándo poner el tutor ni cuándo
+trasplantar, y pierde plantas o cosecha poco. El glosario semilla
+(Tabla~\ref{tab:glosario_agricola}) lo escribió el asesor como lo escribe un
+experto al que todo le parece obvio, por lo que sus definiciones quedaron
+incompletas. La Tabla~\ref{tab:rondas_agricola} presenta el plan de las dos
+rondas de sondeo de I3; quien facilita puede cambiar un ítem por un término que
+haya salido en la conversación, y el cambio queda registrado.
+
+\begin{table}[htbp]
+\caption{Glosario semilla del caso Tomatera, con sus definiciones tentativas.}
+\label{tab:glosario_agricola}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{0.8\textwidth}{@{}L{3.0cm} Y L{1.4cm}@{}}
+\toprule
+\textbf{Término} & \textbf{Definición tentativa} & \textbf{¿Crítico?} \\
+\midrule
+Guía & Lo que hay que dejar en cada planta: una o dos. & Sí \\
+Plantel & Lo que trae el kit para empezar. & Sí \\
+Tutor & El apoyo de la planta. & No \\
+Sustrato seco & Cuando toca regar. & Sí \\
+Temperatura óptima & La que la planta necesita para crecer bien. & Sí \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Plan de las rondas de sondeo de I3 en el caso Tomatera.}
+\label{tab:rondas_agricola}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}L{1.4cm} L{2.6cm} L{2.6cm} Y@{}}
+\toprule
+\textbf{Ronda} & \textbf{Punto crítico} & \textbf{Técnica} & \textbf{Pregunta} \\
+\midrule
+1 (min.~18) & Guía & Paráfrasis cruzada & Explica con tus palabras qué es una
+guía en Tomatera. \\
+1 (min.~18) & Sustrato seco & Sondeo de ambigüedad & ¿Con qué humedad avisa
+Tomatera que hay que regar? Escribe un número o una señal. \\
+2 (min.~23) & Temperatura de alerta & Sondeo de ambigüedad & ¿A partir de qué
+temperatura nocturna avisa Tomatera? Escribe un número. \\
+2 (min.~23) & Plantel & Paráfrasis cruzada & Explica con tus palabras qué es un
+plantel. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+La Tabla~\ref{tab:clave_agricola} es la clave de corrección. Para cada
+divergencia dice qué cree cada rol según su carta, qué mecanismo del proceso
+debería encontrarla y qué tiene que quedar escrito para que cuente. Cada
+divergencia está en las cartas de al menos dos roles que siempre están en la
+mesa, para que no se pierda si falta alguien. La carta de la clienta, en las mesas de siete, suma lecturas a
+T4, T5 y T6 (para ella la tierra es la tierra y las ramas son ramas, y riega
+cuando ve las hojas caídas) y una necesidad sobre la luz, porque su terraza da al
+norte, pero ninguna divergencia depende de ella.
+
+{\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{xltabular}{\textwidth}{@{}L{0.6cm} Y L{2.3cm} Y@{}}
+\caption{Clave de corrección de las divergencias sembradas en el caso
+Tomatera.\label{tab:clave_agricola}}\\
+\toprule
+\textbf{Id} & \textbf{Qué cree cada rol} & \textbf{Debería encontrarla} &
+\textbf{Cuenta como detectada si} \\
+\midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\emph{Tabla~\ref{tab:clave_agricola} (continuación)}}\\
+\toprule
+\textbf{Id} & \textbf{Qué cree cada rol} & \textbf{Debería encontrarla} &
+\textbf{Cuenta como detectada si} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\emph{continúa en la página siguiente}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+T1 & PO: Tomatera riega sola, con una bomba pequeña y un depósito. AN: el
+presupuesto cubre el sensor y la app, así que Tomatera mide y avisa, y la
+persona riega. & La paráfrasis de la apertura (A4). & El bloque de apertura de 01 tiene un ``no'' y la divergencia
+está en 06, o la necesidad de riego está en conflicto en 04, y al cierre hay una
+decisión escrita con su justificación. Vale regar, solo avisar, o avisar en el
+ciclo 1 y regar en otro. \\
+\addlinespace
+T2 & SD: el semillero empieza a fines de enero y el trasplante, desde marzo o
+abril. PO: el año siguiente quiere vender en Argentina, y solo lo dice si le
+preguntan por el mercado. QA: programará los meses que diga el cliente. & Los supuestos de 04 o el ejemplo concreto de A5.3. & La
+tarjeta del calendario en 05 dice que los meses dependen del hemisferio o del
+país, o limita el alcance a España, con la decisión en 06. \\
+\addlinespace
+T3 & SD: la noche óptima va de 1 a 17~\textdegree C. PO: por debajo de
+10~\textdegree C la planta no crece, así que hay que avisar antes. QA: para
+probar la alerta necesita un solo umbral y saber qué pasa en el límite. & La ronda 2 o el caso límite de A5.3. & La
+tarjeta de la alerta de frío tiene un umbral único y un ejemplo en el límite,
+como 8~\textdegree C a las 3 de la mañana, y la diferencia entre el SD y el PO
+está en 06 con su justificación. Si la mesa pide la ficha técnica, descubre que
+la fuente se contradice, y vale anotarlo. \\
+\addlinespace
+T4 & SD: con la planta establecida hay que dejar secar el sustrato entre
+riegos, y seco es seco al tacto en la superficie. AN: seco es por debajo del
+30\,\% de humedad. QA: seco es cuando el sensor marca 0\,\%. & La ronda 1. & ``Sustrato
+seco'' queda en 03 como acordado y comprobado, con un valor o una señal medible,
+o la divergencia está en 06. Es mejor si distingue la planta recién trasplantada
+de la establecida. \\
+\addlinespace
+T5 & PO: las guías son los tallos principales, y quiere un aviso cuando una
+planta tenga más de dos. AN: en el último proyecto de Nodo Sur, las guías eran
+los tutoriales paso a paso de la app. & La ronda 1. & ``Guía'' queda en 03 como acordado y
+comprobado, con el sentido de tallo principal, o la divergencia está en 06. \\
+\addlinespace
+T6 & SD: hay que avisar cuándo poner el tutor, que es una caña o un palo, y atar
+los tallos. QA: en la app anterior de Nodo Sur, el tutor era la persona que
+acompañaba al usuario por chat. & Un chequeo de cierre de bloque o una
+paráfrasis espontánea. & ``Tutor'' tiene en 03 una definición acordada
+con el sentido de soporte físico, o la divergencia está en 06. Como no es
+crítico en el glosario semilla, prueba si la mesa lo nota sin que nada la
+empuje. \\
+\addlinespace
+T7 & SD: Tomatera se vende con planteles, plantas jóvenes de 4 o 5 hojas listas
+para trasplantar. AN: un plantel es un grupo de personas, como el plantel
+docente. QA: a las plantas jóvenes les dice plantines. & La ronda 2. & ``Plantel'' queda en 03
+como acordado y comprobado, con ``plantín'' como variante, o la divergencia está
+en 06. \\
+\addlinespace
+T8 & SD: en casa hay que darle prioridad al sabor, con variedades tradicionales,
+y no recomendar híbridos. PO: lo que vende el kit es la cosecha, y si para eso
+hay que recomendar híbridos, se recomiendan. & La necesidad en conflicto de 04 y la escalera de conflictos
+de 06. & La divergencia está en 06 con una
+vía de resolución (consenso, negociación, decisión del PO o mediación) y su
+justificación. Si se media, media el FR, porque el PO es parte del conflicto. \\
+\end{xltabular}}
+
+La medición antes y después tiene cuatro preguntas abiertas, las mismas en los
+dos momentos (Tabla~\ref{tab:medicion_agricola}). Durante la medición el celular
+oculta la carta, el glosario y la ficha técnica, y las respuestas quedan ocultas
+para la mesa hasta el final. Las categorías son las que usan los dos autores
+para codificar las respuestas por separado.
+
+\begin{table}[htbp]
+\caption{Preguntas de la medición antes y después y categorías para codificar
+las respuestas.}
+\label{tab:medicion_agricola}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}L{0.6cm} Y L{1.6cm} Y@{}}
+\toprule
+\textbf{Ítem} & \textbf{Pregunta} & \textbf{Divergencia} & \textbf{Categorías} \\
+\midrule
+1 & En Tomatera, ¿qué es una guía? & T5, en la ronda 1 & Tallo principal,
+tutorial o ayuda de la app, otra o no sabe. \\
+2 & ¿A partir de qué temperatura nocturna avisa Tomatera? Escribe un número. &
+T3, en la ronda 2 & Menos de 10, 10, de 11 a 17 u otra. \\
+3 & Cuando la tierra está seca, ¿qué hace Tomatera? & T1, fuera de las rondas &
+Riega sola, avisa, las dos cosas u otra. \\
+4 & ¿En qué mes avisa Tomatera que hay que trasplantar? & T2, fuera de las
+rondas & Marzo o abril, según el país o el hemisferio, septiembre u octubre, u
+otra. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+El cuestionario se responde después de los sesenta minutos y es anónimo. Repite
+las cinco afirmaciones de la encuesta de cierre de UniReserva
+(Sección~\ref{sec:unireserva}), valoradas de 1 a 5, agrega las seis escalas de
+NASA-TLX sin ponderar, de 0 a 100 (Tabla~\ref{tab:tlx_agricola}), y termina con
+la pregunta abierta ``¿qué sobró y qué faltó?'' y con el rol que tuvo la
+persona.
+
+\begin{table}[htbp]
+\caption[Escalas de NASA-TLX del cuestionario del caso Tomatera]{Escalas de
+NASA-TLX del cuestionario del caso Tomatera, de 0 a 100 en pasos de 5, adaptadas
+de la versión en español de Díaz Ramiro et al.~\cite{diaz2010nasatlx}.}
+\label{tab:tlx_agricola}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}L{2.9cm} Y L{3.3cm}@{}}
+\toprule
+\textbf{Escala} & \textbf{Pregunta} & \textbf{Extremos} \\
+\midrule
+Demanda mental & ¿Cuánta actividad mental y perceptiva te exigió la sesión,
+como pensar, decidir, calcular, recordar o buscar? & Muy baja a muy alta \\
+Demanda física & ¿Cuánta actividad física te exigió la sesión, como moverte o
+tocar la pantalla del celular? & Muy baja a muy alta \\
+Demanda temporal & ¿Cuánta presión de tiempo sentiste, entre el tiempo que
+necesitabas y el que tenías? & Muy baja a muy alta \\
+Rendimiento & ¿Qué tan satisfactorio te resultó tu rendimiento en la sesión? &
+Muy satisfactorio a nada satisfactorio \\
+Esfuerzo & ¿Cuánto esfuerzo mental y físico tuviste que hacer para lograr tu
+rendimiento? & Muy bajo a muy alto \\
+Nivel de frustración & ¿Cuánta inseguridad, estrés, irritación o descontento
+sentiste durante la sesión? & Muy bajo a muy alto \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Los nombres de las escalas y el sentido de cada pregunta salen de la versión en
+español de Díaz Ramiro et al.~\cite{diaz2010nasatlx}, que aplicaron el
+instrumento a 398 trabajadores de siete grupos profesionales españoles, con una
+escala de 0 a 100 en pasos de 5 y una consistencia interna de 0,69. Las
+definiciones de esa versión se pasaron a preguntas sobre la sesión, en segunda
+persona y sin marcas de género. Los extremos siguen los del instrumento
+original~\cite{hart1988nasa}, en el que el rendimiento va de bueno a malo, así
+que en las seis escalas un valor más alto indica más carga. El cuestionario
+omite la fase de ponderación, que pide quince comparaciones por pares entre las
+dimensiones, por dos razones. La primera es que alargaría un cuestionario que
+debe ser corto, y la segunda, que López Núñez et
+al.~\cite{lopez2010ponderacion} encontraron una correlación alta entre las
+puntuaciones ponderadas y las no ponderadas, lo que indica que la ponderación
+no es necesaria.
+
+La entrevista grupal con los FR dura cinco minutos, la conduce quien condujo la
+sesión y no se graba; sus respuestas quedan en las notas. Sus tres preguntas son
+en qué parte del ciclo supieron qué hacer y en cuál se perdieron, si las rondas
+de sondeo les mostraron algo que no habrían visto conversando, y qué cambiarían
+para usar el proceso en un proyecto real.
+
+El consentimiento informado explica que la actividad es parte de un trabajo de
+grado sobre THUNDERS~Master, que participar es voluntario y no afecta la nota,
+que la aplicación registra lo que cada persona escribe y marca con un
+identificador anónimo, sin audio ni video, y que el apodo no se incluye en los
+datos que se analizan. También dice que se puede dejar de participar en
+cualquier momento y que los resultados se presentan por mesa o en conjunto.
+
+\pendiente{Incluir la versión final del consentimiento, ajustada a las normas de
+la universidad donde se realiza la sesión, y los artefactos que produjo cada
+mesa.}
 
 \end{document}

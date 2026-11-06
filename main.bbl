@@ -517,18 +517,18 @@ Barbara Kitchenham and Stuart Charters.
 \newblock Technical Report EBSE-2007-01, Keele University and Durham
   University, 2007.
 
-\bibitem{brooke1996sus}
-John Brooke.
-\newblock Sus: A quick and dirty usability scale.
-\newblock In {\em Usability Evaluation in Industry}, pages 189--194. Taylor and
-  Francis, 1996.
-
 \bibitem{hart1988nasa}
 Sandra~G. Hart and Lowell~E. Staveland.
 \newblock Development of nasa-tlx (task load index): Results of empirical and
   theoretical research.
 \newblock In {\em Human Mental Workload}, volume~52 of {\em Advances in
   Psychology}, pages 139--183. North-Holland, 1988.
+
+\bibitem{brooke1996sus}
+John Brooke.
+\newblock Sus: A quick and dirty usability scale.
+\newblock In {\em Usability Evaluation in Industry}, pages 189--194. Taylor and
+  Francis, 1996.
 
 \bibitem{braun2006thematic}
 Virginia Braun and Victoria Clarke.
@@ -554,6 +554,21 @@ Sebastian Deterding, Dan Dixon, Rilla Khaled, and Lennart Nacke.
 \newblock In {\em Proceedings of the 15th International Academic MindTrek
   Conference}, pages 9--15. ACM, 2011.
 
+\bibitem{verdeesvida_tomates}
+{Verde es Vida}.
+\newblock Cultivar tomates en maceta.
+\newblock
+  \url{https://www.verdeesvida.es/huerto_3/cultivar_tomates_en_maceta_34}.
+\newblock Accessed: Nov. 2, 2026.
+
+\bibitem{diaz2010nasatlx}
+Eva D{\'i}az~Ramiro, Susana Rubio~Valdehita, Jes{\'u}s Mart{\'i}n~Garc{\'i}a,
+  and Lourdes Luce{\~n}o~Moreno.
+\newblock Estudio psicom{\'e}trico del {\'i}ndice de carga mental {NASA-TLX}
+  con una muestra de trabajadores espa{\~n}oles.
+\newblock {\em Revista de Psicolog{\'i}a del Trabajo y de las Organizaciones},
+  26(3):191--199, 2010.
+
 \bibitem{hayashi2024}
 Masami Hayashi, Kaori Hayashi, Yohei Sonobe, Hiroyuki Sato, and Hironori
   Takeuchi.
@@ -564,5 +579,13 @@ Masami Hayashi, Kaori Hayashi, Yohei Sonobe, Hiroyuki Sato, and Hironori
 Ezeldin Sherif, Waleed Helmy, and Galal~Hassan Galal-Edeen.
 \newblock Proposed framework to manage non-functional requirements in agile.
 \newblock {\em IEEE Access}, 11:53995--54005, 2023.
+
+\bibitem{lopez2010ponderacion}
+Mar{\'i}a~Inmaculada L{\'o}pez~N{\'u}{\~n}ez, Susana Rubio~Valdehita, and
+  Lourdes Luce{\~n}o~Moreno.
+\newblock Fase de ponderaci{\'o}n del {NASA-TLX}: ?`un paso innecesario en la
+  aplicaci{\'o}n del instrumento?
+\newblock {\em EduPsykh{\'e}: Revista de Psicolog{\'i}a y Educaci{\'o}n},
+  9(2):159--175, 2010.
 
 \end{thebibliography}
