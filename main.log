@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.25)  3 NOV 2026 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.25)  8 NOV 2026 21:02
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**"c:/Users/ASUS/Documents/THUNDERS Master/Monografia Latex/main.tex"
+(c:/Users/ASUS/Documents/THUNDERS Master/Monografia Latex/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-04-28>
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -23,37 +24,25 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaT
-eX and XeLaTeX
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/05/20 v26.8 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count285
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2084.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2086.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2088.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2089.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2090.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2092.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2117.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2084.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2086.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2088.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2089.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2090.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2092.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2117.
 \U@D=\dimen151
 \l@unhyphenated=\language79
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count286
 Package babel Info: Configuration files are deprecated, as
@@ -64,18 +53,11 @@ Package babel Info: Configuration files are deprecated, as
 * Local config file bblopts.cfg used
 *
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-
-english.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-
-spanish.tex)
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex)
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 4356.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ld
-f
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -86,9 +68,7 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 )
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 4356.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ld
-f
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks19
 \es@quotdepth=\count287
@@ -97,10 +77,8 @@ Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
-LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
-on input line 12.
-LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
- on input line 12.
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 12.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 12.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -135,11 +113,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -147,18 +123,14 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count288
@@ -173,34 +145,26 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen158
 \Gm@layoutvoffset=\dimen159
 \Gm@dimlist=\toks22
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
-g
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen160
 \Gin@req@width=\dimen161
 ) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count291
@@ -208,16 +172,13 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip52
 \rot@float@box=\box53
 \rot@mess@toks=\toks23
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -229,8 +190,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen162
 \ar@mcellbox=\box54
@@ -243,44 +203,22 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \everycr=\toks25
 \minrowclearance=\skip55
 \rownum=\count292
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
-ty
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-common.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks26
 \pgfutil@tempdima=\dimen164
 \pgfutil@tempdimb=\dimen165
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
-latex.def
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box56
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
-ode.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
-ty
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
-ty
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
-code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks27
 \pgfkeys@temptoks=\toks28
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
-ibraryfiltered.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks29
 ))
 \pgf@x=\dimen166
@@ -303,76 +241,32 @@ ibraryfiltered.code.tex
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
 \pgf@sys@id@count=\count297
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
-g
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
--pdftex.def
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
--common-pdf.def
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-softpath.code.tex
+))) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count298
 \pgfsyssoftpath@bigbuffer@items=\count299
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
-protocol.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-.code.tex
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
-tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
-ode.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
-.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen176
 \pgfmath@count=\count300
 \pgfmath@box=\box57
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.basic.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.trigonometric.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.random.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.comparison.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.base.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.round.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.misc.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
-ons.integerarithmetics.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
-ode.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
-code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count301
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
-ex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-points.code.tex
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen177
 \pgf@picmaxx=\dimen178
@@ -388,130 +282,75 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen188
 \pgf@zx=\dimen189
 \pgf@zy=\dimen190
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathconstruct.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen191
 \pgf@path@lasty=\dimen192
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathusage.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen193
 \pgf@shorten@start@additional=\dimen194
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-scopes.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
 \pgf@picture@serial@count=\count302
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-graphicstate.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen195
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-transformations.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen196
 \pgf@pt@y=\dimen197
 \pgf@pt@temp=\dimen198
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-quick.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-objects.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-pathprocessing.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-arrows.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowsep=\dimen199
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-shade.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen256
 \pgf@sys@shading@range@num=\count303
 \pgf@shadingcount=\count304
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-image.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-external.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box61
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-layers.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-transparency.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-patterns.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
-rdf.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
-hapes.code.tex
+))) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box62
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
-lot.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
-p-version-0-65.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen257
 \pgf@nodesepend=\dimen258
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
-p-version-1-18.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
-y
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
-code.tex))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
-tex))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
-ode.tex
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen259
 \pgffor@skip=\dimen260
 \pgffor@stack=\toks36
 \pgffor@toks=\toks37
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-\tikz.code.tex
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
-ryplothandlers.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count305
 \pgfplotmarksize=\dimen261
@@ -532,64 +371,38 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count307
 \tikznumberofcurrentchild=\count308
 \tikz@fig@count=\count309
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
-atrix.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfmatrixcurrentrow=\count310
 \pgfmatrixcurrentcolumn=\count311
 \pgf@matrix@numberofcolumns=\count312
 )
 \tikz@expandcount=\count313
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarytopaths.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
-ryarrows.meta.code.tex
+))) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfarrowinset=\dimen270
 \pgfarrowlength=\dimen271
 \pgfarrowwidth=\dimen272
 \pgfarrowlinewidth=\dimen273
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarypositioning.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibraryshapes.geometric.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
-gflibraryshapes.geometric.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarycalc.code.tex
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibraryfit.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarybackgrounds.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@layerbox@background=\box67
 \pgf@layerboxsaved@background=\box68
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarybabel.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybabel.code.tex
 File: tikzlibrarybabel.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarydecorations.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduled
-ecorations.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen274
 \pgfdecoratedremainingdistance=\dimen275
 \pgfdecoratedinputsegmentcompleteddistance=\dimen276
@@ -600,101 +413,29 @@ ecorations.code.tex
 \pgfdecorationsegmentlength=\dimen280
 )
 \tikz@lib@dec@box=\box69
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorati
-ons\pgflibrarydecorations.pathreplacing.code.tex))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revi
-sion.tex)
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code
-.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.
-code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks38
 \t@pgfplots@tokb=\toks39
 \t@pgfplots@tokc=\toks40
 \pgfplots@tmpa=\dimen281
 \c@pgfplots@coordindex=\count315
 \c@pgfplots@scanlineindex=\count316
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotss
-ysgeneric.code.tex))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplots
-library.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompati
-b\pgfplotsoldpgfsupp_loader.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
-ryfpu.code.tex)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks41
 \t@pgf@tokb=\toks42
 \t@pgf@tokc=\toks43
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompati
-b\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
-util.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
-\pgfplotsliststructure.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
-\pgfplotsliststructureext.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
-\pgfplotsarray.code.tex
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count317
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
-\pgfplotsmatrix.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfp
-lotstableshared.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count318
 \t@pgfplotstable@a=\toks44
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
-\pgfplotsdeque.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
-binary.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
-binary.data.code.tex))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
-util.verb.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibra
-rypgfplots.surfshading.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count319
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrar
-ypgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
-colormap.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
-color.code.tex))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstack
-edplots.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsploth
-andlers.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshp
-lothandler.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshp
-lotimage.code.tex)))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scal
-ing.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoord
-processing.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.erro
-rbars.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mark
-ers.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks
-.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.path
-s.code.tex)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorati
-ons\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibr
-arypgfplots.contourlua.code.tex)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count320
 \pgfplots@xmin@reg=\dimen282
 \pgfplots@xmax@reg=\dimen283
@@ -702,16 +443,11 @@ arypgfplots.contourlua.code.tex)
 \pgfplots@ymax@reg=\dimen285
 \pgfplots@zmin@reg=\dimen286
 \pgfplots@zmax@reg=\dimen287
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibraryplotmarks.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
-ryplotmarks.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+))) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen288
 \lightrulewidth=\dimen289
@@ -730,8 +466,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count323
 \@lastruleclass=\count324
 \@thisrulewidth=\dimen300
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen301
 \TX@old@table=\dimen302
@@ -740,8 +475,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen305
 \TX@cols=\count325
 \TX@ftn=\toks45
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip56
 \LTright=\skip57
@@ -759,18 +493,14 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \c@LT@tables=\count329
 \c@LT@chunks=\count330
 \LT@p@ftn=\toks46
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
 Package: xltabular 2025/02/28 v0.2i `xltabular' package (hv,RN)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count331
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
 Package: ltablex 2014/08/13 v1.1 Modified tabularx
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip60
 \enit@outerparindent=\dimen307
@@ -778,10 +508,8 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box75
 \enit@count@id=\count332
 \enitdp@description=\count333
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-
 \f@nch@headwidth=\skip61
 \f@nch@offset@elh=\skip62
 \f@nch@offset@erh=\skip63
@@ -797,8 +525,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip73
 \f@nch@widthR=\skip74
 \@temptokenb=\toks48
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box76
 \beforetitleunit=\skip75
@@ -809,21 +536,16 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen310
 \titlewidthlast=\dimen311
 \titlewidthfirst=\dimen312
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
 Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks50
 \verbatim@line=\toks51
 \verbatim@in@stream=\read4
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.st
-y
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks52
@@ -841,58 +563,39 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box83
 \tcb@temp=\box84
 \tcb@temp=\box85
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code
-.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
 \c@tcbrastercolumn=\count337
 \c@tcbrasterrow=\count338
 \c@tcbrasternum=\count339
 \c@tcbraster=\count340
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.
-tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.
-sty
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.sty
 Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill
-.image.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
 \l__tikzfill_tmpa_dim=\dimen314
 \l__tikzfill_tmpb_dim=\dimen315
 \l__tikzfill_img_box=\box86
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw
-.code.tex
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.c
-ode.tex
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ))
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 \tcb@testbox=\box87
 \tcb@totalupperbox=\box88
 \tcb@totallowerbox=\box89
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.
-tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.co
-de.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.code.tex
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
@@ -901,17 +604,14 @@ Package: amsmath 2025/07/09 v2.17z AMS math features
 For additional information on amsmath, use the `?' option.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks53
 \ex@=\dimen316
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen317
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count341
@@ -961,21 +661,15 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks57
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.cod
-e.tex
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
 \tcbfitdim=\dimen325
 \tcb@lowerfitdim=\dimen326
 \tcb@upperfitdim=\dimen327
 \tcb@cur@hbadness=\count353
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf
-8.code.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8.code.tex
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.co
-de.tex
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count354
@@ -990,17 +684,14 @@ Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
 \lst@newlines=\count358
 \lst@lineno=\count359
 \lst@maxwidth=\dimen331
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count360
 \lst@skipnumbers=\count361
 \lst@framebox=\box93
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
@@ -1011,84 +702,50 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscor
-e.code.tex
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore.code.tex
 Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.
-code.tex
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
 Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
 )
 \c@tcblisting=\count362
-))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsutf
-8.sty
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
-y
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
-y
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-))))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.co
-de.tex
+)))) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.code.tex
 Library (tcolorbox): 'tcbexternal.code.tex' version '6.9.0'
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.co
-de.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.code.tex
 Library (tcolorbox): 'tcbmagazine.code.tex' version '6.9.0'
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.co
-de.tex
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.code.tex
 Library (tcolorbox): 'tcbvignette.code.tex' version '6.9.0'
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
-/libraries\tikzlibraryfadings.code.tex
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
-ryfadings.code.tex
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code
-.tex
+))) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code.tex
 Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
 )) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
-estring.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count363
@@ -1100,13 +757,11 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count366
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -1119,21 +774,16 @@ Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
 \c@Hy@tempcnt=\count367
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4805.
 \XeTeXLinkMargin=\dimen333
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
-sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count368
 \Field@Width=\dimen334
@@ -1150,33 +800,24 @@ Package hyperref Info: PDF/A mode OFF on input line 6121.
 \c@Hfootnote=\count371
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
 \Fld@listcount=\count372
 \c@bookmark@seq@number=\count373
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
-check.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
-unter.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip80
 )
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 90.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 12
-7.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 127.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
-ex.def
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count374
 ) (main.aux
@@ -1244,9 +885,7 @@ LaTeX Info: Redefining \% on input line 127.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
-i
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count375
 \scratchdimen=\dimen336
@@ -1259,19 +898,13 @@ i
 \MPnumerator=\count379
 \makeMPintoPDFobject=\count380
 \everyMPtoPDFconversion=\toks60
-)
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
-se.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
-g
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \c@lstlisting=\count381
 Package hyperref Info: Link coloring OFF on input line 127.
@@ -1281,29 +914,21 @@ Package hyperref Info: Link coloring OFF on input line 127.
 
  [1
 
-{C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ASUS/
-AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] [2]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-71.
+{C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] [2]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 171.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-71.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 171.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-171.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 171.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-171.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 171.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1312,19 +937,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 171.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 171.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 171
-.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 171.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 171
-.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 171.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
+) [1
 
 ] [2
 
@@ -1423,383 +1043,367 @@ LaTeX Info: Redefining \% on input line 273.
  [18]
 Cap\'{\i }tulo 1.
 
-Overfull \hbox (1.60545pt too wide) in paragraph at lines 288--288
- []\T1/lmr/m/n/6 Planteamiento 
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.320 
+l.316 
        [1
 
 
 ]
-LaTeX Info: Redefining \. on input line 351.
-LaTeX Info: Redefining \% on input line 351.
+LaTeX Info: Redefining \. on input line 356.
+LaTeX Info: Redefining \% on input line 356.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.351 L
-       as tres iteraciones siguientes respondieron a esos resultados con un ...
-[2]
-LaTeX Info: Redefining \. on input line 393.
-LaTeX Info: Redefining \% on input line 393.
+l.356 
+       [2]
+LaTeX Info: Redefining \. on input line 400.
+LaTeX Info: Redefining \% on input line 400.
  [3]
-LaTeX Info: Redefining \. on input line 437.
-LaTeX Info: Redefining \% on input line 437.
+LaTeX Info: Redefining \. on input line 448.
+LaTeX Info: Redefining \% on input line 448.
  [4]
-LaTeX Info: Redefining \. on input line 480.
-LaTeX Info: Redefining \% on input line 480.
+LaTeX Info: Redefining \. on input line 490.
+LaTeX Info: Redefining \% on input line 490.
  [5]
-LaTeX Info: Redefining \. on input line 533.
-LaTeX Info: Redefining \% on input line 533.
+LaTeX Info: Redefining \. on input line 526.
+LaTeX Info: Redefining \% on input line 526.
  [6]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 540.
+(Font)              <10> on input line 533.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 540.
+(Font)              <7> on input line 533.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 540.
-LaTeX Info: Redefining \. on input line 562.
-LaTeX Info: Redefining \% on input line 562.
+(Font)              <5> on input line 533.
+LaTeX Info: Redefining \. on input line 575.
+LaTeX Info: Redefining \% on input line 575.
  [7]
-LaTeX Info: Redefining \. on input line 611.
-LaTeX Info: Redefining \% on input line 611.
+LaTeX Info: Redefining \. on input line 682.
+LaTeX Info: Redefining \% on input line 682.
  [8]
-LaTeX Info: Redefining \. on input line 692.
-LaTeX Info: Redefining \% on input line 692.
+LaTeX Info: Redefining \. on input line 689.
+LaTeX Info: Redefining \% on input line 689.
  [9]
-LaTeX Info: Redefining \. on input line 729.
-LaTeX Info: Redefining \% on input line 729.
+LaTeX Info: Redefining \. on input line 738.
+LaTeX Info: Redefining \% on input line 738.
  [10]
-LaTeX Info: Redefining \. on input line 763.
-LaTeX Info: Redefining \% on input line 763.
+LaTeX Info: Redefining \. on input line 752.
+LaTeX Info: Redefining \% on input line 752.
  [11]
 Cap\'{\i }tulo 2.
 [12
 
 ]
-LaTeX Info: Redefining \. on input line 848.
-LaTeX Info: Redefining \% on input line 848.
+LaTeX Info: Redefining \. on input line 837.
+LaTeX Info: Redefining \% on input line 837.
  [13]
-LaTeX Info: Redefining \. on input line 888.
-LaTeX Info: Redefining \% on input line 888.
+LaTeX Info: Redefining \. on input line 877.
+LaTeX Info: Redefining \% on input line 877.
  [14]
-LaTeX Info: Redefining \. on input line 933.
-LaTeX Info: Redefining \% on input line 933.
+LaTeX Info: Redefining \. on input line 922.
+LaTeX Info: Redefining \% on input line 922.
  [15]
-LaTeX Info: Redefining \. on input line 993.
-LaTeX Info: Redefining \% on input line 993.
+LaTeX Info: Redefining \. on input line 982.
+LaTeX Info: Redefining \% on input line 982.
  [16]
-LaTeX Info: Redefining \. on input line 1031.
-LaTeX Info: Redefining \% on input line 1031.
+LaTeX Info: Redefining \. on input line 1011.
+LaTeX Info: Redefining \% on input line 1011.
  [17]
-LaTeX Info: Redefining \. on input line 1063.
-LaTeX Info: Redefining \% on input line 1063.
+LaTeX Info: Redefining \. on input line 1058.
+LaTeX Info: Redefining \% on input line 1058.
  [18]
-LaTeX Info: Redefining \. on input line 1118.
-LaTeX Info: Redefining \% on input line 1118.
+LaTeX Info: Redefining \. on input line 1098.
+LaTeX Info: Redefining \% on input line 1098.
  [19]
-LaTeX Info: Redefining \. on input line 1152.
-LaTeX Info: Redefining \% on input line 1152.
+LaTeX Info: Redefining \. on input line 1141.
+LaTeX Info: Redefining \% on input line 1141.
  [20]
-LaTeX Info: Redefining \. on input line 1210.
-LaTeX Info: Redefining \% on input line 1210.
+LaTeX Info: Redefining \. on input line 1206.
+LaTeX Info: Redefining \% on input line 1206.
  [21]
-LaTeX Info: Redefining \. on input line 1268.
-LaTeX Info: Redefining \% on input line 1268.
+LaTeX Info: Redefining \. on input line 1264.
+LaTeX Info: Redefining \% on input line 1264.
  [22]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-287.
-
-(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1283.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \. on input line 1294.
-LaTeX Info: Redefining \% on input line 1294.
+LaTeX Info: Redefining \. on input line 1290.
+LaTeX Info: Redefining \% on input line 1290.
  [23]
-LaTeX Info: Redefining \. on input line 1334.
-LaTeX Info: Redefining \% on input line 1334.
-
-[24]
-LaTeX Info: Redefining \. on input line 1399.
-LaTeX Info: Redefining \% on input line 1399.
+LaTeX Info: Redefining \. on input line 1330.
+LaTeX Info: Redefining \% on input line 1330.
+ [24]
+LaTeX Info: Redefining \. on input line 1395.
+LaTeX Info: Redefining \% on input line 1395.
  [25]
-LaTeX Info: Redefining \. on input line 1457.
-LaTeX Info: Redefining \% on input line 1457.
+LaTeX Info: Redefining \. on input line 1453.
+LaTeX Info: Redefining \% on input line 1453.
  [26]
-LaTeX Info: Redefining \. on input line 1497.
-LaTeX Info: Redefining \% on input line 1497.
+LaTeX Info: Redefining \. on input line 1493.
+LaTeX Info: Redefining \% on input line 1493.
  [27]
-LaTeX Info: Redefining \. on input line 1534.
-LaTeX Info: Redefining \% on input line 1534.
+LaTeX Info: Redefining \. on input line 1530.
+LaTeX Info: Redefining \% on input line 1530.
  [28]
-LaTeX Info: Redefining \. on input line 1629.
-LaTeX Info: Redefining \% on input line 1629.
+LaTeX Info: Redefining \. on input line 1625.
+LaTeX Info: Redefining \% on input line 1625.
  [29]
-LaTeX Info: Redefining \. on input line 1629.
-LaTeX Info: Redefining \% on input line 1629.
+LaTeX Info: Redefining \. on input line 1625.
+LaTeX Info: Redefining \% on input line 1625.
  [30]
-LaTeX Info: Redefining \. on input line 1690.
-LaTeX Info: Redefining \% on input line 1690.
+LaTeX Info: Redefining \. on input line 1686.
+LaTeX Info: Redefining \% on input line 1686.
  [31]
-LaTeX Info: Redefining \. on input line 1690.
-LaTeX Info: Redefining \% on input line 1690.
+LaTeX Info: Redefining \. on input line 1686.
+LaTeX Info: Redefining \% on input line 1686.
  [32]
 Cap\'{\i }tulo 3.
 
-Overfull \hbox (54.37346pt too wide) in paragraph at lines 1709--1721
-[]\T1/lmr/m/n/12 La ca-rac-te-ri-za-ción de las tres ac-ti-vi-da-des to-ma co-m
-o ba-se la nor-ma ISO/IEC/IEEE 29148:2018 [[]],
+Overfull \hbox (54.37346pt too wide) in paragraph at lines 1705--1717
+[]\T1/lmr/m/n/12 La ca-rac-te-ri-za-ción de las tres ac-ti-vi-da-des to-ma co-mo ba-se la nor-ma ISO/IEC/IEEE 29148:2018 [[]],
  []
 
 [33
 
 ]
-LaTeX Info: Redefining \. on input line 1783.
-LaTeX Info: Redefining \% on input line 1783.
+LaTeX Info: Redefining \. on input line 1779.
+LaTeX Info: Redefining \% on input line 1779.
  [34]
-LaTeX Info: Redefining \. on input line 1832.
-LaTeX Info: Redefining \% on input line 1832.
+LaTeX Info: Redefining \. on input line 1828.
+LaTeX Info: Redefining \% on input line 1828.
  [35]
-LaTeX Info: Redefining \. on input line 1874.
-LaTeX Info: Redefining \% on input line 1874.
+LaTeX Info: Redefining \. on input line 1870.
+LaTeX Info: Redefining \% on input line 1870.
  [36]
-LaTeX Info: Redefining \. on input line 1953.
-LaTeX Info: Redefining \% on input line 1953.
+LaTeX Info: Redefining \. on input line 1949.
+LaTeX Info: Redefining \% on input line 1949.
  [37]
-LaTeX Info: Redefining \. on input line 1969.
-LaTeX Info: Redefining \% on input line 1969.
+LaTeX Info: Redefining \. on input line 1965.
+LaTeX Info: Redefining \% on input line 1965.
  [38]
-LaTeX Info: Redefining \. on input line 2087.
-LaTeX Info: Redefining \% on input line 2087.
- [39{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.e
-nc}]
-LaTeX Info: Redefining \. on input line 2123.
-LaTeX Info: Redefining \% on input line 2123.
+LaTeX Info: Redefining \. on input line 2083.
+LaTeX Info: Redefining \% on input line 2083.
+ [39{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+LaTeX Info: Redefining \. on input line 2119.
+LaTeX Info: Redefining \% on input line 2119.
  [40]
-LaTeX Info: Redefining \. on input line 2165.
-LaTeX Info: Redefining \% on input line 2165.
+LaTeX Info: Redefining \. on input line 2161.
+LaTeX Info: Redefining \% on input line 2161.
  [41]
-LaTeX Info: Redefining \. on input line 2250.
-LaTeX Info: Redefining \% on input line 2250.
+LaTeX Info: Redefining \. on input line 2246.
+LaTeX Info: Redefining \% on input line 2246.
  [42]
-LaTeX Info: Redefining \. on input line 2265.
-LaTeX Info: Redefining \% on input line 2265.
+LaTeX Info: Redefining \. on input line 2261.
+LaTeX Info: Redefining \% on input line 2261.
  [43]
-LaTeX Info: Redefining \. on input line 2308.
-LaTeX Info: Redefining \% on input line 2308.
+LaTeX Info: Redefining \. on input line 2304.
+LaTeX Info: Redefining \% on input line 2304.
  [44]
-LaTeX Info: Redefining \. on input line 2397.
-LaTeX Info: Redefining \% on input line 2397.
+LaTeX Info: Redefining \. on input line 2393.
+LaTeX Info: Redefining \% on input line 2393.
  [45]
-LaTeX Info: Redefining \. on input line 2397.
-LaTeX Info: Redefining \% on input line 2397.
+LaTeX Info: Redefining \. on input line 2393.
+LaTeX Info: Redefining \% on input line 2393.
  [46]
 Cap\'{\i }tulo 4.
 [47
 
 ]
-Underfull \hbox (badness 1377) in paragraph at lines 2466--2466
+Underfull \hbox (badness 1377) in paragraph at lines 2462--2462
  [][]\T1/lmr/m/n/6 resultados y
  []
 
-LaTeX Info: Redefining \. on input line 2541.
-LaTeX Info: Redefining \% on input line 2541.
+LaTeX Info: Redefining \. on input line 2537.
+LaTeX Info: Redefining \% on input line 2537.
 [48]
-LaTeX Info: Redefining \. on input line 2541.
-LaTeX Info: Redefining \% on input line 2541.
+LaTeX Info: Redefining \. on input line 2537.
+LaTeX Info: Redefining \% on input line 2537.
  [49]
-Underfull \hbox (badness 1418) in paragraph at lines 2571--2573
-   []\T1/lmr/m/n/12 RM-08 Tra-za-bi-li-dad mí-ni-ma.[] Man-te-ner los en-la-ces
- \T1/lmr/m/it/12 sta-kehol-der\T1/lmr/m/n/12 --necesidad--requisito--
+Underfull \hbox (badness 1418) in paragraph at lines 2567--2569
+   []\T1/lmr/m/n/12 RM-08 Tra-za-bi-li-dad mí-ni-ma.[] Man-te-ner los en-la-ces \T1/lmr/m/it/12 sta-kehol-der\T1/lmr/m/n/12 --necesidad--requisito--
  []
 
-LaTeX Info: Redefining \. on input line 2587.
-LaTeX Info: Redefining \% on input line 2587.
+LaTeX Info: Redefining \. on input line 2583.
+LaTeX Info: Redefining \% on input line 2583.
 [50]
-LaTeX Info: Redefining \. on input line 2636.
-LaTeX Info: Redefining \% on input line 2636.
+LaTeX Info: Redefining \. on input line 2632.
+LaTeX Info: Redefining \% on input line 2632.
  [51]
-LaTeX Info: Redefining \. on input line 2669.
-LaTeX Info: Redefining \% on input line 2669.
+LaTeX Info: Redefining \. on input line 2665.
+LaTeX Info: Redefining \% on input line 2665.
  [52]
-Overfull \hbox (1.53207pt too wide) in paragraph at lines 2719--2719
+Overfull \hbox (1.53207pt too wide) in paragraph at lines 2715--2715
  []\T1/lmr/bx/n/8 Construir[] 
  []
 
-LaTeX Info: Redefining \. on input line 2794.
-LaTeX Info: Redefining \% on input line 2794.
+LaTeX Info: Redefining \. on input line 2790.
+LaTeX Info: Redefining \% on input line 2790.
 [53]
-LaTeX Info: Redefining \. on input line 2794.
-LaTeX Info: Redefining \% on input line 2794.
+LaTeX Info: Redefining \. on input line 2790.
+LaTeX Info: Redefining \% on input line 2790.
  [54]
-Underfull \hbox (badness 1910) in paragraph at lines 2829--2829
+Underfull \hbox (badness 1910) in paragraph at lines 2825--2825
 [][]\T1/lmr/m/n/8 Tres evi-den-cias se cum-plían con un 
  []
 
-LaTeX Info: Redefining \. on input line 2856.
-LaTeX Info: Redefining \% on input line 2856.
+LaTeX Info: Redefining \. on input line 2852.
+LaTeX Info: Redefining \% on input line 2852.
 [55]
-LaTeX Info: Redefining \. on input line 2901.
-LaTeX Info: Redefining \% on input line 2901.
+LaTeX Info: Redefining \. on input line 2897.
+LaTeX Info: Redefining \% on input line 2897.
  [56]
-LaTeX Info: Redefining \. on input line 2937.
-LaTeX Info: Redefining \% on input line 2937.
+LaTeX Info: Redefining \. on input line 2933.
+LaTeX Info: Redefining \% on input line 2933.
  [57]
-LaTeX Info: Redefining \. on input line 2982.
-LaTeX Info: Redefining \% on input line 2982.
+LaTeX Info: Redefining \. on input line 2978.
+LaTeX Info: Redefining \% on input line 2978.
  [58]
-LaTeX Info: Redefining \. on input line 3032.
-LaTeX Info: Redefining \% on input line 3032.
+LaTeX Info: Redefining \. on input line 3028.
+LaTeX Info: Redefining \% on input line 3028.
  [59]
 Cap\'{\i }tulo 5.
 [60
 
 ]
-LaTeX Info: Redefining \. on input line 3147.
-LaTeX Info: Redefining \% on input line 3147.
+LaTeX Info: Redefining \. on input line 3143.
+LaTeX Info: Redefining \% on input line 3143.
  [61]
-LaTeX Info: Redefining \. on input line 3193.
-LaTeX Info: Redefining \% on input line 3193.
+LaTeX Info: Redefining \. on input line 3189.
+LaTeX Info: Redefining \% on input line 3189.
  [62]
-LaTeX Info: Redefining \. on input line 3236.
-LaTeX Info: Redefining \% on input line 3236.
+LaTeX Info: Redefining \. on input line 3232.
+LaTeX Info: Redefining \% on input line 3232.
  [63]
-LaTeX Info: Redefining \. on input line 3373.
-LaTeX Info: Redefining \% on input line 3373.
+LaTeX Info: Redefining \. on input line 3369.
+LaTeX Info: Redefining \% on input line 3369.
  [64]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 3373.
-LaTeX Info: Redefining \% on input line 3373.
+LaTeX Info: Redefining \. on input line 3369.
+LaTeX Info: Redefining \% on input line 3369.
  [65]
-LaTeX Info: Redefining \. on input line 3383.
-LaTeX Info: Redefining \% on input line 3383.
+LaTeX Info: Redefining \. on input line 3379.
+LaTeX Info: Redefining \% on input line 3379.
  [66]
 <figures/BPMN_final_principal.pdf, id=2287, 1445.4pt x 1094.89055pt>
 File: figures/BPMN_final_principal.pdf Graphic file (type pdf)
 <use figures/BPMN_final_principal.pdf>
-Package pdftex.def Info: figures/BPMN_final_principal.pdf  used on input line 3
-386.
+Package pdftex.def Info: figures/BPMN_final_principal.pdf  used on input line 3382.
 (pdftex.def)             Requested size: 652.69566pt x 479.00612pt.
 <figures/BPMN_final_A5.pdf, id=2289, 1445.4pt x 1105.73097pt>
 File: figures/BPMN_final_A5.pdf Graphic file (type pdf)
 <use figures/BPMN_final_A5.pdf>
-Package pdftex.def Info: figures/BPMN_final_A5.pdf  used on input line 3393.
+Package pdftex.def Info: figures/BPMN_final_A5.pdf  used on input line 3389.
 (pdftex.def)             Requested size: 652.69566pt x 482.08826pt.
-LaTeX Info: Redefining \. on input line 3457.
-LaTeX Info: Redefining \% on input line 3457.
+LaTeX Info: Redefining \. on input line 3453.
+LaTeX Info: Redefining \% on input line 3453.
  [67]
-LaTeX Info: Redefining \. on input line 3457.
-LaTeX Info: Redefining \% on input line 3457.
+LaTeX Info: Redefining \. on input line 3453.
+LaTeX Info: Redefining \% on input line 3453.
  [68 <./figures/BPMN_final_principal.pdf>]
-LaTeX Info: Redefining \. on input line 3457.
-LaTeX Info: Redefining \% on input line 3457.
+LaTeX Info: Redefining \. on input line 3453.
+LaTeX Info: Redefining \% on input line 3453.
  [69 <./figures/BPMN_final_A5.pdf>]
-LaTeX Info: Redefining \. on input line 3525.
-LaTeX Info: Redefining \% on input line 3525.
+LaTeX Info: Redefining \. on input line 3521.
+LaTeX Info: Redefining \% on input line 3521.
  [70]
-LaTeX Info: Redefining \. on input line 3560.
-LaTeX Info: Redefining \% on input line 3560.
+LaTeX Info: Redefining \. on input line 3556.
+LaTeX Info: Redefining \% on input line 3556.
  [71]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 3632.
-LaTeX Info: Redefining \% on input line 3632.
+LaTeX Info: Redefining \. on input line 3628.
+LaTeX Info: Redefining \% on input line 3628.
  [72]
-LaTeX Info: Redefining \. on input line 3669.
-LaTeX Info: Redefining \% on input line 3669.
+LaTeX Info: Redefining \. on input line 3665.
+LaTeX Info: Redefining \% on input line 3665.
  [73]
-LaTeX Info: Redefining \. on input line 3719.
-LaTeX Info: Redefining \% on input line 3719.
+LaTeX Info: Redefining \. on input line 3715.
+LaTeX Info: Redefining \% on input line 3715.
  [74]
-LaTeX Info: Redefining \. on input line 3759.
-LaTeX Info: Redefining \% on input line 3759.
+LaTeX Info: Redefining \. on input line 3755.
+LaTeX Info: Redefining \% on input line 3755.
  [75]
 Cap\'{\i }tulo 6.
 
-Overfull \hbox (2.74057pt too wide) in paragraph at lines 3775--3775
+Overfull \hbox (2.74057pt too wide) in paragraph at lines 3771--3771
  \T1/lmr/m/n/6 Uni-Re-ser-va 
  []
 
 [76
 
 ]
-LaTeX Info: Redefining \. on input line 3846.
-LaTeX Info: Redefining \% on input line 3846.
+LaTeX Info: Redefining \. on input line 3842.
+LaTeX Info: Redefining \% on input line 3842.
  [77]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 3910.
-LaTeX Info: Redefining \% on input line 3910.
+LaTeX Info: Redefining \. on input line 3907.
+LaTeX Info: Redefining \% on input line 3907.
  [78]
-LaTeX Info: Redefining \. on input line 3954.
-LaTeX Info: Redefining \% on input line 3954.
+LaTeX Info: Redefining \. on input line 3951.
+LaTeX Info: Redefining \% on input line 3951.
  [79]
-LaTeX Info: Redefining \. on input line 3999.
-LaTeX Info: Redefining \% on input line 3999.
+LaTeX Info: Redefining \. on input line 3996.
+LaTeX Info: Redefining \% on input line 3996.
  [80]
-LaTeX Info: Redefining \. on input line 4040.
-LaTeX Info: Redefining \% on input line 4040.
+LaTeX Info: Redefining \. on input line 4037.
+LaTeX Info: Redefining \% on input line 4037.
  [81]
-LaTeX Info: Redefining \. on input line 4088.
-LaTeX Info: Redefining \% on input line 4088.
+LaTeX Info: Redefining \. on input line 4085.
+LaTeX Info: Redefining \% on input line 4085.
  [82]
-LaTeX Info: Redefining \. on input line 4172.
-LaTeX Info: Redefining \% on input line 4172.
+LaTeX Info: Redefining \. on input line 4169.
+LaTeX Info: Redefining \% on input line 4169.
  [83]
-LaTeX Info: Redefining \. on input line 4172.
-LaTeX Info: Redefining \% on input line 4172.
+LaTeX Info: Redefining \. on input line 4169.
+LaTeX Info: Redefining \% on input line 4169.
  [84]
-LaTeX Info: Redefining \. on input line 4254.
-LaTeX Info: Redefining \% on input line 4254.
+LaTeX Info: Redefining \. on input line 4251.
+LaTeX Info: Redefining \% on input line 4251.
  [85]
-LaTeX Info: Redefining \. on input line 4277.
-LaTeX Info: Redefining \% on input line 4277.
+LaTeX Info: Redefining \. on input line 4274.
+LaTeX Info: Redefining \% on input line 4274.
  [86]
-LaTeX Info: Redefining \. on input line 4329.
-LaTeX Info: Redefining \% on input line 4329.
+LaTeX Info: Redefining \. on input line 4326.
+LaTeX Info: Redefining \% on input line 4326.
  [87]
-LaTeX Info: Redefining \. on input line 4381.
-LaTeX Info: Redefining \% on input line 4381.
+LaTeX Info: Redefining \. on input line 4378.
+LaTeX Info: Redefining \% on input line 4378.
  [88]
-LaTeX Info: Redefining \. on input line 4422.
-LaTeX Info: Redefining \% on input line 4422.
+LaTeX Info: Redefining \. on input line 4419.
+LaTeX Info: Redefining \% on input line 4419.
  [89]
-LaTeX Info: Redefining \. on input line 4468.
-LaTeX Info: Redefining \% on input line 4468.
+LaTeX Info: Redefining \. on input line 4465.
+LaTeX Info: Redefining \% on input line 4465.
  [90]
-LaTeX Info: Redefining \. on input line 4503.
-LaTeX Info: Redefining \% on input line 4503.
-
-[91]
-LaTeX Info: Redefining \. on input line 4566.
-LaTeX Info: Redefining \% on input line 4566.
+LaTeX Info: Redefining \. on input line 4500.
+LaTeX Info: Redefining \% on input line 4500.
+ [91]
+LaTeX Info: Redefining \. on input line 4563.
+LaTeX Info: Redefining \% on input line 4563.
  [92]
-LaTeX Info: Redefining \. on input line 4599.
-LaTeX Info: Redefining \% on input line 4599.
+LaTeX Info: Redefining \. on input line 4596.
+LaTeX Info: Redefining \% on input line 4596.
  [93]
-LaTeX Info: Redefining \. on input line 4643.
-LaTeX Info: Redefining \% on input line 4643.
+LaTeX Info: Redefining \. on input line 4638.
+LaTeX Info: Redefining \% on input line 4638.
  [94]
-LaTeX Info: Redefining \. on input line 4678.
-LaTeX Info: Redefining \% on input line 4678.
+LaTeX Info: Redefining \. on input line 4686.
+LaTeX Info: Redefining \% on input line 4686.
  [95]
-LaTeX Info: Redefining \. on input line 4720.
-LaTeX Info: Redefining \% on input line 4720.
+LaTeX Info: Redefining \. on input line 4718.
+LaTeX Info: Redefining \% on input line 4718.
  [96]
-LaTeX Info: Redefining \. on input line 4764.
-LaTeX Info: Redefining \% on input line 4764.
+LaTeX Info: Redefining \. on input line 4761.
+LaTeX Info: Redefining \% on input line 4761.
  [97]
 Cap\'{\i }tulo 7.
 [98
 
 ]
-LaTeX Info: Redefining \. on input line 4846.
-LaTeX Info: Redefining \% on input line 4846.
+LaTeX Info: Redefining \. on input line 4843.
+LaTeX Info: Redefining \% on input line 4843.
  [99] (main.bbl
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1810,8 +1414,7 @@ LaTeX Info: Redefining \. on input line 125.
 LaTeX Info: Redefining \% on input line 125.
  [102]
 Underfull \hbox (badness 1648) in paragraph at lines 150--154
-[]\T1/lmr/m/n/12 Isabelle Mir-bel and Jo-li-ta Raly-té.  Si-tua-tio-nal method 
-en-gi-nee-ring: Com-bi-
+[]\T1/lmr/m/n/12 Isabelle Mir-bel and Jo-li-ta Raly-té.  Si-tua-tio-nal method en-gi-nee-ring: Com-bi-
  []
 
 LaTeX Info: Redefining \. on input line 196.
@@ -1830,14 +1433,12 @@ LaTeX Info: Redefining \. on input line 450.
 LaTeX Info: Redefining \% on input line 450.
  [107]
 Underfull \hbox (badness 2744) in paragraph at lines 494--498
-[]\T1/lmr/m/n/12 International Re-qui-re-ments En-gi-nee-ring Board (IREB).  CP
-RE Foun-da-tion
+[]\T1/lmr/m/n/12 International Re-qui-re-ments En-gi-nee-ring Board (IREB).  CPRE Foun-da-tion
  []
 
 
 Underfull \hbox (badness 2600) in paragraph at lines 494--498
-\T1/lmr/m/n/12 -- Start Wor-king Ef-fec-ti-vely in RE.  []$\T1/lmtt/m/n/12 http
-s : / / cpre . ireb . org / en / concept /
+\T1/lmr/m/n/12 -- Start Wor-king Ef-fec-ti-vely in RE.  []$\T1/lmtt/m/n/12 https : / / cpre . ireb . org / en / concept /
  []
 
 LaTeX Info: Redefining \. on input line 512.
@@ -1846,8 +1447,8 @@ LaTeX Info: Redefining \% on input line 512.
 LaTeX Info: Redefining \. on input line 582.
 LaTeX Info: Redefining \% on input line 582.
  [109])
-LaTeX Info: Redefining \. on input line 4875.
-LaTeX Info: Redefining \% on input line 4875.
+LaTeX Info: Redefining \. on input line 4872.
+LaTeX Info: Redefining \% on input line 4872.
  [110]
 Anexo A.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd)
@@ -1858,337 +1459,325 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 4959.
-LaTeX Info: Redefining \% on input line 4959.
- [112{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc
-}]
-LaTeX Info: Redefining \. on input line 4989.
-LaTeX Info: Redefining \% on input line 4989.
+LaTeX Info: Redefining \. on input line 4956.
+LaTeX Info: Redefining \% on input line 4956.
+ [112{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+LaTeX Info: Redefining \. on input line 4986.
+LaTeX Info: Redefining \% on input line 4986.
  [113]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 5040.
-LaTeX Info: Redefining \% on input line 5040.
+LaTeX Info: Redefining \. on input line 5037.
+LaTeX Info: Redefining \% on input line 5037.
  [114]
-LaTeX Info: Redefining \. on input line 5100.
-LaTeX Info: Redefining \% on input line 5100.
+LaTeX Info: Redefining \. on input line 5097.
+LaTeX Info: Redefining \% on input line 5097.
  [115]
-LaTeX Info: Redefining \. on input line 5129.
-LaTeX Info: Redefining \% on input line 5129.
+LaTeX Info: Redefining \. on input line 5126.
+LaTeX Info: Redefining \% on input line 5126.
  [116]
-LaTeX Info: Redefining \. on input line 5198.
-LaTeX Info: Redefining \% on input line 5198.
+LaTeX Info: Redefining \. on input line 5195.
+LaTeX Info: Redefining \% on input line 5195.
  [117]
-LaTeX Info: Redefining \. on input line 5231.
-LaTeX Info: Redefining \% on input line 5231.
+LaTeX Info: Redefining \. on input line 5228.
+LaTeX Info: Redefining \% on input line 5228.
  [118]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 5302.
-LaTeX Info: Redefining \% on input line 5302.
+LaTeX Info: Redefining \. on input line 5299.
+LaTeX Info: Redefining \% on input line 5299.
  [119]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 5350.
-LaTeX Info: Redefining \% on input line 5350.
+LaTeX Info: Redefining \. on input line 5347.
+LaTeX Info: Redefining \% on input line 5347.
  [120]
-LaTeX Info: Redefining \. on input line 5393.
-LaTeX Info: Redefining \% on input line 5393.
+LaTeX Info: Redefining \. on input line 5390.
+LaTeX Info: Redefining \% on input line 5390.
  [121]
 Anexo B.
-<figures/Figura_ScienceDirect.png, id=3098, 1453.43pt x 1090.0725pt>
+<figures/Figura_ScienceDirect.png, id=3102, 1453.43pt x 1090.0725pt>
 File: figures/Figura_ScienceDirect.png Graphic file (type png)
 <use figures/Figura_ScienceDirect.png>
-Package pdftex.def Info: figures/Figura_ScienceDirect.png  used on input line 5
-419.
+Package pdftex.def Info: figures/Figura_ScienceDirect.png  used on input line 5416.
 (pdftex.def)             Requested size: 389.13692pt x 291.84517pt.
 [122
 
 ]
-<figures/Figura_Scopus.png, id=3103, 1453.43pt x 1090.0725pt>
+<figures/Figura_Scopus.png, id=3107, 1453.43pt x 1090.0725pt>
 File: figures/Figura_Scopus.png Graphic file (type png)
 <use figures/Figura_Scopus.png>
-Package pdftex.def Info: figures/Figura_Scopus.png  used on input line 5426.
+Package pdftex.def Info: figures/Figura_Scopus.png  used on input line 5423.
 (pdftex.def)             Requested size: 389.13692pt x 291.84517pt.
-<figures/Figura_WoS.png, id=3104, 1453.43pt x 1090.0725pt>
+<figures/Figura_WoS.png, id=3108, 1453.43pt x 1090.0725pt>
 File: figures/Figura_WoS.png Graphic file (type png)
 <use figures/Figura_WoS.png>
-Package pdftex.def Info: figures/Figura_WoS.png  used on input line 5433.
+Package pdftex.def Info: figures/Figura_WoS.png  used on input line 5430.
 (pdftex.def)             Requested size: 389.13692pt x 291.84517pt.
-LaTeX Info: Redefining \. on input line 5455.
-LaTeX Info: Redefining \% on input line 5455.
+LaTeX Info: Redefining \. on input line 5452.
+LaTeX Info: Redefining \% on input line 5452.
  [123 <./figures/Figura_ScienceDirect.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 5455.
-LaTeX Info: Redefining \% on input line 5455.
- [124 <./figures/Figura_Scopus.png (PNG copy)> <./figures/Figura_WoS.png (PNG c
-opy)>]
-LaTeX Info: Redefining \. on input line 5500.
-LaTeX Info: Redefining \% on input line 5500.
+LaTeX Info: Redefining \. on input line 5452.
+LaTeX Info: Redefining \% on input line 5452.
+ [124 <./figures/Figura_Scopus.png (PNG copy)> <./figures/Figura_WoS.png (PNG copy)>]
+LaTeX Info: Redefining \. on input line 5497.
+LaTeX Info: Redefining \% on input line 5497.
  [125]
-<figures/Figura2.png, id=3121, 787.0203pt x 462.528pt>
+<figures/Figura2.png, id=3125, 787.0203pt x 462.528pt>
 File: figures/Figura2.png Graphic file (type png)
 <use figures/Figura2.png>
-Package pdftex.def Info: figures/Figura2.png  used on input line 5503.
+Package pdftex.def Info: figures/Figura2.png  used on input line 5500.
 (pdftex.def)             Requested size: 343.35364pt x 201.79088pt.
-LaTeX Info: Redefining \. on input line 5535.
-LaTeX Info: Redefining \% on input line 5535.
-
-[126 <./figures/Figura2.png>]
-LaTeX Info: Redefining \. on input line 5589.
-LaTeX Info: Redefining \% on input line 5589.
+LaTeX Info: Redefining \. on input line 5532.
+LaTeX Info: Redefining \% on input line 5532.
+ [126 <./figures/Figura2.png>]
+LaTeX Info: Redefining \. on input line 5586.
+LaTeX Info: Redefining \% on input line 5586.
  [127]
-LaTeX Info: Redefining \. on input line 5620.
-LaTeX Info: Redefining \% on input line 5620.
+LaTeX Info: Redefining \. on input line 5617.
+LaTeX Info: Redefining \% on input line 5617.
  [128]
-LaTeX Info: Redefining \. on input line 5673.
-LaTeX Info: Redefining \% on input line 5673.
+LaTeX Info: Redefining \. on input line 5670.
+LaTeX Info: Redefining \% on input line 5670.
  [129]
-LaTeX Info: Redefining \. on input line 5723.
-LaTeX Info: Redefining \% on input line 5723.
+LaTeX Info: Redefining \. on input line 5720.
+LaTeX Info: Redefining \% on input line 5720.
  [130]
-LaTeX Info: Redefining \. on input line 5757.
-LaTeX Info: Redefining \% on input line 5757.
+LaTeX Info: Redefining \. on input line 5754.
+LaTeX Info: Redefining \% on input line 5754.
  [131]
-LaTeX Info: Redefining \. on input line 5811.
-LaTeX Info: Redefining \% on input line 5811.
+LaTeX Info: Redefining \. on input line 5808.
+LaTeX Info: Redefining \% on input line 5808.
  [132]
-LaTeX Info: Redefining \. on input line 5858.
-LaTeX Info: Redefining \% on input line 5858.
+LaTeX Info: Redefining \. on input line 5855.
+LaTeX Info: Redefining \% on input line 5855.
  [133]
-LaTeX Info: Redefining \. on input line 5891.
-LaTeX Info: Redefining \% on input line 5891.
-
-[134]
-LaTeX Info: Redefining \. on input line 5938.
-LaTeX Info: Redefining \% on input line 5938.
+LaTeX Info: Redefining \. on input line 5888.
+LaTeX Info: Redefining \% on input line 5888.
+ [134]
+LaTeX Info: Redefining \. on input line 5935.
+LaTeX Info: Redefining \% on input line 5935.
  [135]
-LaTeX Info: Redefining \. on input line 5983.
-LaTeX Info: Redefining \% on input line 5983.
+LaTeX Info: Redefining \. on input line 5980.
+LaTeX Info: Redefining \% on input line 5980.
  [136]
-LaTeX Info: Redefining \. on input line 5999.
-LaTeX Info: Redefining \% on input line 5999.
+LaTeX Info: Redefining \. on input line 5996.
+LaTeX Info: Redefining \% on input line 5996.
  [137]
 Anexo C.
 
 ignored: Infinite glue shrinkage found in box being split [138
 
 ]
-LaTeX Info: Redefining \. on input line 6212.
-LaTeX Info: Redefining \% on input line 6212.
+LaTeX Info: Redefining \. on input line 6209.
+LaTeX Info: Redefining \% on input line 6209.
  [139]
-LaTeX Info: Redefining \. on input line 6212.
-LaTeX Info: Redefining \% on input line 6212.
+LaTeX Info: Redefining \. on input line 6209.
+LaTeX Info: Redefining \% on input line 6209.
  [140]
-LaTeX Info: Redefining \. on input line 6212.
-LaTeX Info: Redefining \% on input line 6212.
+LaTeX Info: Redefining \. on input line 6209.
+LaTeX Info: Redefining \% on input line 6209.
  [141]
-LaTeX Info: Redefining \. on input line 6212.
-LaTeX Info: Redefining \% on input line 6212.
+LaTeX Info: Redefining \. on input line 6209.
+LaTeX Info: Redefining \% on input line 6209.
  [142]
 Anexo D.
 
 ignored: Infinite glue shrinkage found in box being split [143
 
 ]
-LaTeX Info: Redefining \. on input line 6433.
-LaTeX Info: Redefining \% on input line 6433.
+LaTeX Info: Redefining \. on input line 6430.
+LaTeX Info: Redefining \% on input line 6430.
  [144]
-LaTeX Info: Redefining \. on input line 6433.
-LaTeX Info: Redefining \% on input line 6433.
+LaTeX Info: Redefining \. on input line 6430.
+LaTeX Info: Redefining \% on input line 6430.
  [145]
-LaTeX Info: Redefining \. on input line 6433.
-LaTeX Info: Redefining \% on input line 6433.
+LaTeX Info: Redefining \. on input line 6430.
+LaTeX Info: Redefining \% on input line 6430.
  [146]
-LaTeX Info: Redefining \. on input line 6433.
-LaTeX Info: Redefining \% on input line 6433.
+LaTeX Info: Redefining \. on input line 6430.
+LaTeX Info: Redefining \% on input line 6430.
  [147]
 Anexo E.
 [148
 
 ]
-LaTeX Info: Redefining \. on input line 6519.
-LaTeX Info: Redefining \% on input line 6519.
+LaTeX Info: Redefining \. on input line 6516.
+LaTeX Info: Redefining \% on input line 6516.
  [149]
-LaTeX Info: Redefining \. on input line 6555.
-LaTeX Info: Redefining \% on input line 6555.
+LaTeX Info: Redefining \. on input line 6552.
+LaTeX Info: Redefining \% on input line 6552.
  [150]
-LaTeX Info: Redefining \. on input line 6702.
-LaTeX Info: Redefining \% on input line 6702.
+LaTeX Info: Redefining \. on input line 6699.
+LaTeX Info: Redefining \% on input line 6699.
  [151]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 6702.
-LaTeX Info: Redefining \% on input line 6702.
+LaTeX Info: Redefining \. on input line 6699.
+LaTeX Info: Redefining \% on input line 6699.
  [152]
-LaTeX Info: Redefining \. on input line 6704.
-LaTeX Info: Redefining \% on input line 6704.
+LaTeX Info: Redefining \. on input line 6701.
+LaTeX Info: Redefining \% on input line 6701.
  [153]
 Anexo F.
 [154
 
 ]
-LaTeX Info: Redefining \. on input line 6798.
-LaTeX Info: Redefining \% on input line 6798.
+LaTeX Info: Redefining \. on input line 6795.
+LaTeX Info: Redefining \% on input line 6795.
  [155]
-LaTeX Info: Redefining \. on input line 6951.
-LaTeX Info: Redefining \% on input line 6951.
+LaTeX Info: Redefining \. on input line 6948.
+LaTeX Info: Redefining \% on input line 6948.
  [156]
-LaTeX Info: Redefining \. on input line 6951.
-LaTeX Info: Redefining \% on input line 6951.
+LaTeX Info: Redefining \. on input line 6948.
+LaTeX Info: Redefining \% on input line 6948.
  [157]
-LaTeX Info: Redefining \. on input line 6985.
-LaTeX Info: Redefining \% on input line 6985.
+LaTeX Info: Redefining \. on input line 6982.
+LaTeX Info: Redefining \% on input line 6982.
  [158]
-LaTeX Info: Redefining \. on input line 7035.
-LaTeX Info: Redefining \% on input line 7035.
+LaTeX Info: Redefining \. on input line 7032.
+LaTeX Info: Redefining \% on input line 7032.
  [159]
-LaTeX Info: Redefining \. on input line 7084.
-LaTeX Info: Redefining \% on input line 7084.
+LaTeX Info: Redefining \. on input line 7081.
+LaTeX Info: Redefining \% on input line 7081.
  [160]
-LaTeX Info: Redefining \. on input line 7115.
-LaTeX Info: Redefining \% on input line 7115.
+LaTeX Info: Redefining \. on input line 7112.
+LaTeX Info: Redefining \% on input line 7112.
  [161]
-LaTeX Info: Redefining \. on input line 7167.
-LaTeX Info: Redefining \% on input line 7167.
+LaTeX Info: Redefining \. on input line 7164.
+LaTeX Info: Redefining \% on input line 7164.
  [162]
-LaTeX Info: Redefining \. on input line 7201.
-LaTeX Info: Redefining \% on input line 7201.
+LaTeX Info: Redefining \. on input line 7198.
+LaTeX Info: Redefining \% on input line 7198.
  [163]
-LaTeX Info: Redefining \. on input line 7256.
-LaTeX Info: Redefining \% on input line 7256.
+LaTeX Info: Redefining \. on input line 7253.
+LaTeX Info: Redefining \% on input line 7253.
  [164]
-LaTeX Info: Redefining \. on input line 7293.
-LaTeX Info: Redefining \% on input line 7293.
+LaTeX Info: Redefining \. on input line 7290.
+LaTeX Info: Redefining \% on input line 7290.
  [165]
-LaTeX Info: Redefining \. on input line 7335.
-LaTeX Info: Redefining \% on input line 7335.
-
-[166]
-LaTeX Info: Redefining \. on input line 7383.
-LaTeX Info: Redefining \% on input line 7383.
+LaTeX Info: Redefining \. on input line 7332.
+LaTeX Info: Redefining \% on input line 7332.
+ [166]
+LaTeX Info: Redefining \. on input line 7380.
+LaTeX Info: Redefining \% on input line 7380.
  [167]
-LaTeX Info: Redefining \. on input line 7424.
-LaTeX Info: Redefining \% on input line 7424.
+LaTeX Info: Redefining \. on input line 7421.
+LaTeX Info: Redefining \% on input line 7421.
  [168]
-LaTeX Info: Redefining \. on input line 7469.
-LaTeX Info: Redefining \% on input line 7469.
+LaTeX Info: Redefining \. on input line 7466.
+LaTeX Info: Redefining \% on input line 7466.
  [169]
-LaTeX Info: Redefining \. on input line 7508.
-LaTeX Info: Redefining \% on input line 7508.
+LaTeX Info: Redefining \. on input line 7505.
+LaTeX Info: Redefining \% on input line 7505.
  [170]
-LaTeX Info: Redefining \. on input line 7555.
-LaTeX Info: Redefining \% on input line 7555.
+LaTeX Info: Redefining \. on input line 7552.
+LaTeX Info: Redefining \% on input line 7552.
  [171]
-LaTeX Info: Redefining \. on input line 7678.
-LaTeX Info: Redefining \% on input line 7678.
+LaTeX Info: Redefining \. on input line 7675.
+LaTeX Info: Redefining \% on input line 7675.
  [172]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 7678.
-LaTeX Info: Redefining \% on input line 7678.
+LaTeX Info: Redefining \. on input line 7675.
+LaTeX Info: Redefining \% on input line 7675.
  [173]
-LaTeX Info: Redefining \. on input line 7773.
-LaTeX Info: Redefining \% on input line 7773.
+LaTeX Info: Redefining \. on input line 7770.
+LaTeX Info: Redefining \% on input line 7770.
  [174]
-LaTeX Info: Redefining \. on input line 7780.
-LaTeX Info: Redefining \% on input line 7780.
+LaTeX Info: Redefining \. on input line 7777.
+LaTeX Info: Redefining \% on input line 7777.
  [175]
-LaTeX Info: Redefining \. on input line 7827.
-LaTeX Info: Redefining \% on input line 7827.
+LaTeX Info: Redefining \. on input line 7824.
+LaTeX Info: Redefining \% on input line 7824.
  [176]
-LaTeX Info: Redefining \. on input line 7872.
-LaTeX Info: Redefining \% on input line 7872.
+LaTeX Info: Redefining \. on input line 7869.
+LaTeX Info: Redefining \% on input line 7869.
  [177]
-LaTeX Info: Redefining \. on input line 7928.
-LaTeX Info: Redefining \% on input line 7928.
-
-[178]
-LaTeX Info: Redefining \. on input line 7969.
-LaTeX Info: Redefining \% on input line 7969.
+LaTeX Info: Redefining \. on input line 7925.
+LaTeX Info: Redefining \% on input line 7925.
+ [178]
+LaTeX Info: Redefining \. on input line 7966.
+LaTeX Info: Redefining \% on input line 7966.
  [179]
-LaTeX Info: Redefining \. on input line 8065.
-LaTeX Info: Redefining \% on input line 8065.
+LaTeX Info: Redefining \. on input line 8062.
+LaTeX Info: Redefining \% on input line 8062.
  [180]
-LaTeX Info: Redefining \. on input line 8065.
-LaTeX Info: Redefining \% on input line 8065.
+LaTeX Info: Redefining \. on input line 8062.
+LaTeX Info: Redefining \% on input line 8062.
  [181]
-LaTeX Info: Redefining \. on input line 8185.
-LaTeX Info: Redefining \% on input line 8185.
+LaTeX Info: Redefining \. on input line 8182.
+LaTeX Info: Redefining \% on input line 8182.
  [182]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 8185.
-LaTeX Info: Redefining \% on input line 8185.
+LaTeX Info: Redefining \. on input line 8182.
+LaTeX Info: Redefining \% on input line 8182.
  [183]
-LaTeX Info: Redefining \. on input line 8263.
-LaTeX Info: Redefining \% on input line 8263.
+LaTeX Info: Redefining \. on input line 8260.
+LaTeX Info: Redefining \% on input line 8260.
  [184]
-LaTeX Info: Redefining \. on input line 8263.
-LaTeX Info: Redefining \% on input line 8263.
+LaTeX Info: Redefining \. on input line 8260.
+LaTeX Info: Redefining \% on input line 8260.
  [185]
-LaTeX Info: Redefining \. on input line 8263.
-LaTeX Info: Redefining \% on input line 8263.
+LaTeX Info: Redefining \. on input line 8260.
+LaTeX Info: Redefining \% on input line 8260.
  [186]
 Anexo G.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8266--8275
+Underfull \hbox (badness 10000) in paragraph at lines 8263--8272
 \T1/lmr/m/n/12 obli-ga-to-rios, [][][][][][], [][][][][][] y
  []
 
 [187
 
 ]
-LaTeX Info: Redefining \. on input line 8328.
-LaTeX Info: Redefining \% on input line 8328.
+LaTeX Info: Redefining \. on input line 8325.
+LaTeX Info: Redefining \% on input line 8325.
  [188]
-LaTeX Info: Redefining \. on input line 8381.
-LaTeX Info: Redefining \% on input line 8381.
+LaTeX Info: Redefining \. on input line 8378.
+LaTeX Info: Redefining \% on input line 8378.
  [189]
-LaTeX Info: Redefining \. on input line 8417.
-LaTeX Info: Redefining \% on input line 8417.
+LaTeX Info: Redefining \. on input line 8414.
+LaTeX Info: Redefining \% on input line 8414.
  [190]
-LaTeX Info: Redefining \. on input line 8446.
-LaTeX Info: Redefining \% on input line 8446.
+LaTeX Info: Redefining \. on input line 8443.
+LaTeX Info: Redefining \% on input line 8443.
  [191]
-LaTeX Info: Redefining \. on input line 8486.
-LaTeX Info: Redefining \% on input line 8486.
+LaTeX Info: Redefining \. on input line 8483.
+LaTeX Info: Redefining \% on input line 8483.
  [192]
 Anexo H.
 
 ignored: Infinite glue shrinkage found in box being split [193
 
 ]
-Package pgfplots info on input line 8573: Using 'lua backend=false' for axis: x
- coord trafo unsupported.
-LaTeX Info: Redefining \. on input line 8591.
-LaTeX Info: Redefining \% on input line 8591.
+Package pgfplots info on input line 8570: Using 'lua backend=false' for axis: x coord trafo unsupported.
+LaTeX Info: Redefining \. on input line 8588.
+LaTeX Info: Redefining \% on input line 8588.
  [194]
-LaTeX Info: Redefining \. on input line 8591.
-LaTeX Info: Redefining \% on input line 8591.
- [195{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
-{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
-
+LaTeX Info: Redefining \. on input line 8588.
+LaTeX Info: Redefining \% on input line 8588.
+ [195{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
 Anexo I.
 [196
 
 ]
-LaTeX Info: Redefining \. on input line 8656.
-LaTeX Info: Redefining \% on input line 8656.
+LaTeX Info: Redefining \. on input line 8653.
+LaTeX Info: Redefining \% on input line 8653.
  [197]
 Anexo J.
 
 ignored: Infinite glue shrinkage found in box being split [198
 
 ]
-Package pgfplots info on input line 8727: Using 'lua backend=false' for axis: s
-tacked plots unsupported (yet).
-Package pgfplots info on input line 8727: Using 'lua backend=false' for axis: x
- coord trafo unsupported.
-LaTeX Info: Redefining \. on input line 8739.
-LaTeX Info: Redefining \% on input line 8739.
+Package pgfplots info on input line 8724: Using 'lua backend=false' for axis: stacked plots unsupported (yet).
+Package pgfplots info on input line 8724: Using 'lua backend=false' for axis: x coord trafo unsupported.
+LaTeX Info: Redefining \. on input line 8736.
+LaTeX Info: Redefining \% on input line 8736.
  [199]
 Anexo K.
 
-Overfull \hbox (0.67404pt too wide) in paragraph at lines 8786--8786
+Overfull \hbox (0.67404pt too wide) in paragraph at lines 8783--8783
 []|\T1/lmr/bx/n/8 Instr.|  
  []
 
 
-Overfull \hbox (0.67404pt too wide) in paragraph at lines 8786--8786
+Overfull \hbox (0.67404pt too wide) in paragraph at lines 8783--8783
 []|\T1/lmr/bx/n/8 Instr.|  
  []
 
@@ -2197,11 +1786,11 @@ ignored: Infinite glue shrinkage found in box being split [200
 
 ]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 8786.
-LaTeX Info: Redefining \% on input line 8786.
+LaTeX Info: Redefining \. on input line 8783.
+LaTeX Info: Redefining \% on input line 8783.
  [201]
-LaTeX Info: Redefining \. on input line 8790.
-LaTeX Info: Redefining \% on input line 8790.
+LaTeX Info: Redefining \. on input line 8787.
+LaTeX Info: Redefining \% on input line 8787.
  [202]
 Anexo L.
 [203
@@ -2225,23 +1814,23 @@ ignored: Infinite glue shrinkage found in box being split
 LaTeX Info: Redefining \. on input line 9040.
 LaTeX Info: Redefining \% on input line 9040.
  [206]
-Overfull \hbox (6.65958pt too wide) in paragraph at lines 9069--9069
+Overfull \hbox (6.65958pt too wide) in paragraph at lines 9071--9071
 []|\T1/lmr/bx/n/10 Ítem|  
  []
 
 
-Overfull \hbox (13.76918pt too wide) in paragraph at lines 9069--9069
+Overfull \hbox (13.76918pt too wide) in paragraph at lines 9071--9071
 []|\T1/lmr/bx/n/10 Divergencia|  
  []
 
-LaTeX Info: Redefining \. on input line 9078.
-LaTeX Info: Redefining \% on input line 9078.
+LaTeX Info: Redefining \. on input line 9087.
+LaTeX Info: Redefining \% on input line 9087.
 [207]
-LaTeX Info: Redefining \. on input line 9134.
-LaTeX Info: Redefining \% on input line 9134.
+LaTeX Info: Redefining \. on input line 9156.
+LaTeX Info: Redefining \% on input line 9156.
  [208]
-LaTeX Info: Redefining \. on input line 9139.
-LaTeX Info: Redefining \% on input line 9139.
+LaTeX Info: Redefining \. on input line 9174.
+LaTeX Info: Redefining \% on input line 9174.
  [209] (main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -2257,42 +1846,20 @@ L3 programming layer <2026-04-28>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 689F52B8F06A9E34B2C0471966F294E4;59397.
+(rerunfilecheck)             Checksum: A621E56566BB37D5000241C1AB355EB2;59392.
  ) 
 Here is how much of TeX's memory you used:
- 45085 strings out of 467683
- 1039428 string characters out of 5415205
- 1671188 words of memory out of 5000000
- 72744 multiletter control sequences out of 15000+600000
+ 45088 strings out of 467683
+ 1039626 string characters out of 5415205
+ 1672413 words of memory out of 5000000
+ 72745 multiletter control sequences out of 15000+600000
  748891 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,19n,98p,1573b,2727s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb
-><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb>
-<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C
-:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/
-Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/
-Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/
-Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/U
-sers/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Use
-rs/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users
-/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/AS
-US/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ASUS/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ASUS/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ASUS/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/ASUS/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/ASUS/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/ASUS/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ASUS/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ASUS/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/ASUS/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/ASUS/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/ASUS/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (229 pages, 5639724 bytes).
+ 86i,19n,98p,1630b,2727s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on main.pdf (229 pages, 5640245 bytes).
 PDF statistics:
- 4033 PDF objects out of 4296 (max. 8388607)
+ 4039 PDF objects out of 4296 (max. 8388607)
  683 named destinations out of 1000 (max. 500000)
  1839 words of extra memory for PDF output out of 10000 (max. 10000000)
 

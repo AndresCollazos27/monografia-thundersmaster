@@ -282,10 +282,7 @@ hizo, las validaciones que se realizaron y los resultados que se obtuvieron en
 cada una. Luego se presentan la motivación, el planteamiento del problema, que termina en
 la pregunta de investigación, la justificación y los objetivos. Por último se
 describen la metodología, con las seis iteraciones por las que pasó el proceso,
-los aportes y la organización del documento. La
-Figura~\ref{fig:secciones_c1} resume las secciones del capítulo.
-
-\seccionescapitulo{8}{1.1/Generalidades,1.2/Motivación,1.3/{Planteamiento del problema},1.4/Justificación,1.5/Objetivos,1.6/{Metodología de la investigación},1.7/{Aportes del proyecto},1.8/{Organización del documento}}{fig:secciones_c1}
+los aportes y la organización del documento.
 
 \section{Generalidades}
 \label{sec:generalidades}
@@ -311,27 +308,24 @@ está de acuerdo, pero cada persona entiende el alcance o la prioridad a su
 manera, y eso suele descubrirse en el diseño, en las pruebas o después de la
 entrega, cuando corregirlo cuesta mucho más que si se hubiera detectado en los
 requisitos~\cite{boehm2001defect}. Adicionalmente, a lo largo del documento se
-distinguen dos términos que en la práctica suelen confundirse. Un requerimiento
-o \emph{necesidad} es la petición del usuario o del cliente, expresada en su
-propio lenguaje y desde su perspectiva, mientras que un \emph{requisito} es una
+distinguen dos términos que en la práctica suelen confundirse. Un requerimiento es la petición del usuario o del cliente, expresada en su
+propio lenguaje y desde su punto de vista, mientras que un \emph{requisito} es una
 condición que el sistema debe cumplir, formulada de forma que pueda
-verificarse~\cite{iso29148}. Buena parte del trabajo de la IR consiste en pasar
-de una a otro sin perder su significado.
+verificarse. Buena parte del trabajo de la IR consiste en pasar
+de una a otro sin perder su significado~\cite{iso29148}.
 
 Para apoyar ese paso, el presente trabajo adaptó THUNDERS, un proceso propuesto
 por Agredo-Delgado para construir, monitorear y asistir el entendimiento
 compartido en actividades colaborativas de resolución de
 problemas~\cite{agredo2022thesis}, y lo llevó a las actividades de elicitación,
-especificación y validación de requisitos. El resultado es THUNDERS~Master, cuyo sufijo viene del rol de \textit{Scrum
-Master}, que facilita el trabajo del equipo en Scrum, y no indica una versión
-superior de THUNDERS. El trabajo comenzó con una revisión sistemática de la literatura (RSL), que
+especificación y validación de requisitos. El resultado es THUNDERS~Master, el cual comenzó con una revisión sistemática de la literatura (RSL), que
 seleccionó 29 estudios primarios sobre las rupturas, los momentos críticos, los
 mecanismos y las formas de evaluar el entendimiento compartido en esas tres
 actividades. Luego se caracterizaron las tres actividades a partir de la norma
 ISO/IEC/IEEE~29148:2018~\cite{iso29148}, las trece actividades de THUNDERS, el
 contexto en el que se aplicaría el proceso y los métodos de adaptación de
 procesos. Con esa base, THUNDERS se adaptó con ingeniería de
-métodos situacionales (SME, por sus siglas en inglés), el mismo enfoque con el
+métodos situacionales (SME, Situational Method Engineering), el mismo enfoque con el
 que se construyó el proceso original, en seis iteraciones. Cada iteración dejó
 una versión del proceso y una validación cuyos resultados alimentaron la
 iteración siguiente.
@@ -408,8 +402,8 @@ es justamente lo que hace este trabajo.
 \label{sec:problema}
 La IR es una función interdisciplinaria que media entre el adquirente y el
 proveedor para establecer y mantener los requisitos que debe cumplir un sistema,
-un software o un servicio~\cite{iso29148}. Abarca actividades que van desde el descubrimiento y la elicitación de las
-necesidades hasta la validación y la gestión de los requisitos, que se ejecutan
+un software o un servicio~\cite{iso29148}. Abarca actividades de descubrimiento, elicitación, análisis, especificación,
+verificación, validación, comunicación, documentación y gestión de requisitos, que se ejecutan
 de forma iterativa durante todo el ciclo de vida y que necesitan la
 participación coordinada de clientes, usuarios, desarrolladores y responsables
 del negocio. Esa
@@ -450,8 +444,7 @@ criterios de aceptación (Sección~\ref{sec:rsl}). Pero en la RSL no se encontr�
 una guía que le indique a un equipo, paso a paso, cómo construir ese
 entendimiento, cómo mantenerlo y cómo comprobar que se logró mientras elicita,
 especifica y valida requisitos. THUNDERS ofrece esa guía para actividades colaborativas en general, aunque exige más tiempo y esfuerzo de los que caben en
-una sesión de requisitos. De esta situación surgió la pregunta de investigación
-que se planteó en el anteproyecto:
+una sesión de requisitos. De modo nace la pregunta de investigación que orienta este trabajo:
 
 \begin{quote}
 \emph{¿Cómo puede apoyarse la construcción y el mantenimiento del entendimiento
@@ -486,8 +479,8 @@ que buscan reducir la ambigüedad, y en la validación se confirma que lo
 documentado refleja la intención de los interesados y que todos interpretan los
 requisitos de forma coherente. Las actividades posteriores, como el diseño, la
 implementación y las pruebas, construyen y prueban una solución a partir de
-requisitos ya definidos. En ellas el entendimiento compartido se necesita, pero
-no se construye, ya que quien diseña, implementa o prueba parte de requisitos que
+requisitos ya definidos. En ellas, el entendimiento compartido se necesita, pero
+no se construye, ya que quien diseña, implementa o prueba tiene como punto de partida requisitos que
 a ese punto ya deben significar lo mismo para todos. Si llegan con
 interpretaciones distintas, la diferencia se descubre cuando corregirla exige
 rehacer trabajo~\cite{agredo2022thesis,boehm2001defect}. La gestión de
@@ -509,7 +502,7 @@ cero, y la propuesta buscó adaptar y simplificar sus aportes para la IR, de mod
 que el entendimiento compartido se pueda construir,
 mantener y comprobar, y que al final de cada ciclo se pueda evaluar si se logró.
 
-\subsection{¿Por qué evaluar el proceso en un contexto agrícola?}
+\subsection{¿Por qué valida el proceso en un contexto agrícola?}
 \label{sec:contexto_agricola}
 Se eligió un contexto agrícola para el estudio de caso del objetivo~4 porque en
 el sector agropecuario la adopción de una herramienta nueva depende de su
@@ -567,20 +560,18 @@ al proceso de desarrollo de un producto de software.
 
 \section{Metodología de la investigación}
 \label{sec:metodologia}
-Para el desarrollo de esta investigación se adoptó la metodología declarada en
-el anteproyecto, que toma como referencia a Petersen et
-al.~\cite{petersen2008systematic} y que es de carácter aplicado, iterativo y
+Para el desarrollo de esta investigación se adoptó la metodología de Petersen et
+al.~\cite{petersen2008systematic}, de carácter aplicado, iterativo y
 orientado a la evidencia. Es aplicada porque su resultado es un proceso para
 resolver un problema práctico de la IR, es iterativa porque cada versión del
 proceso se refinó con lo que dejó su validación, y es orientada a la evidencia
 porque las decisiones de diseño se tomaron a partir de la RSL, de la
 caracterización y de los resultados de cada validación. El trabajo se organizó
-en las cuatro fases del anteproyecto, que son exploración, formulación del
+en cuatro fases, que son exploración, formulación del
 proceso, evaluación, y documentación y transferencia. Las fases se definieron así
 porque cada una responde a uno o dos objetivos específicos: la exploración a los
 objetivos~1 y~2, la formulación al objetivo~3, la evaluación al objetivo~4, y la
-documentación y transferencia a las condiciones de entrega del anteproyecto, que
-son el proceso, un artículo y la monografía.
+documentación y transferencia a las condiciones de entrega de la investigación.
 
 Las fases de formulación y de evaluación se ejecutaron de forma iterativa e
 incremental, siguiendo el ciclo de la
@@ -593,8 +584,7 @@ iteraciones, cada una con su versión del proceso y su validación.
 
 
 
-Adicionalmente, en cada fase se usaron métodos específicos de la ingeniería de
-software. La RSL siguió el proceso de mapeo sistemático de Petersen et
+La RSL siguió el proceso de mapeo sistemático de Petersen et
 al.~\cite{petersen2008systematic}, y la caracterización de las tres actividades
 se basó en la norma ISO/IEC/IEEE~29148:2018~\cite{iso29148}. El proceso se
 construyó con la ingeniería de métodos situacionales~\cite{henderson2010sme},
@@ -602,8 +592,8 @@ con \textit{method chunks}, que son porciones de un método descritas por su
 intención y su situación de uso~\cite{ralyte2001assembly,mirbel2006sme}, y con
 criterios de \textit{process tailoring}, que es el ajuste de un proceso a las
 condiciones de un proyecto~\cite{kalus2013tailoring}. Para la evaluación se usó
-el enfoque GQM (\textit{Goal-Question-Metric})~\cite{basili1994gqm}, que, como
-se planteó en el anteproyecto, definió el plan de evaluación del proceso y llevó
+el enfoque GQM (\textit{Goal-Question-Metric})~\cite{basili1994gqm}, que definió
+el plan de evaluación del proceso y llevó
 el entendimiento compartido a indicadores observables, y se usaron además la
 validación por juicio de expertos~\cite{escobar2008validez} y el estudio de
 caso~\cite{runeson2009case}. La Figura~\ref{fig:metodologia} muestra las cuatro
@@ -663,15 +653,15 @@ con la validación de cada versión.}
 
 La primera fase, de exploración, comenzó con una RSL para caracterizar los
 elementos de la elicitación, la especificación y la validación que necesitan
-entendimiento compartido (objetivo~1). Luego se caracterizaron esas tres
+entendimiento compartido. Luego se caracterizaron esas tres
 actividades a partir de la norma ISO/IEC/IEEE~29148:2018, se analizó THUNDERS
 componente por componente para identificar qué partes del proceso eran
-susceptibles de adaptación (objetivo~2), se caracterizó el contexto de uso del proceso y se revisaron los métodos
+susceptibles de adaptación, se caracterizó el contexto de uso del proceso y se revisaron los métodos
 existentes para adaptar procesos. Su producto fue la caracterización que se
 presenta en los Capítulos~\ref{ch:marco} y~\ref{ch:caracterizacion}, con la que
 se dieron por cumplidos los objetivos~1 y~2.
 
-La segunda fase, de formulación, derivó THUNDERS~Master (objetivo~3). Entre los
+La segunda fase, de formulación, derivó THUNDERS~Master. Entre los
 métodos de adaptación revisados se eligió la ingeniería de métodos situacionales
 porque es la base con la que se construyó THUNDERS y porque, complementada con
 \textit{method chunks} y con criterios de \textit{tailoring}, permite conservar solo los componentes que aportan a la IR
@@ -683,7 +673,7 @@ reglas de adaptación son las decisiones de conservar, adaptar, simplificar,
 fusionar, hacer opcional o retirar cada componente, y la especificación de la
 versión adaptada es el ensamble de cada versión
 (Capítulo~\ref{ch:construccion}). A su vez, la tercera fase, de
-evaluación, se planteó en el anteproyecto como un taller de validación con
+evaluación, se planteó como un taller de validación con
 expertos seguido de un estudio de caso en contexto agrícola. Como las dos fases
 se ejecutaron por iteraciones, a continuación se resume cada iteración, con lo
 que tenía la versión, cómo se validó y qué cambió para la siguiente. El
@@ -699,12 +689,11 @@ Capítulo~\ref{ch:evaluacion}, sus validaciones.
 \item \textbf{Iteración 2, versiones 1.1 y 1.2.} Recuperó la estructura de
   THUNDERS con tres fases, once actividades más una opcional, seis roles, siete
   artefactos y cinco evidencias. La versión
-  1.2 se validó con la revisión por pares del artículo aceptado en JIIHC~2026, y
-  quedó pendiente declarar el origen de cada actividad tarea por tarea.
+  1.2 se validó con la revisión por pares del artículo aceptado en JIIHC~2026.
 \item \textbf{Iteración 3, versión 1.3.} Agregó el análisis de THUNDERS al nivel
   de tarea, tres instrumentos para verificar el entendimiento, el plan GQM y las
   plantillas. Se
-  validó con tres revisiones de la directora, con cinco expertos y con el
+  validó con cinco expertos y con el
   estudio de caso UniReserva, que coincidieron en que es útil y completa, pero
   no ligera ni fácil de seguir en una primera aplicación.
 \item \textbf{Iteración 4, versión 1.4.} Pasó a ocho actividades y dos opcionales, bajó de 116 a 66 los campos de
@@ -721,7 +710,7 @@ Capítulo~\ref{ch:evaluacion}, sus validaciones.
   que comprueben interpretaciones y redujo las plantillas de trece a nueve. Sus
   instrumentos se validaron por juicio de experto y se ajustaron con sus
   recomendaciones. Es la versión que presenta el Capítulo~\ref{ch:proceso} y la
-  que se evalúa en el estudio de caso en contexto agrícola (objetivo~4).
+  que se evalúa en el estudio de caso en contexto agrícola.
 \end{itemize}
 
 \pendiente{Completar la iteración~6 con una frase sobre el resultado del estudio
@@ -992,14 +981,21 @@ que el estudio de caso permite describir. Su diseño y su ejecución se presenta
 en el Capítulo~\ref{ch:evaluacion}.
 
 \paragraph{Utilidad y facilidad de uso percibidas.}
-El objetivo~4 pide evaluar la utilidad del proceso adaptado. Para valorar la
-percepción de quienes lo aplican se tomaron dos constructos del modelo de
-aceptación de tecnología de Davis, la utilidad percibida, que es el grado en que
-una persona cree que usar algo mejora su trabajo, y la facilidad de uso
-percibida, que es el grado en que cree que usarlo no le exige
-esfuerzo~\cite{davis1989perceived}. La facilidad de uso se incluyó porque es la
-dimensión en la que THUNDERS y su derivación para la IR obtuvieron los peores
-resultados~\cite{agredo2022thesis,agredo2023strategy}.
+\label{sec:utilidad}
+El objetivo~4 pide evaluar la utilidad del proceso adaptado. En este trabajo, el
+proceso es útil en la medida en que lleva al equipo a un entendimiento
+compartido de los requisitos críticos, que es lo que THUNDERS~Master promete;
+si un equipo lo logra, el proceso le fue útil. Por eso la utilidad se busca
+primero en lo que deja la aplicación, como las divergencias de interpretación
+que el equipo detecta y resuelve por escrito, las evidencias del entendimiento
+al cierre del ciclo y la prueba de traspaso a quien no participó, y luego se
+contrasta con lo que perciben quienes lo usaron. Para valorar esa percepción se
+tomaron dos constructos del modelo de aceptación de tecnología de Davis, la
+utilidad percibida, que es el grado en que una persona cree que usar algo mejora
+su trabajo, y la facilidad de uso percibida, que es el grado en que cree que
+usarlo no le exige esfuerzo~\cite{davis1989perceived}. La facilidad de uso se
+incluyó porque es la dimensión en la que THUNDERS y su derivación para la IR
+obtuvieron los peores resultados~\cite{agredo2022thesis,agredo2023strategy}.
 
 \section{Trabajos relacionados}
 \label{sec:trabajos_relacionados}
@@ -3871,8 +3867,9 @@ uso, se retiró en la versión final (Sección~\ref{sec:caso_agricola}).
 Utilidad
 & ¿El proceso ayuda a construir el entendimiento compartido en las tres
   actividades de la IR?
-& Utilidad percibida, malentendidos detectados y resueltos en la sesión, y
-  acuerdos logrados.
+& Divergencias detectadas y resueltas por escrito, evidencias E1--E5 con la
+  prueba de traspaso y utilidad percibida, contrastada con esos resultados
+  (Sección~\ref{sec:utilidad}).
 & Cuestionario a los participantes y revisión de artefactos (después). \\
 \addlinespace
 Facilidad de uso
@@ -4601,8 +4598,8 @@ los estudiantes de UniReserva.
 Como UniReserva, es un estudio de caso único con unidades de análisis
 embebidas, que son las mesas: equipos de seis o siete estudiantes que ejecutan
 con sus \textit{stakeholders} un ciclo de requisitos de la versión final. Con
-unos cuarenta estudiantes se forman seis mesas, que trabajan al mismo tiempo
-sobre el mismo caso. El caso, llamado Tomatera, se construyó para el estudio.
+unos cuarenta estudiantes se forman seis mesas. El caso, llamado Tomatera, se
+construyó para el estudio.
 Terraza Viva, una pequeña empresa de Madrid que vende kits para cultivar tomates
 en macetas, le encarga a Nodo Sur, una empresa de software de La Plata, un
 sensor para la maceta y una app para el celular del cliente. La dueña (PO), su
@@ -4612,8 +4609,7 @@ el equipo de Nodo Sur. El conocimiento del dominio sale de un solo artículo,
 ``Cultivar tomates en maceta''~\cite{verdeesvida_tomates}, que en la historia es
 la ficha técnica del asesor. Que el cliente sea español y el equipo argentino es
 deliberado, ya que varios términos cambian de sentido entre los dos países o
-entre el asesor y un desarrollador; un plantel, por ejemplo, es para el asesor
-una planta joven y para un analista puede ser un grupo de personas.
+entre el asesor y un desarrollador.
 
 Se eligió un caso construido, y no una organización del sector, por tres
 razones. El objetivo~4 pide evaluar el proceso en un equipo de desarrollo de un
@@ -4635,17 +4631,14 @@ crítico, con paráfrasis cruzada o con sondeo de ambigüedad, y luego la mesa
 compara todas las respuestas a la vez. En el cierre, el QA de cada mesa
 reconstruye la línea base de la mesa siguiente para la prueba de traspaso de E5,
 y el PO de esa mesa confirma si coincide. Una aplicación web construida para el
-estudio guía a cada estudiante desde su celular, le entrega las plantillas,
-lanza las rondas y registra cada entrada, en respuesta a la baja claridad de los
-pasos (2,09) y al registro poco sistemático de UniReserva. El
+estudio guía a cada estudiante desde su celular, en respuesta a la baja claridad
+de los pasos en UniReserva (2,09). El
 Anexo~\ref{anx:protocolo_agricola} presenta el cronograma minuto a minuto
 (Tabla~\ref{tab:cronograma_agricola}) y los materiales de la sesión.
 
 \paragraph{Divergencias sembradas.}
 Las cartas secretas esconden ocho divergencias, tomadas del artículo o del cruce
-entre España y Argentina; el FR y el RT no tienen carta, solo su hoja de rol.
-Cuatro son términos con dos lecturas: guía (T5), que para la dueña es un tallo
-principal y para el analista un tutorial de la app, tutor (T6), plantel (T7) y
+entre España y Argentina. Cuatro son términos con dos lecturas: guía (T5), tutor (T6), plantel (T7) y
 sustrato seco (T4). Dos son reglas del dominio que cambian con el lugar o en las
 que la fuente se contradice, que son los meses del calendario (T2) y la
 temperatura nocturna de alerta (T3). Las otras dos son un supuesto y una
@@ -4659,18 +4652,18 @@ según la clave de corrección del anexo.
 \paragraph{Fuentes de datos e instrumentos.}
 Con seis mesas a la vez, la hoja de registro y los dos observadores por
 encuentro que se previeron luego de UniReserva habrían sido doce personas, así
-que el registro lo lleva la aplicación: cada entrada, divergencia, ronda y
-cambio de tramo queda con su hora y un identificador anónimo de su autor. De ahí
-salen los cuatro indicadores que la versión final agregó al plan GQM, y el
-balance de la participación se aproxima con quién escribió cada entrada. No se
+que el registro lo lleva la aplicación: cada acción queda con su hora y un
+identificador anónimo de su autor, y de ahí salen los cuatro indicadores que la
+versión final agregó al plan GQM. No se
 graba audio ni video. Además se recogen los artefactos de cada mesa, que se
 contrastan con la clave, y una medición individual antes y después del ciclo,
 con cuatro preguntas abiertas, dos sobre divergencias de las rondas y dos sobre
-divergencias que no lo están. Después de la sesión hay un cuestionario anónimo,
-con las cinco afirmaciones de UniReserva, las seis escalas de NASA-TLX sin
-ponderar, en la versión en español de Díaz Ramiro et al.~\cite{diaz2010nasatlx},
-y una pregunta abierta, y una entrevista de cinco
-minutos con los FR, que queda en las notas de quien conduce. La escala SUS se
+divergencias que no lo están. En la previa cada uno puede consultar su carta, y
+en la posterior no. Después de la sesión hay un cuestionario anónimo. Repite las
+cinco afirmaciones de UniReserva, agrega cinco de utilidad y las seis escalas de NASA-TLX sin ponderar, en
+la versión en español de Díaz Ramiro et al.~\cite{diaz2010nasatlx}, y cierra
+con dos preguntas abiertas. También hay una entrevista de cinco minutos con los
+FR, que queda en las notas de quien conduce. La escala SUS se
 retiró del diseño, porque suma diez ítems a un cuestionario que debe ser corto y
 la claridad de los pasos ya la mide la encuesta. La participación es voluntaria,
 sin efecto en la nota y con consentimiento informado.
@@ -4681,16 +4674,21 @@ descriptiva, y los comentarios, la entrevista y las notas, con análisis
 temático~\cite{braun2006thematic}. Dos autores codifican por separado las
 respuestas de la medición en categorías definidas de antemano y se mide su
 acuerdo; el indicador es, por mesa y por pregunta, la proporción de integrantes
-en la categoría más frecuente, antes y después. Las fuentes se triangulan entre sí y con la
-versión 1.3, y del análisis sale un registro de lecciones aprendidas.
+en la categoría más frecuente, antes y después. La utilidad se juzga por mesa
+con la definición de la Sección~\ref{sec:utilidad}: el proceso le fue útil a una
+mesa si dejó escritas y resueltas las divergencias sembradas, obtuvo las cinco
+evidencias con un traspaso que coincide y sus respuestas convergen entre una
+medición y otra. La encuesta se contrasta con esos resultados y no los
+reemplaza, ya que creer entenderse sin que los artefactos lo muestren es el
+entendimiento compartido falso que el proceso busca evitar. Las fuentes se
+triangulan entre sí y con la versión 1.3, y del análisis sale un registro de
+lecciones aprendidas.
 
 \subsection{Ejecución y resultados}
-\pendiente{Describir la ejecución (universidad, asignatura, semestre, fecha,
-estudiantes y mesas, desviaciones del cronograma y fallas técnicas) y presentar
-los resultados por pregunta: divergencias que cada mesa dejó escritas, rondas y
-medición antes y después (PCA1); E1--E5 y traspaso (PCA2); campos por requisito
-y críticos especificados y validados (PCA3); y encuesta y NASA-TLX frente a
-UniReserva (PCA4), con las lecciones aprendidas.}
+\pendiente{Describir la ejecución (fecha, participantes, mesas y desviaciones) y
+presentar los resultados por pregunta: divergencias escritas, rondas y medición
+(PCA1); E1--E5 y traspaso (PCA2); campos por requisito (PCA3); y encuesta y
+NASA-TLX (PCA4), con las lecciones aprendidas.}
 
 
 \section{Discusión general y amenazas a la validez}
@@ -4750,14 +4748,13 @@ comentarios abiertos los codificaron los mismos autores. Estas limitaciones
 son las que motivaron el diseño del estudio de caso en contexto agrícola.
 
 El diseño del estudio de caso agrícola ya deja ver sus propias amenazas. En la
-validez de constructo, la encuesta sigue con una afirmación por constructo y el
-balance de la participación se aproxima con el registro, sin observadores. En la
-validez interna, conduce el codirector, los autores conocen las divergencias y
-diseñaron el plan de las rondas, que favorece a cuatro de ellas, y la medición
-previa puede adelantar lo que preguntan las rondas. En la validez externa, participan
-estudiantes con \textit{stakeholders} simulados, el dominio sale de un solo
-artículo y los dos encuentros ocurren el mismo día. En la fiabilidad, la
-medición la codifican los autores, lo que se mitiga con dos codificadores y la
+validez de constructo, la encuesta sigue con una afirmación por constructo y la
+participación se aproxima con el registro, sin observadores. En la validez
+interna, conduce el codirector, los autores diseñaron las rondas conociendo las
+divergencias y la medición previa, con la carta a mano, puede adelantarlas. En
+la validez externa, participan estudiantes con \textit{stakeholders} simulados,
+el dominio sale de un artículo y los dos encuentros ocurren el mismo día. En la
+fiabilidad, la medición la codifican los autores, con dos codificadores y la
 medida de su acuerdo.
 
 
@@ -8834,7 +8831,10 @@ conexión. \\
 La sesión sigue el cronograma de la Tabla~\ref{tab:cronograma_agricola}, que
 marca una aplicación web construida para el estudio. Los estudiantes entran
 desde el celular con un código QR, sin crear cuentas, y en cada tramo el celular
-les dice en una o dos frases qué hacer según su rol. La aplicación les entrega
+les dice en una o dos frases qué hacer según su rol, que nombra completo y sin
+siglas, como ``Responsable de calidad''. Cualquiera de la mesa puede agregar o
+corregir palabras del glosario (03) desde la apertura hasta el cierre, ya que en
+la versión final el glosario es vivo en todo el ciclo. La aplicación les entrega
 las plantillas de la versión final con lo prellenado, lanza las rondas,
 organiza el traspaso y proyecta para todas las mesas el tramo y el cronómetro.
 Al final, una herramienta llena por mesa una copia del libro de plantillas, para
@@ -9040,10 +9040,12 @@ justificación. Si se media, media el FR, porque el PO es parte del conflicto. \
 \end{xltabular}}
 
 La medición antes y después tiene cuatro preguntas abiertas, las mismas en los
-dos momentos (Tabla~\ref{tab:medicion_agricola}). Durante la medición el celular
-oculta la carta, el glosario y la ficha técnica, y las respuestas quedan ocultas
-para la mesa hasta el final. Las categorías son las que usan los dos autores
-para codificar las respuestas por separado.
+dos momentos (Tabla~\ref{tab:medicion_agricola}). En la previa cada persona
+puede abrir su carta o su hoja dentro del formulario, y en la posterior no; el
+glosario y la ficha técnica quedan ocultos en las dos, ``No lo sé'' es una
+respuesta válida y las respuestas quedan ocultas para la mesa hasta el final.
+Las categorías son las que usan los dos autores para codificar las respuestas
+por separado.
 
 \begin{table}[htbp]
 \caption{Preguntas de la medición antes y después y categorías para codificar
@@ -9069,12 +9071,45 @@ otra. \\
 \end{tabularx}
 \end{table}
 
-El cuestionario se responde después de los sesenta minutos y es anónimo. Repite
-las cinco afirmaciones de la encuesta de cierre de UniReserva
-(Sección~\ref{sec:unireserva}), valoradas de 1 a 5, agrega las seis escalas de
-NASA-TLX sin ponderar, de 0 a 100 (Tabla~\ref{tab:tlx_agricola}), y termina con
-la pregunta abierta ``¿qué sobró y qué faltó?'' y con el rol que tuvo la
-persona.
+El cuestionario se responde después de los sesenta minutos y es anónimo, en
+cuatro pasos. El primero repite las cinco afirmaciones de la encuesta de cierre
+de UniReserva (Sección~\ref{sec:unireserva}), valoradas de 1 a 5, para comparar
+los dos estudios. El segundo agrega cinco afirmaciones de utilidad, con la misma
+escala, que siguen el ciclo del problema a los requisitos y terminan en una
+afirmación general con la definición de la Sección~\ref{sec:utilidad}
+(Tabla~\ref{tab:utilidad_agricola}); no forman una escala validada, y cada una se
+contrasta con la evidencia de la mesa que le corresponde. El tercero trae las
+seis escalas de NASA-TLX sin ponderar, de 0 a 100 (Tabla~\ref{tab:tlx_agricola}):
+cada barra empieza sin respuesta y pide un toque o un arrastre, para que ningún
+valor quede marcado sin que la persona lo elija. El último pide qué parte del
+proceso ayudó más a alcanzar acuerdos y qué sobró y qué faltó, las dos
+opcionales.
+
+\begin{table}[htbp]
+\caption{Afirmaciones de utilidad del cuestionario del caso Tomatera y evidencia
+de la mesa con que se contrasta cada una (escala de 1 a 5).}
+\label{tab:utilidad_agricola}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}Y L{4.6cm}@{}}
+\toprule
+\textbf{Afirmación} & \textbf{Se contrasta con} \\
+\midrule
+El proceso me ayudó a comprender qué problema necesitábamos resolver. & Las
+versiones equivalentes de la apertura (E1). \\
+El proceso nos ayudó a acordar el significado de los términos importantes. & Los
+términos críticos acordados y comprobados en 03 (E2). \\
+El proceso nos ayudó a resolver diferencias de interpretación. & Las
+divergencias resueltas y confirmadas en 06 (E4). \\
+Al finalizar, entendíamos de la misma manera los requisitos críticos. & Los
+ejemplos aceptados (E3) y el traspaso a otra mesa (E5). \\
+En general, el proceso fue útil para que mi mesa llegara a entender lo mismo
+sobre los requisitos. & El conjunto de lo anterior y la convergencia de la
+medición. \\
+\bottomrule
+\end{tabularx}
+\end{table}
 
 \begin{table}[htbp]
 \caption[Escalas de NASA-TLX del cuestionario del caso Tomatera]{Escalas de

@@ -11,14 +11,14 @@
 \contentsline {section}{\numberline {1.3}Planteamiento del problema}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Justificación}{5}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}¿Por qué se necesita un proceso para el entendimiento compartido en IR?}{5}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}¿Por qué elicitación, especificación y validación?}{6}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.2}¿Por qué elicitación, especificación y validación?}{5}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}¿Por qué usar THUNDERS?}{6}{subsection.1.4.3}%
-\contentsline {subsection}{\numberline {1.4.4}¿Por qué evaluar el proceso en un contexto agrícola?}{6}{subsection.1.4.4}%
+\contentsline {subsection}{\numberline {1.4.4}¿Por qué valida el proceso en un contexto agrícola?}{6}{subsection.1.4.4}%
 \contentsline {section}{\numberline {1.5}Objetivos}{7}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Objetivo general}{7}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Objetivos específicos}{7}{subsection.1.5.2}%
 \contentsline {section}{\numberline {1.6}Metodología de la investigación}{8}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Aportes del proyecto}{11}{section.1.7}%
+\contentsline {section}{\numberline {1.7}Aportes del proyecto}{10}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Organización del documento}{11}{section.1.8}%
 \contentsline {chapter}{\numberline {2}Marco conceptual y estado del arte}{12}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Marco teórico}{12}{section.2.1}%
@@ -155,7 +155,7 @@
 \contentsline {paragraph}{Procedimiento.}{94}{paragraph*.38}%
 \contentsline {paragraph}{Divergencias sembradas.}{95}{paragraph*.39}%
 \contentsline {paragraph}{Fuentes de datos e instrumentos.}{95}{paragraph*.40}%
-\contentsline {paragraph}{Análisis.}{96}{paragraph*.41}%
+\contentsline {paragraph}{Análisis.}{95}{paragraph*.41}%
 \contentsline {subsection}{\numberline {6.9.2}Ejecución y resultados}{96}{subsection.6.9.2}%
 \contentsline {section}{\numberline {6.10}Discusión general y amenazas a la validez}{96}{section.6.10}%
 \contentsline {subsection}{\numberline {6.10.1}Amenazas a la validez}{97}{subsection.6.10.1}%
