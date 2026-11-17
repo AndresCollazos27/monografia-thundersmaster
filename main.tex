@@ -11,6 +11,7 @@
 \usepackage[english,spanish,es-tabla]{babel}
 \usepackage{lmodern}
 \usepackage{amssymb}
+\usepackage{float}
 
 \usepackage[letterpaper,top=2.5cm,bottom=2.5cm,left=3cm,right=2.5cm]{geometry}
 \usepackage{setspace}
@@ -760,10 +761,7 @@ capítulos siguientes. Luego se presentan los trabajos relacionados, con lo que
 hizo, obtuvo y dejó pendiente cada uno, y una tabla que los compara con este
 trabajo. Por último, se presenta la revisión sistemática de la literatura, con
 su protocolo, sus resultados por pregunta de investigación y la brecha que
-justifica adaptar THUNDERS. La Figura~\ref{fig:secciones_c2} resume las secciones
-del capítulo.
-
-\seccionescapitulo{3}{2.1/{Marco teórico: conceptos de IR, de colaboración, de procesos y de evaluación},2.2/{Trabajos relacionados y comparación},2.3/{Revisión sistemática de la literatura}}{fig:secciones_c2}
+justifica adaptar THUNDERS.
 
 \section{Marco teórico}
 \label{sec:marco_teorico}
@@ -791,7 +789,7 @@ La norma distingue los requisitos funcionales, que describen lo que el sistema
 debe hacer, de los requisitos no funcionales, que incluyen los atributos de
 calidad, como el desempeño, la usabilidad o la seguridad, y las restricciones,
 que son condiciones que limitan la solución, como una norma legal, una
-tecnología obligatoria o un plazo~\cite{iso29148,iso25010}. THUNDERS~Master trabaja con los dos tipos. Los malentendidos aparecen en ambos,
+tecnología obligatoria que se deba usar o un plazo de tiempo establecido~\cite{iso29148,iso25010}. THUNDERS~Master trabaja con los dos tipos. Los malentendidos aparecen en ambos,
 y la RSL mostró que en los no funcionales la desalineación puede ser mayor,
 porque se discuten menos y se documentan
 peor~\cite{behutiye2022quality,okpara2023}.
@@ -801,7 +799,8 @@ Es la actividad en la que se identifican y se obtienen las necesidades,
 expectativas y restricciones de los \textit{stakeholders} sobre el sistema.
 Según la norma ISO/IEC/IEEE~29148, busca capturar requisitos desde distintas
 fuentes y perspectivas, por lo que necesita preparación y una identificación
-previa de las fuentes~\cite{iso29148}. Nuseibeh y Easterbrook prefieren el término elicitación al de captura, para no
+previa de las fuentes, para obtener información que luego sirva
+de base para el análisis y la documentación~\cite{iso29148}. Nuseibeh y Easterbrook prefieren el término elicitación al de captura, para no
 sugerir que los requisitos ya existen y que basta con hacer las preguntas
 correctas para recogerlos~\cite{nuseibeh2000roadmap}. En la elicitación empieza
 la construcción de significado entre personas que no parten del mismo punto.
@@ -819,9 +818,9 @@ Es la actividad en la que se confirma, junto con los \textit{stakeholders}, que
 los requisitos documentados representan sus necesidades y son adecuados para el
 propósito del sistema. Se realiza mediante revisiones y retroalimentación con
 los interesados, con el fin de encontrar inconsistencias, ambigüedades u
-omisiones antes de seguir avanzando~\cite{iso29148}. Se diferencia de la
+omisiones antes de seguir avanzando. Se diferencia de la
 verificación, que comprueba si un requisito está bien escrito, mientras que la
-validación comprueba si corresponde a lo que realmente se necesita.
+validación comprueba si corresponde a lo que realmente se necesita~\cite{iso29148}.
 
 \subsection{Conceptos de ingeniería de la colaboración}
 
@@ -851,7 +850,7 @@ comprensión individual y la grupal~\cite{agredo2022thesis}. En la IR se logra c
 que reduce la ambigüedad y el retrabajo~\cite{mattmann2015quality}.
 
 Glinz y Fricker distinguen dos formas de entendimiento compartido en la
-ingeniería de software~\cite{glinz2015shared}. La explícita se refiere a lo que
+ingeniería de software. La explícita se refiere a lo que
 quedó escrito, como una especificación o un glosario, y la implícita, a lo que
 no se escribió pero el grupo da por sabido, como los supuestos, los valores y
 los hechos del dominio. Los autores advierten además que el entendimiento puede
@@ -861,15 +860,14 @@ igual, ya que solo una especificación validada se puede considerar
 entendimiento compartido explícito. Por lo tanto, plantean hacer explícito y
 validar lo que tiene un riesgo alto de malentendido, y confiar en el
 entendimiento implícito para lo demás, siempre que existan ciclos cortos de
-retroalimentación. Esta distinción es la base de la versión final del proceso
-(Capítulo~\ref{ch:proceso}).
+retroalimentación~\cite{glinz2015shared}.
 
 \paragraph{Carga cognitiva.}
 La teoría de la carga cognitiva parte de que la memoria de trabajo es limitada y
 de que una tarea con muchos elementos que interactúan al mismo tiempo puede
 saturarla antes de completarse~\cite{sweller1988}. El diseño de una actividad
 puede agregar esfuerzo mental que no aporta a la tarea principal, por ejemplo con
-información, pasos o artefactos innecesarios, y reducir esa carga extrínseca
+información, pasos o artefactos innecesarios, y reducir esa carga externa
 implica conservar lo esencial y simplificar lo que estorba sin aportar un valor
 proporcional~\cite{dejong2010}. El concepto es central para el presente trabajo porque la carga cognitiva alta
 fue una de las limitaciones que reportaron las validaciones de
@@ -890,8 +888,9 @@ de algo (una \emph{guía}), y las actividades se agrupan en \emph{fases} que
 terminan en un \emph{hito}~\cite{omg2008spem}.
 
 \paragraph{Modelado de procesos.}
-Un modelo de proceso es una representación abstracta de cómo se define y se
-ejecuta un proceso. THUNDERS se especificó con SPEM~2.0~\cite{omg2008spem}, que
+Un modelo es una especificación y representación gráfica de la secuencia de actividades 
+y el flujo de trabajo de un proceso mediante una notación estandarizada~\cite{omg2011bpmn}. 
+THUNDERS se especificó con SPEM~2.0~\cite{omg2008spem}, que
 es un metamodelo para describir procesos de ingeniería de software, y
 THUNDERS~Master se diagramó con BPMN~2.0~\cite{omg2011bpmn}, que es una
 notación para modelar flujos de trabajo con actividades, eventos, compuertas,
@@ -905,7 +904,8 @@ definición de un proceso general, o de particularizar sus términos, para deriv
 un proceso aplicable a un entorno más específico~\cite{ginsberg1995}. Se usa
 porque construir un proceso desde cero es costoso y depende de la experiencia de
 quien lo hace, por lo que es habitual partir de un proceso existente y
-ajustarlo al proyecto, a la organización o al dominio~\cite{xu2007}. Al adaptar, el resultado debe seguir siendo consistente con los objetivos del
+ajustarlo al proyecto, a la organización o al dominio~\cite{xu2007}. Al adaptar, 
+el resultado debe seguir siendo consistente con los objetivos del
 proceso original, y la decisión de qué conservar y qué cambiar debe apoyarse en
 criterios explícitos del contexto~\cite{kalus2013tailoring}.
 
@@ -917,7 +917,8 @@ métodos que ya existen~\cite{brinkkemper1996method,henderson2010sme}. Parte de
 que un método universal rara vez encaja en todos los contextos. Un método
 situacional se construye con cuatro actividades, que son especificar los
 requisitos del método, seleccionar los componentes que los satisfacen,
-ensamblarlos y validar el método resultante, y esas actividades se repiten en iteraciones hasta que el método cumple sus
+ensamblarlos y validar el método resultante, y esas actividades se repiten en iteraciones 
+hasta que el método cumple sus
 requisitos~\cite{ralyte2001assembly,henderson2014}.
 
 \paragraph{Fragmentos y \textit{chunks} de método.}
@@ -931,12 +932,6 @@ consume y produce~\cite{ralyte2001assembly,mirbel2006sme}. Por ejemplo, un
 del problema'', como situación ``inicio de una sesión de elicitación'' y como
 salida ``un registro de acuerdos y dudas''.
 
-\paragraph{Líneas de procesos y adaptación ágil.}
-Una línea de procesos de software (SPrL, por \textit{Software Process Line}) es un conjunto de procesos con un
-núcleo común y una variabilidad controlada~\cite{kuhrmann2016}, y la adaptación
-ágil selecciona prácticas ágiles según el
-contexto~\cite{campanelli2015agile,kruchten2013}. El
-Capítulo~\ref{ch:caracterizacion} compara estos enfoques.
 
 \subsection{Conceptos de evaluación de procesos}
 \label{sec:marco_evaluacion}
@@ -945,7 +940,8 @@ Capítulo~\ref{ch:caracterizacion} compara estos enfoques.
 GQM es un método dirigido por objetivos para definir e interpretar mediciones en
 ingeniería de software. Primero se fija un objetivo de medición, luego se
 descompone en preguntas que permiten valorar si se cumple y, por último, se
-definen las métricas que responden esas preguntas~\cite{basili1994gqm}. En este trabajo GQM se usó, como se planteó en el anteproyecto, para construir
+definen las métricas que responden esas preguntas~\cite{basili1994gqm}. 
+En este trabajo GQM se usó para construir
 el plan de evaluación del proceso. Una de sus metas lleva el entendimiento
 compartido a indicadores observables durante la elicitación, la especificación y
 la validación, como las cinco evidencias del proceso o las discrepancias que se
@@ -958,12 +954,11 @@ trayectoria en el dominio lo valoran con un instrumento estructurado, por
 ejemplo en suficiencia, claridad, coherencia y relevancia, que son los criterios
 de Escobar-Pérez y Cuervo-Martínez, y sus respuestas se analizan de
 forma agregada y se complementan con las observaciones
-abiertas~\cite{escobar2008validez}. Sirve para revisar una especificación antes
-de usarla, pero no muestra lo que pasa cuando el proceso se ejecuta.
+abiertas~\cite{escobar2008validez}.
 
 \paragraph{Estudio de caso.}
 Es un método de investigación empírica para estudiar un fenómeno actual en su
-contexto real, cuando hay poco control sobre las variables y las preguntas son
+respectivo contexto, cuando hay poco control sobre las variables y las preguntas son
 de tipo cómo y por qué~\cite{runeson2009case}. En este documento se usa siempre
 la expresión \emph{estudio de caso} para el método de investigación, y
 \emph{caso} para la situación concreta que se estudia, como el caso UniReserva.
@@ -982,14 +977,14 @@ en el Capítulo~\ref{ch:evaluacion}.
 
 \paragraph{Utilidad y facilidad de uso percibidas.}
 \label{sec:utilidad}
-El objetivo~4 pide evaluar la utilidad del proceso adaptado. En este trabajo, el
+En este trabajo, el
 proceso es útil en la medida en que lleva al equipo a un entendimiento
 compartido de los requisitos críticos, que es lo que THUNDERS~Master promete;
 si un equipo lo logra, el proceso le fue útil. Por eso la utilidad se busca
-primero en lo que deja la aplicación, como las divergencias de interpretación
+primero en lo que deja el proceso, como las divergencias de interpretación
 que el equipo detecta y resuelve por escrito, las evidencias del entendimiento
 al cierre del ciclo y la prueba de traspaso a quien no participó, y luego se
-contrasta con lo que perciben quienes lo usaron. Para valorar esa percepción se
+contrasta con lo que perciben quienes usaron el proceso. Para valorar esa percepción se
 tomaron dos constructos del modelo de aceptación de tecnología de Davis, la
 utilidad percibida, que es el grado en que una persona cree que usar algo mejora
 su trabajo, y la facilidad de uso percibida, que es el grado en que cree que
@@ -1008,10 +1003,6 @@ muestran cómo se ha hecho una adaptación y permiten compararla con la de este
 trabajo. Para cada uno se presenta qué se hizo, qué se obtuvo y qué quedó
 pendiente frente al problema de este trabajo, y al final la
 Tabla~\ref{tab:comparacion_trabajos} los compara.
-
-Como la RSL cubre hasta su fecha de corte, se hizo además una búsqueda no
-sistemática de trabajos posteriores sobre entendimiento compartido en la IR,
-cuyos resultados se presentan al final de esta sección.
 
 \subsection{Mecanismos para construir el entendimiento compartido en la IR}
 Bittner y Leimeister~\cite{bittner2014shared} estudiaron, desde la ingeniería
@@ -1115,7 +1106,7 @@ compara para elegir la que se usó.
 \subsection{Trabajos posteriores a la revisión sistemática}
 Londoño, Agredo-Delgado y Ruiz~\cite{londono2023prototyping} propusieron una
 estrategia ágil de prototipado para construir el entendimiento compartido en la
-IR, construida, como THUNDERS~Master, con ingeniería de métodos situacionales.
+IR, construida con ingeniería de métodos situacionales.
 La estrategia se organiza en fases, que van de la planificación y la
 identificación y el análisis de requisitos al prototipado no funcional, la
 gestión de requisitos, el prototipado funcional y la socialización, y usa los
@@ -1167,9 +1158,9 @@ información publicada).}
 \scriptsize
 \renewcommand{\arraystretch}{1.15}
 \setlength{\tabcolsep}{3pt}
-\newcommand{\si}{\textcolor{devLine}{\textbf{Sí}}}
-\newcommand{\no}{\textcolor{meaLine}{No}}
-\newcommand{\pa}{\textcolor{begLine}{Parcial}}
+\newcommand{\si}{\textcolor{black}{\textbf{Sí}}}
+\newcommand{\no}{\textcolor{black}{No}}
+\newcommand{\pa}{\textcolor{black}{Parcial}}
 \begin{tabularx}{\textwidth}{@{}Y *{7}{>{\centering\arraybackslash}p{1.3cm}}@{}}
 \toprule
 \textbf{Trabajo} & \textbf{Proceso con fases} & \textbf{Elic.} &
@@ -1208,14 +1199,12 @@ software.
 La revisión siguió un protocolo definido antes de empezar y organizado en las
 fases del mapeo sistemático~\cite{petersen2008systematic}: planificación
 (objetivo, preguntas y criterios), búsqueda con una cadena estructurada,
-cribado en dos etapas, extracción de datos y síntesis temática. En la primera
-etapa del cribado se revisaron el título, el resumen y las palabras clave frente
+selección en dos etapas, extracción de datos y síntesis temática. En la primera
+etapa de selección, se revisaron el título, el resumen y las palabras clave frente
 a los criterios, y en la segunda se leyó el texto completo y solo se conservaron
-los estudios que aportaban evidencia para al menos una pregunta. Los dos autores realizaron ambas etapas de forma independiente y registraron
-cada decisión de inclusión o exclusión en una matriz de revisión. Los
-desacuerdos se resolvieron por discusión y, cuando fue necesario, consultando a
-la directora del trabajo, quien además revisó el cribado como control de calidad
-de la selección.
+los estudios que aportaban evidencia para al menos una pregunta de investigación. 
+Sé realizaron ambas etapas de forma independiente y se registró
+cada decisión de inclusión o exclusión en una matriz de revisión.
 
 La extracción consistió en leer cada estudio incluido y registrar en esa matriz
 la misma información para todos, con un campo para cada dato.
@@ -1267,10 +1256,14 @@ Anexo~\ref{anx:rsl} las presenta en su idioma original.
   \item RQ5. ¿Qué métricas, indicadores e instrumentos se han propuesto para medir o evaluar el entendimiento compartido en las actividades de elicitación, especificación y validación, y en qué momentos de aplicación (antes, durante o después) se recomienda su uso?
 \end{itemize}
 
-En la RQ5, \emph{medir} es recolectar indicadores observables del entendimiento
-compartido y \emph{evaluar} es interpretarlos o valorar la evidencia con
-instrumentos o juicio de expertos, y los momentos se refieren a antes, durante o
-después de cada actividad de la IR.
+En la RQ5, \emph{medir} se entiende como identificar o recolectar métricas e indicadores ob
+servables asociados al entendimiento compartido, mientras que \emph{evaluar} implica interpretar
+esos indicadores o valorar la evidencia con instrumentos, criterios, escalas, cuestionarios o
+juicio de expertos. Los momentos antes, durante y después se refieren a cada actividad,
+por lo que corresponden a antes de iniciar, durante la ejecución o después de terminar la
+elicitación, la especificación o la validación. Con estas cinco preguntas el entendimiento
+compartido se caracteriza desde las rupturas reportadas, las tareas y artefactos donde se necesita, los momentos en que debe lograrse, los mecanismos que lo apoyan y las formas
+de medirlo o evaluarlo.
 
 
 
@@ -1295,7 +1288,7 @@ entendimiento compartido suele aparecer en la literatura bajo términos como
 comunicación, alineación o coordinación, y una cadena más restrictiva hacía
 perder una cantidad importante de estudios primarios que podían ser relevantes.
 Por eso la cadena se dejó amplia y la restricción a la elicitación, la
-especificación y la validación se aplicó después, en el cribado, con los
+especificación y la validación se aplicó después, en la selección, con los
 criterios de inclusión, en especial IC1 e IC2. Los criterios sí nombran esas
 actividades, aunque la cadena no lo haga, y al final solo quedaron estudios con
 evidencia concreta sobre ellas.
@@ -1311,22 +1304,65 @@ Para delimitar el corpus se aplicaron cinco filtros. El periodo fue
 inglés; el acceso, abierto; y las áreas temáticas, \textit{Computer Science},
 \textit{Engineering}, \textit{Software Engineering}, \textit{Requirements
 Engineering} y términos relacionados con \textit{Shared Understanding}.
-El Anexo~\ref{anx:rsl} justifica el periodo elegido.
+El periodo se definió para recuperar la evidencia de la última década, ya que
+el entendimiento compartido en la IR ha ganado peso en el desarrollo de
+software reciente, con más colaboración entre \textit{stakeholders},
+distribución geográfica, mediación tecnológica y cambio continuo de los
+requisitos~\cite{irshad2021bdd}. En esos contextos las dificultades de
+comunicación y coordinación afectan la construcción de una interpretación
+común~\cite{calefato2015}. Adicionalmente, el rango incluye estudios recientes
+sobre enfoques ágiles, desarrollo a gran escala y prácticas de especificación y
+validación que dependen de la alineación entre requisitos, artefactos, pruebas
+y decisiones de implementación~\cite{kasauli2021}. Con este periodo se buscó un
+equilibrio entre actualidad, tamaño del corpus y pertinencia con el objetivo de
+la revisión.
 
 \subsection{Criterios de inclusión y exclusión}
-Un estudio se incluyó si cumplía todos los criterios de inclusión, o al menos la
-mayoría. Los dos primeros eran tratar explícitamente la elicitación, la
-especificación, el análisis o la validación de requisitos (IC1) y reportar
-problemas, mecanismos, métricas o instrumentos relacionados con el entendimiento
-compartido entre \textit{stakeholders} (IC2). Los demás eran situarse en el desarrollo de
-software (IC3), aportar evidencia para al menos una pregunta (IC4), ser una
-publicación primaria revisada por pares, en inglés y en texto completo (IC5) y
-haberse publicado entre 2015 y 2026 (IC6). Se excluyó si no se centraba en las
-actividades del alcance (EC1), si trataba la colaboración de forma general
-(EC2), si pertenecía a otro dominio sin evidencia transferible (EC3), si no era
-primaria (EC4), si no estaba disponible (EC5), si no respondía a ninguna
-pregunta (EC6) o si era un duplicado (EC7). Los criterios IC1 e IC2 son los que restringen el corpus a las actividades del
-alcance, que la cadena de búsqueda dejó abiertas a propósito. El Anexo~\ref{anx:rsl} presenta los criterios completos.
+
+\subsubsection{Criterios de inclusión}
+Un estudio se incluyó si cumplía todos, o al menos la mayoría, de los
+siguientes criterios:
+
+\begin{itemize}
+  \item IC1. Trata explícitamente actividades de IR, en particular
+        elicitación, especificación, análisis o validación de requisitos. Este
+        es el criterio que restringe el corpus a las actividades del alcance,
+        que la cadena de búsqueda dejó abiertas a propósito.
+  \item IC2. Reporta problemas, situaciones, artefactos, mecanismos,
+        prácticas, métricas o instrumentos relacionados con el entendimiento
+        compartido, la alineación conceptual, el entendimiento común o
+        fenómenos equivalentes entre \textit{stakeholders}.
+  \item IC3. Se sitúa en el desarrollo de software, la ingeniería de
+        software o los sistemas de software.
+  \item IC4. Presenta evidencia suficiente para responder al menos una de
+        las preguntas de investigación.
+  \item IC5. Es una publicación primaria, revisada por pares, escrita en
+        inglés y disponible en texto completo.
+  \item IC6. Fue publicado dentro del periodo 2015--2026.
+\end{itemize}
+
+\subsubsection{Criterios de exclusión}
+Un estudio se excluyó si cumplía al menos uno de los siguientes criterios:
+
+\begin{itemize}
+  \item EC1. No se centra en IR, o trata el entendimiento compartido en
+        actividades distintas de la elicitación, la especificación o la
+        validación sin relacionarlo con alguna de ellas.
+  \item EC2. Trata la colaboración, la comunicación o el trabajo en equipo
+        de forma general, sin vincularlos con los requisitos de software o con
+        actividades concretas de IR.
+  \item EC3. Pertenece a dominios distintos del desarrollo de software y no
+        ofrece evidencia transferible a la IR.
+  \item EC4. Es una revisión sistemática, un mapeo sistemático, un
+        editorial, un capítulo de libro, un resumen, un póster, una tesis u
+        otra publicación no primaria.
+  \item EC5. No está en acceso abierto, no está escrito en inglés o no está
+        disponible en texto completo.
+  \item EC6. No aporta información para responder ninguna de las preguntas
+        de investigación, aunque mencione términos relacionados con
+        comunicación, colaboración o entendimiento.
+  \item EC7. Es un duplicado recuperado en más de una base de datos.
+\end{itemize}
 
 \subsection{Resultados del proceso de selección}
 La estrategia recuperó en total 1.362 registros. Luego de aplicar los filtros
@@ -1411,10 +1447,9 @@ elicitación, especificación y validación de requisitos?}
 Los problemas aparecen desde las primeras interacciones y se mantienen en las
 tres actividades. Una causa que se repite es que los participantes interpretan
 de forma distinta qué problema debe resolver el sistema y cuáles son sus
-límites~\cite{balasubramaniam2023}, a lo que se suman la brecha entre la
-perspectiva del negocio y la técnica~\cite{irshad2021bdd}, las diferencias de
-lenguaje entre perfiles~\cite{burkhardt2015} y una separación rígida de
-roles~\cite{fuller2021blurring}. En la elicitación, el entendimiento se debilita
+límites~\cite{balasubramaniam2023}, a lo que se suman la falta de alineación entre 
+las perspectivas del negocio y del equipo técnico~\cite{irshad2021bdd}, las diferencias de
+lenguaje entre perfiles~\cite{burkhardt2015} y una distancia jerárquica entre los diferentes roles~\cite{fuller2021blurring}. En la elicitación, el entendimiento se debilita
 cuando no se consulta a los \textit{stakeholders} que representan las
 necesidades reales~\cite{khan2022stakeholders}, cuando estos no logran
 expresar lo que necesitan~\cite{laporte2023}, en contextos distribuidos por las
@@ -1435,7 +1470,8 @@ construcción, la negociación y el mantenimiento del significado entre
 \subsubsection{RQ2. ¿En qué tareas, artefactos y situaciones dentro de las
 actividades de elicitación, especificación y validación se identifica la
 necesidad de construir entendimiento compartido entre \textit{stakeholders}?}
-La necesidad es transversal. En la elicitación aparece al identificar a los
+La necesidad de construir entendimiento compartido entre stakeholders aparece de
+forma transversal en la elicitación, la especificación y la validación. En la elicitación aparece al identificar a los
 \textit{stakeholders}, al recolectar y priorizar necesidades y al aclarar
 expectativas, en entrevistas, talleres y grupos focales, con artefactos como
 listas de \textit{stakeholders}, glosarios, prototipos en papel y
@@ -1512,21 +1548,51 @@ entendimiento compartido depende de combinar indicadores del proceso, de los
 artefactos, de la interacción y de la validación~\cite{fricker2015}.
 
 \subsection{Amenazas a la validez}
-La RSL tiene cinco amenazas a la validez, que el Anexo~\ref{anx:rsl} describe
-con detalle. La primera es que la cadena de búsqueda pudo no capturar todas las
-formas de nombrar el fenómeno, lo que se mitigó con sinónimos como
-\textit{common understanding} y \textit{cognitive alignment}. La segunda es que
-limitar la búsqueda a tres bases, al inglés, al acceso abierto y al periodo
-2015--2026 pudo dejar estudios por fuera, lo que se controló reportando todos
-los filtros. La tercera es el juicio de interpretación al seleccionar los estudios, que se mitigó con criterios definidos de antemano, con dos etapas de cribado,
-con la revisión independiente de los dos autores y con las decisiones
-registradas en la matriz de revisión. La cuarta es la heterogeneidad conceptual
-al extraer y sintetizar, que se controló con el esquema de la
-Tabla~\ref{tab:rsl_extraction} y con la revisión cruzada de los datos entre los
-autores. La quinta es el sesgo de publicación y de constructo, porque no se
-incluyó literatura gris y porque algunos estudios pudieron no usar el término
-entendimiento compartido, lo que se compensó en parte aceptando conceptos
-relacionados, siempre que estuvieran ligados a las tres actividades.
+La RSL tiene amenazas a la validez que es necesario hacer explícitas para
+interpretar bien sus resultados.
+
+La primera tiene que ver con la estrategia de búsqueda. La cadena pudo no
+capturar todas las variantes de nombre del fenómeno, ya que el entendimiento
+compartido no siempre se nombra de forma explícita y a menudo aparece asociado
+a comunicación, alineación, coordinación o colaboración. Para reducir este
+riesgo la búsqueda se construyó a partir de los conceptos centrales del estudio e
+incluyó expresiones relacionadas como \textit{Shared Understanding},
+\textit{Common Understanding} y \textit{Cognitive Alignment}, y los criterios
+de inclusión admitieron estudios que trataban fenómenos equivalentes dentro de
+las actividades de IR.
+
+La segunda tiene que ver con las fuentes y los filtros. La búsqueda se limitó a
+ScienceDirect, Scopus y Web of Science, y a artículos de investigación en
+inglés, de acceso abierto y publicados entre 2015 y 2026. Estas decisiones
+delimitaron un corpus coherente con el alcance de la revisión, pero pudieron
+dejar por fuera estudios relevantes de otras fuentes, idiomas o tipos de
+publicación. Para controlar esta amenaza se eligieron bases reconocidas en
+ingeniería de software y se reportaron todos los filtros aplicados.
+
+La tercera tiene que ver con la selección de los estudios. Aplicar los
+criterios de inclusión y exclusión sobre títulos, resúmenes, palabras clave y
+textos completos implicó juicios de interpretación, sobre todo en los estudios
+donde el entendimiento compartido aparecía de forma indirecta. Por lo tanto,
+los criterios se definieron antes de comenzar y la selección se hizo en dos
+niveles, título y resumen primero y texto completo después, con las decisiones
+documentadas y discutidas entre los autores cuando había dudas sobre la
+pertinencia de un estudio.
+
+La cuarta tiene que ver con la extracción y la síntesis. Las diferencias en la forma en que
+ los estudios abordan y describen el entendimiento compartido pudieron dificultar la 
+ extracción y el análisis de la información, dando lugar a posibles errores u omisiones. 
+ Para reducir esta amenaza la extracción se guió por las
+categorías derivadas de las preguntas RQ1 a RQ5 (Tabla~\ref{tab:rsl_extraction}),
+y los datos extraídos se revisaron y contrastaron entre los autores.
+
+La última tiene que ver con el sesgo de publicación y de constructo. Al
+centrarse en estudios primarios revisados por pares, la revisión pudo dejar por
+fuera literatura gris, informes técnicos o experiencias industriales no
+publicadas. Adicionalmente, como el entendimiento compartido es un constructo
+disperso, algunos estudios relevantes pudieron no usar esa terminología. Para
+controlar en parte esta limitación se tuvieron en cuenta conceptos relacionados,
+siempre que estuvieran vinculados a la elicitación, la especificación o la
+validación de requisitos y aportaran evidencia para alguna pregunta.
 
 \subsection{Síntesis de hallazgos}
 La síntesis por preguntas de investigación dejó cinco hallazgos principales,
@@ -1681,8 +1747,6 @@ de los requisitos es el mismo para todos. \\
 \end{tabularx}
 \end{table}
 
-
-
 \chapter{Caracterización de los elementos necesarios para la adaptación}
 \chaptermark{Caracterización para la adaptación}
 \label{ch:caracterizacion}
@@ -1697,18 +1761,14 @@ resultados de sus validaciones.
 Después caracteriza el contexto en el que se usaría el proceso adaptado y a las
 personas que lo usarían. Por último, compara los métodos existentes para adaptar
 procesos, ya que de esa comparación salió el método con el que se construyó
-THUNDERS~Master (Capítulo~\ref{ch:construccion}). La
-Figura~\ref{fig:secciones_c3} resume las secciones del capítulo.
-
-\seccionescapitulo{7}{3.1/{Elicitación de requisitos},3.2/{Especificación de requisitos},3.3/{Validación de requisitos},3.4/{Elementos transversales},3.5/{THUNDERS, el proceso base},3.6/{Contexto de uso y usuarios},3.7/{Métodos de adaptación de procesos}}{fig:secciones_c3}
+THUNDERS~Master (Capítulo~\ref{ch:construccion}). 
 
 La caracterización de las tres actividades toma como base la norma
-ISO/IEC/IEEE~29148:2018~\cite{iso29148}, que es la norma internacional sobre los
+ISO/IEC/IEEE 29148:2018~\cite{iso29148}, que es la norma internacional sobre los
 procesos y productos de la IR, y se complementa con las normas de ciclo de
-vida~\cite{iso15288,iso12207}. También usa el modelo de calidad del producto
+vida ISO/IEC/IEEE 12207:2017~\cite{iso15288} e ISO 9241-11:2018~\cite{iso12207}. También usa el modelo de calidad del producto
 ISO/IEC~25010~\cite{iso25010}, para clasificar los atributos de calidad que
-deben tener los requisitos no funcionales, y las normas de
-usabilidad~\cite{iso9241}, porque la validación debe comprobar que
+deben tener los requisitos no funcionales~\cite{iso9241}, porque la validación debe comprobar que
 los requisitos sirven a los usuarios en sus tareas reales, y con la literatura
 académica. Su propósito es saber, para cada actividad, qué debe producir y qué
 debe conservar para que el entendimiento compartido no se pierda al pasar a la
@@ -1721,7 +1781,7 @@ pero también desde las rupturas de entendimiento, los momentos críticos y los
 mecanismos que la revisión encontró para ella. La
 Tabla~\ref{tab:re_characterization} resume la caracterización que se adoptó.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Caracterización operativa de las actividades de ingeniería de requisitos.}
 \label{tab:re_characterization}
 \centering
@@ -1738,7 +1798,7 @@ Descubrir, aclarar, contrastar y priorizar las necesidades de los
 los criterios de calidad que debe cumplir el sistema. &
 Mapa de \textit{stakeholders}, descripción del contexto de uso y escenarios,
 registro de necesidades con su fuente, glosario inicial del dominio y registro
-de los conflictos y supuestos que siguen abiertos. &
+de los conflictos entre los \textit{stakeholders} y supuestos que siguen abiertos. &
 Construye la primera interpretación compartida del problema y hace visibles los
 desacuerdos. \\
 \midrule
@@ -1762,19 +1822,21 @@ sobre su significado, o en un desacuerdo con responsable y fecha. \\
 \bottomrule
 \end{tabularx}
 \end{table}
-
+El
+Anexo~\ref{anx:tareas_ir} presenta las tareas, entradas, técnicas, roles y
+productos de trabajo, de las actividades de elicitación, especificación y validación de requisitos.
 \section{Elicitación de requisitos}
 \label{sec:car_elicitacion}
 La elicitación es la actividad en la que se identifican, se contrastan, se
 priorizan y se refinan las necesidades, las restricciones y los supuestos de los
 \textit{stakeholders}, de forma colaborativa, iterativa y ligada al contexto en
 que se usará el sistema, y su resultado esperado es una base suficientemente
-clara para formular los requisitos de \textit{stakeholder}~\cite{iso29148}. Su
+clara para formular los requisitos del \textit{stakeholder}~\cite{iso29148}. Su
 propósito es hacer visible lo que debe entenderse antes de escribir requisitos,
 como quiénes son los \textit{stakeholders}, qué metas persiguen, cómo usan o
 usarán el sistema y en qué no están de acuerdo desde el
 inicio~\cite{fuller2021blurring}. Si la elicitación deja supuestos ocultos o
-actores sin consultar, la especificación y la validación heredan vacíos que
+actores sin consultar, la especificación y la validación reciben vacíos que
 luego son difíciles de corregir~\cite{agredo2022exploratory}.
 
 La RSL ubica aquí las primeras rupturas del entendimiento compartido, que son
@@ -1792,7 +1854,8 @@ que piden cosas incompatibles y los supuestos que todavía nadie ha confirmado.
 
 Las técnicas, que son las formas de obtener la información, como la entrevista
 semiestructurada, el taller facilitado, la observación del trabajo o el
-prototipo de baja fidelidad, se eligen según el tipo de fuente y de necesidad, y
+prototipo de baja fidelidad, se seleccionan teniendo en cuenta de quién se necesita 
+obtener la información y cuales son sus necesidades, y
 no a partir de una plantilla única. Las revisiones recientes muestran además que
 la elicitación puede combinar la interacción entre personas con el análisis de
 documentos y de datos generados por los usuarios o por los
@@ -1809,9 +1872,7 @@ necesidades críticas tienen fuente y justificación, y los conflictos principal
 están registrados y resueltos o tienen un responsable~\cite{iso29148}. Una mala
 elicitación deja vacíos de contexto, criterios de aceptación implícitos y
 atributos de calidad que nadie mencionó, que después se convierten en
-ambigüedad y retrabajo~\cite{asadabadi2020ambiguity}. El
-Anexo~\ref{anx:tareas_ir} presenta sus tareas, entradas, técnicas, roles y
-productos de trabajo.
+ambigüedad y retrabajo~\cite{asadabadi2020ambiguity}.
 
 \section{Especificación de requisitos}
 \label{sec:car_especificacion}
@@ -1871,8 +1932,8 @@ sistema~\cite{iso9241}.
 En un proceso centrado en el entendimiento compartido, la validación convierte
 la interpretación escrita de cada requisito en un acuerdo explícito sobre su
 significado, o en un desacuerdo con responsable y fecha~\cite{glinz2015shared}.
-La RSL advierte que se vuelve superficial cuando revisa la forma del texto y no
-la cadena que va de la necesidad al requisito y de este a su criterio de
+La RSL advierte que se vuelve superficial cuando se revisa el texto y no
+la traza que va desde la necesidad al requisito y de este a su criterio de
 aceptación (RQ4 y RQ5). Las técnicas más usadas son las revisiones con los
 \textit{stakeholders} clave, las listas de chequeo y los prototipos o
 \textit{mockups}, que ayudan a discutir atributos difíciles de explicar solo con
@@ -1882,10 +1943,12 @@ revisión y el equipo técnico.
 
 La validación se da por cerrada cuando los \textit{stakeholders} relevantes
 revisaron el conjunto en un formato que entienden y los defectos críticos están
-resueltos o registrados. También debe haber evidencia de acuerdo o de aceptación
-condicionada, y la nueva versión debe quedar controlada en una línea base, que es la versión aprobada
+resueltos o registrados. También debe quedar constancia de que los stakeholders 
+están de acuerdo con los requisitos o de que los aceptan con algunas condiciones 
+pendientes por cumplir. La nueva versión debe quedar controlada en una línea base, 
+que es la versión aprobada
 del conjunto de requisitos a partir de la cual todo cambio se
-registra~\cite{iso29148}.
+registra~\cite{iso29148}. 
 
 \section{Elementos transversales}
 Las tres actividades comparten elementos que ayudan a que el entendimiento
@@ -1900,7 +1963,7 @@ elementos, junto con las tareas de las tres actividades, son los que luego se
 convierten en requisitos del método para THUNDERS~Master
 (Sección~\ref{sec:requisitos_metodo}).
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Elementos transversales a las tres actividades.}
 \label{tab:transversales}
 \centering
@@ -1936,8 +1999,8 @@ conflictos siguen abiertos, para saber si el entendimiento se logró. \\
 \section{THUNDERS, el proceso base}
 \label{sec:analisis_thunders}
 El análisis de THUNDERS que se presenta a continuación se hizo sobre su
-especificación~\cite{agredo2022thesis} y es el fundamento de la adaptación
-(objetivo~2). La construcción de THUNDERS~Master declara qué tareas y elementos
+especificación~\cite{agredo2022thesis} y es el fundamento de la adaptación. 
+La construcción de THUNDERS~Master declara qué tareas y elementos
 del proceso original se conservan, se adaptan, se fusionan o se retiran
 (Sección~\ref{sec:seleccion}), y esa declaración solo se puede verificar si los
 componentes del proceso base están descritos con suficiente detalle. Para
@@ -2133,9 +2196,9 @@ deben seguirse~\cite{agredo2022thesis,agredo2023strategy}.
 El segundo fue un estudio exploratorio con estudiantes de Ingeniería de
 Sistemas, sobre una versión temprana del proceso y en el contexto de
 aprendizaje colaborativo para el que THUNDERS se concibió, no en
-IR~\cite{agredo2022exploratory}. Su aporte para esta adaptación es limitado, pero mostró que el proceso se percibe como extenso y como
+IR. Su aporte para esta adaptación es limitado, pero mostró que el proceso se percibe como extenso y como
 generador de alta carga cognitiva, y que se necesitan mecanismos para mantener
-el entendimiento durante el desarrollo de la actividad. Como esas dos
+el entendimiento durante el desarrollo de la actividad~\cite{agredo2022exploratory}. Como esas dos
 observaciones se refieren al costo de ejecución y no al dominio, se consideran
 válidas también para una sesión de requisitos, que suele ser más corta que la
 actividad estudiada.
@@ -2189,7 +2252,7 @@ el mismo significado~\cite{fricker2015}.
 El costo de un malentendido y la facilidad para evitarlo cambian según el
 equipo, el sistema y el proyecto. La Tabla~\ref{tab:contexto_uso} resume esas
 condiciones, que salen de la RSL y de las validaciones de THUNDERS, y su
-implicación para el proceso. En el dominio agrícola en el que se evalúa el
+implicación para el proceso. En el contexto agrícola en el que se evalúa el
 proceso se presentan varias de las condiciones que más lo justifican, como
 \textit{stakeholders} externos al equipo, un dominio que el equipo de desarrollo
 desconoce y términos que significan cosas distintas para cada perfil
@@ -2319,8 +2382,7 @@ el marco principal de la adaptación.
 Los cinco enfoques se compararon frente a cinco criterios, que son la capacidad
 de adaptar procesos existentes, la compatibilidad con la IR, la compatibilidad
 ágil, la reducción de la complejidad y la conservación de los elementos
-esenciales del proceso original. Además se tuvo en cuenta que el método se
-pudiera aplicar en el tiempo de un trabajo de grado. La
+esenciales del proceso original. La
 Tabla~\ref{tab:comparacion} resume el análisis cualitativo.
 
 \begin{table}[htbp]
@@ -5432,74 +5494,14 @@ base de datos después de aplicar cada filtro.
 \label{fig:flujo-wos}
 \end{figure}
 
-\section{Criterios de inclusión y exclusión}
-
-\subsection{Criterios de inclusión}
-Un estudio se incluyó si cumplía todos, o al menos la mayoría, de los
-siguientes criterios:
-
-\begin{itemize}
-  \item IC1. Trata explícitamente actividades de IR, en particular
-        elicitación, especificación, análisis o validación de requisitos. Este
-        es el criterio que restringe el corpus a las actividades del alcance,
-        que la cadena de búsqueda dejó abiertas a propósito.
-  \item IC2. Reporta problemas, situaciones, artefactos, mecanismos,
-        prácticas, métricas o instrumentos relacionados con el entendimiento
-        compartido, la alineación conceptual, el entendimiento común o
-        fenómenos equivalentes entre \textit{stakeholders}.
-  \item IC3. Se sitúa en el desarrollo de software, la ingeniería de
-        software o los sistemas de software.
-  \item IC4. Presenta evidencia suficiente para responder al menos una de
-        las preguntas de investigación.
-  \item IC5. Es una publicación primaria, revisada por pares, escrita en
-        inglés y disponible en texto completo.
-  \item IC6. Fue publicado dentro del periodo 2015--2026.
-\end{itemize}
-
-\subsection{Criterios de exclusión}
-Un estudio se excluyó si cumplía al menos uno de los siguientes criterios:
-
-\begin{itemize}
-  \item EC1. No se centra en IR, o trata el entendimiento compartido en
-        actividades distintas de la elicitación, la especificación o la
-        validación sin relacionarlo con alguna de ellas.
-  \item EC2. Trata la colaboración, la comunicación o el trabajo en equipo
-        de forma general, sin vincularlos con los requisitos de software o con
-        actividades concretas de IR.
-  \item EC3. Pertenece a dominios distintos del desarrollo de software y no
-        ofrece evidencia transferible a la IR.
-  \item EC4. Es una revisión sistemática, un mapeo sistemático, un
-        editorial, un capítulo de libro, un resumen, un póster, una tesis u
-        otra publicación no primaria.
-  \item EC5. No está en acceso abierto, no está escrito en inglés o no está
-        disponible en texto completo.
-  \item EC6. No aporta información para responder ninguna de las preguntas
-        de investigación, aunque mencione términos relacionados con
-        comunicación, colaboración o entendimiento.
-  \item EC7. Es un duplicado recuperado en más de una base de datos.
-\end{itemize}
-
-
-\section{Justificación del periodo de búsqueda}
-El periodo se definió para recuperar la evidencia de la última década, ya que
-el entendimiento compartido en la IR ha ganado peso en el desarrollo de
-software reciente, con más colaboración entre \textit{stakeholders},
-distribución geográfica, mediación tecnológica y cambio continuo de los
-requisitos~\cite{irshad2021bdd}. En esos contextos las dificultades de
-comunicación y coordinación afectan la construcción de una interpretación
-común~\cite{calefato2015}. Adicionalmente, el rango incluye estudios recientes
-sobre enfoques ágiles, desarrollo a gran escala y prácticas de especificación y
-validación que dependen de la alineación entre requisitos, artefactos, pruebas
-y decisiones de implementación~\cite{kasauli2021}. Con este periodo se buscó un
-equilibrio entre actualidad, tamaño del corpus y pertinencia con el objetivo de
-la revisión.
 
 \section{Distribución temporal de las publicaciones}
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.75\textwidth]{Figura2.png}
-\caption{Frecuencia de publicaciones sobre entendimiento compartido en el dominio de la IR (2015--2026).}
-\label{fig:frecuencia-publicaciones}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Figura2.png}
+    \caption{Frecuencia de publicaciones sobre entendimiento compartido en el dominio de la IR (2015--2026).}
+    \label{fig:frecuencia-publicaciones}
 \end{figure}
 
 \section{Resultados detallados por pregunta de investigación}
@@ -5944,53 +5946,6 @@ aceptación del producto~\cite{pacheco2022}. Por lo tanto, evaluar el
 entendimiento compartido depende menos de una escala única y más de combinar
 métricas de proceso, de calidad documental, de interacción social y de
 resultados de validación~\cite{fricker2015}.
-
-
-\section{Amenazas a la validez de la revisión}
-La RSL tiene amenazas a la validez que es necesario hacer explícitas para
-interpretar bien sus resultados.
-
-La primera tiene que ver con la estrategia de búsqueda. La cadena pudo no
-capturar todas las variantes de nombre del fenómeno, ya que el entendimiento
-compartido no siempre se nombra de forma explícita y a menudo aparece asociado
-a comunicación, alineación, coordinación o colaboración. Para reducir este
-riesgo la búsqueda se construyó a partir de los conceptos centrales del estudio e
-incluyó expresiones relacionadas como \textit{Shared Understanding},
-\textit{Common Understanding} y \textit{Cognitive Alignment}, y los criterios
-de inclusión admitieron estudios que trataban fenómenos equivalentes dentro de
-las actividades de IR.
-
-La segunda tiene que ver con las fuentes y los filtros. La búsqueda se limitó a
-ScienceDirect, Scopus y Web of Science, y a artículos de investigación en
-inglés, de acceso abierto y publicados entre 2015 y 2026. Estas decisiones
-delimitaron un corpus coherente con el alcance de la revisión, pero pudieron
-dejar por fuera estudios relevantes de otras fuentes, idiomas o tipos de
-publicación. Para controlar esta amenaza se eligieron bases reconocidas en
-ingeniería de software y se reportaron todos los filtros aplicados.
-
-La tercera tiene que ver con la selección de los estudios. Aplicar los
-criterios de inclusión y exclusión sobre títulos, resúmenes, palabras clave y
-textos completos implicó juicios de interpretación, sobre todo en los estudios
-donde el entendimiento compartido aparecía de forma indirecta. Por lo tanto,
-los criterios se definieron antes de comenzar y la selección se hizo en dos
-niveles, título y resumen primero y texto completo después, con las decisiones
-documentadas y discutidas entre los autores cuando había dudas sobre la
-pertinencia de un estudio.
-
-La cuarta tiene que ver con la extracción y la síntesis. La heterogeneidad
-conceptual del tema pudo llevar a errores u omisiones al extraer la información
-y al sintetizarla. Para reducir esta amenaza la extracción se guió por las
-categorías derivadas de las preguntas RQ1 a RQ5 (Tabla~\ref{tab:rsl_extraction}),
-y los datos extraídos se revisaron y contrastaron entre los autores.
-
-La última tiene que ver con el sesgo de publicación y de constructo. Al
-centrarse en estudios primarios revisados por pares, la revisión pudo dejar por
-fuera literatura gris, informes técnicos o experiencias industriales no
-publicadas. Adicionalmente, como el entendimiento compartido es un constructo
-disperso, algunos estudios relevantes pudieron no usar esa terminología. Para
-controlar en parte esta limitación se tuvieron en cuenta conceptos relacionados,
-siempre que estuvieran vinculados a la elicitación, la especificación o la
-validación de requisitos y aportaran evidencia para alguna pregunta.
 
 
 \chapter{Tareas características de las actividades de la IR}

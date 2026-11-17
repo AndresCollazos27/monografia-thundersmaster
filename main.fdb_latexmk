@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1794189722.67754 "main.aux" "main.bbl" "main" 1794189744.95938 0
+["bibtex main"] 1794878728.23579 "main.aux" "main.bbl" "main" 1794882721.65629 0
   "./refs.bib" 1793756616 32554 f8208e7a7118ceca681c136a323456a3 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291864736 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1794189742 92309 8d7ade804e7df77934b96a277adf7e58 "pdflatex"
+  "main.aux" 1794882720 91129 4a3ba620de1944e0a80ff23a841c110d "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1794189723.29573 "c:/Users/ASUS/Documents/THUNDERS Master/Monografia Latex/main.tex" "main.pdf" "main" 1794189744.96463 0
+["pdflatex"] 1794882713.64101 "c:/Users/ASUS/Documents/THUNDERS Master/Monografia Latex/main.tex" "main.pdf" "main" 1794882721.65753 0
   "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1791829127 350673 14f6f11755b1c4806780b307de9769b4 ""
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779725512 13352558 7cab7c860fef3673865ffa1f0e4dca2b ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -235,6 +235,7 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1623003186 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty" 1759409308 46885 8953c67ffba03252c6090aa19568b8ba ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty" 1740138435 31715 19e60610b63819fe670dfa1cd84a4e94 ""
+  "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty" 1469023953 6916 16d2656a1984957e674b149555f1ea1d ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg" 1773583286 1083 f69f5eb2d8e249286c59dd1340122e59 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1773583286 41904 7711079366884e0d15963c9d40019853 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg" 1465894292 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -312,20 +313,20 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1741086805 4020 2a8868abba10077001a8d63ade8a516c ""
-  "c:/Users/ASUS/Documents/THUNDERS Master/Monografia Latex/main.tex" 1794189698 561223 899bbc3d962663e9f5c63e3786193988 ""
+  "c:/Users/ASUS/Documents/THUNDERS Master/Monografia Latex/main.tex" 1794882712 558060 b57a155d10c8132f7e04ef32e06130b5 ""
   "figures/BPMN_final_A5.pdf" 1793636638 154862 428158982ca916f26baae54d640adc0c ""
   "figures/BPMN_final_principal.pdf" 1793636638 158590 75d1721523d4f09fb169e3908b96c8d0 ""
   "figures/Figura2.png" 1782927403 30653 6ddeb6e52dcb5afa0303106630d7545e ""
   "figures/Figura_ScienceDirect.png" 1782927403 1038391 4a152571bdc645870068806644bb8fee ""
   "figures/Figura_Scopus.png" 1782927403 1380342 b54dd4e7e9e2689405fa60951d584ba2 ""
   "figures/Figura_WoS.png" 1782927403 1390346 5b60aa38b2c9b14ccd2b1df39ca56d5b ""
-  "main.aux" 1794189742 92309 8d7ade804e7df77934b96a277adf7e58 "pdflatex"
-  "main.bbl" 1794189723 24993 9b75106590bf65cc4205d418dfaf0549 "bibtex main"
-  "main.lof" 1794189742 4523 a6fe041a1e818c1f690d888d06adfaa5 "pdflatex"
-  "main.lot" 1794189742 8544 0b415d96f277cce88f06025a81271cbb "pdflatex"
-  "main.out" 1794189742 59392 a621e56566bb37d5000241c1ab355eb2 "pdflatex"
-  "main.tex" 1794189698 561223 899bbc3d962663e9f5c63e3786193988 ""
-  "main.toc" 1794189742 26328 e815d56ae7b6f790c79036fd57bcb949 "pdflatex"
+  "main.aux" 1794882720 91129 4a3ba620de1944e0a80ff23a841c110d "pdflatex"
+  "main.bbl" 1794878728 24993 4332bfeb5383f52a561afabc01843409 "bibtex main"
+  "main.lof" 1794882720 4283 d0ead46546019a208cb5dc394cf2e766 "pdflatex"
+  "main.lot" 1794882720 8544 de24f95b0fa91bac07fbd0efc7a36b8c "pdflatex"
+  "main.out" 1794882720 58133 ac3d75c9687110476a6f3c9ada48802c "pdflatex"
+  "main.tex" 1794882712 558060 b57a155d10c8132f7e04ef32e06130b5 ""
+  "main.toc" 1794882720 25910 8a5e07585c65b312f8a50cac0f6ef374 "pdflatex"
   (generated)
   "main.aux"
   "main.lof"

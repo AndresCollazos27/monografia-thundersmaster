@@ -242,25 +242,6 @@ A.~Frank Harmsen and Sjaak Brinkkemper.
 \newblock In {\em Proceedings of the 5th International Workshop on Experience
   with the Management of Software Projects}, 1995.
 
-\bibitem{kuhrmann2016}
-Marco Kuhrmann, Thomas Ternité, Jürgen Friedrich, Andreas Rausch, and Manfred
-  Broy.
-\newblock Flexible software process lines in practice: A metamodel-based
-  approach to effectively construct and manage families of software process
-  models.
-\newblock {\em Journal of Systems and Software}, 121:49--71, 2016.
-
-\bibitem{campanelli2015agile}
-Amadeu~Silveira Campanelli and Fernando~Silva Parreiras.
-\newblock Agile methods tailoring: A systematic literature review.
-\newblock {\em Journal of Systems and Software}, 110:85--100, 2015.
-
-\bibitem{kruchten2013}
-Philippe Kruchten.
-\newblock Contextualizing agile software development.
-\newblock {\em Journal of Software: Evolution and Process}, 25(4):351--361,
-  2013.
-
 \bibitem{davis1989perceived}
 Fred~D. Davis.
 \newblock Perceived usefulness, perceived ease of use, and user acceptance of
@@ -298,6 +279,19 @@ Carla Pacheco, Ivan Garcia, Jose~A. Calvo-Manzano, and Magdalena Reyes.
   process.
 \newblock {\em Requirements Engineering}, 28(2):257--281, 2022.
 
+\bibitem{campanelli2015agile}
+Amadeu~Silveira Campanelli and Fernando~Silva Parreiras.
+\newblock Agile methods tailoring: A systematic literature review.
+\newblock {\em Journal of Systems and Software}, 110:85--100, 2015.
+
+\bibitem{kuhrmann2016}
+Marco Kuhrmann, Thomas Ternité, Jürgen Friedrich, Andreas Rausch, and Manfred
+  Broy.
+\newblock Flexible software process lines in practice: A metamodel-based
+  approach to effectively construct and manage families of software process
+  models.
+\newblock {\em Journal of Systems and Software}, 121:49--71, 2016.
+
 \bibitem{londono2023prototyping}
 Iván Londoño, Vanessa Agredo-Delgado, and Pablo~H. Ruiz.
 \newblock Agile prototyping strategy for building shared understanding in
@@ -320,6 +314,13 @@ Iván Londoño, Cesar~A. Collazos, Pablo~H. Ruiz, Vanessa Agredo-Delgado, and
 \newblock In {\em Proceedings of the 19th Iberian Conference on Information
   Systems and Technologies (CISTI 2024)}, volume 1746 of {\em Lecture Notes in
   Networks and Systems}, pages 396--410. Springer, Cham, 2026.
+
+\bibitem{kasauli2021}
+Rashidah Kasauli, Eric Knauss, Jennifer Horkoff, Grischa Liebel, and
+  Francisco~Gomes de~Oliveira~Neto.
+\newblock Requirements engineering challenges and practices in large-scale
+  agile system development.
+\newblock {\em Journal of Systems and Software}, 172:110851, 2021.
 
 \bibitem{balasubramaniam2023}
 Nagadivya Balasubramaniam, Marjo Kauppinen, Antti Rannisto, Kari Hiekkanen, and
@@ -373,13 +374,6 @@ Aline Kunz, Sabrina Pohlmann, Oliver Heinze, Antje Brandner, Christina Reiß,
 \newblock Strengthening interprofessional requirements engineering through
   action sheets: A pilot study.
 \newblock {\em JMIR Human Factors}, 3(2):e25, 2016.
-
-\bibitem{kasauli2021}
-Rashidah Kasauli, Eric Knauss, Jennifer Horkoff, Grischa Liebel, and
-  Francisco~Gomes de~Oliveira~Neto.
-\newblock Requirements engineering challenges and practices in large-scale
-  agile system development.
-\newblock {\em Journal of Systems and Software}, 172:110851, 2021.
 
 \bibitem{martins2019}
 Hugo Ferreira~Martins, Antônio Carvalho~de Oliveira~Junior, Edna Dias~Canedo,
@@ -516,6 +510,12 @@ Barbara Kitchenham and Stuart Charters.
   engineering.
 \newblock Technical Report EBSE-2007-01, Keele University and Durham
   University, 2007.
+
+\bibitem{kruchten2013}
+Philippe Kruchten.
+\newblock Contextualizing agile software development.
+\newblock {\em Journal of Software: Evolution and Process}, 25(4):351--361,
+  2013.
 
 \bibitem{hart1988nasa}
 Sandra~G. Hart and Lowell~E. Staveland.
