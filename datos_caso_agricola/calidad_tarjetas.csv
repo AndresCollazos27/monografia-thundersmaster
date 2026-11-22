@@ -1,0 +1,18 @@
+﻿regla;Ambiguo si la tarjeta no dice con un valor o un evento observable cuándo actúa la app, o si su criterio contradice el enunciado o la necesidad (pregunta A3 de I2). Aceptado = C1, C2 y C3 en Sí en la parte C de I2.
+mesa;tarjeta;aceptado_I2C;ambiguo;motivo
+A;R-01;No;Sí;"Dice ""a tiempo"", sin el momento ni el evento que dispara el aviso"
+A;R-02;No;Sí;Repite R-01 y su criterio es solo una pregunta
+A;R-03;Sí;Sí;"Dice ""a tiempo"", sin decir cuándo toca trasplantar"
+A;R-04;No;Sí;"Dice ""relativamente seca"", sin valor de humedad (06 resolvió 30 %, la tarjeta no cambió)"
+B;R-02;Sí;Sí;Da los rangos, pero el criterio avisa dentro de ellos y la necesidad pide avisar fuera
+B;R-03;Sí;Sí;"Dice ""temperatura alta"", sin valor"
+C;R-01;No (sin C3);No;Avisa por debajo de 10 °C
+C;R-02;No (sin C3);No;El criterio avisa con 10 °C o menos
+C;R-03;No (sin C3);Sí;"Enunciado: por debajo de 10 °C; criterio: 10 °C exactos"
+C;R-04;No (sin C3);Sí;"Dice ""los periodos de tiempo"", sin decir cuáles"
+C;R-05;No (sin C3);Sí;"Dice ""mes específico y clima"", sin decir cuáles"
+C;R-06;No (sin C3);Sí;"Dice ""el periodo de tiempo"", sin decir cuál"
+D;R-01;Sí;Sí;"Dice ""cambios en el estado del cultivo"", sin decir cuáles"
+D;R-02;Sí;Sí;"Dice ""fechas importantes"" y solo nombra enero"
+D;R-03;Sí;No;"Avisa por debajo de 10 °C (""esa temperatura"" se leyó como la del enunciado)"
+D;R-04;Sí;No;Avisa con la humedad por debajo del 30 %

@@ -1,0 +1,9 @@
+﻿mesa;tarjeta;debe_conservar;reconstruccion_resumida;resultado;motivo
+A;R-01;Avisar cuándo poner el tutor, y que el tutor es el soporte físico;Decirle al cliente cuándo poner el tutor para que la planta crezca bien, sin decir en qué momento;Coincide;Conserva la acción y usa el tutor como algo que se coloca, como en el glosario de la mesa
+A;R-02;Avisar cuándo poner el tutor;"Avisar cuándo toca poner el tutor; anota que repite R-01 y que el criterio es una pregunta";Coincide;Conserva la acción
+B;R-02;Señal para cubrir el cultivo al salir de 20 a 30 °C de día o de 1 a 17 °C de noche;Señal para cubrir el cultivo según los rangos, sin saber si sale dentro o fuera de ellos;No coincide;No recupera la condición: el criterio dice lo contrario de lo que esperaba el cliente
+B;R-03;Iniciar el riego automático cuando el cultivo lo necesita, como con calor en verano;"Iniciar el riego automático en verano con temperatura alta; anota que el riego no estaba en el alcance";Coincide;"Conserva acción y condición; la tarjeta no da valor"
+C;R-01;Notificar cuando la temperatura baja de 10 °C;"Avisar cuando baje de 10 grados; anota que no explica la alerta en el límite";Coincide;Conserva acción, condición y valor
+C;R-02;Notificar con 10 °C o menos;"Avisar con 10 grados o menos; anota que se puede leer como una caída de diez grados";Coincide;Elige la lectura esperada y señala la otra
+D;R-01;Notificar los cambios en el estado del cultivo para que el cliente lo atienda;"Avisar cuando cambie el estado del cultivo; anota que no dice qué cambios";Coincide;Basta la acción
+D;R-02;Avisar las fechas importantes, como la siembra a finales de enero;"Avisar las fechas importantes para plantar; anota que nombra enero sin decir qué fechas";Coincide;Conserva la acción y el único valor de la tarjeta (enero)

@@ -1,0 +1,193 @@
+﻿sesion;mesa;rol;momento;item;respuesta;categoria
+11/11;A;QA;previa;ítem 1;No sé;no sabe
+11/11;A;PO;previa;ítem 1;Tallos principales, pueden ser una o dos;tallo principal
+11/11;A;FR;previa;ítem 1;Es un apoyo en el negocio;otra
+11/11;A;RT;previa;ítem 1;Un manual con pasos de que se pide llevar a cabo;tutorial o instrucciones
+11/11;A;AN;previa;ítem 1;Un paso a paso de la aplicación desarrollada;tutorial o instrucciones
+11/11;A;QA;posterior;ítem 1;La cantidad de tallos que tiene una plata.;tallo principal
+11/11;A;PO;posterior;ítem 1;La cantidad de tallos de una planta;tallo principal
+11/11;A;FR;posterior;ítem 1;Tallos principales por planta;tallo principal
+11/11;A;RT;posterior;ítem 1;Cantidad de tallos (principales) que tiene una planta;tallo principal
+11/11;A;AN;posterior;ítem 1;Es la cantidad de tallos que tiene una planta;tallo principal
+11/11;A;SD;posterior;ítem 1;Cantidad de tallos de la planta;tallo principal
+11/11;A;QA;previa;ítem 2;No sé;no sabe
+11/11;A;PO;previa;ítem 2;10;10
+11/11;A;FR;previa;ítem 2;No sé;no sabe
+11/11;A;RT;previa;ítem 2;No sé;no sabe
+11/11;A;AN;previa;ítem 2;30;otra
+11/11;A;QA;posterior;ítem 2;1-17;rango de 1 a 17
+11/11;A;PO;posterior;ítem 2;1-17;rango de 1 a 17
+11/11;A;FR;posterior;ítem 2;17;de 11 a 17
+11/11;A;RT;posterior;ítem 2;1-17;rango de 1 a 17
+11/11;A;AN;posterior;ítem 2;1-17;rango de 1 a 17
+11/11;A;SD;posterior;ítem 2;1-17;rango de 1 a 17
+11/11;A;QA;previa;ítem 3;El sensor marca 0%;otra
+11/11;A;PO;previa;ítem 3;Activa regadera;riega sola
+11/11;A;FR;previa;ítem 3;No sé;no sabe
+11/11;A;RT;previa;ítem 3;Marchitarse (secarse);otra
+11/11;A;AN;previa;ítem 3;No sé;no sabe
+11/11;A;QA;posterior;ítem 3;Regar automáticamente.;riega sola
+11/11;A;PO;posterior;ítem 3;Riega automáticamente;riega sola
+11/11;A;FR;posterior;ítem 3;Riega;riega sola
+11/11;A;RT;posterior;ítem 3;Regar automáticamente;riega sola
+11/11;A;AN;posterior;ítem 3;Procede a regar automáticamente la tierra;riega sola
+11/11;A;SD;posterior;ítem 3;Regar automáticamente;riega sola
+11/11;A;QA;previa;ítem 4;No sé;no sabe
+11/11;A;PO;previa;ítem 4;No lo sé;no sabe
+11/11;A;FR;previa;ítem 4;No sé;no sabe
+11/11;A;RT;previa;ítem 4;No sé;no sabe
+11/11;A;AN;previa;ítem 4;No sé;no sabe
+11/11;A;QA;posterior;ítem 4;Entre marzo y abril dependiendo la temperatura;marzo o abril
+11/11;A;PO;posterior;ítem 4;Marzo-Abril;marzo o abril
+11/11;A;FR;posterior;ítem 4;Marzo;marzo o abril
+11/11;A;RT;posterior;ítem 4;Marzo - Abril;marzo o abril
+11/11;A;AN;posterior;ítem 4;Marzo si la temperatura es suave y abril si es fría;marzo o abril
+11/11;A;SD;posterior;ítem 4;Entre marzo o abril dependiendo del caso;marzo o abril
+11/11;B;AN;previa;ítem 1;Tutorial paso a paso de la app;tutorial o instrucciones
+11/11;B;QA;previa;ítem 1;los pasos de como se debe plantar la semilla;tutorial o instrucciones
+11/11;B;FR;previa;ítem 1;No lo sé;no sabe
+11/11;B;RT;previa;ítem 1;No sé;no sabe
+11/11;B;PO;previa;ítem 1;Tallos que tiene la planta;tallo principal
+11/11;B;AN;posterior;ítem 1;Pasos del modelo de siembra;tutorial o instrucciones
+11/11;B;SD;posterior;ítem 1;Los pasos del modelo de siembra;tutorial o instrucciones
+11/11;B;QA;posterior;ítem 1;Los pasos del modelo de siembra;tutorial o instrucciones
+11/11;B;FR;posterior;ítem 1;Pasos del modelo de siembra;tutorial o instrucciones
+11/11;B;RT;posterior;ítem 1;Los pasos del modelo de siembra;tutorial o instrucciones
+11/11;B;PO;posterior;ítem 1;Pasos de modelo de siembra;tutorial o instrucciones
+11/11;B;AN;previa;ítem 2;No sé;no sabe
+11/11;B;QA;previa;ítem 2;No sé;no sabe
+11/11;B;FR;previa;ítem 2;No sé;no sabe
+11/11;B;RT;previa;ítem 2;No sé;no sabe
+11/11;B;PO;previa;ítem 2;10;10
+11/11;B;AN;posterior;ítem 2;1,17;rango de 1 a 17
+11/11;B;SD;posterior;ítem 2;1,17;rango de 1 a 17
+11/11;B;QA;posterior;ítem 2;1.17;rango de 1 a 17
+11/11;B;FR;posterior;ítem 2;1,17;rango de 1 a 17
+11/11;B;RT;posterior;ítem 2;1-17;rango de 1 a 17
+11/11;B;PO;posterior;ítem 2;1,17;rango de 1 a 17
+11/11;B;AN;previa;ítem 3;No sé;no sabe
+11/11;B;QA;previa;ítem 3;Riega la planta;riega sola
+11/11;B;FR;previa;ítem 3;No sé;no sabe
+11/11;B;RT;previa;ítem 3;No sé;no sabe
+11/11;B;PO;previa;ítem 3;Riega agua;riega sola
+11/11;B;AN;posterior;ítem 3;Activa el riego;riega sola
+11/11;B;SD;posterior;ítem 3;Activa riego automatica;riega sola
+11/11;B;QA;posterior;ítem 3;activa el riego;riega sola
+11/11;B;FR;posterior;ítem 3;La riega;riega sola
+11/11;B;RT;posterior;ítem 3;Riega la tierra;riega sola
+11/11;B;PO;posterior;ítem 3;Se riega;riega sola
+11/11;B;AN;previa;ítem 4;No sé;no sabe
+11/11;B;QA;previa;ítem 4;No sé;no sabe
+11/11;B;FR;previa;ítem 4;No sé;no sabe
+11/11;B;RT;previa;ítem 4;No sé;no sabe
+11/11;B;PO;previa;ítem 4;No lo sé;no sabe
+11/11;B;AN;posterior;ítem 4;Abril;marzo o abril
+11/11;B;SD;posterior;ítem 4;Abril;marzo o abril
+11/11;B;QA;posterior;ítem 4;Abril;marzo o abril
+11/11;B;FR;posterior;ítem 4;Abril;marzo o abril
+11/11;B;RT;posterior;ítem 4;Abril;marzo o abril
+11/11;B;PO;posterior;ítem 4;Abril;marzo o abril
+13/11;C;QA;previa;ítem 1;Las lineas donde se plantan los tomates;otra
+13/11;C;SD;previa;ítem 1;No sé;no sabe
+13/11;C;FR;previa;ítem 1;No sé;no sabe
+13/11;C;RT;previa;ítem 1;No sé;no sabe
+13/11;C;PO;previa;ítem 1;El tallo;tallo principal
+13/11;C;AN;previa;ítem 1;No sé;no sabe
+13/11;C;QA;posterior;ítem 1;Tallos principales;tallo principal
+13/11;C;SD;posterior;ítem 1;Tallos principales;tallo principal
+13/11;C;FR;posterior;ítem 1;El tallo principal;tallo principal
+13/11;C;RT;posterior;ítem 1;Tallo principal;tallo principal
+13/11;C;PO;posterior;ítem 1;Tallo principal;tallo principal
+13/11;C;AN;posterior;ítem 1;Tallos principales;tallo principal
+13/11;C;SD2;posterior;ítem 1;Tallos principales;tallo principal
+13/11;C;QA;previa;ítem 2;14;de 11 a 17
+13/11;C;SD;previa;ítem 2;17;de 11 a 17
+13/11;C;FR;previa;ítem 2;No sé;no sabe
+13/11;C;RT;previa;ítem 2;No sé;no sabe
+13/11;C;PO;previa;ítem 2;10;10
+13/11;C;AN;previa;ítem 2;No sé;no sabe
+13/11;C;QA;posterior;ítem 2;10;10
+13/11;C;SD;posterior;ítem 2;17;de 11 a 17
+13/11;C;FR;posterior;ítem 2;10;10
+13/11;C;RT;posterior;ítem 2;10;10
+13/11;C;PO;posterior;ítem 2;10;10
+13/11;C;AN;posterior;ítem 2;10;10
+13/11;C;SD2;posterior;ítem 2;10;10
+13/11;C;QA;previa;ítem 3;Activar irrigadores;riega sola
+13/11;C;SD;previa;ítem 3;Notifica;avisa
+13/11;C;FR;previa;ítem 3;Usa el sensor;otra
+13/11;C;RT;previa;ítem 3;No sé;no sabe
+13/11;C;PO;previa;ítem 3;No sé;no sabe
+13/11;C;AN;previa;ítem 3;No sé;no sabe
+13/11;C;QA;posterior;ítem 3;Riega;riega sola
+13/11;C;SD;posterior;ítem 3;Notifica al usuario;avisa
+13/11;C;FR;posterior;ítem 3;Riega;riega sola
+13/11;C;RT;posterior;ítem 3;Riega;riega sola
+13/11;C;PO;posterior;ítem 3;Riega;riega sola
+13/11;C;AN;posterior;ítem 3;Riega;riega sola
+13/11;C;SD2;posterior;ítem 3;Riega;riega sola
+13/11;C;QA;previa;ítem 4;No sé;no sabe
+13/11;C;SD;previa;ítem 4;No sé;no sabe
+13/11;C;FR;previa;ítem 4;No sé;no sabe
+13/11;C;RT;previa;ítem 4;No lo sé;no sabe
+13/11;C;PO;previa;ítem 4;No sé;no sabe
+13/11;C;AN;previa;ítem 4;No sé;no sabe
+13/11;C;QA;posterior;ítem 4;Enero, Marzo y Abril;marzo o abril
+13/11;C;SD;posterior;ítem 4;Enero, marzo y abril;marzo o abril
+13/11;C;FR;posterior;ítem 4;Enero, marzo y abril;marzo o abril
+13/11;C;RT;posterior;ítem 4;Enero;otra
+13/11;C;PO;posterior;ítem 4;Enero marzo abril;marzo o abril
+13/11;C;AN;posterior;ítem 4;Meses específicos pero en generar cuando llegue verano, enero, marzo, abril;marzo o abril
+13/11;C;SD2;posterior;ítem 4;Depende el clima, generalmente en enero, marzo o abril;marzo o abril
+13/11;D;RT;previa;ítem 1;No sé;no sabe
+13/11;D;AN;previa;ítem 1;No sé;no sabe
+13/11;D;QA;previa;ítem 1;No sé;no sabe
+13/11;D;PO;previa;ítem 1;Los tallos principales;tallo principal
+13/11;D;SD;previa;ítem 1;No sé;no sabe
+13/11;D;FR;previa;ítem 1;Lo que se debe plantar: 1 o 2;otra
+13/11;D;SD2;previa;ítem 1;Un instructivo para saber los cuidados de plantas de tomate;tutorial o instrucciones
+13/11;D;RT;posterior;ítem 1;Tallos principales de una planta;tallo principal
+13/11;D;AN;posterior;ítem 1;Los tallos principales de una planta;tallo principal
+13/11;D;PO;posterior;ítem 1;Avisar cuando asignar tutor, cuando poner caña o palo y cuando atar los tallos.;confusión con el tutor
+13/11;D;SD;posterior;ítem 1;Es avisar cuando asignar un tutor, cuando poner una caña o un palo y atar los tallos;confusión con el tutor
+13/11;D;FR;posterior;ítem 1;Cuando poner el tutor y atar los tallos;confusión con el tutor
+13/11;D;SD2;posterior;ítem 1;Cuando poner una caña o palo para enderezar los tallos;confusión con el tutor
+13/11;D;RT;previa;ítem 2;No sé;no sabe
+13/11;D;AN;previa;ítem 2;No sé;no sabe
+13/11;D;QA;previa;ítem 2;No sé;no sabe
+13/11;D;PO;previa;ítem 2;10;10
+13/11;D;SD;previa;ítem 2;1;menos de 10
+13/11;D;FR;previa;ítem 2;No sé;no sabe
+13/11;D;SD2;previa;ítem 2;No sé;no sabe
+13/11;D;RT;posterior;ítem 2;30;otra
+13/11;D;AN;posterior;ítem 2;10;10
+13/11;D;PO;posterior;ítem 2;1.17;rango de 1 a 17
+13/11;D;SD;posterior;ítem 2;1,17;rango de 1 a 17
+13/11;D;FR;posterior;ítem 2;1.17;rango de 1 a 17
+13/11;D;SD2;posterior;ítem 2;1,17;rango de 1 a 17
+13/11;D;RT;previa;ítem 3;No sé;no sabe
+13/11;D;AN;previa;ítem 3;Avisa a la persona que usa la app;avisa
+13/11;D;QA;previa;ítem 3;Marca 0%;otra
+13/11;D;PO;previa;ítem 3;Se riega sola;riega sola
+13/11;D;SD;previa;ítem 3;Hay que sacar el sustrato entre riesgos;otra
+13/11;D;FR;previa;ítem 3;No sé;no sabe
+13/11;D;SD2;previa;ítem 3;Avisa para regar la planta;avisa
+13/11;D;RT;posterior;ítem 3;Riega;riega sola
+13/11;D;AN;posterior;ítem 3;Se riega de forma independiente;riega sola
+13/11;D;PO;posterior;ítem 3;Se riega de forma independiente;riega sola
+13/11;D;SD;posterior;ítem 3;Regar la planta, ya que recién trasplantada es clave;riega sola
+13/11;D;FR;posterior;ítem 3;Riega la planta;riega sola
+13/11;D;SD2;posterior;ítem 3;Se riega de forma independiente;riega sola
+13/11;D;RT;previa;ítem 4;No sé;no sabe
+13/11;D;AN;previa;ítem 4;No sé;no sabe
+13/11;D;QA;previa;ítem 4;No sé;no sabe
+13/11;D;PO;previa;ítem 4;No sé;no sabe
+13/11;D;SD;previa;ítem 4;No sé;no sabe
+13/11;D;FR;previa;ítem 4;No sé;no sabe
+13/11;D;SD2;previa;ítem 4;No sé;no sabe
+13/11;D;RT;posterior;ítem 4;No sé;no sabe
+13/11;D;AN;posterior;ítem 4;No sé;no sabe
+13/11;D;PO;posterior;ítem 4;No sé;no sabe
+13/11;D;SD;posterior;ítem 4;No sé;no sabe
+13/11;D;FR;posterior;ítem 4;No sé;no sabe
+13/11;D;SD2;posterior;ítem 4;No lo sé;no sabe

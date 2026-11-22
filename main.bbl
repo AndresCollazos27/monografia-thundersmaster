@@ -279,6 +279,30 @@ Carla Pacheco, Ivan Garcia, Jose~A. Calvo-Manzano, and Magdalena Reyes.
   process.
 \newblock {\em Requirements Engineering}, 28(2):257--281, 2022.
 
+\bibitem{londono2023prototyping}
+Iván~Darío Londoño, Pablo~H. Ruiz, and Vanessa Agredo-Delgado.
+\newblock Agile prototyping strategy for building shared understanding in
+  requirements engineering.
+\newblock {\em I+T+C Investigación, Tecnología y Ciencia}, 1(17):1--13, 2023.
+
+\bibitem{chamizo2025guide}
+Jarnelly~Valentina Chamizo~Quiñones, Isabella Rodríguez~Bautista, Vanessa
+  Agredo-Delgado, and Pablo~H. Ruiz.
+\newblock Guide for strengthening the building of shared understanding in
+  requirements engineering activities.
+\newblock In {\em Human-Computer Interaction (HCI-COLLAB 2024)}, volume 2332 of
+  {\em Communications in Computer and Information Science}, pages 187--198.
+  Springer, Cham, 2025.
+
+\bibitem{londono2026mapping}
+Iván Londoño, Cesar~A. Collazos, Pablo~H. Ruiz, Vanessa Agredo-Delgado, and
+  Fernando Moreira.
+\newblock Importance of shared understanding in software engineering: A
+  systematic literature mapping.
+\newblock In {\em Proceedings of the 19th Iberian Conference on Information
+  Systems and Technologies (CISTI 2024)}, volume 1746 of {\em Lecture Notes in
+  Networks and Systems}, pages 396--410. Springer, Cham, 2026.
+
 \bibitem{campanelli2015agile}
 Amadeu~Silveira Campanelli and Fernando~Silva Parreiras.
 \newblock Agile methods tailoring: A systematic literature review.
@@ -291,29 +315,6 @@ Marco Kuhrmann, Thomas Ternité, Jürgen Friedrich, Andreas Rausch, and Manfred
   approach to effectively construct and manage families of software process
   models.
 \newblock {\em Journal of Systems and Software}, 121:49--71, 2016.
-
-\bibitem{londono2023prototyping}
-Iván Londoño, Vanessa Agredo-Delgado, and Pablo~H. Ruiz.
-\newblock Agile prototyping strategy for building shared understanding in
-  requirements engineering.
-\newblock {\em I+T+C Investigación, Tecnología y Ciencia}, 2023.
-
-\bibitem{chamizo2025guide}
-Jarnelly~Valentina Chamizo~Quiñones, Isabella Rodríguez~Bautista, and Vanessa
-  Agredo-Delgado.
-\newblock Guide for strengthening the building of shared understanding in
-  requirements engineering activities.
-\newblock In {\em Human-Computer Interaction (HCI-COLLAB 2024)}. Springer,
-  Cham, 2025.
-
-\bibitem{londono2026mapping}
-Iván Londoño, Cesar~A. Collazos, Pablo~H. Ruiz, Vanessa Agredo-Delgado, and
-  Fernando Moreira.
-\newblock Importance of shared understanding in software engineering: A
-  systematic literature mapping.
-\newblock In {\em Proceedings of the 19th Iberian Conference on Information
-  Systems and Technologies (CISTI 2024)}, volume 1746 of {\em Lecture Notes in
-  Networks and Systems}, pages 396--410. Springer, Cham, 2026.
 
 \bibitem{kasauli2021}
 Rashidah Kasauli, Eric Knauss, Jennifer Horkoff, Grischa Liebel, and

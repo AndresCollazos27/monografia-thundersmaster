@@ -1,0 +1,11 @@
+﻿nota;Acciones de trabajo guardadas por la app (sin conexión, carta, medición, cuestionario ni cronómetro). Calculado con scripts/faltantes.py sobre las exportaciones.
+rol;A;B;C;D
+PO;20;6;9;13
+SD;18;14;17;23
+SD2;;;18;14
+FR;5;15;17;34
+AN;6;10;7;22
+QA;20;8;13;0
+RT;15;4;4;6
+total;84;57;85;112
+respuestas_rondas;14 de 24;13 de 24;19 de 28;23 de 28
