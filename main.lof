@@ -6,18 +6,17 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Flujo de selección de estudios de la revisión sistemática.}}{25}{figure.2.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura de THUNDERS según su especificación: fases, actividades C-01 a C-13, momentos de validación del entendimiento compartido (EC-1 y EC-2), hitos por fase y mecanismos transversales.}}{39}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura de THUNDERS según su especificación: fases, componentes C-01 a C-13, momentos de validación del entendimiento compartido (EC-1 y EC-2), hitos por fase y mecanismos transversales.}}{39}{figure.3.1}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Ciclo de construcción de THUNDERS~Master con las cuatro actividades de la ingeniería de métodos situacionales.}}{48}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolución de la estructura de THUNDERS~Master de la versión 1.0 a la versión final. Los recuadros punteados son elementos opcionales, el sombreado verde es un mecanismo transversal y el marco azul agrupa el subproceso A5.}}{58}{figure.4.2}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolución de la estructura de THUNDERS~Master de la versión 1.0 a la versión final. Los recuadros punteados son elementos opcionales, el sombreado verde es un mecanismo transversal, la verificación continua con I3, y el marco azul agrupa el subproceso A5.}}{58}{figure.4.2}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Resumen de la validación y de los resultados de cada iteración, de la versión 1.0 a la versión final.}}{59}{figure.4.3}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Modelo de THUNDERS~Master: el ciclo de requisitos con sus tres fases, sus actividades, el subproceso A5, los dos encuentros, los hitos EC-1 y EC-2 y las evidencias que deja cada actividad.}}{65}{figure.5.1}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama BPMN del proceso principal de THUNDERS~Master.}}{72}{figure.5.2}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama BPMN del subproceso A5 de THUNDERS~Master, Elicitar, especificar y validar los requisitos, que se invoca desde el proceso principal entre A4 y A6.}}{73}{figure.5.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Secciones que se presentan en el Capítulo~6.}}{80}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Elementos de cada versión de THUNDERS~Master y forma en que se validó. Las celdas verdes marcan los cambios de mayor alcance.}}{81}{figure.6.2}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Elementos de cada versión de THUNDERS~Master y forma en que se validó. Las celdas verdes marcan los cambios de mayor alcance.}}{81}{figure.6.1}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Secciones que se presentan en el Capítulo~7.}}{108}{figure.7.1}%
 \addvspace {10\p@ }

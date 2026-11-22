@@ -141,6 +141,13 @@ Jolita Ralyté and Colette Rolland.
 \newblock In {\em Advanced Information Systems Engineering (CAiSE)}, pages
   267--283, 2001.
 
+\bibitem{kitchenham2007}
+Barbara Kitchenham and Stuart Charters.
+\newblock Guidelines for performing systematic literature reviews in software
+  engineering.
+\newblock Technical Report EBSE-2007-01, Keele University and Durham
+  University, 2007.
+
 \bibitem{henderson2010sme}
 Brian Henderson-Sellers and Jolita Ralyté.
 \newblock Situational method engineering: State-of-the-art review.
@@ -323,6 +330,13 @@ Rashidah Kasauli, Eric Knauss, Jennifer Horkoff, Grischa Liebel, and
   agile system development.
 \newblock {\em Journal of Systems and Software}, 172:110851, 2021.
 
+\bibitem{khan2022stakeholders}
+Fahim~Muhammad Khan, Javed~Ali Khan, Muhammad Assam, Ahmed~S. Almasoud,
+  Abdelzahir Abdelmaboud, and Manar Ahmed~Mohammed Hamza.
+\newblock A comparative systematic analysis of stakeholder's identification
+  methods in requirements elicitation.
+\newblock {\em IEEE Access}, 10:30982--31011, 2022.
+
 \bibitem{balasubramaniam2023}
 Nagadivya Balasubramaniam, Marjo Kauppinen, Antti Rannisto, Kari Hiekkanen, and
   Sari Kujala.
@@ -335,13 +349,6 @@ Dirk Burkhardt, Kawa Nazemi, Silvana Tomic, and Egils Ginters.
 \newblock Best-practice piloting of integrated social media analysis solution
   for e-participation in cities.
 \newblock {\em Procedia Computer Science}, 77:11--21, 2015.
-
-\bibitem{khan2022stakeholders}
-Fahim~Muhammad Khan, Javed~Ali Khan, Muhammad Assam, Ahmed~S. Almasoud,
-  Abdelzahir Abdelmaboud, and Manar Ahmed~Mohammed Hamza.
-\newblock A comparative systematic analysis of stakeholder's identification
-  methods in requirements elicitation.
-\newblock {\em IEEE Access}, 10:30982--31011, 2022.
 
 \bibitem{laporte2023}
 Claude~Y. Laporte, Guillaume Verret, and Mirna Muñoz.
@@ -504,13 +511,6 @@ Daniela~E. Damian and James Chisan.
   productivity, quality, and risk management.
 \newblock {\em IEEE Transactions on Software Engineering}, 32(7):433--453,
   2006.
-
-\bibitem{kitchenham2007}
-Barbara Kitchenham and Stuart Charters.
-\newblock Guidelines for performing systematic literature reviews in software
-  engineering.
-\newblock Technical Report EBSE-2007-01, Keele University and Durham
-  University, 2007.
 
 \bibitem{kruchten2013}
 Philippe Kruchten.
