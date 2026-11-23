@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.25)  22 NOV 2026 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.25)  22 NOV 2026 19:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1306,12 +1306,12 @@ LaTeX Info: Redefining \% on input line 3705.
 LaTeX Info: Redefining \. on input line 3715.
 LaTeX Info: Redefining \% on input line 3715.
  [70]
-<figures/BPMN_final_principal.pdf, id=2357, 1445.4pt x 1094.89055pt>
+<figures/BPMN_final_principal.pdf, id=2356, 1445.4pt x 1094.89055pt>
 File: figures/BPMN_final_principal.pdf Graphic file (type pdf)
 <use figures/BPMN_final_principal.pdf>
 Package pdftex.def Info: figures/BPMN_final_principal.pdf  used on input line 3718.
 (pdftex.def)             Requested size: 652.69566pt x 479.00612pt.
-<figures/BPMN_final_A5.pdf, id=2359, 1445.4pt x 1105.73097pt>
+<figures/BPMN_final_A5.pdf, id=2358, 1445.4pt x 1105.73097pt>
 File: figures/BPMN_final_A5.pdf Graphic file (type pdf)
 <use figures/BPMN_final_A5.pdf>
 Package pdftex.def Info: figures/BPMN_final_A5.pdf  used on input line 3725.
@@ -1360,113 +1360,122 @@ LaTeX Info: Redefining \% on input line 4303.
 LaTeX Info: Redefining \. on input line 4341.
 LaTeX Info: Redefining \% on input line 4341.
  [84]
-LaTeX Info: Redefining \. on input line 4373.
-LaTeX Info: Redefining \% on input line 4373.
+LaTeX Info: Redefining \. on input line 4375.
+LaTeX Info: Redefining \% on input line 4375.
  [85]
-LaTeX Info: Redefining \. on input line 4437.
-LaTeX Info: Redefining \% on input line 4437.
+LaTeX Info: Redefining \. on input line 4440.
+LaTeX Info: Redefining \% on input line 4440.
  [86]
-LaTeX Info: Redefining \. on input line 4490.
-LaTeX Info: Redefining \% on input line 4490.
+LaTeX Info: Redefining \. on input line 4507.
+LaTeX Info: Redefining \% on input line 4507.
  [87]
-LaTeX Info: Redefining \. on input line 4525.
-LaTeX Info: Redefining \% on input line 4525.
+LaTeX Info: Redefining \. on input line 4507.
+LaTeX Info: Redefining \% on input line 4507.
  [88]
-LaTeX Info: Redefining \. on input line 4586.
-LaTeX Info: Redefining \% on input line 4586.
+LaTeX Info: Redefining \. on input line 4588.
+LaTeX Info: Redefining \% on input line 4588.
  [89]
-LaTeX Info: Redefining \. on input line 4660.
-LaTeX Info: Redefining \% on input line 4660.
+LaTeX Info: Redefining \. on input line 4611.
+LaTeX Info: Redefining \% on input line 4611.
  [90]
-LaTeX Info: Redefining \. on input line 4676.
-LaTeX Info: Redefining \% on input line 4676.
+LaTeX Info: Redefining \. on input line 4662.
+LaTeX Info: Redefining \% on input line 4662.
  [91]
-LaTeX Info: Redefining \. on input line 4731.
-LaTeX Info: Redefining \% on input line 4731.
+LaTeX Info: Redefining \. on input line 4714.
+LaTeX Info: Redefining \% on input line 4714.
  [92]
-LaTeX Info: Redefining \. on input line 4773.
-LaTeX Info: Redefining \% on input line 4773.
+LaTeX Info: Redefining \. on input line 4755.
+LaTeX Info: Redefining \% on input line 4755.
  [93]
-LaTeX Info: Redefining \. on input line 4817.
-LaTeX Info: Redefining \% on input line 4817.
+LaTeX Info: Redefining \. on input line 4801.
+LaTeX Info: Redefining \% on input line 4801.
  [94]
-LaTeX Info: Redefining \. on input line 4895.
-LaTeX Info: Redefining \% on input line 4895.
+LaTeX Info: Redefining \. on input line 4836.
+LaTeX Info: Redefining \% on input line 4836.
  [95]
-LaTeX Info: Redefining \. on input line 4910.
-LaTeX Info: Redefining \% on input line 4910.
+LaTeX Info: Redefining \. on input line 4900.
+LaTeX Info: Redefining \% on input line 4900.
  [96]
-LaTeX Info: Redefining \. on input line 4944.
-LaTeX Info: Redefining \% on input line 4944.
+LaTeX Info: Redefining \. on input line 4924.
+LaTeX Info: Redefining \% on input line 4924.
  [97]
-LaTeX Info: Redefining \. on input line 5001.
-LaTeX Info: Redefining \% on input line 5001.
+LaTeX Info: Redefining \. on input line 4963.
+LaTeX Info: Redefining \% on input line 4963.
  [98]
-LaTeX Info: Redefining \. on input line 5035.
-LaTeX Info: Redefining \% on input line 5035.
+LaTeX Info: Redefining \. on input line 5007.
+LaTeX Info: Redefining \% on input line 5007.
  [99]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5113.
+LaTeX Info: Redefining \. on input line 5048.
+LaTeX Info: Redefining \% on input line 5048.
+ [100]
+LaTeX Info: Redefining \. on input line 5098.
+LaTeX Info: Redefining \% on input line 5098.
+ [101]
+LaTeX Info: Redefining \. on input line 5155.
+LaTeX Info: Redefining \% on input line 5155.
+ [102]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5158.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \. on input line 5121.
-LaTeX Info: Redefining \% on input line 5121.
- [100]
-LaTeX Info: Redefining \. on input line 5176.
-LaTeX Info: Redefining \% on input line 5176.
- [101{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-LaTeX Info: Redefining \. on input line 5199.
-LaTeX Info: Redefining \% on input line 5199.
- [102]
-LaTeX Info: Redefining \. on input line 5243.
-LaTeX Info: Redefining \% on input line 5243.
- [103]
-LaTeX Info: Redefining \. on input line 5285.
-LaTeX Info: Redefining \% on input line 5285.
+LaTeX Info: Redefining \. on input line 5226.
+LaTeX Info: Redefining \% on input line 5226.
+ [103{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+LaTeX Info: Redefining \. on input line 5265.
+LaTeX Info: Redefining \% on input line 5265.
  [104]
-LaTeX Info: Redefining \. on input line 5336.
-LaTeX Info: Redefining \% on input line 5336.
+LaTeX Info: Redefining \. on input line 5314.
+LaTeX Info: Redefining \% on input line 5314.
  [105]
-LaTeX Info: Redefining \. on input line 5375.
-LaTeX Info: Redefining \% on input line 5375.
+LaTeX Info: Redefining \. on input line 5352.
+LaTeX Info: Redefining \% on input line 5352.
  [106]
-LaTeX Info: Redefining \. on input line 5402.
-LaTeX Info: Redefining \% on input line 5402.
+LaTeX Info: Redefining \. on input line 5395.
+LaTeX Info: Redefining \% on input line 5395.
  [107]
+LaTeX Info: Redefining \. on input line 5440.
+LaTeX Info: Redefining \% on input line 5440.
+ [108]
+LaTeX Info: Redefining \. on input line 5495.
+LaTeX Info: Redefining \% on input line 5495.
+ [109]
+LaTeX Info: Redefining \. on input line 5497.
+LaTeX Info: Redefining \% on input line 5497.
+ [110]
 Cap\'{\i }tulo 7.
-[108
+[111
 
 ]
-LaTeX Info: Redefining \. on input line 5482.
-LaTeX Info: Redefining \% on input line 5482.
- [109] (main.bbl
+LaTeX Info: Redefining \. on input line 5572.
+LaTeX Info: Redefining \% on input line 5572.
+ [112] (main.bbl
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [110] [111
+ [113] [114
 
 ]
 LaTeX Info: Redefining \. on input line 125.
 LaTeX Info: Redefining \% on input line 125.
- [112]
+ [115]
 Underfull \hbox (badness 1648) in paragraph at lines 157--161
 []\T1/lmr/m/n/12 Isabelle Mir-bel and Jo-li-ta Raly-té.  Si-tua-tio-nal method en-gi-nee-ring: Com-bi-
  []
 
 LaTeX Info: Redefining \. on input line 196.
 LaTeX Info: Redefining \% on input line 196.
-[113]
+[116]
 LaTeX Info: Redefining \. on input line 263.
 LaTeX Info: Redefining \% on input line 263.
- [114]
+ [117]
 LaTeX Info: Redefining \. on input line 325.
 LaTeX Info: Redefining \% on input line 325.
- [115]
+ [118]
 LaTeX Info: Redefining \. on input line 385.
 LaTeX Info: Redefining \% on input line 385.
- [116]
+ [119]
 LaTeX Info: Redefining \. on input line 452.
 LaTeX Info: Redefining \% on input line 452.
- [117]
+ [120]
 Underfull \hbox (badness 2744) in paragraph at lines 496--500
 []\T1/lmr/m/n/12 International Re-qui-re-ments En-gi-nee-ring Board (IREB).  CPRE Foun-da-tion
  []
@@ -1478,403 +1487,403 @@ Underfull \hbox (badness 2600) in paragraph at lines 496--500
 
 LaTeX Info: Redefining \. on input line 514.
 LaTeX Info: Redefining \% on input line 514.
-[118]
+[121]
 LaTeX Info: Redefining \. on input line 583.
 LaTeX Info: Redefining \% on input line 583.
- [119])
-LaTeX Info: Redefining \. on input line 5515.
-LaTeX Info: Redefining \% on input line 5515.
- [120]
+ [122])
+LaTeX Info: Redefining \. on input line 5604.
+LaTeX Info: Redefining \% on input line 5604.
+ [123]
 Anexo A.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[121
+[124
 
 ]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 5599.
-LaTeX Info: Redefining \% on input line 5599.
- [122]
-LaTeX Info: Redefining \. on input line 5629.
-LaTeX Info: Redefining \% on input line 5629.
- [123]
-ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 5680.
-LaTeX Info: Redefining \% on input line 5680.
- [124]
-LaTeX Info: Redefining \. on input line 5740.
-LaTeX Info: Redefining \% on input line 5740.
+LaTeX Info: Redefining \. on input line 5688.
+LaTeX Info: Redefining \% on input line 5688.
  [125]
+LaTeX Info: Redefining \. on input line 5718.
+LaTeX Info: Redefining \% on input line 5718.
+ [126]
+ignored: Infinite glue shrinkage found in box being split
 LaTeX Info: Redefining \. on input line 5769.
 LaTeX Info: Redefining \% on input line 5769.
- [126]
-LaTeX Info: Redefining \. on input line 5838.
-LaTeX Info: Redefining \% on input line 5838.
  [127]
-LaTeX Info: Redefining \. on input line 5871.
-LaTeX Info: Redefining \% on input line 5871.
+LaTeX Info: Redefining \. on input line 5829.
+LaTeX Info: Redefining \% on input line 5829.
  [128]
-ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 5942.
-LaTeX Info: Redefining \% on input line 5942.
+LaTeX Info: Redefining \. on input line 5858.
+LaTeX Info: Redefining \% on input line 5858.
  [129]
-ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 5990.
-LaTeX Info: Redefining \% on input line 5990.
+LaTeX Info: Redefining \. on input line 5927.
+LaTeX Info: Redefining \% on input line 5927.
  [130]
-LaTeX Info: Redefining \. on input line 6033.
-LaTeX Info: Redefining \% on input line 6033.
+LaTeX Info: Redefining \. on input line 5960.
+LaTeX Info: Redefining \% on input line 5960.
  [131]
+ignored: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 6031.
+LaTeX Info: Redefining \% on input line 6031.
+ [132]
+ignored: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 6079.
+LaTeX Info: Redefining \% on input line 6079.
+ [133]
+LaTeX Info: Redefining \. on input line 6122.
+LaTeX Info: Redefining \% on input line 6122.
+ [134]
 Anexo B.
-<figures/Figura_ScienceDirect.png, id=3220, 1453.43pt x 1090.0725pt>
+<figures/Figura_ScienceDirect.png, id=3240, 1453.43pt x 1090.0725pt>
 File: figures/Figura_ScienceDirect.png Graphic file (type png)
 <use figures/Figura_ScienceDirect.png>
-Package pdftex.def Info: figures/Figura_ScienceDirect.png  used on input line 6059.
+Package pdftex.def Info: figures/Figura_ScienceDirect.png  used on input line 6148.
 (pdftex.def)             Requested size: 389.13692pt x 291.84517pt.
-[132
+[135
 
 ]
-<figures/Figura_Scopus.png, id=3225, 1453.43pt x 1090.0725pt>
+<figures/Figura_Scopus.png, id=3245, 1453.43pt x 1090.0725pt>
 File: figures/Figura_Scopus.png Graphic file (type png)
 <use figures/Figura_Scopus.png>
-Package pdftex.def Info: figures/Figura_Scopus.png  used on input line 6066.
+Package pdftex.def Info: figures/Figura_Scopus.png  used on input line 6155.
 (pdftex.def)             Requested size: 389.13692pt x 291.84517pt.
-<figures/Figura_WoS.png, id=3226, 1453.43pt x 1090.0725pt>
+<figures/Figura_WoS.png, id=3246, 1453.43pt x 1090.0725pt>
 File: figures/Figura_WoS.png Graphic file (type png)
 <use figures/Figura_WoS.png>
-Package pdftex.def Info: figures/Figura_WoS.png  used on input line 6073.
+Package pdftex.def Info: figures/Figura_WoS.png  used on input line 6162.
 (pdftex.def)             Requested size: 389.13692pt x 291.84517pt.
-<figures/Figura2.png, id=3227, 787.0203pt x 462.528pt>
+<figures/Figura2.png, id=3247, 787.0203pt x 462.528pt>
 File: figures/Figura2.png Graphic file (type png)
 <use figures/Figura2.png>
-Package pdftex.def Info: figures/Figura2.png  used on input line 6083.
+Package pdftex.def Info: figures/Figura2.png  used on input line 6172.
 (pdftex.def)             Requested size: 343.35364pt x 201.79088pt.
-LaTeX Info: Redefining \. on input line 6087.
-LaTeX Info: Redefining \% on input line 6087.
- [133 <./figures/Figura_ScienceDirect.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 6087.
-LaTeX Info: Redefining \% on input line 6087.
- [134 <./figures/Figura_Scopus.png (PNG copy)> <./figures/Figura_WoS.png (PNG copy)>]
-LaTeX Info: Redefining \. on input line 6115.
-LaTeX Info: Redefining \% on input line 6115.
- [135 <./figures/Figura2.png>]
-LaTeX Info: Redefining \. on input line 6169.
-LaTeX Info: Redefining \% on input line 6169.
- [136]
-LaTeX Info: Redefining \. on input line 6200.
-LaTeX Info: Redefining \% on input line 6200.
- [137]
-LaTeX Info: Redefining \. on input line 6253.
-LaTeX Info: Redefining \% on input line 6253.
- [138]
-LaTeX Info: Redefining \. on input line 6303.
-LaTeX Info: Redefining \% on input line 6303.
+LaTeX Info: Redefining \. on input line 6176.
+LaTeX Info: Redefining \% on input line 6176.
+ [136 <./figures/Figura_ScienceDirect.png (PNG copy)>]
+LaTeX Info: Redefining \. on input line 6176.
+LaTeX Info: Redefining \% on input line 6176.
+ [137 <./figures/Figura_Scopus.png (PNG copy)> <./figures/Figura_WoS.png (PNG copy)>]
+LaTeX Info: Redefining \. on input line 6204.
+LaTeX Info: Redefining \% on input line 6204.
+ [138 <./figures/Figura2.png>]
+LaTeX Info: Redefining \. on input line 6258.
+LaTeX Info: Redefining \% on input line 6258.
  [139]
-LaTeX Info: Redefining \. on input line 6347.
-LaTeX Info: Redefining \% on input line 6347.
+LaTeX Info: Redefining \. on input line 6289.
+LaTeX Info: Redefining \% on input line 6289.
  [140]
-LaTeX Info: Redefining \. on input line 6391.
-LaTeX Info: Redefining \% on input line 6391.
+LaTeX Info: Redefining \. on input line 6342.
+LaTeX Info: Redefining \% on input line 6342.
  [141]
-LaTeX Info: Redefining \. on input line 6438.
-LaTeX Info: Redefining \% on input line 6438.
+LaTeX Info: Redefining \. on input line 6392.
+LaTeX Info: Redefining \% on input line 6392.
  [142]
-LaTeX Info: Redefining \. on input line 6486.
-LaTeX Info: Redefining \% on input line 6486.
+LaTeX Info: Redefining \. on input line 6436.
+LaTeX Info: Redefining \% on input line 6436.
  [143]
-LaTeX Info: Redefining \. on input line 6530.
-LaTeX Info: Redefining \% on input line 6530.
+LaTeX Info: Redefining \. on input line 6480.
+LaTeX Info: Redefining \% on input line 6480.
  [144]
-LaTeX Info: Redefining \. on input line 6532.
-LaTeX Info: Redefining \% on input line 6532.
+LaTeX Info: Redefining \. on input line 6527.
+LaTeX Info: Redefining \% on input line 6527.
  [145]
+LaTeX Info: Redefining \. on input line 6575.
+LaTeX Info: Redefining \% on input line 6575.
+ [146]
+LaTeX Info: Redefining \. on input line 6619.
+LaTeX Info: Redefining \% on input line 6619.
+ [147]
+LaTeX Info: Redefining \. on input line 6621.
+LaTeX Info: Redefining \% on input line 6621.
+ [148]
 Anexo C.
 
-ignored: Infinite glue shrinkage found in box being split [146
+ignored: Infinite glue shrinkage found in box being split [149
 
 ]
-LaTeX Info: Redefining \. on input line 6745.
-LaTeX Info: Redefining \% on input line 6745.
- [147]
-LaTeX Info: Redefining \. on input line 6745.
-LaTeX Info: Redefining \% on input line 6745.
- [148]
-LaTeX Info: Redefining \. on input line 6745.
-LaTeX Info: Redefining \% on input line 6745.
- [149]
-LaTeX Info: Redefining \. on input line 6745.
-LaTeX Info: Redefining \% on input line 6745.
+LaTeX Info: Redefining \. on input line 6834.
+LaTeX Info: Redefining \% on input line 6834.
  [150]
+LaTeX Info: Redefining \. on input line 6834.
+LaTeX Info: Redefining \% on input line 6834.
+ [151]
+LaTeX Info: Redefining \. on input line 6834.
+LaTeX Info: Redefining \% on input line 6834.
+ [152]
+LaTeX Info: Redefining \. on input line 6834.
+LaTeX Info: Redefining \% on input line 6834.
+ [153]
 Anexo D.
 
-ignored: Infinite glue shrinkage found in box being split [151
+ignored: Infinite glue shrinkage found in box being split [154
 
 ]
-LaTeX Info: Redefining \. on input line 6880.
-LaTeX Info: Redefining \% on input line 6880.
- [152]
-LaTeX Info: Redefining \. on input line 6880.
-LaTeX Info: Redefining \% on input line 6880.
- [153]
-Anexo E.
-[154
-
-]
-LaTeX Info: Redefining \. on input line 6966.
-LaTeX Info: Redefining \% on input line 6966.
+LaTeX Info: Redefining \. on input line 6969.
+LaTeX Info: Redefining \% on input line 6969.
  [155]
-LaTeX Info: Redefining \. on input line 7002.
-LaTeX Info: Redefining \% on input line 7002.
+LaTeX Info: Redefining \. on input line 6969.
+LaTeX Info: Redefining \% on input line 6969.
  [156]
-LaTeX Info: Redefining \. on input line 7149.
-LaTeX Info: Redefining \% on input line 7149.
- [157]
-ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 7149.
-LaTeX Info: Redefining \% on input line 7149.
- [158]
-LaTeX Info: Redefining \. on input line 7151.
-LaTeX Info: Redefining \% on input line 7151.
- [159]
-Anexo F.
-[160
+Anexo E.
+[157
 
 ]
-LaTeX Info: Redefining \. on input line 7245.
-LaTeX Info: Redefining \% on input line 7245.
+LaTeX Info: Redefining \. on input line 7055.
+LaTeX Info: Redefining \% on input line 7055.
+ [158]
+LaTeX Info: Redefining \. on input line 7091.
+LaTeX Info: Redefining \% on input line 7091.
+ [159]
+LaTeX Info: Redefining \. on input line 7238.
+LaTeX Info: Redefining \% on input line 7238.
+ [160]
+ignored: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 7238.
+LaTeX Info: Redefining \% on input line 7238.
  [161]
-LaTeX Info: Redefining \. on input line 7398.
-LaTeX Info: Redefining \% on input line 7398.
+LaTeX Info: Redefining \. on input line 7240.
+LaTeX Info: Redefining \% on input line 7240.
  [162]
-LaTeX Info: Redefining \. on input line 7398.
-LaTeX Info: Redefining \% on input line 7398.
- [163]
-LaTeX Info: Redefining \. on input line 7432.
-LaTeX Info: Redefining \% on input line 7432.
+Anexo F.
+[163
+
+]
+LaTeX Info: Redefining \. on input line 7334.
+LaTeX Info: Redefining \% on input line 7334.
  [164]
-LaTeX Info: Redefining \. on input line 7482.
-LaTeX Info: Redefining \% on input line 7482.
+LaTeX Info: Redefining \. on input line 7487.
+LaTeX Info: Redefining \% on input line 7487.
  [165]
-LaTeX Info: Redefining \. on input line 7531.
-LaTeX Info: Redefining \% on input line 7531.
+LaTeX Info: Redefining \. on input line 7487.
+LaTeX Info: Redefining \% on input line 7487.
  [166]
-LaTeX Info: Redefining \. on input line 7562.
-LaTeX Info: Redefining \% on input line 7562.
+LaTeX Info: Redefining \. on input line 7521.
+LaTeX Info: Redefining \% on input line 7521.
  [167]
-LaTeX Info: Redefining \. on input line 7614.
-LaTeX Info: Redefining \% on input line 7614.
+LaTeX Info: Redefining \. on input line 7571.
+LaTeX Info: Redefining \% on input line 7571.
  [168]
-LaTeX Info: Redefining \. on input line 7648.
-LaTeX Info: Redefining \% on input line 7648.
+LaTeX Info: Redefining \. on input line 7620.
+LaTeX Info: Redefining \% on input line 7620.
  [169]
+LaTeX Info: Redefining \. on input line 7651.
+LaTeX Info: Redefining \% on input line 7651.
+ [170]
 LaTeX Info: Redefining \. on input line 7703.
 LaTeX Info: Redefining \% on input line 7703.
- [170]
-LaTeX Info: Redefining \. on input line 7740.
-LaTeX Info: Redefining \% on input line 7740.
  [171]
-LaTeX Info: Redefining \. on input line 7782.
-LaTeX Info: Redefining \% on input line 7782.
+LaTeX Info: Redefining \. on input line 7737.
+LaTeX Info: Redefining \% on input line 7737.
  [172]
-LaTeX Info: Redefining \. on input line 7830.
-LaTeX Info: Redefining \% on input line 7830.
+LaTeX Info: Redefining \. on input line 7792.
+LaTeX Info: Redefining \% on input line 7792.
  [173]
+LaTeX Info: Redefining \. on input line 7829.
+LaTeX Info: Redefining \% on input line 7829.
+ [174]
 LaTeX Info: Redefining \. on input line 7871.
 LaTeX Info: Redefining \% on input line 7871.
- [174]
-LaTeX Info: Redefining \. on input line 7916.
-LaTeX Info: Redefining \% on input line 7916.
  [175]
-LaTeX Info: Redefining \. on input line 7955.
-LaTeX Info: Redefining \% on input line 7955.
+LaTeX Info: Redefining \. on input line 7919.
+LaTeX Info: Redefining \% on input line 7919.
  [176]
-LaTeX Info: Redefining \. on input line 8002.
-LaTeX Info: Redefining \% on input line 8002.
+LaTeX Info: Redefining \. on input line 7960.
+LaTeX Info: Redefining \% on input line 7960.
  [177]
-LaTeX Info: Redefining \. on input line 8125.
-LaTeX Info: Redefining \% on input line 8125.
+LaTeX Info: Redefining \. on input line 8005.
+LaTeX Info: Redefining \% on input line 8005.
  [178]
-ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 8125.
-LaTeX Info: Redefining \% on input line 8125.
+LaTeX Info: Redefining \. on input line 8044.
+LaTeX Info: Redefining \% on input line 8044.
  [179]
-LaTeX Info: Redefining \. on input line 8220.
-LaTeX Info: Redefining \% on input line 8220.
+LaTeX Info: Redefining \. on input line 8091.
+LaTeX Info: Redefining \% on input line 8091.
  [180]
-LaTeX Info: Redefining \. on input line 8227.
-LaTeX Info: Redefining \% on input line 8227.
+LaTeX Info: Redefining \. on input line 8214.
+LaTeX Info: Redefining \% on input line 8214.
  [181]
-LaTeX Info: Redefining \. on input line 8274.
-LaTeX Info: Redefining \% on input line 8274.
- [182]
-LaTeX Info: Redefining \. on input line 8319.
-LaTeX Info: Redefining \% on input line 8319.
- [183]
-LaTeX Info: Redefining \. on input line 8375.
-LaTeX Info: Redefining \% on input line 8375.
- [184]
-LaTeX Info: Redefining \. on input line 8416.
-LaTeX Info: Redefining \% on input line 8416.
- [185]
-LaTeX Info: Redefining \. on input line 8504.
-LaTeX Info: Redefining \% on input line 8504.
- [186]
-LaTeX Info: Redefining \. on input line 8504.
-LaTeX Info: Redefining \% on input line 8504.
- [187]
-LaTeX Info: Redefining \. on input line 8632.
-LaTeX Info: Redefining \% on input line 8632.
- [188]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 8632.
-LaTeX Info: Redefining \% on input line 8632.
+LaTeX Info: Redefining \. on input line 8214.
+LaTeX Info: Redefining \% on input line 8214.
+ [182]
+LaTeX Info: Redefining \. on input line 8309.
+LaTeX Info: Redefining \% on input line 8309.
+ [183]
+LaTeX Info: Redefining \. on input line 8316.
+LaTeX Info: Redefining \% on input line 8316.
+ [184]
+LaTeX Info: Redefining \. on input line 8363.
+LaTeX Info: Redefining \% on input line 8363.
+ [185]
+LaTeX Info: Redefining \. on input line 8408.
+LaTeX Info: Redefining \% on input line 8408.
+ [186]
+LaTeX Info: Redefining \. on input line 8464.
+LaTeX Info: Redefining \% on input line 8464.
+ [187]
+LaTeX Info: Redefining \. on input line 8505.
+LaTeX Info: Redefining \% on input line 8505.
+ [188]
+LaTeX Info: Redefining \. on input line 8593.
+LaTeX Info: Redefining \% on input line 8593.
  [189]
-LaTeX Info: Redefining \. on input line 8710.
-LaTeX Info: Redefining \% on input line 8710.
+LaTeX Info: Redefining \. on input line 8593.
+LaTeX Info: Redefining \% on input line 8593.
  [190]
-LaTeX Info: Redefining \. on input line 8710.
-LaTeX Info: Redefining \% on input line 8710.
+LaTeX Info: Redefining \. on input line 8721.
+LaTeX Info: Redefining \% on input line 8721.
  [191]
-LaTeX Info: Redefining \. on input line 8710.
-LaTeX Info: Redefining \% on input line 8710.
+ignored: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 8721.
+LaTeX Info: Redefining \% on input line 8721.
  [192]
+LaTeX Info: Redefining \. on input line 8799.
+LaTeX Info: Redefining \% on input line 8799.
+ [193]
+LaTeX Info: Redefining \. on input line 8799.
+LaTeX Info: Redefining \% on input line 8799.
+ [194]
+LaTeX Info: Redefining \. on input line 8799.
+LaTeX Info: Redefining \% on input line 8799.
+ [195]
 Anexo G.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8713--8722
+Underfull \hbox (badness 10000) in paragraph at lines 8802--8811
 \T1/lmr/m/n/12 obli-ga-to-rios, [][][][][][], [][][][][][] y
  []
 
-[193
+[196
 
 ]
-LaTeX Info: Redefining \. on input line 8775.
-LaTeX Info: Redefining \% on input line 8775.
- [194]
-LaTeX Info: Redefining \. on input line 8828.
-LaTeX Info: Redefining \% on input line 8828.
- [195]
 LaTeX Info: Redefining \. on input line 8864.
 LaTeX Info: Redefining \% on input line 8864.
- [196]
-LaTeX Info: Redefining \. on input line 8893.
-LaTeX Info: Redefining \% on input line 8893.
  [197]
-LaTeX Info: Redefining \. on input line 8933.
-LaTeX Info: Redefining \% on input line 8933.
+LaTeX Info: Redefining \. on input line 8917.
+LaTeX Info: Redefining \% on input line 8917.
  [198]
+LaTeX Info: Redefining \. on input line 8953.
+LaTeX Info: Redefining \% on input line 8953.
+ [199]
+LaTeX Info: Redefining \. on input line 8982.
+LaTeX Info: Redefining \% on input line 8982.
+ [200]
+LaTeX Info: Redefining \. on input line 9022.
+LaTeX Info: Redefining \% on input line 9022.
+ [201]
 Anexo H.
 
-ignored: Infinite glue shrinkage found in box being split [199
+ignored: Infinite glue shrinkage found in box being split [202
 
 ]
-Package pgfplots info on input line 9022: Using 'lua backend=false' for axis: x coord trafo unsupported.
-LaTeX Info: Redefining \. on input line 9040.
-LaTeX Info: Redefining \% on input line 9040.
- [200]
-LaTeX Info: Redefining \. on input line 9040.
-LaTeX Info: Redefining \% on input line 9040.
- [201{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
-Anexo I.
-[202
-
-]
-LaTeX Info: Redefining \. on input line 9105.
-LaTeX Info: Redefining \% on input line 9105.
+Package pgfplots info on input line 9111: Using 'lua backend=false' for axis: x coord trafo unsupported.
+LaTeX Info: Redefining \. on input line 9129.
+LaTeX Info: Redefining \% on input line 9129.
  [203]
+LaTeX Info: Redefining \. on input line 9129.
+LaTeX Info: Redefining \% on input line 9129.
+ [204{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
+Anexo I.
+[205
+
+]
+LaTeX Info: Redefining \. on input line 9194.
+LaTeX Info: Redefining \% on input line 9194.
+ [206]
 Anexo J.
 
-ignored: Infinite glue shrinkage found in box being split [204
+ignored: Infinite glue shrinkage found in box being split [207
 
 ]
-Package pgfplots info on input line 9176: Using 'lua backend=false' for axis: stacked plots unsupported (yet).
-Package pgfplots info on input line 9176: Using 'lua backend=false' for axis: x coord trafo unsupported.
-LaTeX Info: Redefining \. on input line 9188.
-LaTeX Info: Redefining \% on input line 9188.
- [205]
+Package pgfplots info on input line 9265: Using 'lua backend=false' for axis: stacked plots unsupported (yet).
+Package pgfplots info on input line 9265: Using 'lua backend=false' for axis: x coord trafo unsupported.
+LaTeX Info: Redefining \. on input line 9277.
+LaTeX Info: Redefining \% on input line 9277.
+ [208]
 Anexo K.
 
-Overfull \hbox (0.67404pt too wide) in paragraph at lines 9244--9244
+Overfull \hbox (0.67404pt too wide) in paragraph at lines 9333--9333
 []|\T1/lmr/bx/n/8 Instr.|  
  []
 
 
-Overfull \hbox (0.67404pt too wide) in paragraph at lines 9244--9244
+Overfull \hbox (0.67404pt too wide) in paragraph at lines 9333--9333
 []|\T1/lmr/bx/n/8 Instr.|  
  []
 
 
-ignored: Infinite glue shrinkage found in box being split [206
+ignored: Infinite glue shrinkage found in box being split [209
 
 ]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 9244.
-LaTeX Info: Redefining \% on input line 9244.
- [207]
-LaTeX Info: Redefining \. on input line 9248.
-LaTeX Info: Redefining \% on input line 9248.
- [208]
+LaTeX Info: Redefining \. on input line 9333.
+LaTeX Info: Redefining \% on input line 9333.
+ [210]
+LaTeX Info: Redefining \. on input line 9337.
+LaTeX Info: Redefining \% on input line 9337.
+ [211]
 Anexo L.
-[209
+[212
 
 ]
-Overfull \hbox (5.49384pt too wide) in paragraph at lines 9345--9345
+Overfull \hbox (5.49384pt too wide) in paragraph at lines 9434--9434
 []|\T1/lmr/bx/n/10 Minuto|  
  []
 
-LaTeX Info: Redefining \. on input line 9375.
-LaTeX Info: Redefining \% on input line 9375.
-[210]
-Overfull \hbox (5.79124pt too wide) in paragraph at lines 9392--9392
+LaTeX Info: Redefining \. on input line 9464.
+LaTeX Info: Redefining \% on input line 9464.
+[213]
+Overfull \hbox (5.79124pt too wide) in paragraph at lines 9481--9481
 []|\T1/lmr/bx/n/10 ¾Crítico?|  
  []
 
-LaTeX Info: Redefining \. on input line 9425.
-LaTeX Info: Redefining \% on input line 9425.
-[211]
+LaTeX Info: Redefining \. on input line 9514.
+LaTeX Info: Redefining \% on input line 9514.
+[214]
 ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 9501.
-LaTeX Info: Redefining \% on input line 9501.
- [212]
-LaTeX Info: Redefining \. on input line 9553.
-LaTeX Info: Redefining \% on input line 9553.
- [213]
-LaTeX Info: Redefining \. on input line 9636.
-LaTeX Info: Redefining \% on input line 9636.
- [214]
-LaTeX Info: Redefining \. on input line 9636.
-LaTeX Info: Redefining \% on input line 9636.
+LaTeX Info: Redefining \. on input line 9590.
+LaTeX Info: Redefining \% on input line 9590.
  [215]
-LaTeX Info: Redefining \. on input line 9747.
-LaTeX Info: Redefining \% on input line 9747.
+LaTeX Info: Redefining \. on input line 9642.
+LaTeX Info: Redefining \% on input line 9642.
  [216]
-LaTeX Info: Redefining \. on input line 9747.
-LaTeX Info: Redefining \% on input line 9747.
+LaTeX Info: Redefining \. on input line 9725.
+LaTeX Info: Redefining \% on input line 9725.
  [217]
-LaTeX Info: Redefining \. on input line 9808.
-LaTeX Info: Redefining \% on input line 9808.
+LaTeX Info: Redefining \. on input line 9725.
+LaTeX Info: Redefining \% on input line 9725.
  [218]
-LaTeX Info: Redefining \. on input line 9914.
-LaTeX Info: Redefining \% on input line 9914.
+LaTeX Info: Redefining \. on input line 9836.
+LaTeX Info: Redefining \% on input line 9836.
  [219]
-LaTeX Info: Redefining \. on input line 9957.
-LaTeX Info: Redefining \% on input line 9957.
+LaTeX Info: Redefining \. on input line 9836.
+LaTeX Info: Redefining \% on input line 9836.
  [220]
-ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 10007.
-LaTeX Info: Redefining \% on input line 10007.
+LaTeX Info: Redefining \. on input line 9897.
+LaTeX Info: Redefining \% on input line 9897.
  [221]
-ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 10007.
-LaTeX Info: Redefining \% on input line 10007.
+LaTeX Info: Redefining \. on input line 10003.
+LaTeX Info: Redefining \% on input line 10003.
  [222]
-ignored: Infinite glue shrinkage found in box being split
-LaTeX Info: Redefining \. on input line 10055.
-LaTeX Info: Redefining \% on input line 10055.
+LaTeX Info: Redefining \. on input line 10046.
+LaTeX Info: Redefining \% on input line 10046.
  [223]
-LaTeX Info: Redefining \. on input line 10057.
-LaTeX Info: Redefining \% on input line 10057.
- [224] (main.aux
+ignored: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 10096.
+LaTeX Info: Redefining \% on input line 10096.
+ [224]
+ignored: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 10096.
+LaTeX Info: Redefining \% on input line 10096.
+ [225]
+ignored: Infinite glue shrinkage found in box being split
+LaTeX Info: Redefining \. on input line 10144.
+LaTeX Info: Redefining \% on input line 10144.
+ [226]
+LaTeX Info: Redefining \. on input line 10146.
+LaTeX Info: Redefining \% on input line 10146.
+ [227] (main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 LaTeX Info: Redefining \. on input line 17.
@@ -1889,20 +1898,20 @@ L3 programming layer <2026-04-28>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1CCA97050B44B6486968EB093D980C57;59139.
+(rerunfilecheck)             Checksum: F922612DA1229A25554060A2E47EF834;59187.
  ) 
 Here is how much of TeX's memory you used:
- 45124 strings out of 467683
- 1040212 string characters out of 5415205
- 1677855 words of memory out of 5000000
- 72755 multiletter control sequences out of 15000+600000
+ 45079 strings out of 467683
+ 1039458 string characters out of 5415205
+ 1677238 words of memory out of 5000000
+ 72701 multiletter control sequences out of 15000+600000
  749266 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,19n,98p,1630b,2731s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri7.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (245 pages, 5700206 bytes).
+Output written on main.pdf (248 pages, 5707427 bytes).
 PDF statistics:
- 4192 PDF objects out of 4296 (max. 8388607)
- 704 named destinations out of 1000 (max. 500000)
+ 4214 PDF objects out of 4296 (max. 8388607)
+ 713 named destinations out of 1000 (max. 500000)
  1823 words of extra memory for PDF output out of 10000 (max. 10000000)
 
