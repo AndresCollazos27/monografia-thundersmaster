@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1795394621.71432 "main.aux" "main.bbl" "main" 1795395178.53102 0
+["bibtex main"] 1795401502.30034 "main.aux" "main.bbl" "main" 1795401518.36894 0
   "./refs.bib" 1795275778 32796 f0b9853fb69ea474b62b1c9d632effa5 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/unsrt.bst" 1291864736 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "main.aux" 1795395177 96930 b46770f5f2fd86cd9de6a626ed8db7c1 "pdflatex"
+  "main.aux" 1795401515 97059 14b507c8f0fb7352bcf30ea80e3372cc "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1795395169.27936 "c:/Users/ASUS/Documents/THUNDERS Master/Monografia Latex/main.tex" "main.pdf" "main" 1795395178.53334 0
+["pdflatex"] 1795401502.60406 "main.tex" "main.pdf" "main" 1795401518.3725 0
   "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1791829127 350673 14f6f11755b1c4806780b307de9769b4 ""
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779725512 13352558 7cab7c860fef3673865ffa1f0e4dca2b ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -314,20 +314,19 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xltabular/xltabular.sty" 1741086805 4020 2a8868abba10077001a8d63ade8a516c ""
-  "c:/Users/ASUS/Documents/THUNDERS Master/Monografia Latex/main.tex" 1795395168 613756 e9db8bb591561235419e3c7fcca56b5f ""
-  "figures/BPMN_final_A5.pdf" 1793636638 154862 428158982ca916f26baae54d640adc0c ""
-  "figures/BPMN_final_principal.pdf" 1793636638 158590 75d1721523d4f09fb169e3908b96c8d0 ""
   "figures/Figura2.png" 1782927403 30653 6ddeb6e52dcb5afa0303106630d7545e ""
   "figures/Figura_ScienceDirect.png" 1782927403 1038391 4a152571bdc645870068806644bb8fee ""
   "figures/Figura_Scopus.png" 1782927403 1380342 b54dd4e7e9e2689405fa60951d584ba2 ""
   "figures/Figura_WoS.png" 1782927403 1390346 5b60aa38b2c9b14ccd2b1df39ca56d5b ""
-  "main.aux" 1795395177 96930 b46770f5f2fd86cd9de6a626ed8db7c1 "pdflatex"
-  "main.bbl" 1795394622 25120 8226c36d71eeb26b82269e12563e7f60 "bibtex main"
-  "main.lof" 1795395177 3838 57fa6dd856e14cf86abdbf54ba19ee85 "pdflatex"
-  "main.lot" 1795395177 10879 d2901745478b37f94ef0f22394144982 "pdflatex"
-  "main.out" 1795395177 59187 f922612da1229a25554060a2e47ef834 "pdflatex"
-  "main.tex" 1795395168 613756 e9db8bb591561235419e3c7fcca56b5f ""
-  "main.toc" 1795395177 26321 4974d380bf93335048904e6a6cce609d "pdflatex"
+  "figures/THUNDERS-Master_v1.6_Proceso_Principal.png" 1795401428 401118 c2c6ac433ac7de7d0338ce8e1155848c ""
+  "figures/THUNDERS-Master_v1.6_subproceso.png" 1795401431 341862 bc31390e71d3a81aa18b6f824e0ec41f ""
+  "main.aux" 1795401515 97059 14b507c8f0fb7352bcf30ea80e3372cc "pdflatex"
+  "main.bbl" 1795401502 25120 8226c36d71eeb26b82269e12563e7f60 "bibtex main"
+  "main.lof" 1795401515 3838 9b8e764bc43cd59c2bee646de014e548 "pdflatex"
+  "main.lot" 1795401515 10851 282501ec808547dae32b4270adb45540 "pdflatex"
+  "main.out" 1795401515 59187 f922612da1229a25554060a2e47ef834 "pdflatex"
+  "main.tex" 1795398467 614284 3a200e91dfa071452dfae6bb751830be ""
+  "main.toc" 1795401515 26327 ea8dee34fb72fe586f13327637d614e9 "pdflatex"
   (generated)
   "main.aux"
   "main.lof"

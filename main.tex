@@ -95,7 +95,7 @@
 % Figura de secciones al inicio de cada capítulo.
 % #1 número de secciones, #2 lista num/título, #3 etiqueta
 \newcommand{\seccionescapitulo}[3]{%
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[font=\ifnum#1>7 \tiny\else\scriptsize\fi,
   every node/.append style={execute at begin node={%
@@ -613,7 +613,7 @@ validación por juicio de expertos~\cite{escobar2008validez} y el estudio de
 caso~\cite{runeson2009case}. La Figura~\ref{fig:metodologia} muestra las cuatro
 fases con sus métodos, sus hitos y las seis iteraciones.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[font=\scriptsize,
   every node/.append style={execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000\relax}},
@@ -1151,7 +1151,7 @@ del entendimiento compartido, y que la estrategia derivada de THUNDERS es la
 única que cubre las tres actividades y adapta un proceso, pero sin resolver su
 facilidad de uso.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Comparación de los trabajos relacionados con THUNDERS~Master (EC:
 entendimiento compartido; Elic., Espec. y Valid.: cubre la elicitación, la
 especificación o la validación; ``--'': no se pudo establecer con la
@@ -1225,7 +1225,7 @@ glosario se registraba en ``mecanismo, técnica o enfoque'' y alimentaba la RQ4.
 Así, la síntesis por pregunta se construyó con datos recolectados de la misma
 forma en todos los estudios.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Esquema de extracción de datos y su relación con las preguntas de investigación.}
 \label{tab:rsl_extraction}
 \centering
@@ -1382,7 +1382,7 @@ estudio de Khan et al.~\cite{khan2022stakeholders}, un análisis sistemático, s
 conservó como excepción al EC4 porque su comparación de métodos para identificar
 \textit{stakeholders} se usa en RQ1 a RQ4.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[
   node distance=0mm and 4mm,
@@ -1411,7 +1411,7 @@ La Tabla~\ref{tab:rsl_fuentes} resume cómo se comportó cada base de datos
 durante la selección, y el Anexo~\ref{anx:rsl} presenta el diagrama de flujo de
 cada una, con los registros que quedaron después de cada filtro.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Estudios por fuente de información en cada etapa de la selección.}
 \label{tab:rsl_fuentes}
 \centering
@@ -1630,7 +1630,7 @@ evaluación se apoya en indicadores indirectos más que en métricas o
 instrumentos validados. La Tabla~\ref{tab:rsl_implications} relaciona cada
 hallazgo con su implicación para el proceso.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Hallazgos de la RSL y su implicación para THUNDERS~Master.}
 \label{tab:rsl_implications}
 \centering
@@ -1709,7 +1709,7 @@ reduzca su carga y la oriente a las tres actividades del alcance. La
 Tabla~\ref{tab:gap_adaptation} resume este razonamiento, que el
 Capítulo~\ref{ch:construccion} convierte en decisiones de adaptación concretas.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{De la brecha identificada a la justificación de adaptar THUNDERS.}
 \label{tab:gap_adaptation}
 \centering
@@ -2019,36 +2019,7 @@ actividades, los hitos y los mecanismos transversales del proceso, y el
 Anexo~\ref{anx:thunders} detalla cada actividad con sus tareas, sus entradas,
 sus salidas y los roles que la ejecutan.
 
-\subsection{Estructura general y formalización}
-\label{sec:base_estructura}
-THUNDERS organiza el trabajo colaborativo en tres fases, \textit{Beginning},
-\textit{Developing} y \textit{Measuring}, que agrupan trece actividades. Cada
-fase tiene hitos que deben cumplirse para darla por terminada, y cada actividad
-se descompone en un flujo de tareas. La tarea es la unidad de trabajo del
-proceso y se especifica con un nombre, un identificador, una descripción con su
-justificación, sus entradas, sus salidas, los roles responsables (el rol de
-soporte, el gestor del artefacto y, cuando los hay, los ejecutores
-secundarios), sus pasos y sus productos de trabajo de
-asistencia~\cite{agredo2022thesis}. Las entradas de una tarea son plantillas
-por diligenciar o formatos que ya diligenciaron tareas anteriores, y sus
-salidas son esos formatos diligenciados, de modo que el encadenamiento de
-formatos es lo que conecta las actividades entre sí.
-
-Los productos de trabajo se clasifican en tres tipos: plantillas
-(\textit{templates}), guías (\textit{guidelines}) y listas de verificación
-(\textit{checklists}). Las plantillas usan además un código de colores que
-indica, para cada campo, si es información de contexto, si su diligenciamiento
-es obligatorio u opcional, o si su valor viene de tareas o formatos ya
-completados. Desde su quinta versión, cada tarea tiene asignada una
-variabilidad que declara si es obligatoria u opcional y en qué contextos debe
-ejecutarse~\cite{agredo2022thesis}.
-
-El proceso está formalizado en SPEM~2.0 con Eclipse Process Framework Composer,
-lo que le da un formato navegable, y está publicado en la web con el flujo de
-cada fase, actividad y tarea, junto con sus elementos y documentos de
-asistencia~\cite{agredo2022thesis}.
-
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[
   font=\scriptsize,
@@ -2136,6 +2107,35 @@ componentes C-01 a C-13, momentos de validación del entendimiento compartido
 (EC-1 y EC-2), hitos por fase y mecanismos transversales.}
 \label{fig:base}
 \end{figure}
+
+\subsection{Estructura general y formalización}
+\label{sec:base_estructura}
+THUNDERS organiza el trabajo colaborativo en tres fases, \textit{Beginning},
+\textit{Developing} y \textit{Measuring}, que agrupan trece actividades. Cada
+fase tiene hitos que deben cumplirse para darla por terminada, y cada actividad
+se descompone en un flujo de tareas. La tarea es la unidad de trabajo del
+proceso y se especifica con un nombre, un identificador, una descripción con su
+justificación, sus entradas, sus salidas, los roles responsables (el rol de
+soporte, el gestor del artefacto y, cuando los hay, los ejecutores
+secundarios), sus pasos y sus productos de trabajo de
+asistencia~\cite{agredo2022thesis}. Las entradas de una tarea son plantillas
+por diligenciar o formatos que ya diligenciaron tareas anteriores, y sus
+salidas son esos formatos diligenciados, de modo que el encadenamiento de
+formatos es lo que conecta las actividades entre sí.
+
+Los productos de trabajo se clasifican en tres tipos: plantillas
+(\textit{templates}), guías (\textit{guidelines}) y listas de verificación
+(\textit{checklists}). Las plantillas usan además un código de colores que
+indica, para cada campo, si es información de contexto, si su diligenciamiento
+es obligatorio u opcional, o si su valor viene de tareas o formatos ya
+completados. Desde su quinta versión, cada tarea tiene asignada una
+variabilidad que declara si es obligatoria u opcional y en qué contextos debe
+ejecutarse~\cite{agredo2022thesis}.
+
+El proceso está formalizado en SPEM~2.0 con Eclipse Process Framework Composer,
+lo que le da un formato navegable, y está publicado en la web con el flujo de
+cada fase, actividad y tarea, junto con sus elementos y documentos de
+asistencia~\cite{agredo2022thesis}.
 
 
 \subsection{Fases y actividades}
@@ -2269,7 +2269,7 @@ desconoce y términos que significan cosas distintas para cada perfil
 construcción, en la versión 1.4, y en la versión final se resumió en dos
 preguntas que deciden la forma de ejecución (Sección~\ref{sec:forma_final}).
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Condiciones del contexto de uso y su implicación para el proceso.}
 \label{tab:contexto_uso}
 \centering
@@ -2394,7 +2394,7 @@ de adaptar procesos existentes, la compatibilidad con la IR, la compatibilidad
 esenciales del proceso original. La
 Tabla~\ref{tab:comparacion} resume el análisis cualitativo.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Comparación de métodos de adaptación frente al caso THUNDERS~Master.}
 \label{tab:comparacion}
 \centering
@@ -2506,7 +2506,7 @@ deja una nueva versión del proceso, y la validación de cada versión prepara l
 vuelta siguiente (Figura~\ref{fig:ciclo_sme}). En total se ejecutaron seis
 iteraciones.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[font=\scriptsize,
   every node/.append style={execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000\relax}},
@@ -2541,7 +2541,7 @@ THUNDERS se conservan, otros se adaptan, otros se fusionan y otros salen de las
 actividades obligatorias. La Tabla~\ref{tab:sme} indica cómo se aplicó cada
 actividad y dónde puede verificarse su resultado.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Aplicación de las cuatro actividades de la SME en la definición de THUNDERS~Master.}
 \label{tab:sme}
 \centering
@@ -2700,17 +2700,26 @@ comprobar ese aporte con una evidencia observable. Los otros siete preguntan si
 el componente sirve para las actividades de la IR, cuánto cuesta aplicarlo y si
 duplica a otro componente o lo sostiene.
 
-\begin{table}[htbp]
-\caption{Criterios de selección para adaptar los componentes de THUNDERS.}
-\label{tab:decision_criteria}
-\centering
-\footnotesize
+{\footnotesize
 \renewcommand{\arraystretch}{1.15}
-\begin{tabularx}{\textwidth}{@{}L{2.7cm}Y L{3.6cm}L{2.7cm}@{}}
+\begin{xltabular}{\textwidth}{@{}L{2.7cm}Y L{3.6cm}L{2.7cm}@{}}
+\caption{Criterios de selección para adaptar los componentes de THUNDERS.\label{tab:decision_criteria}}\\
 \toprule
 \textbf{Criterio} & \textbf{Pregunta que responde} & \textbf{Decisión a la que
 lleva} & \textbf{Fundamento} \\
 \midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\emph{Tabla~\ref{tab:decision_criteria} (continuación)}}\\
+\toprule
+\textbf{Criterio} & \textbf{Pregunta que responde} & \textbf{Decisión a la que
+lleva} & \textbf{Fundamento} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\emph{continúa en la página siguiente}}\\
+\endfoot
+\bottomrule
+\endlastfoot
 Aporte directo al entendimiento compartido & ¿El componente contribuye a
 construir, monitorear o validar el significado compartido de los requisitos? &
 Si el aporte es directo, se conserva o se adapta; si es indirecto, se valora
@@ -2755,9 +2764,7 @@ chunks}~\cite{ralyte2001assembly}. \\
 Redundancia & ¿Duplica entradas, salidas o decisiones de otro componente? & Si
 es redundante, se fusiona con el componente más cercano. & Evita repetir
 información que ya registra otro artefacto o tarea. \\
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{xltabular}}
 
 Como un mismo componente puede cumplir unos criterios y fallar en otros, se
 fijó una regla para combinarlos. La regla valora cada componente de 1 a 5 en
@@ -2805,19 +2812,29 @@ se muestran en la Figura~\ref{fig:estructuras}. El \textit{canvas} del ciclo es
 la plantilla en la que se deja el plan de cada ciclo, y el número
 entre paréntesis es el de cada plantilla en el Anexo~\ref{anx:plantillas}.
 
-\begin{table}[H]
-\caption{Mapeo inicial de los elementos de THUNDERS hacia las actividades de la
-IR (versión 1.0) y destino de cada elemento en la versión final.}
-\label{tab:mapeo_re}
-\centering
-\footnotesize
+{\footnotesize
 \renewcommand{\arraystretch}{1.12}
-\begin{tabularx}{\textwidth}{@{}L{2.8cm}Y L{2.4cm}L{3.9cm}@{}}
+\begin{xltabular}{\textwidth}{@{}L{2.8cm}Y L{2.4cm}L{3.9cm}@{}}
+\caption{Mapeo inicial de los elementos de THUNDERS hacia las actividades de la
+IR (versión 1.0) y destino de cada elemento en la versión final.\label{tab:mapeo_re}}\\
 \toprule
 \textbf{Elemento de THUNDERS (componente)} & \textbf{Transformación propuesta
 en la versión 1.0} & \textbf{Artefacto mínimo} & \textbf{Destino en la versión
 final} \\
 \midrule
+\endfirsthead
+\multicolumn{4}{@{}l}{\emph{Tabla~\ref{tab:mapeo_re} (continuación)}}\\
+\toprule
+\textbf{Elemento de THUNDERS (componente)} & \textbf{Transformación propuesta
+en la versión 1.0} & \textbf{Artefacto mínimo} & \textbf{Destino en la versión
+final} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r@{}}{\emph{continúa en la página siguiente}}\\
+\endfoot
+\bottomrule
+\endlastfoot
 \multicolumn{4}{@{}l}{\textit{Elicitación}} \\
 Caracterizar participantes y contexto (C-01) & Reducir los instrumentos
 extensos a una ficha breve con los \textit{stakeholders}, su conocimiento del
@@ -2865,9 +2882,7 @@ Retroalimentar y cerrar (C-13) & Cerrar con los acuerdos, los desacuerdos, las
 decisiones pendientes y los ajustes que se requieren. & Registro de
 retroalimentación y decisiones. & Línea base y cierre (07) en A6, con el
 paquete de cierre y las acciones pendientes. \\
-\bottomrule
-\end{tabularx}
-\end{table}
+\end{xltabular}}
 
 La distribución de los elementos muestra de qué partes de THUNDERS se podía
 partir en cada actividad. Cuatro de los ocho quedaron en la elicitación, ya que
@@ -2932,7 +2947,7 @@ actividad en la que queda cada componente, a medida que el proceso se
 simplificó, y la correspondencia con la numeración de la versión 1.3 está en el
 Anexo~\ref{anx:v13}.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Decisión sobre los trece componentes de THUNDERS, agrupados por tipo
 de decisión.}
 \label{tab:decisiones}
@@ -3016,22 +3031,7 @@ estructura, pero la ejecuta en un ciclo con dos encuentros con los
 \textit{stakeholders}. Las razones de cada cambio se presentan con la
 validación de cada versión, en la Sección~\ref{sec:iteraciones}.
 
-En la versión final, la mayoría de los componentes quedó en la fase que tenía
-en THUNDERS. Los de \textit{Beginning}, C-01 a C-06, quedaron en la fase de
-preparación (A1 a A3), aunque dos de sus partes se ejecutan más tarde: los
-criterios de éxito de C-03, que pasan a ser el criterio de cada requisito
-crítico en A5.2, y los instrumentos de C-06, que se aplican en A5. De
-\textit{Developing}, la descripción de la actividad (C-08) y la actividad
-colaborativa (C-10) quedaron en la fase de construcción y validación, en A4 y
-en A5, mientras que la formación de los grupos (C-07) pasó a la preparación, ya
-que uno de los expertos propuso elegir a los \textit{stakeholders} al
-planificar. De \textit{Measuring}, el cierre (C-13) quedó en la
-fase de cierre (A6), y la validación de la solución (C-11) pasó a la fase de
-construcción y validación, dentro de A5.3, porque el codirector recomendó
-tratar la validación como parte de la misma actividad que la elicitación y la
-especificación (Sección~\ref{sec:v14}).
-
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[font=\tiny,
   every node/.append style={execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000\relax}},
@@ -3110,6 +3110,21 @@ verde es un mecanismo transversal, la verificación continua con I3, y el marco 
 \label{fig:estructuras}
 \end{figure}
 
+En la versión final, la mayoría de los componentes quedó en la fase que tenía
+en THUNDERS. Los de \textit{Beginning}, C-01 a C-06, quedaron en la fase de
+preparación (A1 a A3), aunque dos de sus partes se ejecutan más tarde: los
+criterios de éxito de C-03, que pasan a ser el criterio de cada requisito
+crítico en A5.2, y los instrumentos de C-06, que se aplican en A5. De
+\textit{Developing}, la descripción de la actividad (C-08) y la actividad
+colaborativa (C-10) quedaron en la fase de construcción y validación, en A4 y
+en A5, mientras que la formación de los grupos (C-07) pasó a la preparación, ya
+que uno de los expertos propuso elegir a los \textit{stakeholders} al
+planificar. De \textit{Measuring}, el cierre (C-13) quedó en la
+fase de cierre (A6), y la validación de la solución (C-11) pasó a la fase de
+construcción y validación, dentro de A5.3, porque el codirector recomendó
+tratar la validación como parte de la misma actividad que la elicitación y la
+especificación (Sección~\ref{sec:v14}).
+
 \section{Validación del proceso: de la versión 1.0 a la versión final}
 \label{sec:iteraciones}
 La cuarta actividad del ciclo de la SME es la validación de cada versión. Como THUNDERS,
@@ -3121,7 +3136,7 @@ siguientes describen cada iteración con lo que tenía la versión, cómo se val
 qué resultados dejó y qué cambió para la siguiente. El diseño y los resultados
 detallados de cada validación se presentan en el Capítulo~\ref{ch:evaluacion}.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[font=\scriptsize,
   every node/.append style={execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000\relax}},
@@ -3334,7 +3349,7 @@ versión evaluada con expertos y en UniReserva (1.3) y las de la versión final,
 ya que el Capítulo~\ref{ch:evaluacion} reporta esa evaluación con la numeración
 de la versión 1.3.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Correspondencia entre las actividades de la versión 1.3 y las de la versión final.}
 \label{tab:v13_final}
 \centering
@@ -3401,7 +3416,7 @@ tres actividades de la IR, y lo ejecutan seis roles con siete artefactos y tres
 instrumentos. El entendimiento compartido se comprueba con cinco evidencias
 observables. La Figura~\ref{fig:modelo_final} presenta el modelo del proceso.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[font=\scriptsize,
   every node/.append style={execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000\relax}},
@@ -3566,7 +3581,7 @@ cada uno de los catorce requisitos del método. Cada requisito tiene al menos un
 elemento que lo cumple, y ningún elemento se conserva si no atiende al menos uno,
 que es lo que pide la regla de indispensabilidad.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Elementos de THUNDERS~Master que atienden cada requisito del método.}
 \label{tab:soporte_rm}
 \centering
@@ -3715,19 +3730,20 @@ días después del encuentro~1.
 
 \begin{sidewaysfigure}
 \centering
-\includegraphics[width=\textheight,height=0.9\textwidth,keepaspectratio,trim=0 0 0 34bp,clip]{BPMN_final_principal.pdf}
+\includegraphics[width=\textheight,height=0.9\textwidth,keepaspectratio,trim=0 255bp 0 120bp,clip]{{THUNDERS-Master_v1.6_Proceso_Principal}.png}
 \caption{Diagrama BPMN del proceso principal de THUNDERS~Master.}
 \label{fig:bpmn_final}
 \end{sidewaysfigure}
 
 \begin{sidewaysfigure}
 \centering
-\includegraphics[width=\textheight,height=0.9\textwidth,keepaspectratio,trim=0 0 0 38bp,clip]{BPMN_final_A5.pdf}
+\includegraphics[width=\textheight,height=0.9\textwidth,keepaspectratio,trim=0 255bp 0 149bp,clip]{{THUNDERS-Master_v1.6_subproceso}.png}
 \caption{Diagrama BPMN del subproceso A5 de THUNDERS~Master, Elicitar,
 especificar y validar los requisitos, que se invoca desde el proceso
 principal entre A4 y A6.}
 \label{fig:bpmn_final_a5}
 \end{sidewaysfigure}
+\clearpage
 
 \section{Roles}
 \label{sec:roles}
@@ -3740,7 +3756,7 @@ el conocimiento del dominio. La Tabla~\ref{tab:roles_final} resume los seis
 roles con su responsabilidad, las actividades que lideran y el rol de THUNDERS
 del que vienen.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Roles de THUNDERS~Master.}
 \label{tab:roles_final}
 \centering
@@ -3787,7 +3803,7 @@ una lista y no se redactan, y los identificadores, la fuente de cada requisito,
 su estado de validación y las lecturas de las evidencias se calculan a partir de
 lo ya registrado.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Artefactos de THUNDERS~Master y sus campos.}
 \label{tab:plantillas_final}
 \centering
@@ -3999,7 +4015,7 @@ contrato cerrado, regulación o un diseño nuevo. La segunda es cuánto cuesta u
 requisitos críticos. La Tabla~\ref{tab:forma_final} muestra la forma de
 ejecución que resulta de las dos preguntas.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Forma de ejecución de THUNDERS~Master según el entendimiento compartido implícito y el costo de un malentendido.}
 \label{tab:forma_final}
 \centering
@@ -4049,7 +4065,7 @@ problema, las necesidades y los criterios de aceptación. El proceso cubre esa
 parte y puede integrarse en los espacios que el equipo ya tiene sin crear
 reuniones nuevas (Tabla~\ref{tab:agile_fit}).
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Encaje de las actividades de THUNDERS~Master en las reuniones de un marco ágil.}
 \label{tab:agile_fit}
 \centering
@@ -4110,7 +4126,7 @@ se construyó con lo que dejó la validación de la anterior. La Figura~\ref{fig
 elementos principales de cada versión y la forma en que se validó, y las
 secciones siguientes presentan cada validación.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \scriptsize
 \renewcommand{\arraystretch}{1.25}
@@ -4389,7 +4405,7 @@ extremo, los ítems mejor valorados son ``el proceso cubre de forma suficiente
 las tres actividades'' y ``las cinco evidencias E1--E5 son señales observables y
 suficientes'', ambos con 4,60.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Valoración de los expertos por dimensión (escala de 1 a 5, n = 5).}
 \label{tab:expertos}
 \centering
@@ -4438,7 +4454,7 @@ modelos del proceso. Dos
 expertos advirtieron que las dudas reales aparecerán al instanciar el proceso y
 no al leerlo.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Hallazgos cualitativos de la validación con expertos y su implicación de diseño.}
 \label{tab:hallazgos}
 \centering
@@ -4530,7 +4546,7 @@ En ese material se sembraron ocho contradicciones (Tabla~\ref{tab:contradiccione
 La regla de corrección fue que detectar no basta, ya que una contradicción
 solo cuenta si quedó escrita en el artefacto que le corresponde.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Contradicciones sembradas en el caso UniReserva y criterio de detección.}
 \label{tab:contradicciones}
 \centering
@@ -4619,7 +4635,7 @@ escrita según la norma. Para T3 a T8 no se llevó un registro sistemático por
 equipo, por lo que no puede afirmarse ni negarse su detección. Esta es la
 principal limitación del caso y se retoma en las amenazas a la validez.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Estado observado de las contradicciones sembradas y de las mecánicas de la sesión.}
 \label{tab:estadoT}
 \centering
@@ -4676,7 +4692,7 @@ con 1 o 2 y cinco con 4 o 5, con la mayor dispersión de la encuesta (desviació
 de 1,70). Los roles que más escribían, el Relator y el Responsable de decisión,
 se concentraron en los valores altos.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Resultados de la encuesta de cierre del caso UniReserva (escala de 1 a
 5, n = 11; DE: desviación estándar).}
 \label{tab:encuesta}
@@ -4853,7 +4869,7 @@ no técnicos interpretan igual los criterios de aceptación; y a las evidencias,
 indicar qué respalda cada ``sí'', ya que la regla de E4 permitía cerrar el ciclo
 con divergencias críticas abiertas.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Validación de contenido de los instrumentos de la versión final por
 juicio de experto (escala de 1 a 4).}
 \label{tab:val_experto}
@@ -5113,7 +5129,7 @@ registro de validación y dos en el glosario, y fue la única que dejó acordado
 comprobados sus cinco términos críticos, que es la evidencia del vocabulario
 compartido (E2).
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Divergencias sembradas que quedaron escritas en cada mesa, según la
 clave de corrección. Cerrada: resuelta y confirmada en el registro de validación
 y decisiones (06) o acordada y comprobada en el glosario (03); abierta: escrita
@@ -5181,7 +5197,7 @@ llegó a 0,80 o más, es decir, al menos ocho de cada diez integrantes terminaro
 respondiendo lo mismo. Por mesa, el promedio pasó de 0,20 a 0,96 en la mesa~A,
 de 0,25 a 1,00 en la~B, de 0,17 a 0,89 en la~C y de 0,14 a 0,58 en la~D.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Convergencia de la medición por mesa y pregunta: parte de la mesa que
 dio la respuesta más frecuente, antes y después, sin contar ``No sé'' ni
 ``otra'', con esa respuesta entre paréntesis, y respuestas ``No sé'' antes y
@@ -5627,7 +5643,7 @@ ejemplo ilustrativo de una panadería que quiere recibir encargos por WhatsApp o
 por web; no hace parte de la evaluación del proceso. La
 Tabla~\ref{tab:resumen_plantillas} resume las nueve plantillas.
 
-\begin{table}[!h]
+\begin{table}[H]
 \caption{Las nueve plantillas de THUNDERS~Master.}
 \label{tab:resumen_plantillas}
 \centering
@@ -6143,21 +6159,21 @@ aparecen en él, son las siguientes.
 Las tres figuras siguientes muestran el número de registros que quedó en cada
 base de datos después de aplicar cada filtro.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.85\textwidth]{Figura_ScienceDirect.png}
 \caption{Flujo de selección de estudios en ScienceDirect.}
 \label{fig:flujo-sciencedirect}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.85\textwidth]{Figura_Scopus.png}
 \caption{Flujo de selección de estudios en Scopus.}
 \label{fig:flujo-scopus}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.85\textwidth]{Figura_WoS.png}
 \caption{Flujo de selección de estudios en Web of Science.}
@@ -6627,7 +6643,7 @@ descripción operativa y la evidencia que se espera de cada una, y luego sus
 entradas, técnicas, roles y productos de trabajo, según la norma
 ISO/IEC/IEEE~29148:2018~\cite{iso29148} y la literatura.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Tareas características de la elicitación.}
 \label{tab:tareas_elicitacion}
 \centering
@@ -6668,7 +6684,7 @@ acuerdos y cambios en las necesidades. \\
 \end{tabularx}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Tareas características de la especificación.}
 \label{tab:tareas_especificacion}
 \centering
@@ -6706,7 +6722,7 @@ con su criterio de aceptación. \\
 \end{tabularx}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Tareas características de la validación.}
 \label{tab:tareas_validacion}
 \centering
@@ -6841,7 +6857,7 @@ completa entre THUNDERS y la versión final
 inicial de la versión 1.0 están en el cuerpo del documento
 (Secciones~\ref{sec:criterios_seleccion} y~\ref{sec:mapeo_inicial}).
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Guía de aplicación de la SME orientada por \textit{chunks} para derivar THUNDERS~Master.}
 \label{tab:sme_application}
 \centering
@@ -7360,7 +7376,7 @@ las evidencias del entendimiento compartido y el marco punteado representa la
 capa externa de evaluación, que pertenece al proyecto de investigación y no se
 ejecuta en las sesiones.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}[
   font=\scriptsize,
@@ -8519,7 +8535,7 @@ apertura (A5), y las activaciones y sus razones quedan en el \textit{canvas} y
 en el registro de decisiones, de modo que después se puede verificar por qué se
 activó, o no, cada elemento. La Tabla~\ref{tab:activacion} resume los criterios.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Criterios de activación contextual en THUNDERS~Master v1.3 (entre
 corchetes, la fuente o el requisito del que se deriva cada criterio).}
 \label{tab:activacion}
@@ -8590,16 +8606,7 @@ THUNDERS~Master cubre esa capa semántica y puede integrarse en los espacios que
 el equipo ya tiene sin crear reuniones nuevas, ya que sus actividades se acoplan
 a las ceremonias existentes (Tabla~\ref{tab:agile_fit-v13}).
 
-Este encaje también responde a la preocupación por una posible sobrecarga de
-documentación. Los artefactos del proceso se registran como campos
-mínimos dentro de las herramientas del equipo
-(Sección~\ref{sec:artefactos-v13}), que solo se amplían cuando el contexto lo pide
-(Tabla~\ref{tab:activacion}). Así, el proceso agrega trazabilidad y evidencia de
-entendimiento compartido sin afectar la agilidad, ya que la documentación se limita a lo
-que permite saber quién originó un requisito, qué necesidad expresa y qué
-criterio demuestra que se cumple.
-
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Encaje de las actividades de THUNDERS~Master en ceremonias ágiles.}
 \label{tab:agile_fit-v13}
 \centering
@@ -8623,6 +8630,15 @@ y fija una línea base acordada. \\
 \end{tabularx}
 \end{table}
 
+Este encaje también responde a la preocupación por una posible sobrecarga de
+documentación. Los artefactos del proceso se registran como campos
+mínimos dentro de las herramientas del equipo
+(Sección~\ref{sec:artefactos-v13}), que solo se amplían cuando el contexto lo pide
+(Tabla~\ref{tab:activacion}). Así, el proceso agrega trazabilidad y evidencia de
+entendimiento compartido sin afectar la agilidad, ya que la documentación se limita a lo
+que permite saber quién originó un requisito, qué necesidad expresa y qué
+criterio demuestra que se cumple.
+
 
 \section{Trazabilidad entre THUNDERS y la versión 1.3}
 La Tabla~\ref{tab:thunders_traceability_v13} documenta la decisión que se tomó en
@@ -8631,14 +8647,6 @@ a la que pertenece, la decisión, su justificación y la actividad de
 THUNDERS~Master en la que queda. Esta trazabilidad facilita la revisión del
 proceso, ya que permite discutir cada decisión con el componente de origen a la
 vista.
-
-El patrón que se observa es coherente con los requisitos del método. Se
-conservan y adaptan los componentes que construyen entendimiento compartido, como la
-definición del tema, la actividad colaborativa con su ciclo y su escalera de
-resolución de conflictos, la validación y el cierre. Se fusionan los que duplican formatos
-propios de las sesiones de requisitos. Adicionalmente, salen del núcleo, sin descartarse, los
-que tienen sentido en el contexto de aprendizaje para el que se creó THUNDERS,
-pero no en una sesión con clientes y usuarios.
 
 {\footnotesize
 \setlength{\tabcolsep}{4pt}
@@ -8720,6 +8728,14 @@ C-13 Cerrar la actividad (\textit{Measuring}) & Conservar y adaptar
   adelanta a A10. \\
 \end{xltabular}}
 
+El patrón que se observa es coherente con los requisitos del método. Se
+conservan y adaptan los componentes que construyen entendimiento compartido, como la
+definición del tema, la actividad colaborativa con su ciclo y su escalera de
+resolución de conflictos, la validación y el cierre. Se fusionan los que duplican formatos
+propios de las sesiones de requisitos. Adicionalmente, salen del núcleo, sin descartarse, los
+que tienen sentido en el contexto de aprendizaje para el que se creó THUNDERS,
+pero no en una sesión con clientes y usuarios.
+
 El resultado de aplicar estos criterios es un núcleo ligero a propósito, y esa
 baja carga permite integrar THUNDERS~Master en flujos ágiles sin
 agregar burocracia (Sección~\ref{sec:encaje_agil-v13}, Tabla~\ref{tab:agile_fit-v13}).
@@ -8727,7 +8743,7 @@ agregar burocracia (Sección~\ref{sec:encaje_agil-v13}, Tabla~\ref{tab:agile_fit
 \section{Correspondencia entre las versiones 1.3, 1.4 y 1.5}
 Las Tablas~\ref{tab:v13_v14} y~\ref{tab:v14_v15} muestran cómo cambiaron las actividades de una versión a la siguiente y el origen de cada cambio.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Correspondencia entre las actividades de las versiones 1.3 y 1.4 y origen de cada cambio.}
 \label{tab:v13_v14}
 \centering
@@ -8765,7 +8781,7 @@ Ligereza \\
 \end{tabularx}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Correspondencia entre las actividades de las versiones 1.4 y 1.5.}
 \label{tab:v14_v15}
 \centering
@@ -9097,7 +9113,7 @@ Global & G1 valoración global del proceso. \\
 \end{xltabular}}
 
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}
 \begin{axis}[ybar, bar width=8mm, width=\textwidth, height=55mm, ymin=0, ymax=5.4,
@@ -9158,7 +9174,7 @@ proceso real es asíncrona y toma entre una y dos horas, llegó resuelta al jueg
 La Tabla~\ref{tab:agenda} muestra la agenda y su correspondencia con las
 actividades del proceso.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Agenda de la sesión UniReserva y su correspondencia con las actividades de THUNDERS~Master.}
 \label{tab:agenda}
 \centering
@@ -9253,7 +9269,7 @@ orientación o tiempo que permita explicar y/o entender los pasos''.} \\
 
 
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering
 \begin{tikzpicture}
 \begin{axis}[xbar stacked, width=0.66\textwidth, height=64mm, xmin=0, xmax=11,
@@ -9342,7 +9358,7 @@ Este anexo presenta el protocolo del estudio de caso en contexto agrícola
 con lo que sirve después para corregir y analizar lo que dejan las mesas. La
 Tabla~\ref{tab:materiales_agricola} resume los materiales.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Materiales del estudio de caso en contexto agrícola.}
 \label{tab:materiales_agricola}
 \centering
@@ -9396,7 +9412,7 @@ responde que se las pregunten al PO o al SD, o que lo decide la mesa, y las
 anota. Los autores siguen la sesión a distancia y solo resuelven fallas
 técnicas.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Cronograma de la sesión del estudio de caso en contexto agrícola.}
 \label{tab:cronograma_agricola}
 \centering
@@ -9462,7 +9478,7 @@ incompletas. La Tabla~\ref{tab:rondas_agricola} presenta el plan de las dos
 rondas de sondeo de I3; quien facilita puede cambiar un ítem por un término que
 haya salido en la conversación, y el cambio queda registrado.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Glosario semilla del caso Tomatera, con sus definiciones tentativas.}
 \label{tab:glosario_agricola}
 \centering
@@ -9481,7 +9497,7 @@ Temperatura óptima & La que la planta necesita para crecer bien. & Sí \\
 \end{tabularx}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Plan de las rondas de sondeo de I3 en el caso Tomatera.}
 \label{tab:rondas_agricola}
 \centering
@@ -9585,7 +9601,7 @@ T8 & SD: en casa hay que darle prioridad al sabor, con variedades tradicionales,
 y no recomendar híbridos. PO: lo que vende el kit es la cosecha, y si para eso
 hay que recomendar híbridos, se recomiendan. & La necesidad en conflicto de 04 y la escalera de resolución de conflictos
 de 06. & La divergencia está en 06 con una
-vía de resolución (consenso, negociación, decisión del PO o mediación) y su
+vía de resolución de la escalera (negociación, votación o mediación) y su
 justificación. Si se media, media el FR, porque el PO es parte del conflicto. \\
 \end{xltabular}}
 
@@ -9596,7 +9612,7 @@ glosario y la ficha técnica quedan ocultos en las dos, ``No lo sé'' es una
 respuesta válida y las respuestas quedan ocultas para la mesa hasta el final.
 Las categorías son las que se usan para codificar las respuestas.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Preguntas de la medición antes y después y categorías para codificar
 las respuestas.}
 \label{tab:medicion_agricola}
@@ -9654,7 +9670,7 @@ valor quede marcado sin que la persona lo elija. El último pide qué parte del
 proceso ayudó más a alcanzar acuerdos y qué sobró y qué faltó, las dos
 opcionales.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Afirmaciones de utilidad del cuestionario del caso Tomatera y evidencia
 de la mesa con que se contrasta cada una (escala de 1 a 5).}
 \label{tab:utilidad_agricola}
@@ -9680,7 +9696,7 @@ medición. \\
 \end{tabularx}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption[Escalas de NASA-TLX del cuestionario del caso Tomatera]{Escalas de
 NASA-TLX del cuestionario del caso Tomatera, de 0 a 100 en pasos de 5, adaptadas
 de la versión en español de Díaz Ramiro et al.~\cite{diaz2010nasatlx}.}
@@ -9743,7 +9759,7 @@ registró el inicio de cada tramo. Como el cronómetro se pausó catorce veces e
 explicación se dio con las láminas antes de iniciar el primer tramo, que en la
 aplicación se pasó en cuatro segundos, así que su duración no quedó registrada.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Duración de cada tramo en el cronograma y en las dos sesiones, en
 minutos, según el registro de la aplicación.}
 \label{tab:tiempos_agricola}
@@ -9775,7 +9791,7 @@ La Tabla~\ref{tab:encuesta_agricola} presenta las medias del cuestionario de
 las dos sesiones junto a las de la encuesta de UniReserva, que tenía las mismas
 cinco primeras afirmaciones.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Cuestionario del caso Tomatera frente a la encuesta de UniReserva
 (escala de 1 a 5, media y mediana entre paréntesis; NASA-TLX de 0 a 100).}
 \label{tab:encuesta_agricola}
@@ -10014,7 +10030,7 @@ la mesa~A, el FR registró cinco acciones y las divergencias de las rondas las
 anotó el RT. El 11 de noviembre, la primera ronda la respondieron entre cero y
 dos de los seis integrantes por pregunta, y la segunda, casi todos.
 
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Acciones de trabajo que guardó la aplicación por rol y por mesa, y
 respuestas a las preguntas de las dos rondas.}
 \label{tab:participacion_agricola}

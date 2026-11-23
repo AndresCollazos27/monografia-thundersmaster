@@ -1,6 +1,6 @@
-PWD c:\Users\ASUS\Documents\THUNDERS Master\Monografia Latex
+PWD C:\Users\ASUS\Documents\THUNDERS Master\Monografia Latex
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ASUS\Documents\THUNDERS Master\Monografia Latex\main.tex
+INPUT main.tex
 OUTPUT main.log
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
@@ -495,16 +495,18 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.e
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbxi10.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri7.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbxi10.tfm
-INPUT .\figures\BPMN_final_principal.pdf
-INPUT .\figures\BPMN_final_principal.pdf
-INPUT .\figures\BPMN_final_principal.pdf
-INPUT .\figures\BPMN_final_principal.pdf
-INPUT .\figures\BPMN_final_principal.pdf
-INPUT .\figures\BPMN_final_A5.pdf
-INPUT .\figures\BPMN_final_A5.pdf
-INPUT .\figures\BPMN_final_A5.pdf
-INPUT .\figures\BPMN_final_A5.pdf
-INPUT .\figures\BPMN_final_A5.pdf
+INPUT .\figures\THUNDERS-Master_v1.6_Proceso_Principal.png
+INPUT .\figures\THUNDERS-Master_v1.6_Proceso_Principal.png
+INPUT .\figures\THUNDERS-Master_v1.6_Proceso_Principal.png
+INPUT .\figures\THUNDERS-Master_v1.6_Proceso_Principal.png
+INPUT .\figures\THUNDERS-Master_v1.6_Proceso_Principal.png
+INPUT .\figures\THUNDERS-Master_v1.6_Proceso_Principal.png
+INPUT .\figures\THUNDERS-Master_v1.6_subproceso.png
+INPUT .\figures\THUNDERS-Master_v1.6_subproceso.png
+INPUT .\figures\THUNDERS-Master_v1.6_subproceso.png
+INPUT .\figures\THUNDERS-Master_v1.6_subproceso.png
+INPUT .\figures\THUNDERS-Master_v1.6_subproceso.png
+INPUT .\figures\THUNDERS-Master_v1.6_subproceso.png
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\lm\ts1lmr.fd
