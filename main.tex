@@ -183,45 +183,117 @@ UniReserva y a los expertos que valoraron la especificación.}
 \thispagestyle{plain}
 
 El entendimiento compartido es una condición para la calidad de los requisitos
-de software, porque permite que los \textit{stakeholders} y el equipo técnico
-lleguen a una interpretación común del problema, de los requisitos y de sus
-criterios de aceptación. Como punto de
-partida se tomó THUNDERS, el proceso propuesto por Agredo-Delgado para
-construir, monitorear y asistir el entendimiento compartido, que ya había sido
-validado como completo y útil, pero que resultó extenso y con una carga
-cognitiva alta. Por lo tanto, el presente trabajo de grado propone
-THUNDERS~Master, una adaptación de THUNDERS para la elicitación, la
-especificación y la validación de requisitos.
+de software, porque permite que los \textit{stakeholders} lleguen a una
+interpretación común del problema, de los requisitos y de sus criterios de
+aceptación. Cuando dicho entendimiento compartido falta, cada participante se
+queda con una idea distinta de lo que debe hacer el software, y las diferencias
+suelen descubrirse en el diseño, en las pruebas o después de la entrega, cuando
+corregirlas es más costoso. La literatura reporta mecanismos para apoyar el
+entendimiento compartido, como glosarios o prototipos, aunque no una guía que le
+indique a un equipo cómo construirlo y comprobarlo mientras elicita, especifica
+y valida requisitos. Como punto de partida se tomó THUNDERS, el proceso
+propuesto por Agredo-Delgado para construir, monitorear y asistir el
+entendimiento compartido en actividades colaborativas, que ya había sido
+validado como completo y útil. Pero, al aplicarse en la ingeniería de
+requisitos, resultó extenso y con una carga cognitiva alta para las sesiones
+cortas en que se trabajan los requisitos. Por lo tanto, el presente trabajo de
+grado propone THUNDERS~Master, una adaptación de THUNDERS para las actividades
+de elicitación, especificación y validación de la ingeniería de requisitos. El
+proceso organiza el trabajo de los \textit{stakeholders} en fases y actividades
+a cargo de roles, y deja lo que se acuerda en plantillas, como el glosario del
+dominio y la tarjeta de cada requisito. Además, define cinco evidencias
+observables del entendimiento compartido, y tres instrumentos de verificación
+del entendimiento compartido.
 
 El trabajo comenzó con una revisión sistemática de la literatura, que seleccionó
 29 estudios primarios. Luego se caracterizaron las tres actividades según la
-norma ISO/IEC/IEEE~29148:2018, los trece componentes de THUNDERS, el contexto de
-uso y los métodos de adaptación de procesos. La adaptación se
-hizo con ingeniería de métodos situacionales, apoyada en \textit{method chunks}
-y en criterios de \textit{process tailoring}, en seis iteraciones, cada una con
-su versión y su validación. La versión 1.3 se evaluó con cinco expertos, que le dieron 4,34 en completitud y
-4,27 en utilidad, pero 3,30 en ligereza. También se evaluó en un estudio de caso
-exploratorio con once estudiantes, en el que los dos equipos detectaron la
-contradicción planteada en el caso y valoraron con 4,55 que el proceso les ayudó
-a notar que no entendían lo mismo, aunque con 2,09 la claridad de los pasos. Las
-tres iteraciones siguientes respondieron a esos resultados. La versión 1.4
-redujo las actividades y los campos de las plantillas, y la 1.5 agrupó la
-elicitación, la especificación y la validación en un subproceso. La versión
-final, a partir de la distinción entre entendimiento compartido explícito e
-implícito, organizó el proceso en ciclos de dos encuentros, uno para construir y
-otro para validar. Tiene tres fases, seis actividades, seis roles, siete
-artefactos y dos instrumentos, y cinco evidencias que comprueban que los
-participantes interpretan igual los requisitos críticos, y no solo que estén
-escritos. Un experto validó el contenido de sus instrumentos, con medias
-entre 3,56 y 4,00 sobre 4 en claridad, coherencia y relevancia, y sus
-recomendaciones se incorporaron. La versión final es la que se evalúa en un
-estudio de caso en un contexto agrícola (objetivo~4). En ese estudio, 26
-estudiantes aplicaron el ciclo en cuatro equipos. Las rondas de sondeo hicieron
-visibles 10 de las 16 divergencias sembradas que tocaban, la coincidencia en
-las respuestas de cada equipo subió de 0,19 a 0,86 y siete de ocho
-reconstrucciones de la prueba de traspaso coincidieron, aunque ningún equipo
-cerró el ciclo en el tiempo previsto y 12 de los 16 requisitos críticos
-quedaron ambiguos.
+norma ISO/IEC/IEEE~29148:2018, los trece productos de trabajo de THUNDERS, el
+contexto de uso del proceso y enfoques existentes para adaptar procesos de
+software. A partir de esa caracterización se seleccionó la ingeniería de métodos
+situacionales, orientada por \textit{method chunks} y complementada con criterios
+de \textit{process tailoring}, ya que con ese enfoque se construyó THUNDERS y
+permite adaptarlo sin perder sus elementos esenciales. La adaptación se hizo en
+seis iteraciones, cada una con su versión y su validación.
+
+Las versiones 1.0 a 1.2 del proceso THUNDERS~Master se validaron con una
+revisión de la directora del trabajo y con la revisión por pares de un artículo
+aceptado en el \textit{4th International Workshop on Collaboration in Knowledge
+Discovery and Decision-Making} (JIIHC~2026). La versión 1.3 obtuvo de cinco
+expertos, en una escala de 1 a 5, medias de 4,34 en completitud y 4,27 en
+utilidad, pero de 3,30 en ligereza. También se aplicó esa versión 1.3 en el
+estudio de caso exploratorio UniReserva, en el que once estudiantes, en dos
+equipos, simularon una sesión de requisitos para un sistema de reserva de salas
+de estudio, con información distinta para cada personaje, el cual era asignado
+de manera aleatoria. Los dos equipos detectaron la contradicción central que se
+sembró en el caso, la cual era que el término ``cupo'' significaba o una sala
+completa o las horas de un monitor o un puesto en la mesa, dependiendo del
+personaje asignado. Los estudiantes valoraron con 4,55 sobre 5 que el proceso
+les ayudó a notar que no entendían lo mismo sobre los requisitos del caso,
+aunque calificaron con 2,09 la claridad de los pasos.
+
+A partir de esos resultados, las tres iteraciones siguientes buscaron un proceso
+más ligero y más fácil de seguir. La versión 1.4 redujo de once a ocho las
+actividades obligatorias y en un 43\,\% los campos de las plantillas. Al
+revisarla, el codirector Leandro Antonelli recomendó agrupar la elicitación, la
+especificación y la validación, y la versión 1.5 las reunió en un subproceso,
+con lo que el proceso quedó con seis actividades. Luego, una revisión conceptual
+y una revisión analítica de esa versión 1.5 mostraron que tres de las evidencias
+del entendimiento compartido se podían dar por cumplidas con tener algo escrito
+en las plantillas o instrumentos de verificación del entendimiento compartido,
+aunque los participantes siguieran entendiendo cosas distintas, y que el proceso
+no se podía abarcar en una sola sesión debido a que, al sumar los tiempos que el
+proceso sugería para cada actividad, una sesión con los \textit{stakeholders}
+tomaba entre 155 y 325 minutos, es decir, de unas dos horas y media a unas cinco
+horas y media.
+
+Para resolver esos dos problemas, la versión final se aplica en un ciclo de dos
+encuentros con los \textit{stakeholders}, uno para construir los requisitos y
+otro para validarlos. El ciclo se parte en dos porque la especificación se hace
+entre los encuentros: durante una espera de hasta dos semanas, el Analista
+especifica los requisitos sin los \textit{stakeholders}, y así ese trabajo ya no
+ocupa tiempo de los encuentros. El proceso se organiza en tres fases y seis
+actividades, y lo ejecutan seis roles con siete artefactos y tres instrumentos
+de verificación del entendimiento compartido. Sus cinco evidencias del
+entendimiento compartido comprueban que los participantes interpretan igual los
+requisitos críticos, y no solo que estén escritos. Un experto validó el
+contenido de sus instrumentos, con medias entre 3,56 y 4,00 sobre 4 en claridad,
+coherencia y relevancia, y sus recomendaciones se incorporaron en la versión
+final.
+
+Con esos ajustes, el proceso se evaluó en un estudio de caso en contexto
+agrícola, en el que 26 estudiantes de séptimo semestre de Ingeniería de
+Sistemas, en cuatro equipos, aplicaron un ciclo de requisitos para un producto
+de software orientado al cultivo de tomates en macetas. Como en UniReserva, cada
+estudiante recibió información que solo conocía su personaje, y en ella se
+sembraron ocho divergencias, es decir, diferencias de interpretación puestas a
+propósito, como la de si el sistema riega el cultivo por sí mismo o solo avisa.
+Cuatro de esas divergencias se buscaron con rondas de sondeo donde cada
+integrante respondía por escrito, sin hablar con los demás, una pregunta sobre
+un punto crítico del caso, y luego el equipo comparaba las respuestas. Como cada
+equipo podía encontrar esas cuatro divergencias, entre los cuatro equipos había
+16 por encontrar, y fueron expuestas 10 de esas 16 divergencias. Además, antes y
+después del ciclo, cada estudiante respondió por su cuenta cuatro preguntas
+sobre el caso, como a qué temperatura nocturna debe avisar el sistema para
+optimizar el crecimiento del cultivo. Al empezar, en promedio, apenas dos de cada
+diez integrantes daban la misma respuesta debido a que su personaje contaba con
+dicha información; al terminar, casi nueve de cada diez (de 0,19 a 0,86)
+lograron llegar a la misma respuesta. En la prueba de traspaso que se realizó
+posterior al estudio de caso, cuatro personas que no estuvieron presentes
+explicaron con sus propias palabras dos de los requisitos críticos entregados
+por cada equipo, y siete de las ocho explicaciones coincidieron con lo acordado
+por cada equipo. Sin embargo, ningún equipo cerró el ciclo en el tiempo previsto
+y 12 de los 16 requisitos críticos quedaron ambiguos.
+
+Se concluye que THUNDERS~Master hace visibles los malentendidos y ayuda a que los
+equipos lleguen a una misma interpretación, pero que detectarlos no basta si el
+ciclo no deja tiempo para resolverlos. Por eso, ningún equipo cumplió todas las
+condiciones con que se definía la utilidad del proceso. También se concluye que
+la ligereza no se logra solo quitando elementos, por lo que en este trabajo se
+entiende como proporcionalidad, es decir, concentrar el esfuerzo en los
+requisitos en los que un malentendido sale caro. Como trabajo futuro queda
+ajustar el proceso con los resultados del estudio de caso, replicar el estudio
+en la industria con \textit{stakeholders} reales y llevar el proceso a una
+herramienta web.
 
 \vspace{0.4cm}
 \noindent\textbf{Palabras clave:} ingeniería de requisitos, entendimiento
@@ -233,42 +305,113 @@ THUNDERS, estudio de caso.
 \thispagestyle{plain}
 \begin{otherlanguage}{english}
 Shared understanding is a condition for software requirements quality, since it
-allows stakeholders and the technical team to reach a common interpretation of
-the problem, the requirements and their acceptance criteria. The starting point was THUNDERS, the process proposed by
-Agredo-Delgado to build, monitor and assist shared understanding, which had been
-validated as complete and useful but turned out to be long and to impose a high
-cognitive load. This undergraduate thesis therefore proposes THUNDERS~Master, an
-adaptation of THUNDERS for requirements elicitation, specification and
-validation.
+allows stakeholders to reach a common interpretation of the problem, the
+requirements and their acceptance criteria. When that shared understanding is
+missing, each participant ends up with a different idea of what the software
+must do, and the differences tend to be discovered during design, testing or
+after delivery, when correcting them is more costly. The literature reports
+mechanisms to support shared understanding, such as glossaries or prototypes,
+but not a guide that tells a team how to build it and check it while eliciting,
+specifying and validating requirements. The starting point was THUNDERS, the
+process proposed by Agredo-Delgado to build, monitor and assist shared
+understanding in collaborative activities, which had been validated as complete
+and useful. However, when applied to requirements engineering, it turned out to
+be long and to impose a high cognitive load for the short sessions in which
+requirements are worked on. This undergraduate thesis therefore proposes
+THUNDERS~Master, an adaptation of THUNDERS for the elicitation, specification
+and validation activities of requirements engineering. The process organizes
+the work of the stakeholders into phases and activities assigned to roles, and
+records what is agreed in templates, such as the domain glossary and the card
+for each requirement. It also defines five observable pieces of evidence of
+shared understanding and three instruments for verifying shared understanding.
 
 The work began with a systematic literature review that selected 29 primary
 studies, followed by a characterization of the three activities according to the
-ISO/\allowbreak IEC/\allowbreak IEEE~29148:2018 standard, of the thirteen
-components of THUNDERS, of the context of use and of process tailoring methods.
-The adaptation followed situational method engineering, supported by method
-chunks and process tailoring criteria, in six iterations, each with its own
-version and validation. Version 1.3 was evaluated by five experts, who gave it 4.34 for completeness and
-4.27 for usefulness, but 3.30 for lightness. It was also evaluated in an
-exploratory case study with eleven students, in which both teams detected the
-contradiction planted in the case and rated 4.55 the statement that the process
-helped them notice they did not understand the same thing, although they rated
-the clarity of the steps 2.09. The following three iterations addressed these
-results. Version 1.4 reduced the activities and template fields, and version 1.5
-grouped elicitation, specification and validation into a subprocess. The final
-version, drawing on the distinction between explicit and implicit shared
-understanding, organized the process in cycles of two meetings, one to build and
-one to validate. It has three phases, six activities, six roles, seven artifacts
-and two instruments, and five pieces of evidence that check that participants
-interpret critical requirements in the same way, and not only that they are
-written down. An expert validated the content of its instruments, with means
-between 3.56 and 4.00 out of 4 for clarity, coherence and relevance, and the
-recommendations were incorporated. The final version is the one evaluated in a
-case study in an agricultural context. In that study, 26 students applied the
-cycle in four teams. The probing rounds made visible 10 of the 16 planted
-divergences they covered, the agreement among each team's answers rose from
-0.19 to 0.86 and seven of eight reconstructions in the handover test matched,
-although no team closed the cycle in the planned time and 12 of the 16 critical
-requirements remained ambiguous.
+ISO/\allowbreak IEC/\allowbreak IEEE~29148:2018 standard, of the thirteen work
+products of THUNDERS, of the context of use of the process and of existing
+approaches to adapting software processes. Based on that characterization,
+situational method engineering was selected, guided by method chunks and
+complemented with process tailoring criteria, since THUNDERS was built with that
+approach and it allows THUNDERS to be adapted without losing its essential
+elements. The adaptation was carried out in six iterations, each with its own
+version and validation.
+
+Versions 1.0 to 1.2 of THUNDERS~Master were validated through a review by the
+thesis director and through the peer review of a paper accepted at the 4th
+International Workshop on Collaboration in Knowledge Discovery and
+Decision-Making (JIIHC~2026). Version 1.3 received from five experts, on a scale
+from 1 to 5, mean scores of 4.34 for completeness and 4.27 for usefulness, but
+3.30 for lightness. Version 1.3 was also applied in the UniReserva exploratory
+case study, in which eleven students, in two teams, simulated a requirements
+session for a study room booking system, with different information for each
+character, which was randomly assigned. Both teams detected the central
+contradiction planted in the case, namely that the Spanish term \textit{cupo}
+(slot) meant a whole room, a tutor's hours or a seat at the table, depending on
+the assigned character. The students gave a score of 4.55 out of 5 to the
+statement that the process helped them notice they did not understand the same
+thing about the case requirements, although they rated the clarity of the steps
+at 2.09.
+
+Based on these results, the following three iterations sought a lighter process
+that was easier to follow. Version 1.4 reduced the mandatory activities from
+eleven to eight and the template fields by 43\%. When reviewing it, co-director
+Leandro Antonelli recommended grouping elicitation, specification and
+validation, and version 1.5 brought them together in a subprocess, which left
+the process with six activities. Then, a conceptual review and an analytical
+review of version 1.5 showed that three of the pieces of evidence of shared
+understanding could be considered met just by having something written in the
+templates or instruments for verifying shared understanding, even if the
+participants still understood different things, and that the process could not
+fit into a single session because, when the times the process suggested for each
+activity were added up, a session with the stakeholders took between 155 and 325
+minutes, that is, from about two and a half to about five and a half hours.
+
+To solve these two problems, the final version is applied in a cycle of two
+meetings with the stakeholders, one to build the requirements and one to
+validate them. The cycle is split in two because specification takes place
+between the meetings: during a wait of up to two weeks, the Analyst specifies
+the requirements without the stakeholders, so this work no longer takes up
+meeting time. The process is organized into three phases and six activities, and
+it is carried out by six roles with seven artifacts and three instruments for
+verifying shared understanding. Its five pieces of evidence of shared
+understanding check that participants interpret critical requirements in the
+same way, and not only that they are written down. An expert validated the
+content of its instruments, with means between 3.56 and 4.00 out of 4 for
+clarity, coherence and relevance, and the recommendations were incorporated into
+the final version.
+
+With these adjustments, the process was evaluated in a case study in an
+agricultural context, in which 26 seventh-semester Systems Engineering students,
+in four teams, applied a requirements cycle for a software product for growing
+tomatoes in pots. As in UniReserva, each student received information that only
+their character knew, and eight divergences were planted in it, that is,
+differences in interpretation introduced on purpose, such as whether the system
+waters the crop by itself or only sends alerts. Four of those divergences were
+sought through probing rounds, in which each member answered a question about a
+critical point of the case in writing, without talking to the others, and then
+the team compared the answers. Since each team could find those four
+divergences, there were 16 to be found across the four teams, and 10 of those 16
+divergences were exposed. In addition, before and after the cycle, each student
+answered four questions about the case on their own, such as at what night
+temperature the system should send an alert to optimize crop growth. At the
+start, on average, barely two out of ten members gave the same answer because
+their character had that information; at the end, almost nine out of ten (from
+0.19 to 0.86) reached the same answer. In the handover test, carried out after
+the case study, four people who had not been present explained in their own
+words two of the critical requirements delivered by each team, and seven of the
+eight explanations matched what each team had agreed. However, no team closed
+the cycle in the planned time and 12 of the 16 critical requirements remained
+ambiguous.
+
+It is concluded that THUNDERS~Master makes misunderstandings visible and helps
+teams reach the same interpretation, but that detecting them is not enough if
+the cycle leaves no time to resolve them. For this reason, no team met all the
+conditions that defined the usefulness of the process. It is also concluded
+that lightness is not achieved just by removing elements, so in this work it is
+understood as proportionality, that is, concentrating effort on the requirements
+where a misunderstanding is costly. Future work includes adjusting the process
+with the results of the case study, replicating the study in industry with real
+stakeholders and bringing the process into a web tool.
 
 \vspace{0.4cm}
 \noindent\textbf{Keywords:} requirements engineering, shared understanding,
