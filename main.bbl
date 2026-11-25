@@ -45,30 +45,6 @@ Martin Glinz and Samuel~A. Fricker.
 \newblock {\em Computer Science -- Research and Development},
   30(3--4):363--376, 2015.
 
-\bibitem{asadabadi2020ambiguity}
-Mehdi~Rajabi Asadabadi, Morteza Saberi, Ofer Zwikael, and Elizabeth Chang.
-\newblock Ambiguous requirements: A semi-automated approach to identify and
-  clarify ambiguity in large-scale projects.
-\newblock {\em Computers and Industrial Engineering}, 149:106828, 2020.
-
-\bibitem{fucci2022traceability}
-Davide Fucci, Emil Alégroth, and Tobias Axelsson.
-\newblock When traceability goes awry: An industrial experience report.
-\newblock {\em Journal of Systems and Software}, 192:111389, 2022.
-
-\bibitem{agredo2022exploratory}
-Vanessa Agredo-Delgado, Pablo~H. Ruiz, Cesar~A. Collazos, and Fernando Moreira.
-\newblock An exploratory study on the validation of thunders: A process to
-  achieve shared understanding in problem-solving activities.
-\newblock {\em Informatics}, 9(2):39, 2022.
-
-\bibitem{agredo2023strategy}
-Vanessa Agredo-Delgado, Pablo~H. Ruiz, Luis~E. Garz{\'o}n, and Cesar~A.
-  Collazos.
-\newblock A strategy for building shared understanding in requirements
-  engineering activities.
-\newblock {\em Electronic Journal of SADIO}, 22(3):41--54, 2023.
-
 \bibitem{sweller1988}
 John Sweller.
 \newblock Cognitive load during problem solving: Effects on learning.
@@ -97,6 +73,42 @@ Roberto Grande et~al.
 \newblock Software \& systems process engineering meta-model specification
   ({SPEM}), version 2.0.
 \newblock Technical Report formal/2008-04-01, Object Management Group, 2008.
+
+\bibitem{agredo2022exploratory}
+Vanessa Agredo-Delgado, Pablo~H. Ruiz, Cesar~A. Collazos, and Fernando Moreira.
+\newblock An exploratory study on the validation of thunders: A process to
+  achieve shared understanding in problem-solving activities.
+\newblock {\em Informatics}, 9(2):39, 2022.
+
+\bibitem{asadabadi2020ambiguity}
+Mehdi~Rajabi Asadabadi, Morteza Saberi, Ofer Zwikael, and Elizabeth Chang.
+\newblock Ambiguous requirements: A semi-automated approach to identify and
+  clarify ambiguity in large-scale projects.
+\newblock {\em Computers and Industrial Engineering}, 149:106828, 2020.
+
+\bibitem{fucci2022traceability}
+Davide Fucci, Emil Alégroth, and Tobias Axelsson.
+\newblock When traceability goes awry: An industrial experience report.
+\newblock {\em Journal of Systems and Software}, 192:111389, 2022.
+
+\bibitem{agredo2023strategy}
+Vanessa Agredo-Delgado, Pablo~H. Ruiz, Luis~E. Garz{\'o}n, and Cesar~A.
+  Collazos.
+\newblock A strategy for building shared understanding in requirements
+  engineering activities.
+\newblock {\em Electronic Journal of SADIO}, 22(3):41--54, 2023.
+
+\bibitem{laporte2023}
+Claude~Y. Laporte, Guillaume Verret, and Mirna Muñoz.
+\newblock A software project that partially failed: A small organization that
+  ignored the management and technical practices of software standards.
+\newblock {\em Computer}, 56(5):138--144, 2023.
+
+\bibitem{ribeiro2020}
+Cristina Ribeiro and Daniel Berry.
+\newblock The prevalence and severity of persistent ambiguity in software
+  requirements specifications: Is a special effort needed to find them?
+\newblock {\em Science of Computer Programming}, 195:102472, 2020.
 
 \bibitem{agredo2023validating}
 Vanessa Agredo-Delgado, Pablo~H. Ruiz, and Cesar~A. Collazos.
@@ -141,18 +153,6 @@ Jolita Ralyté and Colette Rolland.
 \newblock In {\em Advanced Information Systems Engineering (CAiSE)}, pages
   267--283, 2001.
 
-\bibitem{kitchenham2007}
-Barbara Kitchenham and Stuart Charters.
-\newblock Guidelines for performing systematic literature reviews in software
-  engineering.
-\newblock Technical Report EBSE-2007-01, Keele University and Durham
-  University, 2007.
-
-\bibitem{henderson2010sme}
-Brian Henderson-Sellers and Jolita Ralyté.
-\newblock Situational method engineering: State-of-the-art review.
-\newblock {\em Journal of Universal Computer Science}, 16(3):424--478, 2010.
-
 \bibitem{mirbel2006sme}
 Isabelle Mirbel and Jolita Ralyté.
 \newblock Situational method engineering: Combining assembly-based and
@@ -164,6 +164,18 @@ Georg Kalus and Marco Kuhrmann.
 \newblock Criteria for software process tailoring: A systematic review.
 \newblock In {\em Proceedings of the International Conference on Software and
   System Process (ICSSP)}, pages 171--180, 2013.
+
+\bibitem{kitchenham2007}
+Barbara Kitchenham and Stuart Charters.
+\newblock Guidelines for performing systematic literature reviews in software
+  engineering.
+\newblock Technical Report EBSE-2007-01, Keele University and Durham
+  University, 2007.
+
+\bibitem{henderson2010sme}
+Brian Henderson-Sellers and Jolita Ralyté.
+\newblock Situational method engineering: State-of-the-art review.
+\newblock {\em Journal of Universal Computer Science}, 16(3):424--478, 2010.
 
 \bibitem{basili1994gqm}
 Victor~R. Basili, Gianluigi Caldiera, and H.~Dieter Rombach.
@@ -350,12 +362,6 @@ Dirk Burkhardt, Kawa Nazemi, Silvana Tomic, and Egils Ginters.
   for e-participation in cities.
 \newblock {\em Procedia Computer Science}, 77:11--21, 2015.
 
-\bibitem{laporte2023}
-Claude~Y. Laporte, Guillaume Verret, and Mirna Muñoz.
-\newblock A software project that partially failed: A small organization that
-  ignored the management and technical practices of software standards.
-\newblock {\em Computer}, 56(5):138--144, 2023.
-
 \bibitem{khan2021}
 Habib~Ullah Khan, Mahmood Niazi, Mohamed El-Attar, Naveed Ikram, Siffat~Ullah
   Khan, and Asif~Qumer Gill.
@@ -369,12 +375,6 @@ Muhammad~Azeem Akbar, Wishal Naveed, Sajjad Mahmood, Saima Rafi, Ahmed Alsanad,
 \newblock Prioritization of global software requirements' engineering barriers:
   An analytical hierarchy process.
 \newblock {\em IET Software}, 15(4):277--291, 2021.
-
-\bibitem{ribeiro2020}
-Cristina Ribeiro and Daniel Berry.
-\newblock The prevalence and severity of persistent ambiguity in software
-  requirements specifications: Is a special effort needed to find them?
-\newblock {\em Science of Computer Programming}, 195:102472, 2020.
 
 \bibitem{kunz2016}
 Aline Kunz, Sabrina Pohlmann, Oliver Heinze, Antje Brandner, Christina Reiß,
@@ -524,12 +524,6 @@ Sandra~G. Hart and Lowell~E. Staveland.
   theoretical research.
 \newblock In {\em Human Mental Workload}, volume~52 of {\em Advances in
   Psychology}, pages 139--183. North-Holland, 1988.
-
-\bibitem{brooke1996sus}
-John Brooke.
-\newblock Sus: A quick and dirty usability scale.
-\newblock In {\em Usability Evaluation in Industry}, pages 189--194. Taylor and
-  Francis, 1996.
 
 \bibitem{braun2006thematic}
 Virginia Braun and Victoria Clarke.

@@ -2,38 +2,47 @@
 \babel@toc {english}{}\relax 
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Fases de la investigación, métodos usados, hitos y las seis iteraciones con la validación de cada versión.}}{9}{figure.1.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Fases de la investigación, métodos usados, hitos y las seis iteraciones con la validación de cada versión.}}{10}{figure.1.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Flujo de selección de estudios de la revisión sistemática.}}{25}{figure.2.1}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Flujo de selección de estudios de la revisión sistemática.}}{28}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Frecuencia de publicaciones sobre entendimiento compartido en el dominio de la IR (2015--2026).}}{30}{figure.2.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura de THUNDERS según su especificación: fases, componentes C-01 a C-13, momentos de validación del entendimiento compartido (EC-1 y EC-2), hitos por fase y mecanismos transversales.}}{39}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Estructura de THUNDERS según su especificación: fases, productos de trabajo C-01 a C-13, momentos de validación del entendimiento compartido (EC-1 y EC-2), hitos por fase y mecanismos transversales.}}{43}{figure.3.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ciclo de construcción de THUNDERS~Master con las cuatro actividades de la ingeniería de métodos situacionales.}}{48}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Evolución de la estructura de THUNDERS~Master de la versión 1.0 a la versión final. Los recuadros punteados son elementos opcionales, el sombreado verde es un mecanismo transversal, la verificación continua con I3, y el marco azul agrupa el subproceso A5.}}{60}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Resumen de la validación y de los resultados de cada iteración, de la versión 1.0 a la versión final.}}{61}{figure.4.3}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ciclo de construcción de THUNDERS~Master con las cuatro actividades de la ingeniería de métodos situacionales.}}{53}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Decisión sobre cada uno de los trece productos de trabajo de THUNDERS, por fase, y actividad de la versión final de THUNDERS~Master (A1 a A6) en la que quedó. El color distingue el tipo de decisión.}}{63}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Evolución de la estructura de THUNDERS~Master de la versión 1.0 a la versión final. Los recuadros punteados son elementos opcionales, el sombreado verde es un mecanismo transversal, la verificación continua con I3, y el marco azul agrupa el subproceso A5.}}{64}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resumen de la validación y de los resultados de cada iteración, de la versión 1.0 a la versión final.}}{66}{figure.4.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Modelo de THUNDERS~Master: el ciclo de requisitos con sus tres fases, sus actividades, el subproceso A5, los dos encuentros, los hitos EC-1 y EC-2 y las evidencias que deja cada actividad.}}{67}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama BPMN del proceso principal de THUNDERS~Master.}}{74}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama BPMN del subproceso A5 de THUNDERS~Master, Elicitar, especificar y validar los requisitos, que se invoca desde el proceso principal entre A4 y A6.}}{75}{figure.5.3}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Modelo de THUNDERS~Master: el ciclo de requisitos con sus tres fases, sus actividades, el subproceso A5, los dos encuentros, los hitos EC-1 y EC-2 y las evidencias que deja cada actividad.}}{72}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama BPMN del proceso principal de THUNDERS~Master.}}{79}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama BPMN del subproceso A5 de THUNDERS~Master, Elicitar, especificar y validar los requisitos, que se invoca desde el proceso principal entre A4 y A6.}}{80}{figure.5.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Elementos de cada versión de THUNDERS~Master y forma en que se validó. Las celdas verdes marcan los cambios de mayor alcance.}}{84}{figure.6.1}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Flujo de selección de estudios en ScienceDirect.}}{138}{figure.Alph2.1}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Flujo de selección de estudios en Scopus.}}{139}{figure.Alph2.2}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces Flujo de selección de estudios en Web of Science.}}{140}{figure.Alph2.3}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Frecuencia de publicaciones sobre entendimiento compartido en el dominio de la IR (2015--2026).}}{140}{figure.Alph2.4}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Elementos de cada versión de THUNDERS~Master y forma en que se validó. Las celdas verdes marcan los cambios de mayor alcance.}}{89}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Media por dimensión de la validación con expertos (n = 5). Las barras de error van del ítem con menor media al ítem con mayor media de cada dimensión, y la línea punteada marca el valor 4.}}{95}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Distribución de las respuestas de la encuesta de cierre por afirmación.}}{101}{figure.6.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Flujo de selección de estudios en ScienceDirect.}}{136}{figure.Alph1.1}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Flujo de selección de estudios en Scopus.}}{137}{figure.Alph1.2}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Flujo de selección de estudios en Web of Science.}}{138}{figure.Alph1.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Modelo conceptual operativo de THUNDERS~Master v1.3, con sus tres fases, sus once actividades y la opcional A2b, las evidencias del entendimiento compartido y la capa externa de evaluación.}}{169}{figure.Alph6.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {H.1}{\ignorespaces Media por dimensión de la validación con expertos (n = 5). Las barras de error van del ítem con menor media al ítem con mayor media de cada dimensión, y la línea punteada marca el valor 4.}}{207}{figure.Alph8.1}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {F.1}{\ignorespaces Modelo conceptual operativo de THUNDERS~Master v1.3, con sus tres fases, sus once actividades y la opcional A2b, las evidencias del entendimiento compartido y la capa externa de evaluación.}}{178}{figure.Alph6.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {J.1}{\ignorespaces Distribución de las respuestas de la encuesta de cierre por afirmación.}}{211}{figure.Alph10.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {L.1}{\ignorespaces Vista de quien conduce la sesión en la aplicación del caso Tomatera, durante el tramo de necesidades y rondas del encuentro~1.}}{225}{figure.Alph12.1}%
+\contentsline {figure}{\numberline {L.2}{\ignorespaces Vista del participante en la aplicación del caso Tomatera, en el celular de quien hacía de \textit {Stakeholder} de dominio, al comienzo del ciclo: (a) su carta secreta, en la lectura; (b) la apertura del encuentro~1 (A4), con la declaración del problema, y (c) una pregunta de la primera ronda de sondeo, que se responde solo y en silencio.}}{225}{figure.Alph12.2}%
+\contentsline {figure}{\numberline {L.3}{\ignorespaces Vista del mismo participante en el resto del ciclo: (a) las respuestas de la mesa a la pregunta de la ronda, que la aplicación marca como divergencia; (b) la validación de un requisito crítico con la parte~C de I2 en el encuentro~2, y (c) la línea base congelada en el cierre.}}{226}{figure.Alph12.3}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {M.1}{\ignorespaces Correo de aceptación del artículo ``THUNDERS-Master: A Lightweight Process for Building Shared Understanding in Requirements Engineering'' en el \textit {4th International Workshop on Collaboration in Knowledge Discovery and Decision-Making} de JIIHC~2026, del 8 de julio de 2026.}}{241}{figure.Alph13.1}%
+\contentsline {figure}{\numberline {M.2}{\ignorespaces Presentación del artículo durante JIIHC~2026.}}{242}{figure.Alph13.2}%
+\contentsline {figure}{\numberline {M.3}{\ignorespaces Decisión del editor de la revista \textit {TecnoLógicas} sobre el manuscrito 4040, del 12 de noviembre de 2026.}}{242}{figure.Alph13.3}%
+\contentsline {figure}{\numberline {M.4}{\ignorespaces Envío de la versión corregida del manuscrito 4040 en la plataforma de la revista \textit {TecnoLógicas}, el 20 de noviembre de 2026.}}{243}{figure.Alph13.4}%
